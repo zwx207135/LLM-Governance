@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+
+# Conda
+.env/
+
+# Large model files
+models/*
+!models/.gitkeep
+
+# Experiment results
+results/*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# System
+.DS_Store
