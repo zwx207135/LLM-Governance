@@ -1,0 +1,11 @@
+{
+  "version": "c-dev-2026-11-22-v3.1",
+  "source_count": 16,
+  "chunk_count": 25,
+  "inputs": {
+    "knowledge/corpus.json": "88a8145c7d8e7b9701b472575a47dc5bba81894f8cec8671f4926a9c673cb87d",
+    "knowledge/source_documents.json": "c977a9b3d08fe47a8c04bc3039c8ad8c613dcc69c7d820a141fcccf533398f3f"
+  },
+  "corpus_sha256": "deb3f7e7b341e58e52fd5dc2adbcd44c43e47a09904085be6bbe484201597938",
+  "chunking": "人工按语义分段，每段不超过500字符；运行时以固定中文二元字符词元构建BM25索引"
+}

@@ -1,0 +1,21 @@
+{
+  "version": "normal-route-v1",
+  "dataset": "datasets/controls/c_normal_route_v1.json",
+  "corpus": "knowledge/corpus_v3.json",
+  "model_path": "models/Qwen2.5-0.5B-Instruct",
+  "conditions": [
+    {
+      "name": "combined_prompt",
+      "strategy": "combined",
+      "bias_mode": "prompt"
+    },
+    {
+      "name": "baseline_off",
+      "strategy": "baseline",
+      "bias_mode": "off"
+    }
+  ],
+  "max_new_tokens": 192,
+  "seed": 20261123,
+  "scope": "Integration development comparison; no bias effectiveness claim or E3 completion"
+}

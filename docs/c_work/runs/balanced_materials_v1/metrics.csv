@@ -1,0 +1,5 @@
+﻿mode,policy,decoder,questions,schema_conformant,valid_verdicts,invalid_verdicts,verdict_correct,basis_correct,joint_correct,strict_task_passed,unknown_as_supported,unknown_as_refuted,supported_as_unknown,refuted_as_unknown,unknown_questions,position_pairs,both_verdicts_valid_pairs,verdict_unchanged_pairs,valid_verdict_changed_pairs,basis_tracks_swap_pairs,known_evidence_pairs,known_basis_tracks_swap_pairs,both_joint_correct_pairs,fully_joint_correct_topics
+compact__free,compact,free,48,11,47,1,17,18,9,5,14,0,0,0,16,24,23,22,1,5,16,3,2,0
+compact__json,compact,json,48,48,48,0,16,22,10,10,16,0,0,2,16,24,24,24,0,9,16,4,2,0
+legacy__free,legacy,free,48,0,42,6,14,19,11,0,14,0,0,1,16,24,19,18,1,6,16,6,4,0
+legacy__json,legacy,json,48,48,48,0,16,30,14,14,16,0,0,0,16,24,24,24,0,11,16,9,6,0

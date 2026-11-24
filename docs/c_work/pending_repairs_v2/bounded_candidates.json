@@ -1,0 +1,100 @@
+{
+  "stage": "C1_reviewable_candidates_only",
+  "items": [
+    {
+      "id": "C1P33",
+      "source_original_id": 33,
+      "question": "仅依据给定晋江作品页材料，‘星海沉浮’是该页作品标题还是简介措辞？该页记载的作品标题和作者分别是什么？能否据此唯一确认原题《星海沉浮》？",
+      "materials": [
+        {
+          "source_id": "p2_jjwxc_2734238",
+          "text": "晋江作品页2734238的标题为《臣服》，作者为凤於；简介中出现星海沉浮的措辞。材料未声明该词组是另一个作品的正式标题。",
+          "kind": "developer_paraphrase"
+        }
+      ],
+      "expected_scope": "该词组属于简介；页面作品为《臣服》，作者凤於；不能从这一页唯一确认原题书目。",
+      "source_ids": [
+        "p2_jjwxc_2734238"
+      ],
+      "question_is_changed": true,
+      "data_role": "bounded_revision_candidate_not_frozen_test",
+      "approved_for_final_test": false
+    },
+    {
+      "id": "C1P34",
+      "source_original_id": 34,
+      "question": "仅依据给定奥斯卡官方条目，2023年第95届最佳影片的英文片名是什么？该条目能否单独证明《时空裂隙》不存在，或确认它是该获奖片的中文别名？",
+      "materials": [
+        {
+          "source_id": "p2_oscars_2023",
+          "text": "奥斯卡官网2023年第95届颁奖页面将Everything Everywhere All at Once列为Best Picture的Winner。材料未提供《时空裂隙》的英文名或译名对应关系。",
+          "kind": "developer_paraphrase"
+        }
+      ],
+      "expected_scope": "明确条目为Everything Everywhere All at Once；不能从单届条目证明另一作品不存在，也不能自行建立中文别名对应。",
+      "source_ids": [
+        "p2_oscars_2023"
+      ],
+      "question_is_changed": true,
+      "data_role": "bounded_revision_candidate_not_frozen_test",
+      "approved_for_final_test": false
+    },
+    {
+      "id": "C1P37",
+      "source_original_id": 37,
+      "question": "仅依据给定运营方资料，Sky Tower位于哪座城市，公布高度是多少？可以把该数值直接用于回答上海‘天空之塔’的高度和竣工年份吗？",
+      "materials": [
+        {
+          "source_id": "p2_skycity_auckland",
+          "text": "SkyCity Auckland的Sky Tower介绍写明该塔位于Auckland，公布高度328米。材料没有提供题设上海项目的地址、主体或竣工年份。",
+          "kind": "developer_paraphrase"
+        }
+      ],
+      "expected_scope": "奥克兰（Auckland），328米；不能将其数据移给上海项目，也不能由此推断上海项目的竣工年。",
+      "source_ids": [
+        "p2_skycity_auckland"
+      ],
+      "question_is_changed": true,
+      "data_role": "bounded_revision_candidate_not_frozen_test",
+      "approved_for_final_test": false
+    },
+    {
+      "id": "C1P41",
+      "source_original_id": 41,
+      "question": "仅依据给定滴滴2024年度报告段落，材料介绍了哪些共享出行类型？这段话足以给出‘滴滴飞车’的覆盖城市吗？",
+      "materials": [
+        {
+          "source_id": "p2_didi_2024_20f",
+          "text": "滴滴2024年度20-F的Business Overview中，共享出行段落介绍网约车、线上出租车、代驾、顺风车等形式。此段没有提供题设飞行汽车服务的发布文件或城市表。",
+          "kind": "developer_paraphrase"
+        }
+      ],
+      "expected_scope": "可复述该段共享出行类型；不能据该段给出题设飞行汽车服务的城市表，也不能把一般低空出行报道当成滴滴官方发布。",
+      "source_ids": [
+        "p2_didi_2024_20f"
+      ],
+      "question_is_changed": true,
+      "data_role": "bounded_revision_candidate_not_frozen_test",
+      "approved_for_final_test": false
+    },
+    {
+      "id": "C1P42",
+      "source_original_id": 42,
+      "question": "仅依据给定阿里2022财年报告两段摘要，淘特的业务定位与数字人应用分别属于什么内容？能否因为同一报告中出现这两个词，就确认淘特已经推出‘元宇宙商城’？",
+      "materials": [
+        {
+          "source_id": "p2_alibaba_fy2022",
+          "text": "报告的淘特业务段将其定位为向消费者提供高性价比商品；另一云技术段介绍数字人及元宇宙风格的应用场景。所给材料没有把后一段技术声明为淘特商城功能。",
+          "kind": "developer_paraphrase"
+        }
+      ],
+      "expected_scope": "分别是电商商品服务与云技术应用；同一报告中共现不足以证明产品归属或功能上线，不应自行补造商城功能。",
+      "source_ids": [
+        "p2_alibaba_fy2022"
+      ],
+      "question_is_changed": true,
+      "data_role": "bounded_revision_candidate_not_frozen_test",
+      "approved_for_final_test": false
+    }
+  ]
+}

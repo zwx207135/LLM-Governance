@@ -1,0 +1,1754 @@
+[
+  {
+    "id": 1,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 1,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 3,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 3,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 4,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 4,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 5,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 5,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 6,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 6,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 7,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 7,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 9,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 9,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 9,
+    "mode": "baseline",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 10,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 10,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 11,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 11,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 14,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 14,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 16,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 16,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 17,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 17,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 18,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 18,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 19,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 19,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 25,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 25,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 26,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 26,
+    "mode": "baseline",
+    "flags": [
+      "no_established_truth_label",
+      "uncertainty_or_refusal_phrase"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 26,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 26,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 27,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 27,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 28,
+    "mode": "constraint",
+    "flags": [
+      "truncated",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 28,
+    "mode": "retrieval",
+    "flags": [
+      "truncated",
+      "no_explicit_evidence_id",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 28,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 28,
+    "mode": "baseline",
+    "flags": [
+      "truncated",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 29,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 29,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 29,
+    "mode": "baseline",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 29,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 30,
+    "mode": "combined",
+    "flags": [
+      "truncated",
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 30,
+    "mode": "baseline",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 30,
+    "mode": "constraint",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 30,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "uncertainty_or_refusal_phrase"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 31,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 31,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 32,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label",
+      "uncertainty_or_refusal_phrase"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 32,
+    "mode": "retrieval",
+    "flags": [
+      "truncated",
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 32,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label",
+      "uncertainty_or_refusal_phrase"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 32,
+    "mode": "baseline",
+    "flags": [
+      "no_established_truth_label",
+      "uncertainty_or_refusal_phrase"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 33,
+    "mode": "retrieval",
+    "flags": [
+      "truncated",
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 33,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 33,
+    "mode": "baseline",
+    "flags": [
+      "truncated",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 33,
+    "mode": "constraint",
+    "flags": [
+      "truncated",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 34,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 34,
+    "mode": "baseline",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 34,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 34,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 35,
+    "mode": "baseline",
+    "flags": [
+      "truncated",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 35,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 35,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 35,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 36,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 36,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 36,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 36,
+    "mode": "baseline",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 37,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 37,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 37,
+    "mode": "baseline",
+    "flags": [
+      "no_established_truth_label",
+      "uncertainty_or_refusal_phrase"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 37,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 38,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label",
+      "uncertainty_or_refusal_phrase"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 38,
+    "mode": "baseline",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 38,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 38,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 39,
+    "mode": "baseline",
+    "flags": [
+      "truncated",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 39,
+    "mode": "constraint",
+    "flags": [
+      "truncated",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 39,
+    "mode": "retrieval",
+    "flags": [
+      "truncated",
+      "no_explicit_evidence_id",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 39,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 40,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 40,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 40,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 40,
+    "mode": "baseline",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 41,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 41,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 41,
+    "mode": "baseline",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 41,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 42,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 42,
+    "mode": "baseline",
+    "flags": [
+      "truncated",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 42,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 42,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 43,
+    "mode": "baseline",
+    "flags": [
+      "truncated",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 43,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 43,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 43,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 44,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 44,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 44,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 44,
+    "mode": "baseline",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 45,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 45,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 45,
+    "mode": "baseline",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 45,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 46,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 46,
+    "mode": "baseline",
+    "flags": [
+      "truncated",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 46,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 46,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 47,
+    "mode": "baseline",
+    "flags": [
+      "truncated",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 47,
+    "mode": "constraint",
+    "flags": [
+      "truncated",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 47,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 47,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 48,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 48,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 48,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 48,
+    "mode": "baseline",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 49,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 49,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 49,
+    "mode": "baseline",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 49,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 50,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 50,
+    "mode": "baseline",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 50,
+    "mode": "constraint",
+    "flags": [
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 50,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap",
+      "no_established_truth_label"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 51,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 51,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 52,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 52,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 53,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 53,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 54,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 54,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 55,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 55,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 56,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 56,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 59,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 59,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 60,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 60,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 61,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 61,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 62,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 62,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 63,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 63,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 64,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 64,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 65,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 65,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 66,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 66,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 73,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 73,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 76,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 76,
+    "mode": "baseline",
+    "flags": [
+      "uncertainty_or_refusal_phrase"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 76,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 77,
+    "mode": "baseline",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 77,
+    "mode": "constraint",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 77,
+    "mode": "retrieval",
+    "flags": [
+      "truncated",
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 77,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 79,
+    "mode": "constraint",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 79,
+    "mode": "retrieval",
+    "flags": [
+      "truncated",
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 79,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 79,
+    "mode": "baseline",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 80,
+    "mode": "retrieval",
+    "flags": [
+      "truncated",
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 80,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id",
+      "possible_source_only_answer"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 81,
+    "mode": "combined",
+    "flags": [
+      "truncated",
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 81,
+    "mode": "baseline",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 81,
+    "mode": "retrieval",
+    "flags": [
+      "truncated",
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 83,
+    "mode": "baseline",
+    "flags": [
+      "uncertainty_or_refusal_phrase"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 83,
+    "mode": "constraint",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 83,
+    "mode": "retrieval",
+    "flags": [
+      "truncated",
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 83,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 84,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 84,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 84,
+    "mode": "baseline",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 85,
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 85,
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 85,
+    "mode": "baseline",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 86,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 86,
+    "mode": "baseline",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 86,
+    "mode": "retrieval",
+    "flags": [
+      "truncated",
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 88,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 88,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 89,
+    "mode": "retrieval",
+    "flags": [
+      "truncated",
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 89,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 89,
+    "mode": "baseline",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 91,
+    "mode": "retrieval",
+    "flags": [
+      "truncated",
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 91,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id",
+      "possible_source_only_answer"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 91,
+    "mode": "baseline",
+    "flags": [
+      "uncertainty_or_refusal_phrase"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 93,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 93,
+    "mode": "baseline",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 93,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 94,
+    "mode": "baseline",
+    "flags": [
+      "uncertainty_or_refusal_phrase"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 94,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 94,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id",
+      "possible_source_only_answer"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 95,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 95,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 95,
+    "mode": "baseline",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 99,
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 99,
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 99,
+    "mode": "baseline",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 99,
+    "mode": "constraint",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 117,
+    "mode": "combined",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": 117,
+    "mode": "constraint",
+    "flags": [
+      "truncated"
+    ],
+    "status": "screening_only_not_final_labels"
+  }
+]

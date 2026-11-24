@@ -1,0 +1,965 @@
+{
+  "version": "c-balanced-material-schemas-v1",
+  "schemas": {
+    "P01a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P01b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P02a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P02b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P03a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P03b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P04a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P04b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P05a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P05b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P06a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P06b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P07a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P07b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P08a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P08b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P09a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P09b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P10a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P10b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P11a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P11b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P12a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P12b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P13a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P13b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P14a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P14b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P15a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P15b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P16a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P16b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P17a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P17b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P18a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P18b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P19a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P19b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P20a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P20b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P21a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P21b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P22a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P22b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P23a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P23b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P24a": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    },
+    "P24b": {
+      "fields": [
+        {
+          "name": "verdict",
+          "values": [
+            "supported",
+            "refuted",
+            "not_established"
+          ]
+        },
+        {
+          "name": "basis",
+          "values": [
+            "M1",
+            "M2",
+            "none"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "schema_version": 2,
+  "stage": "development_only",
+  "contract": {
+    "config": {
+      "version": "normal-route-v1",
+      "dataset": "datasets/controls/c_normal_route_v1.json",
+      "corpus": "knowledge/corpus_v3.json",
+      "model_path": "models/Qwen2.5-0.5B-Instruct",
+      "conditions": [
+        {
+          "name": "combined_prompt",
+          "strategy": "combined",
+          "bias_mode": "prompt"
+        },
+        {
+          "name": "baseline_off",
+          "strategy": "baseline",
+          "bias_mode": "off"
+        }
+      ],
+      "max_new_tokens": 192,
+      "seed": 20261123,
+      "scope": "Integration development comparison; no bias effectiveness claim or E3 completion"
+    },
+    "dry_run": false,
+    "python": "3.10.21",
+    "dataset_sha256": "29e1240da36db324e9c22eee60320c8ea693abc85ca0b810e6f12ddef3cd9b4a",
+    "corpus_sha256": "deb3f7e7b341e58e52fd5dc2adbcd44c43e47a09904085be6bbe484201597938",
+    "runtime_sha256": {
+      "experiments/run_c_joint_batch.py": "531ae12def7211a2238017366cf8005baf214002c66205f33f74d78080d63da5",
+      "src/governance/joint_batch.py": "b303b3919fa84297d2e54e1b61f1a450750264c6e63070fadbc8095d3ea16017",
+      "src/governance/joint.py": "9bd1b93c904bc1400ffec2a83ae7f8321c60393f5ca1667289a015d6e2b708cf",
+      "src/governance/consistency_v2.py": "fc73a556a1db8f3f6764e96af47d022be6525a609073655222e0e4a12159c6c4",
+      "src/governance/consistency.py": "5c094368461a8333779e286fa0d4eabb29ec73dc033614692847ebcc4316dab7",
+      "src/governance/service.py": "ee2693cf6926e336ab79444e20bba7e720e188ec84e5e9fc4139ce70a6636975",
+      "src/governance/evidence_policy.py": "c6bfb38a6843060a6e17812a8879145900e09fe3063d4a80231af00828cb4f8d",
+      "src/governance/anti_hallucination.py": "564ea4bd8f559987fe9b487dc8a0285d43fe0da07d173d697dcc32a1c80f8cd7",
+      "src/governance/retrieval.py": "03a46e8dcd22c7ecbcb412c3459eaa8a8ad1e79add5bca3dd03c9da8c7ef98c3",
+      "src/models/llm_model.py": "01245282117e7c74a17247aa6f9e537de46a4d833c1fea81c26f96d08b0dc939",
+      "src/utils/experiment_io.py": "f47ae5d1d555919df82909ac1cde362058e1a64ca60c1239b435774d105f398f"
+    },
+    "model_sha256": {
+      "config.json": "18e18afcaccafade98daf13a54092927904649e1dd4eba8299ab717d5d94ff45",
+      "configuration.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "generation_config.json": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+      "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "model.safetensors": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+      "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "contract_sha256": "4bb25c40fe6aac67dc242b46d31074e3fda96c57b96ba2417ab220991f977a15",
+  "planned_records": [
+    [
+      "N1",
+      "combined_prompt"
+    ],
+    [
+      "N1",
+      "baseline_off"
+    ],
+    [
+      "N2",
+      "baseline_off"
+    ],
+    [
+      "N2",
+      "combined_prompt"
+    ],
+    [
+      "N3",
+      "combined_prompt"
+    ],
+    [
+      "N3",
+      "baseline_off"
+    ],
+    [
+      "N4",
+      "baseline_off"
+    ],
+    [
+      "N4",
+      "combined_prompt"
+    ],
+    [
+      "N01",
+      "combined_prompt"
+    ],
+    [
+      "N01",
+      "baseline_off"
+    ],
+    [
+      "N02",
+      "baseline_off"
+    ],
+    [
+      "N02",
+      "combined_prompt"
+    ],
+    [
+      "N03",
+      "combined_prompt"
+    ],
+    [
+      "N03",
+      "baseline_off"
+    ],
+    [
+      "N04",
+      "baseline_off"
+    ],
+    [
+      "N04",
+      "combined_prompt"
+    ],
+    [
+      "N05",
+      "combined_prompt"
+    ],
+    [
+      "N05",
+      "baseline_off"
+    ],
+    [
+      "N06",
+      "baseline_off"
+    ],
+    [
+      "N06",
+      "combined_prompt"
+    ],
+    [
+      "N07",
+      "combined_prompt"
+    ],
+    [
+      "N07",
+      "baseline_off"
+    ],
+    [
+      "N08",
+      "baseline_off"
+    ],
+    [
+      "N08",
+      "combined_prompt"
+    ],
+    [
+      "N09",
+      "combined_prompt"
+    ],
+    [
+      "N09",
+      "baseline_off"
+    ],
+    [
+      "N10",
+      "baseline_off"
+    ],
+    [
+      "N10",
+      "combined_prompt"
+    ],
+    [
+      "N11",
+      "combined_prompt"
+    ],
+    [
+      "N11",
+      "baseline_off"
+    ],
+    [
+      "N12",
+      "baseline_off"
+    ],
+    [
+      "N12",
+      "combined_prompt"
+    ],
+    [
+      "N13",
+      "combined_prompt"
+    ],
+    [
+      "N13",
+      "baseline_off"
+    ],
+    [
+      "N14",
+      "baseline_off"
+    ],
+    [
+      "N14",
+      "combined_prompt"
+    ],
+    [
+      "N15",
+      "combined_prompt"
+    ],
+    [
+      "N15",
+      "baseline_off"
+    ],
+    [
+      "N16",
+      "baseline_off"
+    ],
+    [
+      "N16",
+      "combined_prompt"
+    ],
+    [
+      "N17",
+      "combined_prompt"
+    ],
+    [
+      "N17",
+      "baseline_off"
+    ],
+    [
+      "N18",
+      "baseline_off"
+    ],
+    [
+      "N18",
+      "combined_prompt"
+    ],
+    [
+      "N19",
+      "combined_prompt"
+    ],
+    [
+      "N19",
+      "baseline_off"
+    ],
+    [
+      "N20",
+      "baseline_off"
+    ],
+    [
+      "N20",
+      "combined_prompt"
+    ]
+  ],
+  "status": "completed",
+  "segments": [],
+  "counts": {
+    "planned": 48,
+    "ok": 48,
+    "prepared": 0,
+    "errors": 0,
+    "missing": 0
+  },
+  "device": "cuda",
+  "torch": "2.14.0+cu126",
+  "transformers": "5.17.0",
+  "warmup_calls": 1
+}

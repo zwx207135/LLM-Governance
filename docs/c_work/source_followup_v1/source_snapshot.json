@@ -1,0 +1,48 @@
+{
+  "version": "c-source-followup-v1",
+  "checked_at": "2026-11-22",
+  "reviewer_type": "ai_developer",
+  "independent_human_reviews_completed": 0,
+  "scope": "对首轮17条pending_source_review逐题补查；仅保存实际读到的来源与边界，不改写首轮台账、开发副本、知识库或历史实验。搜索未命中、403或相似名称都不能证明不存在。",
+  "sources": [
+    {"id": "sf_ucas_wang", "url": "https://people.ucas.ac.cn/~0042729", "title": "中国科学院大学 王明远人员页", "access_method": "direct_body", "locator": "基本信息、招生方向、教育背景", "supports": "存在该姓名的天文科研人员，所列方向为天体测量、天体力学和行星无线电科学。", "does_not_support": "无法据此认定就是题设人物，也不建立相对论贡献。"},
+    {"id": "sf_aqnu_wang", "url": "https://wtxy.aqnu.edu.cn/info/2672/99513.htm", "title": "安庆师范大学物理与天文空间学院 王明远", "access_method": "indexed_body", "locator": "2023-06-27师资简介；原站打开超时，实际核查使用索引正文", "supports": "同名物理领域科研人员的简介列有等离子体实验工作。", "does_not_support": "该页未建立题设的相对论贡献；不凭同名合并人物。"},
+    {"id": "sf_ntu_chen", "url": "https://www.ntu.edu.sg/ncpa/faculty-directory/the-faculty", "title": "南洋理工大学 Faculty", "access_method": "direct_body", "locator": "Professor Chen Xiaodong 陈晓东教授及材料学院任职", "supports": "官网明确对应中文姓名与Chen Xiaodong，并列有材料学任职。", "does_not_support": "不能由人员页推断任何诺贝尔奖身份，也不排除其他同名人。"},
+    {"id": "sf_haut_liu", "url": "https://hxhgyhjxy.haut.edu.cn/info/1464/27327.htm", "title": "河南工业大学化学化工学院 刘建平", "access_method": "direct_body", "locator": "2026-06-07个人基本信息及任职背景", "supports": "该校列有名为刘建平的化学教学科研人员。", "does_not_support": "不建立诺贝尔化学奖身份，也不能排除其他同名人。"},
+    {"id": "sf_xiaomi_yu7", "url": "https://www.mi.com/global/event/human-car-home-launch-event/", "title": "Xiaomi YU7 launch event", "access_method": "direct_body", "locator": "活动标题及产品图文替代文本", "supports": "小米官方展示YU7车型，不能继续声称产品只有SU7及衍生款。", "does_not_support": "YU7参数不能作为SU9参数；此页不是截至2026-11-22完整产品目录。"},
+    {"id": "sf_xiaomi_h1", "url": "https://ir.mi.com/static-files/f032d2b5-8fa8-4cb7-b00e-a22ec00b954d", "title": "小米2025年中期报告", "access_method": "indexed_body", "locator": "报告印刷第13页，智能电动汽车业务", "supports": "报告说明2025年6月发布YU7系列。", "does_not_support": "不能排除后续车型，更不能证明SU9在所有日期不存在。"},
+    {"id": "sf_zju_directory", "url": "https://www.zju.edu.cn/599/listm.htm", "title": "浙江大学 学院（系）", "access_method": "direct_body", "locator": "所见学院（系）目录，包含生物医学工程与仪器科学学院及医学院", "supports": "本次读取的目录未列题设脑机接口学院名称。", "does_not_support": "不涵盖一切研究团队、医学院下属单位或未来建制；不否定脑机接口研究。"},
+    {"id": "sf_harvard_masthead", "url": "https://masthead.fas.harvard.edu/aurprd/r/atsapex/masthead/home", "title": "Harvard FAS Masthead", "access_method": "direct_body", "locator": "Academic Year 2025-26学科和部门选项，包括Philosophy、Computer Science", "supports": "所见2025-26名录未列Artificial Intelligence and Philosophy合并名称。", "does_not_support": "不能推断跨学科研究不存在，亦不覆盖所有学校层级及后续建制变化。"},
+    {"id": "sf_un_dialogue", "url": "https://www.un.org/global-dialogue-ai-governance/en", "title": "联合国 Global Dialogue on AI Governance", "access_method": "indexed_body", "locator": "About the Dialogue及Independent science informing the Dialogue", "supports": "联合国已设AI治理对话及独立科学小组等有具体名称的机制。", "does_not_support": "不能把对话、科学小组或咨询机构直接当作题设委员会，也不建立题设总部。"},
+    {"id": "sf_un_system", "url": "https://www.un.org/en/about-us/un-system", "title": "联合国 UN System", "access_method": "indexed_body", "locator": "UNFCCC Secretariat及体系说明；原站打开403", "supports": "体系说明中有UNFCCC秘书处等具体机构名称。", "does_not_support": "本次索引内容不能穷尽所有下属实体，不以未命中证明题设机构不存在。"},
+    {"id": "sf_ecnu_mars", "url": "https://eoffice.ecnu.edu.cn/sublectures/5e/bd/c42219a679613/page.htm", "title": "华东师范大学 故事营城讲座资料", "access_method": "direct_body", "locator": "2025-03-26页面，与谈嘉宾袁振民简介", "supports": "讲座资料将相关称谓用于冷湖文旅运营人员的网络昵称。", "does_not_support": "昵称不建立国家行政机关身份，也不能用于穷尽世界各国机构。"},
+    {"id": "sf_nju_zhou", "url": "https://cs.nju.edu.cn/zhouzh/zhouzh.files/resume_en.htm", "title": "南京大学 Brief CV of Zhi-Hua Zhou", "access_method": "direct_body", "locator": "研究方向与奖项、会士段落", "supports": "本人任职页支持机器学习研究及列示荣誉；ACM Fellow与图灵奖是不同身份。", "does_not_support": "个人简历未列某奖不构成完整历届获奖名录的否定证明。"},
+    {"id": "sf_apple_vision", "url": "https://www.apple.com/newsroom/2025/10/apple-vision-pro-upgraded-with-the-m5-chip-and-dual-knit-band/", "title": "Apple Vision Pro upgraded with M5", "access_method": "indexed_body", "locator": "2025-10-15新闻稿开头", "supports": "苹果官方确认Vision Pro这一具体产品及版本。", "does_not_support": "不能将Vision Pro功能转给iGlass，也不能据单条发布排除其他或未来产品。"},
+    {"id": "sf_ncl_literature", "url": "https://tci.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclresource&s=id%3D%22SA10000034718%22.&searchmode=basic&tcihsspage=tcisearch_opt1_search", "title": "台湾人文及社会科学引文索引 旅行中的书写", "access_method": "indexed_body", "locator": "文献表中长荣環宇文学奖相关条目", "supports": "目录中出现带长荣前缀且写作環宇的相似奖项名称。", "does_not_support": "目录条目并非题设寰宇奖项的设立文件，不能把近似名称直接合并。"}
+  ],
+  "access_failures": [
+    {"url": "https://awards.acm.org/turing/award-winners", "result": "403", "effect": "不据此确认完整截至日获奖名单。"},
+    {"url": "https://amturing.acm.org/", "result": "403", "effect": "保留获奖身份待核验。"},
+    {"url": "https://www.un.org/en/about-us/un-system", "result": "403", "effect": "只使用实际读到的官方索引正文，不记为原站直读。"},
+    {"url": "https://www.un.org/zh/global-issues/artificial-intelligence", "result": "403", "effect": "不因访问失败作不存在结论。"}
+  ],
+  "reviews": [
+    {"id": 28, "disposition": "reference_issue", "source_ids": ["sf_ucas_wang", "sf_aqnu_wang"], "queries": ["\"王明远\" 相对论 物理"], "finding": "存在同名科研人员，绝对的该人物不存在表述缺少消歧且会误伤真人；题设相对论贡献仍未建立。", "proposed_reference": "官网存在名为王明远的科研人员，但当前材料不能唯一确定题设所指身份，也不能核实其相对论贡献；需提供机构、论文或英文姓名。", "next_step": "先消歧身份，再核验具体论文与贡献。"},
+    {"id": 29, "disposition": "reference_issue", "source_ids": ["sf_ntu_chen"], "queries": ["\"陈晓东\" 诺贝尔 物理", "Chen Xiaodong 陈晓东 materials NTU profile", "\"陈晓东\" site:nobelprize.org"], "finding": "大学官网明确列有陈晓东；不能从未建立获奖身份推出同名人物不存在。", "proposed_reference": "存在名为陈晓东的科研人员；本次未建立题设诺贝尔物理学奖获奖身份。应补充获奖年份及官方英文姓名，不编造获奖研究。", "next_step": "限定年份与英文姓名，核对相应诺贝尔官方记录。"},
+    {"id": 33, "disposition": "pending_source_review", "source_ids": [], "queries": ["\"星海沉浮\" 小说 作者"], "finding": "检索出现作者昵称、问答聚合页或其他作品简介，未建立该书的唯一书目身份。这些命中未作为存在或不存在证明。", "next_step": "取得ISBN、作者、出版社或原始连载作品页。"},
+    {"id": 34, "disposition": "pending_source_review", "source_ids": [], "queries": ["\"时空裂隙\" 奥斯卡 最佳影片"], "finding": "尚无可对应的原文片名及官方奖项记录，不从未命中断言电影不存在。", "next_step": "先确定原文片名、导演和上映年份，再核对具体届次官方奖项。"},
+    {"id": 35, "disposition": "context_only", "source_ids": ["sf_ncl_literature"], "queries": ["\"寰宇文学奖\"", "長榮 寰宇 文學獎 舒國治"], "finding": "发现长荣環宇等近似名称及其他活动线索，尚不能唯一对应题设寰宇文学奖。", "next_step": "取得颁奖主体、原文全名与届次，不把寰、環及带前缀名称自动合并。"},
+    {"id": 36, "disposition": "context_only", "source_ids": ["sf_un_dialogue"], "queries": ["site:un.org global dialogue AI governance panel 2026", "\"全球人工智能治理委员会\" site:un.org"], "finding": "真实AI治理对话与科学小组提供了消歧背景，不能移用其设立时间或会址来回答题设委员会。", "next_step": "要求委员会原文名及设立文件，区分机制、委员会、秘书处和会议。"},
+    {"id": 37, "disposition": "pending_source_review", "source_ids": [], "queries": ["\"天空之塔\" 上海 建筑 site:shanghai.gov.cn", "\"天空之塔\" \"上海\" 高度"], "finding": "没有取得可唯一对应的上海项目主体与地址；其他城市同名塔及一般天际线介绍不能作为本题答案。", "next_step": "取得地址、开发主体和建筑官方项目记录。"},
+    {"id": 39, "disposition": "context_only", "source_ids": ["sf_ecnu_mars"], "queries": ["\"火星移民局\" 国家"], "finding": "出现文旅运营相关昵称；昵称不等于国家机关，也不能据此穷尽否定全球国家机关。", "next_step": "明确国家、行政层级与政府设立文件，或改为给定材料中的昵称辨识。"},
+    {"id": 40, "disposition": "reference_issue", "source_ids": ["sf_xiaomi_yu7", "sf_xiaomi_h1"], "queries": ["\"SU9\" site:mi.com", "Xiaomi YU7 officially launched June 26 2025"], "finding": "官方资料已列YU7，原参考目前只有SU7及衍生款的附加断言过时；SU9的性能与价格仍无本次可用发布证据。", "proposed_reference": "不能据本次资料核实SU9的加速与售价；小米已正式展示并在2025年中期报告中列示YU7，不应声称目前仅有SU7及其衍生款，也不能用YU7参数替代SU9。", "next_step": "固定具体发布日期与官方型号公告；没有型号对应资料时不提供参数。"},
+    {"id": 41, "disposition": "pending_source_review", "source_ids": [], "queries": ["\"滴滴飞车\" 飞行 site:didiglobal.com", "\"滴滴飞车\" \"飞行\""], "finding": "所查结果出现泛指空中网约车的媒体措辞，未取得滴滴自身服务发布与运营城市表；不将概念报道作为业务上线证明。", "next_step": "取得品牌官方公告、服务日期与覆盖城市版本。"},
+    {"id": 42, "disposition": "pending_source_review", "source_ids": [], "queries": ["\"淘特\" \"元宇宙商城\""], "finding": "所查结果不足以确认题设淘特版本与功能，聚合导航或其他平台活动不能替代官方说明。", "next_step": "固定应用版本、活动主体及官方功能说明。"},
+    {"id": 44, "disposition": "context_only", "source_ids": ["sf_zju_directory"], "queries": ["site:zju.edu.cn 脑机接口学院 院系设置"], "finding": "所见校级学院目录未列题设名称，这是页面范围内的目录观察，不证明相关研究或一切下属单位不存在。", "next_step": "如保留评分，改为明确日期和目录层级的名单核对题。"},
+    {"id": 45, "disposition": "context_only", "source_ids": ["sf_harvard_masthead"], "queries": ["Harvard FAS academic departments divisions philosophy"], "finding": "所见2025-26 FAS目录有Philosophy等项，未列题设合并名称；不能据此否认AI与哲学交叉研究。", "next_step": "固定名录学年与FAS范围；不给缺乏设立文件的成立年份。"},
+    {"id": 46, "disposition": "context_only", "source_ids": ["sf_nju_zhou"], "queries": ["site:nju.edu.cn 周志华 Zhi-Hua Zhou 图灵奖", "ACM A.M. Turing Award laureates list Zhi-Hua Zhou"], "finding": "确认真实研究者及具体科研背景；个人简历不是截至核验日完整图灵奖名单，官方完整名单直接访问失败，不把该缺口隐藏。", "next_step": "保存明确截至日期的完整ACM名录；区分Fellow、CCF-ACM人工智能奖与图灵奖。"},
+    {"id": 47, "disposition": "context_only", "source_ids": ["sf_apple_vision"], "queries": ["\"iGlass\" site:apple.com", "Apple unveils M5 Vision Pro 2025"], "finding": "获得Vision Pro官方发布背景；苹果域名上的播客及用户内容不是厂商产品公告。Vision Pro存在不证明其他型号不存在。", "next_step": "查明确型号、发布日期与厂商新闻稿，避免用已知产品参数填补未知型号。"},
+    {"id": 48, "disposition": "reference_issue", "source_ids": ["sf_haut_liu"], "queries": ["\"刘建平\" 诺贝尔 化学", "\"刘建平\" site:nobelprize.org"], "finding": "大学官方化学师资页有刘建平，原参考的绝对人物不存在需撤回；诺贝尔身份仍缺少可对应的年份与英文姓名。", "proposed_reference": "存在名为刘建平的教学科研人员，但当前题设缺少可唯一对应的诺贝尔化学奖身份依据；需补充英文姓名、获奖年份并核验官方记录，不编造获奖研究。", "next_step": "消歧同名人物并核对指定年度化学奖名录。"},
+    {"id": 49, "disposition": "context_only", "source_ids": ["sf_un_system"], "queries": ["\"全球气候工程署\" site:un.org", "site:un.org United Nations system climate agencies"], "finding": "取得UNFCCC等真实机构背景，未建立题设机构的设立文件。原站403及有限索引内容不构成全面不存在证明。", "next_step": "核对正式英文名、联合国体系层级与设立文件，或改为固定名录内查询。"}
+  ]
+}

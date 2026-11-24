@@ -1,0 +1,1188 @@
+{
+  "summary": {
+    "items": 125,
+    "roles": {
+      "provisional_reference": 103,
+      "uncertainty_probe": 22
+    },
+    "development_questions": 87,
+    "unused_in_this_run": 38,
+    "development_categories": {
+      "factual": 15,
+      "fictional_entity": 25,
+      "time_sensitive": 15,
+      "false_premise": 16,
+      "math_logic": 16
+    },
+    "audit_sha256": "7daf809070beb81e71feb90da4e04aa248914907ce954012298a70f5da78fec0",
+    "candidate_sha256": "dbc21119f754694fdb96cf5252cddcb987c21b81288d16a270b1c8c8e63a2338"
+  },
+  "known_groups": [
+    [
+      5,
+      88
+    ],
+    [
+      6,
+      86
+    ],
+    [
+      16,
+      80,
+      91
+    ],
+    [
+      19,
+      81,
+      99
+    ],
+    [
+      21,
+      87,
+      92
+    ],
+    [
+      25,
+      94
+    ],
+    [
+      28,
+      76,
+      77,
+      79,
+      89,
+      95
+    ],
+    [
+      107,
+      117
+    ]
+  ],
+  "items": [
+    {
+      "id": 1,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 2,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 3,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 4,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 5,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 6,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 7,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 8,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 9,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 10,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 11,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 12,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 13,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 14,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 15,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 16,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 17,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 18,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 19,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 20,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 21,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 22,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 23,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 24,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 25,
+      "category": "factual",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 26,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 27,
+      "category": "fictional_entity",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 28,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 29,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 30,
+      "category": "fictional_entity",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 31,
+      "category": "fictional_entity",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 32,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 33,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 34,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 35,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 36,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 37,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 38,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 39,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 40,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 41,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 42,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 43,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 44,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 45,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 46,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 47,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 48,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 49,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 50,
+      "category": "fictional_entity",
+      "data_role": "uncertainty_probe",
+      "run_in_expanded_development": true,
+      "reason": "参考不足，不计算事实正确率",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 51,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 52,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 53,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 54,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 55,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 56,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 57,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 58,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 59,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 60,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 61,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 62,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 63,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 64,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 65,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 66,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 67,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 68,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 69,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 70,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 71,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 72,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 73,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 74,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 75,
+      "category": "time_sensitive",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 76,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 77,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 78,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 79,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 80,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 81,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 82,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 83,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 84,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 85,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 86,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 87,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 88,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 89,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 90,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 91,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 92,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 93,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 94,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 95,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 96,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 97,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 98,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 99,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 100,
+      "category": "false_premise",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 101,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 102,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 103,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 104,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 105,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 106,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 107,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 108,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 109,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 110,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 111,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 112,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 113,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 114,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 115,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 116,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 117,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": true,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 118,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 119,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 120,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 121,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 122,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 123,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 124,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    },
+    {
+      "id": 125,
+      "category": "math_logic",
+      "data_role": "provisional_reference",
+      "run_in_expanded_development": false,
+      "reason": "候选参考有来源或修订依据，仍待独立复核",
+      "formal_test_status": "not_designated",
+      "approved_for_final_test": false
+    }
+  ]
+}

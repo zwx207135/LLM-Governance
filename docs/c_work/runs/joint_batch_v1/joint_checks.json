@@ -1,0 +1,71 @@
+{
+  "stage": "joint_development_integration_not_E3_effectiveness",
+  "records": 96,
+  "model_generated_answers": 82,
+  "program_abstentions": 14,
+  "independent_human_reviews": 0,
+  "bias_effectiveness": "not_evaluated",
+  "semantic_support": "not_evaluated",
+  "modes": [
+    {
+      "mode": "combined_off",
+      "records": 24,
+      "model_answers": 24,
+      "program_abstentions": 0,
+      "flagged_records": 1,
+      "signals": {
+        "basis_outside_supplied_materials": 1
+      },
+      "normal_constraints_passed": 3,
+      "normal_constraints_checked": 4,
+      "literal_pair_same_answer": 0,
+      "literal_pairs": 6,
+      "mean_request_seconds": 0.8856
+    },
+    {
+      "mode": "combined_prompt",
+      "records": 24,
+      "model_answers": 24,
+      "program_abstentions": 0,
+      "flagged_records": 1,
+      "signals": {
+        "basis_outside_supplied_materials": 1
+      },
+      "normal_constraints_passed": 3,
+      "normal_constraints_checked": 4,
+      "literal_pair_same_answer": 0,
+      "literal_pairs": 6,
+      "mean_request_seconds": 0.7497
+    },
+    {
+      "mode": "compact_prompt",
+      "records": 24,
+      "model_answers": 24,
+      "program_abstentions": 0,
+      "flagged_records": 1,
+      "signals": {
+        "basis_outside_supplied_materials": 1
+      },
+      "normal_constraints_passed": 2,
+      "normal_constraints_checked": 4,
+      "literal_pair_same_answer": 0,
+      "literal_pairs": 6,
+      "mean_request_seconds": 0.6454
+    },
+    {
+      "mode": "guarded_prompt",
+      "records": 24,
+      "model_answers": 10,
+      "program_abstentions": 14,
+      "flagged_records": 1,
+      "signals": {
+        "basis_outside_supplied_materials": 1
+      },
+      "normal_constraints_passed": 2,
+      "normal_constraints_checked": 4,
+      "literal_pair_same_answer": 6,
+      "literal_pairs": 6,
+      "mean_request_seconds": 0.2618
+    }
+  ]
+}

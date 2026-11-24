@@ -1,0 +1,196 @@
+{
+  "review_scope": "includes_ai_developer_not_independent_human",
+  "status": "ready",
+  "review_count": 84,
+  "unadjudicated_record_count": 0,
+  "tables": [
+    {
+      "run": "expanded_v3",
+      "mode": "baseline",
+      "reviewed": 12,
+      "core_correct_numerator": 3,
+      "core_correct_denominator": 10,
+      "core_unverifiable_or_na": 2,
+      "factual_error_numerator": 7,
+      "factual_error_denominator": 12,
+      "factual_unverifiable_or_na": 0,
+      "unsupported_claims": {
+        "no": 5,
+        "yes": 7
+      },
+      "refusal": {
+        "none": 8,
+        "inappropriate": 2,
+        "unclear": 1,
+        "appropriate": 1
+      },
+      "evidence_use": {
+        "not_applicable": 12
+      }
+    },
+    {
+      "run": "expanded_v3",
+      "mode": "combined",
+      "reviewed": 12,
+      "core_correct_numerator": 4,
+      "core_correct_denominator": 10,
+      "core_unverifiable_or_na": 2,
+      "factual_error_numerator": 5,
+      "factual_error_denominator": 12,
+      "factual_unverifiable_or_na": 0,
+      "unsupported_claims": {
+        "no": 7,
+        "yes": 5
+      },
+      "refusal": {
+        "none": 10,
+        "unclear": 1,
+        "appropriate": 1
+      },
+      "evidence_use": {
+        "no_evidence": 2,
+        "supported": 3,
+        "insufficient_evidence": 3,
+        "contradicted": 2,
+        "not_applicable": 2
+      }
+    },
+    {
+      "run": "expanded_v3",
+      "mode": "constraint",
+      "reviewed": 12,
+      "core_correct_numerator": 3,
+      "core_correct_denominator": 10,
+      "core_unverifiable_or_na": 2,
+      "factual_error_numerator": 6,
+      "factual_error_denominator": 10,
+      "factual_unverifiable_or_na": 2,
+      "unsupported_claims": {
+        "no": 4,
+        "yes": 8
+      },
+      "refusal": {
+        "none": 11,
+        "unclear": 1
+      },
+      "evidence_use": {
+        "not_applicable": 12
+      }
+    },
+    {
+      "run": "expanded_v3",
+      "mode": "retrieval",
+      "reviewed": 12,
+      "core_correct_numerator": 4,
+      "core_correct_denominator": 10,
+      "core_unverifiable_or_na": 2,
+      "factual_error_numerator": 5,
+      "factual_error_denominator": 9,
+      "factual_unverifiable_or_na": 3,
+      "unsupported_claims": {
+        "yes": 6,
+        "no": 4,
+        "unclear": 2
+      },
+      "refusal": {
+        "none": 8,
+        "unclear": 3,
+        "inappropriate": 1
+      },
+      "evidence_use": {
+        "no_evidence": 2,
+        "supported": 3,
+        "insufficient_evidence": 5,
+        "contradicted": 1,
+        "not_applicable": 1
+      }
+    },
+    {
+      "run": "policy_comparison_v1",
+      "mode": "compact",
+      "reviewed": 12,
+      "core_correct_numerator": 6,
+      "core_correct_denominator": 10,
+      "core_unverifiable_or_na": 2,
+      "factual_error_numerator": 2,
+      "factual_error_denominator": 11,
+      "factual_unverifiable_or_na": 1,
+      "unsupported_claims": {
+        "no": 9,
+        "yes": 3
+      },
+      "refusal": {
+        "none": 11,
+        "inappropriate": 1
+      },
+      "evidence_use": {
+        "no_evidence": 2,
+        "supported": 6,
+        "insufficient_evidence": 1,
+        "contradicted": 2,
+        "not_applicable": 1
+      }
+    },
+    {
+      "run": "policy_comparison_v1",
+      "mode": "guarded",
+      "reviewed": 12,
+      "core_correct_numerator": 5,
+      "core_correct_denominator": 10,
+      "core_unverifiable_or_na": 2,
+      "factual_error_numerator": 2,
+      "factual_error_denominator": 12,
+      "factual_unverifiable_or_na": 0,
+      "unsupported_claims": {
+        "no": 10,
+        "yes": 2
+      },
+      "refusal": {
+        "inappropriate": 2,
+        "none": 8,
+        "appropriate": 2
+      },
+      "evidence_use": {
+        "no_evidence": 2,
+        "supported": 5,
+        "insufficient_evidence": 2,
+        "contradicted": 2,
+        "not_applicable": 1
+      }
+    },
+    {
+      "run": "policy_comparison_v1",
+      "mode": "legacy",
+      "reviewed": 12,
+      "core_correct_numerator": 4,
+      "core_correct_denominator": 10,
+      "core_unverifiable_or_na": 2,
+      "factual_error_numerator": 5,
+      "factual_error_denominator": 12,
+      "factual_unverifiable_or_na": 0,
+      "unsupported_claims": {
+        "no": 7,
+        "yes": 5
+      },
+      "refusal": {
+        "none": 10,
+        "unclear": 1,
+        "appropriate": 1
+      },
+      "evidence_use": {
+        "no_evidence": 2,
+        "supported": 3,
+        "insufficient_evidence": 3,
+        "contradicted": 2,
+        "not_applicable": 2
+      }
+    }
+  ],
+  "human_agreement": {
+    "status": "unavailable",
+    "reason": "Requires two distinct human reviewers of identical records",
+    "n": 0,
+    "kappa": null
+  },
+  "warning": "Purposefully selected development cases; no population-level effectiveness claim."
+}

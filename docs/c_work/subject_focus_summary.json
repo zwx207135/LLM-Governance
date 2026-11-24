@@ -1,0 +1,23 @@
+{
+  "scope": "C_method_diagnostics_only",
+  "independent_human_reviews": 0,
+  "formal_accuracy": null,
+  "runs": {
+    "subject_focus_v1": {
+      "model_calls": 34,
+      "pairs": 17,
+      "same_evidence_pairs": 17,
+      "focus_applied_pairs": 5,
+      "changed_answers": 5,
+      "truncated": 1,
+      "normal_control_pairs": 4,
+      "normal_same_prompt_pairs": 4,
+      "normal_same_answer_pairs": 4,
+      "records_sha256": "c86d6d0d6c2f71b522c90c2793f842e84d2de40082dfefb37aebc9aa7dc26215",
+      "frozen_replays_verified": 34
+    }
+  },
+  "total_model_calls": 34,
+  "year_alias_regression_checked_questions": 125,
+  "year_alias_regression_changed_ids": []
+}

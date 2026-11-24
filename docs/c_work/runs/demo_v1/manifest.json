@@ -1,0 +1,122 @@
+{
+  "schema_version": 2,
+  "stage": "demonstration_not_evaluation",
+  "contract": {
+    "purpose": "demonstration_not_evaluation",
+    "items": [
+      {
+        "id": "D01",
+        "question": "声音能在真空中传播吗？请说明原因。",
+        "category": "factual"
+      },
+      {
+        "id": "D02",
+        "question": "请介绍“星辰科技2026量子手机”的售价和电池续航。",
+        "category": "general"
+      },
+      {
+        "id": "D03",
+        "question": "解方程：x²=144，列出全部实数解。",
+        "category": "math_logic"
+      },
+      {
+        "id": "D04",
+        "question": "从材料提取姓名和年龄，只输出JSON，不要解释。材料：林青，23岁。字段为name和age，age用整数。",
+        "category": "normal_control"
+      }
+    ],
+    "strategies": [
+      "combined",
+      "compact",
+      "guarded"
+    ],
+    "prepare_only": false,
+    "max_new_tokens": 192,
+    "python": "3.10.21",
+    "corpus_sha256": "deb3f7e7b341e58e52fd5dc2adbcd44c43e47a09904085be6bbe484201597938",
+    "runtime_sha256": {
+      "experiments/demo_c_governance.py": "940223fce2bda0c4b7b6fc4b7bc543dca178ba179da5720eba8e8e6c7e4f2523",
+      "src/governance/service.py": "ee2693cf6926e336ab79444e20bba7e720e188ec84e5e9fc4139ce70a6636975",
+      "src/governance/retrieval.py": "03a46e8dcd22c7ecbcb412c3459eaa8a8ad1e79add5bca3dd03c9da8c7ef98c3",
+      "src/governance/anti_hallucination.py": "564ea4bd8f559987fe9b487dc8a0285d43fe0da07d173d697dcc32a1c80f8cd7",
+      "src/governance/evidence_policy.py": "c6bfb38a6843060a6e17812a8879145900e09fe3063d4a80231af00828cb4f8d",
+      "src/models/llm_model.py": "01245282117e7c74a17247aa6f9e537de46a4d833c1fea81c26f96d08b0dc939",
+      "src/utils/experiment_io.py": "f47ae5d1d555919df82909ac1cde362058e1a64ca60c1239b435774d105f398f"
+    },
+    "model_path": "E:\\Desktop\\大语言模型偏见与幻觉的综合评估及协同治理框架研究\\LLM-Governance\\models\\Qwen2.5-0.5B-Instruct",
+    "seed": 20261122,
+    "model_sha256": {
+      "config.json": "18e18afcaccafade98daf13a54092927904649e1dd4eba8299ab717d5d94ff45",
+      "configuration.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "generation_config.json": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+      "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "model.safetensors": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+      "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "contract_sha256": "7457845a6ce8e668676650228b5b4040b8e02901dc33f0ffadc71b68729edad2",
+  "planned_records": [
+    [
+      "D01",
+      "combined"
+    ],
+    [
+      "D01",
+      "compact"
+    ],
+    [
+      "D01",
+      "guarded"
+    ],
+    [
+      "D02",
+      "combined"
+    ],
+    [
+      "D02",
+      "compact"
+    ],
+    [
+      "D02",
+      "guarded"
+    ],
+    [
+      "D03",
+      "combined"
+    ],
+    [
+      "D03",
+      "compact"
+    ],
+    [
+      "D03",
+      "guarded"
+    ],
+    [
+      "D04",
+      "combined"
+    ],
+    [
+      "D04",
+      "compact"
+    ],
+    [
+      "D04",
+      "guarded"
+    ]
+  ],
+  "status": "completed",
+  "segments": [],
+  "counts": {
+    "planned": 12,
+    "ok": 12,
+    "prepared": 0,
+    "errors": 0,
+    "missing": 0
+  },
+  "torch": "2.14.0+cu126",
+  "transformers": "5.17.0",
+  "device": "cuda"
+}

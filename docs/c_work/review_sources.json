@@ -1,0 +1,7 @@
+{
+  "sources":[
+    {"id":"review_admin4","url":"https://tjj.beijing.gov.cn/zwgkai/tjzd_31386/cgdczd/2025nb2026db/jctjbbzd_2025/qt_2025/202603/P020260304373926504120.pdf","title":"北京市统计局调查制度","locator":"直辖市子总体包括北京、天津、上海、重庆4个直辖市","checked_at":"2026-11-22","access_method":"indexed_body"},
+    {"id":"review_nobel1937","url":"https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/all/","title":"诺贝尔物理学奖历届名录","locator":"1937 Clinton Davisson and George Paget Thomson；1921 Albert Einstein","checked_at":"2026-11-22","access_method":"indexed_body"}
+  ],
+  "scope":"补充核验回答中的附加事实，仅用于复核，不自动导入RAG。"
+}

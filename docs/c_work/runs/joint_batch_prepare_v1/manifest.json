@@ -1,0 +1,451 @@
+{
+  "schema_version": 2,
+  "stage": "development_only",
+  "contract": {
+    "config": {
+      "version": "joint-batch-v1",
+      "dataset": "datasets/controls/c_joint_batch_v1.json",
+      "corpus": "knowledge/corpus_v3.json",
+      "model_path": "models/Qwen2.5-0.5B-Instruct",
+      "conditions": [
+        {
+          "name": "combined_off",
+          "strategy": "combined",
+          "bias_mode": "off"
+        },
+        {
+          "name": "combined_prompt",
+          "strategy": "combined",
+          "bias_mode": "prompt"
+        },
+        {
+          "name": "compact_prompt",
+          "strategy": "compact",
+          "bias_mode": "prompt"
+        },
+        {
+          "name": "guarded_prompt",
+          "strategy": "guarded",
+          "bias_mode": "prompt"
+        }
+      ],
+      "max_new_tokens": 192,
+      "seed": 20261123,
+      "scope": "Integration development comparison; no bias effectiveness claim or E3 completion"
+    },
+    "dry_run": true,
+    "python": "3.10.21",
+    "dataset_sha256": "fbbaa7ed72c25bd35eb7dfcebf674d55c9e9dc79d714d955ac549c5cf7307e3e",
+    "corpus_sha256": "deb3f7e7b341e58e52fd5dc2adbcd44c43e47a09904085be6bbe484201597938",
+    "runtime_sha256": {
+      "experiments/run_c_joint_batch.py": "02e574f5d79e5c6cda3b9f70f0e2effd6aa1050d798f7abbd20b5387fa037715",
+      "src/governance/joint_batch.py": "b303b3919fa84297d2e54e1b61f1a450750264c6e63070fadbc8095d3ea16017",
+      "src/governance/joint.py": "9bd1b93c904bc1400ffec2a83ae7f8321c60393f5ca1667289a015d6e2b708cf",
+      "src/governance/consistency_v2.py": "6965d368fadfa331c935bf6b4ee487c8250c93f15db2e7e9c7dc2e57da1b2913",
+      "src/governance/consistency.py": "5c094368461a8333779e286fa0d4eabb29ec73dc033614692847ebcc4316dab7",
+      "src/governance/service.py": "ee2693cf6926e336ab79444e20bba7e720e188ec84e5e9fc4139ce70a6636975",
+      "src/governance/evidence_policy.py": "c6bfb38a6843060a6e17812a8879145900e09fe3063d4a80231af00828cb4f8d",
+      "src/governance/anti_hallucination.py": "564ea4bd8f559987fe9b487dc8a0285d43fe0da07d173d697dcc32a1c80f8cd7",
+      "src/governance/retrieval.py": "03a46e8dcd22c7ecbcb412c3459eaa8a8ad1e79add5bca3dd03c9da8c7ef98c3",
+      "src/models/llm_model.py": "01245282117e7c74a17247aa6f9e537de46a4d833c1fea81c26f96d08b0dc939",
+      "src/utils/experiment_io.py": "f47ae5d1d555919df82909ac1cde362058e1a64ca60c1239b435774d105f398f"
+    },
+    "model_sha256": {}
+  },
+  "contract_sha256": "b7fe231de7669f420c9603d0c201ccd170d34ff1c0f8ad379ca8852729e2895c",
+  "planned_records": [
+    [
+      "B1a",
+      "combined_off"
+    ],
+    [
+      "B1a",
+      "combined_prompt"
+    ],
+    [
+      "B1a",
+      "compact_prompt"
+    ],
+    [
+      "B1a",
+      "guarded_prompt"
+    ],
+    [
+      "B1b",
+      "combined_prompt"
+    ],
+    [
+      "B1b",
+      "compact_prompt"
+    ],
+    [
+      "B1b",
+      "guarded_prompt"
+    ],
+    [
+      "B1b",
+      "combined_off"
+    ],
+    [
+      "B2a",
+      "compact_prompt"
+    ],
+    [
+      "B2a",
+      "guarded_prompt"
+    ],
+    [
+      "B2a",
+      "combined_off"
+    ],
+    [
+      "B2a",
+      "combined_prompt"
+    ],
+    [
+      "B2b",
+      "guarded_prompt"
+    ],
+    [
+      "B2b",
+      "combined_off"
+    ],
+    [
+      "B2b",
+      "combined_prompt"
+    ],
+    [
+      "B2b",
+      "compact_prompt"
+    ],
+    [
+      "B3a",
+      "combined_off"
+    ],
+    [
+      "B3a",
+      "combined_prompt"
+    ],
+    [
+      "B3a",
+      "compact_prompt"
+    ],
+    [
+      "B3a",
+      "guarded_prompt"
+    ],
+    [
+      "B3b",
+      "combined_prompt"
+    ],
+    [
+      "B3b",
+      "compact_prompt"
+    ],
+    [
+      "B3b",
+      "guarded_prompt"
+    ],
+    [
+      "B3b",
+      "combined_off"
+    ],
+    [
+      "B4a",
+      "compact_prompt"
+    ],
+    [
+      "B4a",
+      "guarded_prompt"
+    ],
+    [
+      "B4a",
+      "combined_off"
+    ],
+    [
+      "B4a",
+      "combined_prompt"
+    ],
+    [
+      "B4b",
+      "guarded_prompt"
+    ],
+    [
+      "B4b",
+      "combined_off"
+    ],
+    [
+      "B4b",
+      "combined_prompt"
+    ],
+    [
+      "B4b",
+      "compact_prompt"
+    ],
+    [
+      "B5a",
+      "combined_off"
+    ],
+    [
+      "B5a",
+      "combined_prompt"
+    ],
+    [
+      "B5a",
+      "compact_prompt"
+    ],
+    [
+      "B5a",
+      "guarded_prompt"
+    ],
+    [
+      "B5b",
+      "combined_prompt"
+    ],
+    [
+      "B5b",
+      "compact_prompt"
+    ],
+    [
+      "B5b",
+      "guarded_prompt"
+    ],
+    [
+      "B5b",
+      "combined_off"
+    ],
+    [
+      "B6a",
+      "compact_prompt"
+    ],
+    [
+      "B6a",
+      "guarded_prompt"
+    ],
+    [
+      "B6a",
+      "combined_off"
+    ],
+    [
+      "B6a",
+      "combined_prompt"
+    ],
+    [
+      "B6b",
+      "guarded_prompt"
+    ],
+    [
+      "B6b",
+      "combined_off"
+    ],
+    [
+      "B6b",
+      "combined_prompt"
+    ],
+    [
+      "B6b",
+      "compact_prompt"
+    ],
+    [
+      "F1",
+      "combined_off"
+    ],
+    [
+      "F1",
+      "combined_prompt"
+    ],
+    [
+      "F1",
+      "compact_prompt"
+    ],
+    [
+      "F1",
+      "guarded_prompt"
+    ],
+    [
+      "F2",
+      "combined_prompt"
+    ],
+    [
+      "F2",
+      "compact_prompt"
+    ],
+    [
+      "F2",
+      "guarded_prompt"
+    ],
+    [
+      "F2",
+      "combined_off"
+    ],
+    [
+      "F3",
+      "compact_prompt"
+    ],
+    [
+      "F3",
+      "guarded_prompt"
+    ],
+    [
+      "F3",
+      "combined_off"
+    ],
+    [
+      "F3",
+      "combined_prompt"
+    ],
+    [
+      "F4",
+      "guarded_prompt"
+    ],
+    [
+      "F4",
+      "combined_off"
+    ],
+    [
+      "F4",
+      "combined_prompt"
+    ],
+    [
+      "F4",
+      "compact_prompt"
+    ],
+    [
+      "U1",
+      "combined_off"
+    ],
+    [
+      "U1",
+      "combined_prompt"
+    ],
+    [
+      "U1",
+      "compact_prompt"
+    ],
+    [
+      "U1",
+      "guarded_prompt"
+    ],
+    [
+      "U2",
+      "combined_prompt"
+    ],
+    [
+      "U2",
+      "compact_prompt"
+    ],
+    [
+      "U2",
+      "guarded_prompt"
+    ],
+    [
+      "U2",
+      "combined_off"
+    ],
+    [
+      "N1",
+      "compact_prompt"
+    ],
+    [
+      "N1",
+      "guarded_prompt"
+    ],
+    [
+      "N1",
+      "combined_off"
+    ],
+    [
+      "N1",
+      "combined_prompt"
+    ],
+    [
+      "N2",
+      "guarded_prompt"
+    ],
+    [
+      "N2",
+      "combined_off"
+    ],
+    [
+      "N2",
+      "combined_prompt"
+    ],
+    [
+      "N2",
+      "compact_prompt"
+    ],
+    [
+      "N3",
+      "combined_off"
+    ],
+    [
+      "N3",
+      "combined_prompt"
+    ],
+    [
+      "N3",
+      "compact_prompt"
+    ],
+    [
+      "N3",
+      "guarded_prompt"
+    ],
+    [
+      "N4",
+      "combined_prompt"
+    ],
+    [
+      "N4",
+      "compact_prompt"
+    ],
+    [
+      "N4",
+      "guarded_prompt"
+    ],
+    [
+      "N4",
+      "combined_off"
+    ],
+    [
+      "M1",
+      "compact_prompt"
+    ],
+    [
+      "M1",
+      "guarded_prompt"
+    ],
+    [
+      "M1",
+      "combined_off"
+    ],
+    [
+      "M1",
+      "combined_prompt"
+    ],
+    [
+      "M2",
+      "guarded_prompt"
+    ],
+    [
+      "M2",
+      "combined_off"
+    ],
+    [
+      "M2",
+      "combined_prompt"
+    ],
+    [
+      "M2",
+      "compact_prompt"
+    ]
+  ],
+  "status": "completed",
+  "segments": [],
+  "counts": {
+    "planned": 96,
+    "ok": 0,
+    "prepared": 96,
+    "errors": 0,
+    "missing": 0
+  }
+}

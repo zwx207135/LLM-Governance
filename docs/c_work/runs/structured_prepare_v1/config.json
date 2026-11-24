@@ -1,0 +1,14 @@
+{
+  "version": "c-structured-decoding-comparison-v1",
+  "stage": "developer_authored_source_bound_decoding_diagnostic_not_independent_test",
+  "controls": "datasets/controls/c_source_bound_development.json",
+  "schemas": "configs/c_source_bound_schemas.json",
+  "corpus": "knowledge/corpus_v3.json",
+  "model_path": "models/Qwen2.5-0.5B-Instruct",
+  "policies": ["legacy", "compact", "guarded"],
+  "decoders": ["free", "json"],
+  "generation": {"max_new_tokens": 192, "do_sample": false},
+  "retrieval": {"top_k": 2, "min_score": 1.5},
+  "seed": 20261122,
+  "decision_rule": "同一问题及提示，比较普通与有限JSON约束解码。每题保留全部6种字段值组合，正确答案只供事后检查；格式符合与内容选择分别报告。"
+}

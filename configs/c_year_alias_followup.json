@@ -1,0 +1,44 @@
+{
+  "stage": "C_year_alias_retrieval_followup_after_exposed_failure",
+  "dataset": "docs/c_work/development_dataset.json",
+  "model_path": "models/Qwen2.5-0.5B-Instruct",
+  "seed": 20261122,
+  "generation": {
+    "max_new_tokens": 160,
+    "do_sample": false
+  },
+  "retrieval": {
+    "top_k": 2,
+    "min_score": 1.5
+  },
+  "existing_ids": [],
+  "probes": [
+    {
+      "id": "BP1",
+      "question": "1921年度诺贝尔物理学奖实际在哪一年颁发？",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "YA1",
+      "question": "1921 年诺贝尔物理学奖的获奖者是谁？",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "YA2",
+      "question": "诺贝尔物理学奖1921年度的获奖者是谁？",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "NP3",
+      "question": "1922年诺贝尔物理学奖授予了谁？",
+      "category": "diagnostic_probe"
+    }
+  ],
+  "corpus": "knowledge/corpus_v4.json",
+  "controls": "datasets/controls/c_normal_development.json",
+  "retriever_version": "year_alias",
+  "control_ids": [
+    "N05",
+    "N15"
+  ]
+}

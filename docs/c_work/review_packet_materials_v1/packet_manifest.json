@@ -1,0 +1,11 @@
+{
+  "stage": "empty_independent_review_materials",
+  "topic_groups": [
+    "G04",
+    "G06"
+  ],
+  "topic_coverage": "2/8 groups (25%); all three classes, both positions, four conditions and two label languages retained",
+  "template_records_per_annotator": 96,
+  "independent_human_reviews_completed": 0,
+  "selection": "Deterministic development quality review; not an independent population-effect estimate"
+}

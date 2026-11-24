@@ -1,0 +1,21 @@
+{
+  "version": "c-dev-2026-11-22-v2",
+  "purpose": "开发用中文人工转述资料快照，不是独立正式测试的冻结知识库；不含测试题或参考答案字段。",
+  "selection_policy": "从公开科普页面选取海洋、月球、行星、太阳、电灯史五个主题；与现有题集有主题重叠，只用于开发验证。正式测试前需由B复核来源与划分。",
+  "sources": [
+    {"id":"noaa-ocean","title":"NOAA What is the largest ocean basin on Earth","url":"https://oceanservice.noaa.gov/facts/biggestocean.html","published_at":null,"accessed_at":"2026-11-22","locator":"正文首段与第二段","kind":"verified_chinese_paraphrase","original_excerpt":"The Pacific Ocean is the largest and deepest of the world ocean basins."},
+    {"id":"nasa-moon","title":"NASA Moon Facts","url":"https://science.nasa.gov/moon/facts/","published_at":null,"accessed_at":"2026-11-22","locator":"10 things","kind":"verified_chinese_paraphrase","original_excerpt":"The Moon is Earth's only natural satellite."},
+    {"id":"nasa-planets","title":"NASA About the Planets","url":"https://science.nasa.gov/solar-system/planets/","published_at":null,"accessed_at":"2026-11-22","locator":"About Planets 与 Jupiter Facts","kind":"verified_chinese_paraphrase","original_excerpt":"Jupiter is the fifth planet from the Sun, and the largest planet in our solar system."},
+    {"id":"nasa-sun","title":"NASA Sun Facts","url":"https://science.nasa.gov/sun/facts/","published_at":null,"accessed_at":"2026-11-22","locator":"开头简介与10 things","kind":"verified_chinese_paraphrase","original_excerpt":"The Sun is the only star in our solar system."},
+    {"id":"doe-light","title":"US Department of Energy The History of the Light Bulb","url":"https://www.energy.gov/articles/history-light-bulb","published_at":"2013-11-22","accessed_at":"2026-11-22","locator":"Incandescent Bulbs Light the Way 前后段落","kind":"verified_chinese_paraphrase","original_excerpt":"Like all great inventions, the light bulb can’t be credited to one inventor."}
+  ],
+  "chunks": [
+    {"id":"ocean-01","source_id":"noaa-ocean","topics":["海洋","大洋","太平洋","海盆"],"text":"太平洋是地球面积最大、最深的海洋盆地，面积约1.62亿平方千米。太平洋周围的环太平洋火山地震带与板块俯冲活动有关。"},
+    {"id":"moon-01","source_id":"nasa-moon","topics":["月球","天然卫星","月亮"],"text":"月球是地球唯一的天然卫星，绕地球运行，平均距离约38.5万千米。月球有岩石表面和撞击坑，外逸层非常稀薄，不能供人呼吸。"},
+    {"id":"planets-01","source_id":"nasa-planets","topics":["太阳系","行星","水星","金星","火星","海王星","天王星"],"text":"太阳系有八颗行星：水星、金星、地球、火星、木星、土星、天王星、海王星。水星最靠近太阳。地球是距离太阳第三近的行星。"},
+    {"id":"planets-02","source_id":"nasa-planets","topics":["太阳系","行星","木星","土星"],"text":"木星是太阳系最大的行星，也是距离太阳第五近的行星。土星是第二大行星。木星和土星属于气态巨行星，天王星和海王星属于冰巨行星。"},
+    {"id":"sun-01","source_id":"nasa-sun","topics":["太阳","恒星","黄矮星"],"text":"太阳是一颗约45亿岁的黄矮恒星，是太阳系中唯一的恒星，主要由氢和氦构成。太阳是炽热的等离子体，没有坚硬的固体表面。太阳不是行星。"},
+    {"id":"light-01","source_id":"doe-light","topics":["电灯","灯泡","白炽灯","爱迪生","斯旺"],"text":"电灯的发展是许多发明者持续改进的结果，不能归功于单一发明者。爱迪生团队改进了白炽灯灯丝与真空技术，并推动商业化；斯旺等人也作出了贡献。"},
+    {"id":"light-02","source_id":"doe-light","topics":["电灯","灯泡","白炽灯","爱迪生"],"text":"爱迪生不仅改进灯泡，还发展了使电灯实用的配套系统，包括发电、配电和计量。电灯商业化涉及灯泡和电力系统的共同发展。"}
+  ]
+}

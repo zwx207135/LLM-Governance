@@ -1,0 +1,16 @@
+{
+  "version": "c-source-bound-diagnostics-v1",
+  "stage": "developer_authored_source_bound_diagnostics_not_independent_test",
+  "dataset": "docs/c_work/development_dataset.json",
+  "controls": "datasets/controls/c_source_bound_development.json",
+  "corpus": "knowledge/corpus_v3.json",
+  "model_path": "models/Qwen2.5-0.5B-Instruct",
+  "development_ids": [],
+  "review_ids": [],
+  "policies": ["legacy", "compact", "guarded"],
+  "generation": {"max_new_tokens": 192, "do_sample": false},
+  "retrieval": {"top_k": 2, "min_score": 1.5},
+  "seed": 20261122,
+  "decision_rule": "五条新给定材料诊断单列，按冻结材料与字段检查，不用于给原不确定性探针补真值；不替换默认策略。",
+  "independent_human_review_completed": false
+}

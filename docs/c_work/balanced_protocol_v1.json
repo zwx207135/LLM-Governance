@@ -1,0 +1,34 @@
+{
+  "version": "balanced-protocol-v1",
+  "stage": "predeclared_developer_diagnostics_not_independent_test",
+  "design": "八个主题，每主题支持、反驳、资料不足各一条陈述；每条陈述交换两段材料位置，48题。两种提示乘两种解码，共192条。",
+  "primary_checks": [
+    "完整输出格式及schema符合",
+    "verdict值与冻结材料预期相符/48，无法解析另列",
+    "basis编号与冻结预期相符/48",
+    "verdict和basis同时正确/48"
+  ],
+  "class_checks": [
+    "三类混淆矩阵，额外列invalid",
+    "资料不足被判断为refuted的数量",
+    "资料不足被判断为supported的数量",
+    "已有支持或反驳被漏判为资料不足的数量"
+  ],
+  "position_checks": [
+    "24对交换材料位置的判定不变数量",
+    "依据编号随位置交换的数量",
+    "16对有明确材料依据时的编号跟随数量",
+    "每对两种位置都同时判对结论和依据的数量"
+  ],
+  "grouping": "8个主题为相关组；不把48个变体当作48个独立事实题，不计算依赖独立题目假设的显著性。",
+  "baselines": "总选not_established或总选任何单一类别，均只能得到16/48结论符合；不能以保守单一回答冒充高质量推理。",
+  "generation_boundary": "问题含完整M1/M2材料和字段说明；运行关闭外部检索；参考字段不进入生成；9种语义组合全部保留。",
+  "human_review_completed": false,
+  "decision_rule": "保留全部成功及失败输出，先按冻结字段自动检查，再独立人工复核。格式与内容、位置不变与正确性分开报告；不自动替换默认治理。",
+  "frozen_input_sha256": {
+    "datasets\\controls\\c_balanced_material_specs.json": "9ce093715049f80629627f32f2628f721cf730fbfc7e1b93501479930609abf7",
+    "datasets\\controls\\c_balanced_materials_v1.json": "69386535da8414f4e9de99afffdca08b1b813285820324b5078d581e18bfb346",
+    "configs\\c_balanced_material_schemas_v1.json": "23cde5fb3139c20b17395d730f5188347df592f208c63c7f6d83d8a960cfe7b6",
+    "configs\\c_balanced_materials.json": "7fd8942d937222be7b19a5e24e461f7b7c6ff2cd7e0e6f912634534f76381ae5"
+  }
+}

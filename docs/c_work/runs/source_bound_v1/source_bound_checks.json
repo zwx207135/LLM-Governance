@@ -1,0 +1,288 @@
+{
+  "stage": "developer_authored_source_bound_diagnostics_not_independent_test",
+  "records": 15,
+  "basis": "frozen_controls.expected_fields; exact questions and JSON types checked",
+  "controls_sha256": "c190c6da384adfe19b13d26b2de384a6fbbde9bcc38b239364af407a1a478cb9",
+  "grader_sha256": "5a7ea3c6cd5d7144bbcb5966feb69b212f1c21fa6374f52d6ecf374777c6fcc4",
+  "grader_snapshot": "evaluation_snapshot/check_c_source_bound-5a7ea3c6cd5d.py",
+  "independent_human_reviews": 0,
+  "original_entity_truth_established": false,
+  "modes": [
+    {
+      "mode": "compact",
+      "checked": 5,
+      "field_values_correct": 3,
+      "field_values_checked": 10,
+      "strict_json_object": 0,
+      "required_field_values_passed": 1,
+      "content_fields_passed": 0,
+      "strict_task_passed": 0,
+      "code_fence_wrapper": 2
+    },
+    {
+      "mode": "guarded",
+      "checked": 5,
+      "field_values_correct": 3,
+      "field_values_checked": 10,
+      "strict_json_object": 0,
+      "required_field_values_passed": 1,
+      "content_fields_passed": 0,
+      "strict_task_passed": 0,
+      "code_fence_wrapper": 2
+    },
+    {
+      "mode": "legacy",
+      "checked": 5,
+      "field_values_correct": 3,
+      "field_values_checked": 10,
+      "strict_json_object": 1,
+      "required_field_values_passed": 0,
+      "content_fields_passed": 0,
+      "strict_task_passed": 0,
+      "code_fence_wrapper": 3
+    }
+  ],
+  "checks": [
+    {
+      "id": "B01",
+      "mode": "legacy",
+      "content_sha256": "5908d529466e7dd73864d4887d6ce6daa7c61e40f0676335f21b83c3da1a9530",
+      "strict_json_object": false,
+      "code_fence_wrapper": false,
+      "content_fields_passed": false,
+      "required_field_values_passed": false,
+      "strict_task_passed": false,
+      "field_checks": {
+        "namesake_documented": false,
+        "specific_contribution": false
+      },
+      "unexpected_fields": []
+    },
+    {
+      "id": "B01",
+      "mode": "compact",
+      "content_sha256": "77af6b4b70e0790b5cc4c4d73e7c7f35f79e1cd9e5cde1efb0ce5906fed513a0",
+      "strict_json_object": false,
+      "code_fence_wrapper": false,
+      "content_fields_passed": false,
+      "required_field_values_passed": false,
+      "strict_task_passed": false,
+      "field_checks": {
+        "namesake_documented": false,
+        "specific_contribution": false
+      },
+      "unexpected_fields": []
+    },
+    {
+      "id": "B01",
+      "mode": "guarded",
+      "content_sha256": "77af6b4b70e0790b5cc4c4d73e7c7f35f79e1cd9e5cde1efb0ce5906fed513a0",
+      "strict_json_object": false,
+      "code_fence_wrapper": false,
+      "content_fields_passed": false,
+      "required_field_values_passed": false,
+      "strict_task_passed": false,
+      "field_checks": {
+        "namesake_documented": false,
+        "specific_contribution": false
+      },
+      "unexpected_fields": []
+    },
+    {
+      "id": "B02",
+      "mode": "compact",
+      "content_sha256": "91781d7df35bb9db71dc970eb494b4fa3cf152cbc01f7d46476124a86a48bdb7",
+      "strict_json_object": false,
+      "code_fence_wrapper": false,
+      "content_fields_passed": false,
+      "required_field_values_passed": false,
+      "strict_task_passed": false,
+      "field_checks": {
+        "namesake_documented": false,
+        "nobel_identity": false
+      },
+      "unexpected_fields": []
+    },
+    {
+      "id": "B02",
+      "mode": "guarded",
+      "content_sha256": "91781d7df35bb9db71dc970eb494b4fa3cf152cbc01f7d46476124a86a48bdb7",
+      "strict_json_object": false,
+      "code_fence_wrapper": false,
+      "content_fields_passed": false,
+      "required_field_values_passed": false,
+      "strict_task_passed": false,
+      "field_checks": {
+        "namesake_documented": false,
+        "nobel_identity": false
+      },
+      "unexpected_fields": []
+    },
+    {
+      "id": "B02",
+      "mode": "legacy",
+      "content_sha256": "1ad07aab3ab8d8e44a8d92fe135276bbf01917f4421202c22e2e7df6deb20d26",
+      "strict_json_object": true,
+      "code_fence_wrapper": false,
+      "content_fields_passed": false,
+      "required_field_values_passed": false,
+      "strict_task_passed": false,
+      "field_checks": {
+        "namesake_documented": false,
+        "nobel_identity": true
+      },
+      "unexpected_fields": [
+        "reason"
+      ]
+    },
+    {
+      "id": "B03",
+      "mode": "guarded",
+      "content_sha256": "fc7f4014ad5e33f86bf4f0afc174c5e61e5767c31aa1eff26d8891ba10020168",
+      "strict_json_object": false,
+      "code_fence_wrapper": true,
+      "content_fields_passed": false,
+      "required_field_values_passed": false,
+      "strict_task_passed": false,
+      "field_checks": {
+        "only_su7": false,
+        "su9_parameters": true
+      },
+      "unexpected_fields": []
+    },
+    {
+      "id": "B03",
+      "mode": "legacy",
+      "content_sha256": "f2b0ddbf5960ef1206108693a3f4e9939b71dbef9cbef6cdc28cecdaa3585c86",
+      "strict_json_object": false,
+      "code_fence_wrapper": true,
+      "content_fields_passed": false,
+      "required_field_values_passed": false,
+      "strict_task_passed": false,
+      "field_checks": {
+        "only_su7": true,
+        "su9_parameters": false
+      },
+      "unexpected_fields": []
+    },
+    {
+      "id": "B03",
+      "mode": "compact",
+      "content_sha256": "fc7f4014ad5e33f86bf4f0afc174c5e61e5767c31aa1eff26d8891ba10020168",
+      "strict_json_object": false,
+      "code_fence_wrapper": true,
+      "content_fields_passed": false,
+      "required_field_values_passed": false,
+      "strict_task_passed": false,
+      "field_checks": {
+        "only_su7": false,
+        "su9_parameters": true
+      },
+      "unexpected_fields": []
+    },
+    {
+      "id": "B04",
+      "mode": "legacy",
+      "content_sha256": "c680e6a69e0a495293fa8f7aea36d3bfa19b6d421dec56ff5e8a025fdf852c9c",
+      "strict_json_object": false,
+      "code_fence_wrapper": true,
+      "content_fields_passed": false,
+      "required_field_values_passed": false,
+      "strict_task_passed": false,
+      "field_checks": {
+        "listed_in_excerpt": false,
+        "no_related_research": false
+      },
+      "unexpected_fields": [
+        "not_established",
+        "refuted",
+        "supported"
+      ]
+    },
+    {
+      "id": "B04",
+      "mode": "compact",
+      "content_sha256": "f82f88e6facdc4f64cd49fd0982f9dead2ae197717447eeea95f992a38a490f9",
+      "strict_json_object": false,
+      "code_fence_wrapper": true,
+      "content_fields_passed": false,
+      "required_field_values_passed": true,
+      "strict_task_passed": false,
+      "field_checks": {
+        "listed_in_excerpt": true,
+        "no_related_research": true
+      },
+      "unexpected_fields": [
+        "not_established",
+        "refuted",
+        "supported"
+      ]
+    },
+    {
+      "id": "B04",
+      "mode": "guarded",
+      "content_sha256": "f82f88e6facdc4f64cd49fd0982f9dead2ae197717447eeea95f992a38a490f9",
+      "strict_json_object": false,
+      "code_fence_wrapper": true,
+      "content_fields_passed": false,
+      "required_field_values_passed": true,
+      "strict_task_passed": false,
+      "field_checks": {
+        "listed_in_excerpt": true,
+        "no_related_research": true
+      },
+      "unexpected_fields": [
+        "not_established",
+        "refuted",
+        "supported"
+      ]
+    },
+    {
+      "id": "B05",
+      "mode": "compact",
+      "content_sha256": "28ec18c41bd55d093f3fdd7b445f7554ac6593fabc4c744a062503331043b98f",
+      "strict_json_object": false,
+      "code_fence_wrapper": false,
+      "content_fields_passed": false,
+      "required_field_values_passed": false,
+      "strict_task_passed": false,
+      "field_checks": {
+        "namesake_documented": false,
+        "nobel_identity": false
+      },
+      "unexpected_fields": []
+    },
+    {
+      "id": "B05",
+      "mode": "guarded",
+      "content_sha256": "28ec18c41bd55d093f3fdd7b445f7554ac6593fabc4c744a062503331043b98f",
+      "strict_json_object": false,
+      "code_fence_wrapper": false,
+      "content_fields_passed": false,
+      "required_field_values_passed": false,
+      "strict_task_passed": false,
+      "field_checks": {
+        "namesake_documented": false,
+        "nobel_identity": false
+      },
+      "unexpected_fields": []
+    },
+    {
+      "id": "B05",
+      "mode": "legacy",
+      "content_sha256": "eb18f4e56b3035a825dc8e798cd47c5db04fa9bf9aaaed3fc82321fb991e51a7",
+      "strict_json_object": false,
+      "code_fence_wrapper": true,
+      "content_fields_passed": false,
+      "required_field_values_passed": false,
+      "strict_task_passed": false,
+      "field_checks": {
+        "namesake_documented": false,
+        "nobel_identity": true
+      },
+      "unexpected_fields": [
+        "reason"
+      ]
+    }
+  ]
+}

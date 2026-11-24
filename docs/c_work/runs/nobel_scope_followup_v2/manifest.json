@@ -1,0 +1,189 @@
+{
+  "schema_version": 2,
+  "stage": "development_only",
+  "contract": {
+    "config": {
+      "stage": "exploratory_revision_after_v1_failures_not_independent_test",
+      "dataset": "docs/c_work/development_dataset.json",
+      "documents": "knowledge/nobel_documents_v1.json",
+      "corpora": {
+        "v4_scoped_v2": "knowledge/corpus_v4.json"
+      },
+      "model_path": "models/Qwen2.5-0.5B-Instruct",
+      "seed": 20261122,
+      "generation": {
+        "max_new_tokens": 160,
+        "do_sample": false
+      },
+      "retrieval": {
+        "top_k": 2,
+        "min_score": 1.5
+      },
+      "existing_ids": [
+        1,
+        7,
+        18,
+        27,
+        29,
+        32,
+        48,
+        64,
+        66,
+        74,
+        76,
+        84,
+        99
+      ],
+      "probes": [
+        {
+          "id": "NP1",
+          "question": "爱因斯坦为什么获得诺贝尔物理学奖？",
+          "category": "diagnostic_probe"
+        },
+        {
+          "id": "NP2",
+          "question": "1921年诺贝尔物理学奖授予了谁？",
+          "category": "diagnostic_probe"
+        },
+        {
+          "id": "NP3",
+          "question": "1922年诺贝尔物理学奖授予了谁？",
+          "category": "diagnostic_probe"
+        },
+        {
+          "id": "NP4",
+          "question": "2023年诺贝尔文学奖授予了谁？",
+          "category": "diagnostic_probe"
+        },
+        {
+          "id": "NP5",
+          "question": "2024年诺贝尔化学奖授予了谁？",
+          "category": "diagnostic_probe"
+        },
+        {
+          "id": "NP6",
+          "question": "比较2022年与2023年诺贝尔物理学奖的研究领域。",
+          "category": "diagnostic_probe"
+        }
+      ]
+    },
+    "inputs_sha256": {
+      "dataset.json": "63578646622e934be3dc099a3aac9d91678f3612631cd0d1ed6772f1e083c230",
+      "config.json": "2eef6833554cec9a16136a8393341db4b034875313567bfb53c8629fd435ddcc",
+      "documents.json": "bbe4a21e98ecc3dce4fc7768d178062c9d854da3c8f11aeadcdf45ac243f694f",
+      "v4_scoped_v2_corpus.json": "65b7832dfa9680b9b4ab0f71a984d6a036f20ca4acd7ca36a93cb5e8fc0f9dc6"
+    },
+    "runtime_sha256": {
+      "experiments/run_c_nobel_comparison.py": "90673786fc4f686a56e2be0beb65cd70ddc59b6ae4cea7e468ab96414a7e10ec",
+      "src/governance/retrieval_scoped.py": "b07cdd8761f50cdabe66144ab06fc9f290cb82daa0d6940f10aca17146f0cd94",
+      "src/governance/retrieval_safe.py": "e5f2a97f90ea6cb8a98920a6aeee009d096c7cd4e91c6300acca97b9d63d3454",
+      "src/governance/retrieval.py": "03a46e8dcd22c7ecbcb412c3459eaa8a8ad1e79add5bca3dd03c9da8c7ef98c3",
+      "src/governance/anti_hallucination.py": "564ea4bd8f559987fe9b487dc8a0285d43fe0da07d173d697dcc32a1c80f8cd7",
+      "src/models/llm_model.py": "01245282117e7c74a17247aa6f9e537de46a4d833c1fea81c26f96d08b0dc939",
+      "src/utils/experiment_io.py": "f47ae5d1d555919df82909ac1cde362058e1a64ca60c1239b435774d105f398f"
+    },
+    "model_sha256": {
+      "config.json": "18e18afcaccafade98daf13a54092927904649e1dd4eba8299ab717d5d94ff45",
+      "configuration.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "generation_config.json": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+      "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "model.safetensors": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+      "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "contract_sha256": "df1278330faffca09eeb473691dae3beda4b5f20cf65663820dc04b78b623739",
+  "planned_records": [
+    [
+      "1",
+      "v4_scoped_v2"
+    ],
+    [
+      "7",
+      "v4_scoped_v2"
+    ],
+    [
+      "18",
+      "v4_scoped_v2"
+    ],
+    [
+      "27",
+      "v4_scoped_v2"
+    ],
+    [
+      "29",
+      "v4_scoped_v2"
+    ],
+    [
+      "32",
+      "v4_scoped_v2"
+    ],
+    [
+      "48",
+      "v4_scoped_v2"
+    ],
+    [
+      "64",
+      "v4_scoped_v2"
+    ],
+    [
+      "66",
+      "v4_scoped_v2"
+    ],
+    [
+      "74",
+      "v4_scoped_v2"
+    ],
+    [
+      "76",
+      "v4_scoped_v2"
+    ],
+    [
+      "84",
+      "v4_scoped_v2"
+    ],
+    [
+      "99",
+      "v4_scoped_v2"
+    ],
+    [
+      "NP1",
+      "v4_scoped_v2"
+    ],
+    [
+      "NP2",
+      "v4_scoped_v2"
+    ],
+    [
+      "NP3",
+      "v4_scoped_v2"
+    ],
+    [
+      "NP4",
+      "v4_scoped_v2"
+    ],
+    [
+      "NP5",
+      "v4_scoped_v2"
+    ],
+    [
+      "NP6",
+      "v4_scoped_v2"
+    ]
+  ],
+  "status": "completed",
+  "segments": [],
+  "counts": {
+    "planned": 19,
+    "ok": 19,
+    "prepared": 0,
+    "errors": 0,
+    "missing": 0
+  },
+  "evaluation_status": "pending_independent_review",
+  "torch": "2.14.0+cu126",
+  "transformers": "5.17.0",
+  "device": "cuda",
+  "finished_at": "2026-11-23T12:34:06.154311+00:00"
+}

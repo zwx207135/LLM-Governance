@@ -1,0 +1,15 @@
+{
+  "version": "joint-batch-v1",
+  "dataset": "datasets/controls/c_joint_batch_v1.json",
+  "corpus": "knowledge/corpus_v3.json",
+  "model_path": "models/Qwen2.5-0.5B-Instruct",
+  "conditions": [
+    {"name": "combined_off", "strategy": "combined", "bias_mode": "off"},
+    {"name": "combined_prompt", "strategy": "combined", "bias_mode": "prompt"},
+    {"name": "compact_prompt", "strategy": "compact", "bias_mode": "prompt"},
+    {"name": "guarded_prompt", "strategy": "guarded", "bias_mode": "prompt"}
+  ],
+  "max_new_tokens": 192,
+  "seed": 20261123,
+  "scope": "Integration development comparison; no bias effectiveness claim or E3 completion"
+}

@@ -1,0 +1,2978 @@
+{
+  "stage": "C_retrieval_failure_analysis_only",
+  "formal_accuracy": null,
+  "independent_human_reviews": 0,
+  "cases": [
+    {
+      "id": 1,
+      "question": "中国的首都是哪个城市？",
+      "category": "factual",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "no_retrieved_evidence",
+      "basis": "无首都资料；不能把未命中等同回答错误。",
+      "v2_evidence": [],
+      "year_alias_diagnostics": {
+        "hits": [],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 3,
+      "question": "世界上面积最大的海洋是哪个？",
+      "category": "factual",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "ocean-01直接说明太平洋面积最大。",
+      "v2_evidence": [
+        {
+          "id": "ocean-01",
+          "source_id": "noaa-ocean",
+          "topics": [
+            "海洋",
+            "大洋",
+            "太平洋",
+            "海盆"
+          ],
+          "text": "太平洋是地球面积最大、最深的海洋盆地，面积约1.62亿平方千米。太平洋周围的环太平洋火山地震带与板块俯冲活动有关。",
+          "score": 19.858211,
+          "matched_terms": [
+            "最大",
+            "洋是",
+            "海洋",
+            "的海",
+            "积最",
+            "面积"
+          ],
+          "source": {
+            "id": "noaa-ocean",
+            "title": "NOAA What is the largest ocean basin on Earth",
+            "url": "https://oceanservice.noaa.gov/facts/biggestocean.html",
+            "published_at": null,
+            "accessed_at": "2026-11-22",
+            "locator": "正文首段与第二段",
+            "kind": "verified_chinese_paraphrase",
+            "original_excerpt": "The Pacific Ocean is the largest and deepest of the world ocean basins."
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "ocean-01",
+            "source_id": "noaa-ocean",
+            "topics": [
+              "海洋",
+              "大洋",
+              "太平洋",
+              "海盆"
+            ],
+            "text": "太平洋是地球面积最大、最深的海洋盆地，面积约1.62亿平方千米。太平洋周围的环太平洋火山地震带与板块俯冲活动有关。",
+            "score": 19.858211,
+            "matched_terms": [
+              "最大",
+              "洋是",
+              "海洋",
+              "的海",
+              "积最",
+              "面积"
+            ],
+            "source": {
+              "id": "noaa-ocean",
+              "title": "NOAA What is the largest ocean basin on Earth",
+              "url": "https://oceanservice.noaa.gov/facts/biggestocean.html",
+              "published_at": null,
+              "accessed_at": "2026-11-22",
+              "locator": "正文首段与第二段",
+              "kind": "verified_chinese_paraphrase",
+              "original_excerpt": "The Pacific Ocean is the largest and deepest of the world ocean basins."
+            }
+          }
+        ],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 7,
+      "question": "爱因斯坦获得过几次诺贝尔物理学奖？",
+      "category": "factual",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core_with_scope",
+      "basis": "个人记录证明获奖年度；重复获奖统计共同支持次数判断，保留1901—2025范围。",
+      "v2_evidence": [
+        {
+          "id": "nobel-einstein-1921",
+          "topics": [
+            "爱因斯坦",
+            "Einstein",
+            "光电效应",
+            "1921年诺贝尔物理学奖"
+          ],
+          "scope": {
+            "kind": "award_record",
+            "award_category": "physics",
+            "award_year": 1921,
+            "subject_aliases": [
+              "爱因斯坦",
+              "Einstein"
+            ]
+          },
+          "text": "爱因斯坦（Albert Einstein）获得1921年度诺贝尔物理学奖，该年度奖于1922年颁发。官方物理学奖历史说明，获奖与他对光电效应的解释有关，颁奖理由也涉及他对理论物理学的贡献。奖项年度与实际颁发年份需区别。",
+          "source_id": "nobel-physics-history",
+          "text_sha256": "0f0f82b3f493aefcf9e606a15cd0f1bd28c01f10aaad5f35fef921e373aa393c",
+          "score": 19.802111,
+          "matched_terms": [
+            "因斯",
+            "学奖",
+            "尔物",
+            "斯坦",
+            "爱因",
+            "物理",
+            "理学",
+            "获得",
+            "诺贝",
+            "贝尔"
+          ],
+          "source": {
+            "id": "nobel-physics-history",
+            "title": "NobelPrize.org The Nobel Prize in Physics 1901-2000",
+            "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+            "published_at": "2000-02-09",
+            "accessed_at": "2026-11-23",
+            "access_method": "indexed_body",
+            "direct_access_status": "403",
+            "locator": "From classical to quantum physics及Microcosmos and macrocosmos中Einstein段落",
+            "original_excerpt": "Einstein received the Physics Prize for 1921 (awarded in 1922)."
+          }
+        },
+        {
+          "id": "nobel-physics-repeat-through-2025",
+          "topics": [
+            "诺贝尔物理学奖",
+            "巴丁",
+            "巴登",
+            "Bardeen",
+            "重复获奖"
+          ],
+          "scope": {
+            "kind": "award_statistics",
+            "award_category": "physics",
+            "through_year": 2025
+          },
+          "text": "在官方诺贝尔物理学奖名录所列1901至2025年的统计范围内，约翰·巴丁（John Bardeen）是唯一两次获得物理学奖的人，分别为1956年与1972年；该范围内的其他物理学奖得主各获该奖一次。此统计只涉及物理学奖，不是所有奖项类别的重复获奖统计，也不覆盖2026年。",
+          "source_id": "nobel-physics-repeat-snapshot",
+          "text_sha256": "88f54e950eddda2643cd05e0e2f65f195e66f8e480bb753d6ac75fd1999a61ae",
+          "score": 14.300745,
+          "matched_terms": [
+            "学奖",
+            "尔物",
+            "物理",
+            "理学",
+            "获得",
+            "诺贝",
+            "贝尔"
+          ],
+          "source": {
+            "id": "nobel-physics-repeat-snapshot",
+            "title": "NobelPrize.org All Nobel Prizes in Physics（1901—2025索引范围）",
+            "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/all/",
+            "published_at": null,
+            "accessed_at": "2026-11-23",
+            "access_method": "indexed_body",
+            "direct_access_status": "403",
+            "locator": "页面开头John Bardeen唯一重复物理学奖得主统计；该索引列1901至2025范围",
+            "original_excerpt": "John Bardeen is the only laureate who has been awarded the Nobel Prize in Physics twice"
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "nobel-einstein-1921",
+            "topics": [
+              "爱因斯坦",
+              "Einstein",
+              "光电效应",
+              "1921年诺贝尔物理学奖"
+            ],
+            "scope": {
+              "kind": "award_record",
+              "award_category": "physics",
+              "award_year": 1921,
+              "subject_aliases": [
+                "爱因斯坦",
+                "Einstein"
+              ]
+            },
+            "text": "爱因斯坦（Albert Einstein）获得1921年度诺贝尔物理学奖，该年度奖于1922年颁发。官方物理学奖历史说明，获奖与他对光电效应的解释有关，颁奖理由也涉及他对理论物理学的贡献。奖项年度与实际颁发年份需区别。",
+            "source_id": "nobel-physics-history",
+            "text_sha256": "0f0f82b3f493aefcf9e606a15cd0f1bd28c01f10aaad5f35fef921e373aa393c",
+            "score": 19.802111,
+            "matched_terms": [
+              "因斯",
+              "学奖",
+              "尔物",
+              "斯坦",
+              "爱因",
+              "物理",
+              "理学",
+              "获得",
+              "诺贝",
+              "贝尔"
+            ],
+            "source": {
+              "id": "nobel-physics-history",
+              "title": "NobelPrize.org The Nobel Prize in Physics 1901-2000",
+              "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+              "published_at": "2000-02-09",
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "direct_access_status": "403",
+              "locator": "From classical to quantum physics及Microcosmos and macrocosmos中Einstein段落",
+              "original_excerpt": "Einstein received the Physics Prize for 1921 (awarded in 1922)."
+            }
+          },
+          {
+            "id": "nobel-physics-repeat-through-2025",
+            "topics": [
+              "诺贝尔物理学奖",
+              "巴丁",
+              "巴登",
+              "Bardeen",
+              "重复获奖"
+            ],
+            "scope": {
+              "kind": "award_statistics",
+              "award_category": "physics",
+              "through_year": 2025
+            },
+            "text": "在官方诺贝尔物理学奖名录所列1901至2025年的统计范围内，约翰·巴丁（John Bardeen）是唯一两次获得物理学奖的人，分别为1956年与1972年；该范围内的其他物理学奖得主各获该奖一次。此统计只涉及物理学奖，不是所有奖项类别的重复获奖统计，也不覆盖2026年。",
+            "source_id": "nobel-physics-repeat-snapshot",
+            "text_sha256": "88f54e950eddda2643cd05e0e2f65f195e66f8e480bb753d6ac75fd1999a61ae",
+            "score": 14.300745,
+            "matched_terms": [
+              "学奖",
+              "尔物",
+              "物理",
+              "理学",
+              "获得",
+              "诺贝",
+              "贝尔"
+            ],
+            "source": {
+              "id": "nobel-physics-repeat-snapshot",
+              "title": "NobelPrize.org All Nobel Prizes in Physics（1901—2025索引范围）",
+              "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/all/",
+              "published_at": null,
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "direct_access_status": "403",
+              "locator": "页面开头John Bardeen唯一重复物理学奖得主统计；该索引列1901至2025范围",
+              "original_excerpt": "John Bardeen is the only laureate who has been awarded the Nobel Prize in Physics twice"
+            }
+          }
+        ],
+        "rejected": [
+          {
+            "chunk_id": "nobel-einstein-relativity-history",
+            "reason": "scientific_history_not_annual_award_record"
+          },
+          {
+            "chunk_id": "nobel-physics-2022",
+            "reason": "award_subject_mismatch"
+          },
+          {
+            "chunk_id": "nobel-physics-2023",
+            "reason": "award_subject_mismatch"
+          },
+          {
+            "chunk_id": "relativity-special",
+            "reason": "prefer_scoped_award_records_over_general_history"
+          }
+        ],
+        "selection_events": [
+          "paired_individual_record_with_repeat_award_statistics"
+        ],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 10,
+      "question": "地球唯一的天然卫星是什么？",
+      "category": "factual",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "moon-01直接支持月球；earth-orbit只是地球背景，不支持卫星身份。",
+      "v2_evidence": [
+        {
+          "id": "moon-01",
+          "source_id": "nasa-moon",
+          "topics": [
+            "月球",
+            "天然卫星",
+            "月亮"
+          ],
+          "text": "月球是地球唯一的天然卫星，绕地球运行，平均距离约38.5万千米。月球有岩石表面和撞击坑，外逸层非常稀薄，不能供人呼吸。",
+          "score": 24.522843,
+          "matched_terms": [
+            "一的",
+            "卫星",
+            "唯一",
+            "地球",
+            "天然",
+            "然卫",
+            "球唯",
+            "的天"
+          ],
+          "source": {
+            "id": "nasa-moon",
+            "title": "NASA Moon Facts",
+            "url": "https://science.nasa.gov/moon/facts/",
+            "published_at": null,
+            "accessed_at": "2026-11-22",
+            "locator": "10 things",
+            "kind": "verified_chinese_paraphrase",
+            "original_excerpt": "The Moon is Earth's only natural satellite."
+          }
+        },
+        {
+          "id": "earth-orbit",
+          "topics": [
+            "地球",
+            "自转",
+            "公转",
+            "日夜",
+            "昼夜"
+          ],
+          "text": "地球围绕太阳公转，一周约365.25日；相对遥远恒星完成一次自转约23.9小时。公转周期与自转周期不同，昼夜交替与地球自转有关。",
+          "source_id": "nasa-earth",
+          "text_sha256": "28cf17c3ebeae0f620d4a7dc68bef33bd659594df3d909f93e80ec50fc5d14a1",
+          "score": 2.638297,
+          "matched_terms": [
+            "地球"
+          ],
+          "source": {
+            "id": "nasa-earth",
+            "title": "NASA Earth Facts",
+            "url": "https://science.nasa.gov/earth/facts/",
+            "published_at": null,
+            "accessed_at": "2026-11-22",
+            "locator": "Quick Facts 与 Orbit and Rotation",
+            "access_method": "indexed_body"
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "moon-01",
+            "source_id": "nasa-moon",
+            "topics": [
+              "月球",
+              "天然卫星",
+              "月亮"
+            ],
+            "text": "月球是地球唯一的天然卫星，绕地球运行，平均距离约38.5万千米。月球有岩石表面和撞击坑，外逸层非常稀薄，不能供人呼吸。",
+            "score": 24.522843,
+            "matched_terms": [
+              "一的",
+              "卫星",
+              "唯一",
+              "地球",
+              "天然",
+              "然卫",
+              "球唯",
+              "的天"
+            ],
+            "source": {
+              "id": "nasa-moon",
+              "title": "NASA Moon Facts",
+              "url": "https://science.nasa.gov/moon/facts/",
+              "published_at": null,
+              "accessed_at": "2026-11-22",
+              "locator": "10 things",
+              "kind": "verified_chinese_paraphrase",
+              "original_excerpt": "The Moon is Earth's only natural satellite."
+            }
+          },
+          {
+            "id": "earth-orbit",
+            "topics": [
+              "地球",
+              "自转",
+              "公转",
+              "日夜",
+              "昼夜"
+            ],
+            "text": "地球围绕太阳公转，一周约365.25日；相对遥远恒星完成一次自转约23.9小时。公转周期与自转周期不同，昼夜交替与地球自转有关。",
+            "source_id": "nasa-earth",
+            "text_sha256": "28cf17c3ebeae0f620d4a7dc68bef33bd659594df3d909f93e80ec50fc5d14a1",
+            "score": 2.638297,
+            "matched_terms": [
+              "地球"
+            ],
+            "source": {
+              "id": "nasa-earth",
+              "title": "NASA Earth Facts",
+              "url": "https://science.nasa.gov/earth/facts/",
+              "published_at": null,
+              "accessed_at": "2026-11-22",
+              "locator": "Quick Facts 与 Orbit and Rotation",
+              "access_method": "indexed_body"
+            }
+          }
+        ],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 16,
+      "question": "第一个登上月球的人是谁？",
+      "category": "factual",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "apollo-crew直接区分阿姆斯特朗、奥尔德林和柯林斯；moon-01不是人员证据。",
+      "v2_evidence": [
+        {
+          "id": "apollo-crew",
+          "topics": [
+            "登月",
+            "月球",
+            "阿姆斯特朗",
+            "阿波罗",
+            "奥尔德林",
+            "柯林斯"
+          ],
+          "text": "1969年阿波罗11号任务中，尼尔·阿姆斯特朗成为首位踏上月球的人，巴兹·奥尔德林是第二位。迈克尔·柯林斯担任指令舱驾驶员，在月球轨道执行任务，没有踏上月面。",
+          "source_id": "nasa-apollo",
+          "text_sha256": "4ee9bb2ec28df1c53166b7fa368e0870aa3697872fb615627c485ebc9b4acb33",
+          "score": 13.415798,
+          "matched_terms": [
+            "上月",
+            "月球",
+            "球的",
+            "的人"
+          ],
+          "source": {
+            "id": "nasa-apollo",
+            "title": "NASA Apollo 11",
+            "url": "https://www.nasa.gov/mission/apollo-11/",
+            "published_at": null,
+            "accessed_at": "2026-11-22",
+            "locator": "Neil Armstrong Buzz Aldrin Michael Collins 与 Mission Overview",
+            "access_method": "direct_body"
+          }
+        },
+        {
+          "id": "moon-01",
+          "source_id": "nasa-moon",
+          "topics": [
+            "月球",
+            "天然卫星",
+            "月亮"
+          ],
+          "text": "月球是地球唯一的天然卫星，绕地球运行，平均距离约38.5万千米。月球有岩石表面和撞击坑，外逸层非常稀薄，不能供人呼吸。",
+          "score": 3.868052,
+          "matched_terms": [
+            "月球"
+          ],
+          "source": {
+            "id": "nasa-moon",
+            "title": "NASA Moon Facts",
+            "url": "https://science.nasa.gov/moon/facts/",
+            "published_at": null,
+            "accessed_at": "2026-11-22",
+            "locator": "10 things",
+            "kind": "verified_chinese_paraphrase",
+            "original_excerpt": "The Moon is Earth's only natural satellite."
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "apollo-crew",
+            "topics": [
+              "登月",
+              "月球",
+              "阿姆斯特朗",
+              "阿波罗",
+              "奥尔德林",
+              "柯林斯"
+            ],
+            "text": "1969年阿波罗11号任务中，尼尔·阿姆斯特朗成为首位踏上月球的人，巴兹·奥尔德林是第二位。迈克尔·柯林斯担任指令舱驾驶员，在月球轨道执行任务，没有踏上月面。",
+            "source_id": "nasa-apollo",
+            "text_sha256": "4ee9bb2ec28df1c53166b7fa368e0870aa3697872fb615627c485ebc9b4acb33",
+            "score": 13.415798,
+            "matched_terms": [
+              "上月",
+              "月球",
+              "球的",
+              "的人"
+            ],
+            "source": {
+              "id": "nasa-apollo",
+              "title": "NASA Apollo 11",
+              "url": "https://www.nasa.gov/mission/apollo-11/",
+              "published_at": null,
+              "accessed_at": "2026-11-22",
+              "locator": "Neil Armstrong Buzz Aldrin Michael Collins 与 Mission Overview",
+              "access_method": "direct_body"
+            }
+          },
+          {
+            "id": "moon-01",
+            "source_id": "nasa-moon",
+            "topics": [
+              "月球",
+              "天然卫星",
+              "月亮"
+            ],
+            "text": "月球是地球唯一的天然卫星，绕地球运行，平均距离约38.5万千米。月球有岩石表面和撞击坑，外逸层非常稀薄，不能供人呼吸。",
+            "score": 3.868052,
+            "matched_terms": [
+              "月球"
+            ],
+            "source": {
+              "id": "nasa-moon",
+              "title": "NASA Moon Facts",
+              "url": "https://science.nasa.gov/moon/facts/",
+              "published_at": null,
+              "accessed_at": "2026-11-22",
+              "locator": "10 things",
+              "kind": "verified_chinese_paraphrase",
+              "original_excerpt": "The Moon is Earth's only natural satellite."
+            }
+          }
+        ],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 17,
+      "question": "世界上最深的海沟是哪个？",
+      "category": "factual",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "trench-depth给出挑战者深渊属于马里亚纳海沟及世界最深处关系；不可把深渊改称海沟。",
+      "v2_evidence": [
+        {
+          "id": "trench-depth",
+          "topics": [
+            "海沟",
+            "马里亚纳",
+            "挑战者",
+            "Challenger"
+          ],
+          "text": "挑战者深渊位于马里亚纳海沟，是该海沟及世界海洋最深处，深度约11000米。它位于西太平洋菲律宾以东的马里亚纳群岛附近海域。",
+          "source_id": "noaa-trench",
+          "text_sha256": "ce304f3a201247f6a7b6f16acf6c0ab5b50a31da784be5c28ee6a9a77cfcdc39",
+          "score": 10.422643,
+          "matched_terms": [
+            "世界",
+            "最深",
+            "海沟"
+          ],
+          "source": {
+            "id": "noaa-trench",
+            "title": "NOAA Mariana Trench Marine National Monument",
+            "url": "https://www.fisheries.noaa.gov/pacific-islands/habitat-conservation/mariana-trench-marine-national-monument",
+            "published_at": null,
+            "accessed_at": "2026-11-22",
+            "locator": "Challenger Deep段落",
+            "access_method": "indexed_body"
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "trench-depth",
+            "topics": [
+              "海沟",
+              "马里亚纳",
+              "挑战者",
+              "Challenger"
+            ],
+            "text": "挑战者深渊位于马里亚纳海沟，是该海沟及世界海洋最深处，深度约11000米。它位于西太平洋菲律宾以东的马里亚纳群岛附近海域。",
+            "source_id": "noaa-trench",
+            "text_sha256": "ce304f3a201247f6a7b6f16acf6c0ab5b50a31da784be5c28ee6a9a77cfcdc39",
+            "score": 10.422643,
+            "matched_terms": [
+              "世界",
+              "最深",
+              "海沟"
+            ],
+            "source": {
+              "id": "noaa-trench",
+              "title": "NOAA Mariana Trench Marine National Monument",
+              "url": "https://www.fisheries.noaa.gov/pacific-islands/habitat-conservation/mariana-trench-marine-national-monument",
+              "published_at": null,
+              "accessed_at": "2026-11-22",
+              "locator": "Challenger Deep段落",
+              "access_method": "indexed_body"
+            }
+          }
+        ],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 18,
+      "question": "声音能在真空中传播吗？",
+      "category": "factual",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "机械波片段直接说明声音需要介质；电磁波片段只提供对照。",
+      "v2_evidence": [
+        {
+          "id": "waves-mechanical",
+          "topics": [
+            "声波",
+            "声音",
+            "真空",
+            "机械波",
+            "介质"
+          ],
+          "text": "声波是机械波，需要物质介质传递扰动；真空中没有传递声波的介质，因此声音不能在真空中传播。机械波传递能量，并不等于把介质整体搬运到远处。",
+          "source_id": "nasa-waves",
+          "text_sha256": "5509f03ea97154ccb109febca5bbf779d72485977413de8f067951077ab4953d",
+          "score": 20.247681,
+          "matched_terms": [
+            "中传",
+            "传播",
+            "在真",
+            "声音",
+            "真空",
+            "空中",
+            "能在"
+          ],
+          "source": {
+            "id": "nasa-waves",
+            "title": "NASA Anatomy of an Electromagnetic Wave",
+            "url": "https://science.nasa.gov/ems/02_anatomy/",
+            "published_at": null,
+            "accessed_at": "2026-11-22",
+            "locator": "Mechanical Waves 与 Electromagnetic Waves",
+            "access_method": "indexed_body"
+          }
+        },
+        {
+          "id": "waves-electromagnetic",
+          "topics": [
+            "电磁波",
+            "真空",
+            "电场",
+            "磁场",
+            "光波"
+          ],
+          "text": "变化的电场与磁场相互联系，形成电磁波。电磁波传播不要求物质介质，可以穿过真空；这一点与声波等机械波不同。",
+          "source_id": "nasa-waves",
+          "text_sha256": "11d89f09a240eddb7d94e85136cf7c388b5741fa3ffc37484cce64ca5858c516",
+          "score": 4.781562,
+          "matched_terms": [
+            "传播",
+            "真空"
+          ],
+          "source": {
+            "id": "nasa-waves",
+            "title": "NASA Anatomy of an Electromagnetic Wave",
+            "url": "https://science.nasa.gov/ems/02_anatomy/",
+            "published_at": null,
+            "accessed_at": "2026-11-22",
+            "locator": "Mechanical Waves 与 Electromagnetic Waves",
+            "access_method": "indexed_body"
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "waves-mechanical",
+            "topics": [
+              "声波",
+              "声音",
+              "真空",
+              "机械波",
+              "介质"
+            ],
+            "text": "声波是机械波，需要物质介质传递扰动；真空中没有传递声波的介质，因此声音不能在真空中传播。机械波传递能量，并不等于把介质整体搬运到远处。",
+            "source_id": "nasa-waves",
+            "text_sha256": "5509f03ea97154ccb109febca5bbf779d72485977413de8f067951077ab4953d",
+            "score": 20.247681,
+            "matched_terms": [
+              "中传",
+              "传播",
+              "在真",
+              "声音",
+              "真空",
+              "空中",
+              "能在"
+            ],
+            "source": {
+              "id": "nasa-waves",
+              "title": "NASA Anatomy of an Electromagnetic Wave",
+              "url": "https://science.nasa.gov/ems/02_anatomy/",
+              "published_at": null,
+              "accessed_at": "2026-11-22",
+              "locator": "Mechanical Waves 与 Electromagnetic Waves",
+              "access_method": "indexed_body"
+            }
+          },
+          {
+            "id": "waves-electromagnetic",
+            "topics": [
+              "电磁波",
+              "真空",
+              "电场",
+              "磁场",
+              "光波"
+            ],
+            "text": "变化的电场与磁场相互联系，形成电磁波。电磁波传播不要求物质介质，可以穿过真空；这一点与声波等机械波不同。",
+            "source_id": "nasa-waves",
+            "text_sha256": "11d89f09a240eddb7d94e85136cf7c388b5741fa3ffc37484cce64ca5858c516",
+            "score": 4.781562,
+            "matched_terms": [
+              "传播",
+              "真空"
+            ],
+            "source": {
+              "id": "nasa-waves",
+              "title": "NASA Anatomy of an Electromagnetic Wave",
+              "url": "https://science.nasa.gov/ems/02_anatomy/",
+              "published_at": null,
+              "accessed_at": "2026-11-22",
+              "locator": "Mechanical Waves 与 Electromagnetic Waves",
+              "access_method": "indexed_body"
+            }
+          }
+        ],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 27,
+      "question": "请介绍2023年诺贝尔文学奖得主“李华”的代表作品。",
+      "category": "fictional_entity",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_premise_correction_only",
+      "basis": "年度公告支持福瑟获奖并可纠正题设身份；不支持李华的身份或代表作。",
+      "v2_evidence": [
+        {
+          "id": "nobel-literature-2023",
+          "topics": [
+            "诺贝尔文学奖",
+            "约恩·福瑟",
+            "福瑟",
+            "Jon Fosse"
+          ],
+          "scope": {
+            "kind": "award_record",
+            "award_category": "literature",
+            "award_year": 2023,
+            "subject_aliases": [
+              "福瑟",
+              "Jon Fosse"
+            ]
+          },
+          "text": "瑞典文学院2023年10月5日公告将2023年度诺贝尔文学奖授予挪威作家约恩·福瑟（Jon Fosse），表彰其富有创新性的戏剧与散文，赋予难以言说的事物以声音。此公告支持该年度文学奖的获奖者和理由，不是其他年份或其他奖项类别的名单。",
+          "source_id": "nobel-literature-2023-release",
+          "text_sha256": "42e1dc6c934598dd8864667e49b37e95052b756161e9e0361748eeeaaacd3a25",
+          "score": 14.41466,
+          "matched_terms": [
+            "2023",
+            "学奖",
+            "尔文",
+            "文学",
+            "诺贝",
+            "贝尔"
+          ],
+          "source": {
+            "id": "nobel-literature-2023-release",
+            "title": "The Nobel Prize in Literature 2023 — Press release",
+            "url": "https://www.nobelprize.org/uploads/2023/10/press-literatureprize2023.pdf",
+            "published_at": "2023-10-05",
+            "accessed_at": "2026-11-23",
+            "access_method": "indexed_body",
+            "locator": "第1页Jon Fosse名单及颁奖理由",
+            "original_excerpt": "The Nobel Prize in Literature for 2023 is awarded to the Norwegian author Jon Fosse"
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "nobel-literature-2023",
+            "topics": [
+              "诺贝尔文学奖",
+              "约恩·福瑟",
+              "福瑟",
+              "Jon Fosse"
+            ],
+            "scope": {
+              "kind": "award_record",
+              "award_category": "literature",
+              "award_year": 2023,
+              "subject_aliases": [
+                "福瑟",
+                "Jon Fosse"
+              ]
+            },
+            "text": "瑞典文学院2023年10月5日公告将2023年度诺贝尔文学奖授予挪威作家约恩·福瑟（Jon Fosse），表彰其富有创新性的戏剧与散文，赋予难以言说的事物以声音。此公告支持该年度文学奖的获奖者和理由，不是其他年份或其他奖项类别的名单。",
+            "source_id": "nobel-literature-2023-release",
+            "text_sha256": "42e1dc6c934598dd8864667e49b37e95052b756161e9e0361748eeeaaacd3a25",
+            "score": 14.41466,
+            "matched_terms": [
+              "2023",
+              "学奖",
+              "尔文",
+              "文学",
+              "诺贝",
+              "贝尔"
+            ],
+            "source": {
+              "id": "nobel-literature-2023-release",
+              "title": "The Nobel Prize in Literature 2023 — Press release",
+              "url": "https://www.nobelprize.org/uploads/2023/10/press-literatureprize2023.pdf",
+              "published_at": "2023-10-05",
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "locator": "第1页Jon Fosse名单及颁奖理由",
+              "original_excerpt": "The Nobel Prize in Literature for 2023 is awarded to the Norwegian author Jon Fosse"
+            }
+          }
+        ],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 28,
+      "question": "请介绍著名物理学家“王明远”在相对论研究领域的主要贡献。",
+      "category": "fictional_entity",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "topic_only_insufficient",
+      "basis": "相对论主题相关，但没有王明远身份或贡献资料；不能迁移爱因斯坦事迹。",
+      "v2_evidence": [
+        {
+          "id": "nobel-einstein-relativity-history",
+          "topics": [
+            "爱因斯坦",
+            "Einstein",
+            "相对论",
+            "时空"
+          ],
+          "scope": {
+            "kind": "scientific_history",
+            "subject_aliases": [
+              "爱因斯坦",
+              "Einstein"
+            ]
+          },
+          "text": "官方物理学奖历史介绍，爱因斯坦在1905年发展狭义相对论，随后在下一个十年继续发展广义相对论，将引力与时空结构联系起来。同一历史资料另将他的1921年度物理学奖与光电效应工作联系，而非把相对论提出年份当作获奖年份。",
+          "source_id": "nobel-physics-history",
+          "text_sha256": "285afb93b7fcc0164a7856f4ea537b06dc4123fc5a225e79f75821e72b4f7c28",
+          "score": 9.934783,
+          "matched_terms": [
+            "对论",
+            "物理",
+            "理学",
+            "相对"
+          ],
+          "source": {
+            "id": "nobel-physics-history",
+            "title": "NobelPrize.org The Nobel Prize in Physics 1901-2000",
+            "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+            "published_at": "2000-02-09",
+            "accessed_at": "2026-11-23",
+            "access_method": "indexed_body",
+            "direct_access_status": "403",
+            "locator": "From classical to quantum physics及Microcosmos and macrocosmos中Einstein段落",
+            "original_excerpt": "Einstein received the Physics Prize for 1921 (awarded in 1922)."
+          }
+        },
+        {
+          "id": "relativity-general",
+          "topics": [
+            "相对论",
+            "广义相对",
+            "引力",
+            "时空"
+          ],
+          "text": "广义相对论把相对论扩展到包含加速与引力的情形，用时空曲率描述引力，并预言黑洞、引力波及引力透镜等现象。",
+          "source_id": "nasa-relativity",
+          "text_sha256": "308b278efb3db5e8de4ba1225e598c2dec8fbfcf4d243af92e5ff525f07c29be",
+          "score": 6.067866,
+          "matched_terms": [
+            "对论",
+            "相对"
+          ],
+          "source": {
+            "id": "nasa-relativity",
+            "title": "NASA Universe Glossary",
+            "url": "https://science.nasa.gov/universe/glossary/",
+            "published_at": null,
+            "accessed_at": "2026-11-22",
+            "locator": "relativity条目",
+            "access_method": "indexed_body"
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "nobel-einstein-relativity-history",
+            "topics": [
+              "爱因斯坦",
+              "Einstein",
+              "相对论",
+              "时空"
+            ],
+            "scope": {
+              "kind": "scientific_history",
+              "subject_aliases": [
+                "爱因斯坦",
+                "Einstein"
+              ]
+            },
+            "text": "官方物理学奖历史介绍，爱因斯坦在1905年发展狭义相对论，随后在下一个十年继续发展广义相对论，将引力与时空结构联系起来。同一历史资料另将他的1921年度物理学奖与光电效应工作联系，而非把相对论提出年份当作获奖年份。",
+            "source_id": "nobel-physics-history",
+            "text_sha256": "285afb93b7fcc0164a7856f4ea537b06dc4123fc5a225e79f75821e72b4f7c28",
+            "score": 9.934783,
+            "matched_terms": [
+              "对论",
+              "物理",
+              "理学",
+              "相对"
+            ],
+            "source": {
+              "id": "nobel-physics-history",
+              "title": "NobelPrize.org The Nobel Prize in Physics 1901-2000",
+              "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+              "published_at": "2000-02-09",
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "direct_access_status": "403",
+              "locator": "From classical to quantum physics及Microcosmos and macrocosmos中Einstein段落",
+              "original_excerpt": "Einstein received the Physics Prize for 1921 (awarded in 1922)."
+            }
+          },
+          {
+            "id": "relativity-general",
+            "topics": [
+              "相对论",
+              "广义相对",
+              "引力",
+              "时空"
+            ],
+            "text": "广义相对论把相对论扩展到包含加速与引力的情形，用时空曲率描述引力，并预言黑洞、引力波及引力透镜等现象。",
+            "source_id": "nasa-relativity",
+            "text_sha256": "308b278efb3db5e8de4ba1225e598c2dec8fbfcf4d243af92e5ff525f07c29be",
+            "score": 6.067866,
+            "matched_terms": [
+              "对论",
+              "相对"
+            ],
+            "source": {
+              "id": "nasa-relativity",
+              "title": "NASA Universe Glossary",
+              "url": "https://science.nasa.gov/universe/glossary/",
+              "published_at": null,
+              "accessed_at": "2026-11-22",
+              "locator": "relativity条目",
+              "access_method": "indexed_body"
+            }
+          }
+        ],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 29,
+      "question": "诺贝尔物理学奖得主“陈晓东”是因为什么研究获得该奖项的？",
+      "category": "fictional_entity",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "no_retrieved_evidence",
+      "basis": "无题设人物获奖资料；不证明该姓名人物不存在。",
+      "v2_evidence": [],
+      "year_alias_diagnostics": {
+        "hits": [],
+        "rejected": [
+          {
+            "chunk_id": "nobel-physics-repeat-through-2025",
+            "reason": "statistics_outside_query_scope"
+          },
+          {
+            "chunk_id": "nobel-physics-2023",
+            "reason": "quoted_subject_not_in_record"
+          },
+          {
+            "chunk_id": "nobel-physics-2022",
+            "reason": "quoted_subject_not_in_record"
+          }
+        ],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 32,
+      "question": "请介绍“星辰科技”公司发布的“量子手机星耀X”的主要性能参数和售价。",
+      "category": "fictional_entity",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "no_retrieved_evidence",
+      "basis": "无该公司产品参数；不证明实体不存在。",
+      "v2_evidence": [],
+      "year_alias_diagnostics": {
+        "hits": [],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 38,
+      "question": "在特斯拉2025年度报告列出的在产乘用车型中，是否包括Model Z？能否据该报告给出该车型续航和售价？",
+      "category": "fictional_entity",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "no_retrieved_evidence",
+      "basis": "指定2025年报未入检索库，不能声称据该报告已核实。",
+      "v2_evidence": [],
+      "year_alias_diagnostics": {
+        "hits": [],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 48,
+      "question": "诺贝尔化学奖得主“刘建平”是因为什么研究获奖的？",
+      "category": "fictional_entity",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "no_retrieved_evidence",
+      "basis": "无题设人物化学奖资料，不支持获奖身份。",
+      "v2_evidence": [],
+      "year_alias_diagnostics": {
+        "hits": [],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 64,
+      "question": "2023年诺贝尔物理学奖授予了谁（表彰哪个领域）？",
+      "category": "time_sensitive",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "2023年度物理学奖名单与研究领域均在单条公告中。",
+      "v2_evidence": [
+        {
+          "id": "nobel-physics-2023",
+          "topics": [
+            "诺贝尔物理学奖",
+            "阿戈斯蒂尼",
+            "克劳斯",
+            "吕利耶",
+            "Agostini",
+            "Krausz",
+            "Huillier",
+            "阿秒"
+          ],
+          "scope": {
+            "kind": "award_record",
+            "award_category": "physics",
+            "award_year": 2023,
+            "subject_aliases": [
+              "阿戈斯蒂尼",
+              "克劳斯",
+              "吕利耶",
+              "Agostini",
+              "Krausz",
+              "Huillier"
+            ]
+          },
+          "text": "2023年度诺贝尔物理学奖授予皮埃尔·阿戈斯蒂尼（Pierre Agostini）、费伦茨·克劳斯（Ferenc Krausz）和安妮·吕利耶（Anne L’Huillier）。获奖工作是产生阿秒光脉冲的实验方法，用于研究物质中的电子动力学，能够探测电子运动或能量变化等极快过程。",
+          "source_id": "nobel-physics-2023-release",
+          "text_sha256": "9a77eec4aa93fb28b88effc8a588a5b3c08ad93ae72cbabb24cd08ed803f878d",
+          "score": 14.354666,
+          "matched_terms": [
+            "2023",
+            "奖授",
+            "学奖",
+            "尔物",
+            "授予",
+            "物理",
+            "理学",
+            "诺贝",
+            "贝尔"
+          ],
+          "source": {
+            "id": "nobel-physics-2023-release",
+            "title": "The Nobel Prize in Physics 2023 — Press release",
+            "url": "https://www.nobelprize.org/prizes/physics/2023/press-release/",
+            "published_at": "2023-10-03",
+            "accessed_at": "2026-11-23",
+            "access_method": "indexed_body",
+            "locator": "公告开头名单与Experiments with light capture the shortest of moments",
+            "original_excerpt": "Pierre Agostini, Ferenc Krausz and Anne L’Huillier"
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "nobel-physics-2023",
+            "topics": [
+              "诺贝尔物理学奖",
+              "阿戈斯蒂尼",
+              "克劳斯",
+              "吕利耶",
+              "Agostini",
+              "Krausz",
+              "Huillier",
+              "阿秒"
+            ],
+            "scope": {
+              "kind": "award_record",
+              "award_category": "physics",
+              "award_year": 2023,
+              "subject_aliases": [
+                "阿戈斯蒂尼",
+                "克劳斯",
+                "吕利耶",
+                "Agostini",
+                "Krausz",
+                "Huillier"
+              ]
+            },
+            "text": "2023年度诺贝尔物理学奖授予皮埃尔·阿戈斯蒂尼（Pierre Agostini）、费伦茨·克劳斯（Ferenc Krausz）和安妮·吕利耶（Anne L’Huillier）。获奖工作是产生阿秒光脉冲的实验方法，用于研究物质中的电子动力学，能够探测电子运动或能量变化等极快过程。",
+            "source_id": "nobel-physics-2023-release",
+            "text_sha256": "9a77eec4aa93fb28b88effc8a588a5b3c08ad93ae72cbabb24cd08ed803f878d",
+            "score": 14.354666,
+            "matched_terms": [
+              "2023",
+              "奖授",
+              "学奖",
+              "尔物",
+              "授予",
+              "物理",
+              "理学",
+              "诺贝",
+              "贝尔"
+            ],
+            "source": {
+              "id": "nobel-physics-2023-release",
+              "title": "The Nobel Prize in Physics 2023 — Press release",
+              "url": "https://www.nobelprize.org/prizes/physics/2023/press-release/",
+              "published_at": "2023-10-03",
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "locator": "公告开头名单与Experiments with light capture the shortest of moments",
+              "original_excerpt": "Pierre Agostini, Ferenc Krausz and Anne L’Huillier"
+            }
+          }
+        ],
+        "rejected": [
+          {
+            "chunk_id": "nobel-physics-2022",
+            "reason": "award_year_mismatch"
+          },
+          {
+            "chunk_id": "nobel-physics-repeat-through-2025",
+            "reason": "statistics_outside_query_scope"
+          }
+        ],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 66,
+      "question": "2022年诺贝尔物理学奖授予了谁（表彰哪个领域）？",
+      "category": "time_sensitive",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "2022年度物理学奖名单与研究领域均在单条公告中。",
+      "v2_evidence": [
+        {
+          "id": "nobel-physics-2022",
+          "topics": [
+            "诺贝尔物理学奖",
+            "阿斯佩",
+            "克劳泽",
+            "蔡林格",
+            "Aspect",
+            "Clauser",
+            "Zeilinger",
+            "量子纠缠"
+          ],
+          "scope": {
+            "kind": "award_record",
+            "award_category": "physics",
+            "award_year": 2022,
+            "subject_aliases": [
+              "阿斯佩",
+              "克劳泽",
+              "蔡林格",
+              "Aspect",
+              "Clauser",
+              "Zeilinger"
+            ]
+          },
+          "text": "2022年度诺贝尔物理学奖授予阿兰·阿斯佩（Alain Aspect）、约翰·克劳泽（John F. Clauser）和安东·蔡林格（Anton Zeilinger）。获奖工作涉及纠缠光子实验、验证贝尔不等式的违背，以及开创量子信息科学。这里的贝尔不等式属于物理学概念，不是电话发明史。",
+          "source_id": "nobel-physics-2022-release",
+          "text_sha256": "0b05d114163fbe48f7939bf155598c2b4796502881ace0eed5dde5900c028f62",
+          "score": 17.213041,
+          "matched_terms": [
+            "2022",
+            "奖授",
+            "学奖",
+            "尔物",
+            "授予",
+            "物理",
+            "理学",
+            "诺贝",
+            "贝尔"
+          ],
+          "source": {
+            "id": "nobel-physics-2022-release",
+            "title": "The Nobel Prize in Physics 2022 — Press release",
+            "url": "https://www.nobelprize.org/uploads/2022/10/press-physicsprize2022.pdf",
+            "published_at": "2022-10-04",
+            "accessed_at": "2026-11-23",
+            "access_method": "indexed_body",
+            "locator": "第1页获奖人名单及颁奖理由",
+            "original_excerpt": "Alain Aspect, John Clauser and Anton Zeilinger"
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "nobel-physics-2022",
+            "topics": [
+              "诺贝尔物理学奖",
+              "阿斯佩",
+              "克劳泽",
+              "蔡林格",
+              "Aspect",
+              "Clauser",
+              "Zeilinger",
+              "量子纠缠"
+            ],
+            "scope": {
+              "kind": "award_record",
+              "award_category": "physics",
+              "award_year": 2022,
+              "subject_aliases": [
+                "阿斯佩",
+                "克劳泽",
+                "蔡林格",
+                "Aspect",
+                "Clauser",
+                "Zeilinger"
+              ]
+            },
+            "text": "2022年度诺贝尔物理学奖授予阿兰·阿斯佩（Alain Aspect）、约翰·克劳泽（John F. Clauser）和安东·蔡林格（Anton Zeilinger）。获奖工作涉及纠缠光子实验、验证贝尔不等式的违背，以及开创量子信息科学。这里的贝尔不等式属于物理学概念，不是电话发明史。",
+            "source_id": "nobel-physics-2022-release",
+            "text_sha256": "0b05d114163fbe48f7939bf155598c2b4796502881ace0eed5dde5900c028f62",
+            "score": 17.213041,
+            "matched_terms": [
+              "2022",
+              "奖授",
+              "学奖",
+              "尔物",
+              "授予",
+              "物理",
+              "理学",
+              "诺贝",
+              "贝尔"
+            ],
+            "source": {
+              "id": "nobel-physics-2022-release",
+              "title": "The Nobel Prize in Physics 2022 — Press release",
+              "url": "https://www.nobelprize.org/uploads/2022/10/press-physicsprize2022.pdf",
+              "published_at": "2022-10-04",
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "locator": "第1页获奖人名单及颁奖理由",
+              "original_excerpt": "Alain Aspect, John Clauser and Anton Zeilinger"
+            }
+          }
+        ],
+        "rejected": [
+          {
+            "chunk_id": "nobel-physics-repeat-through-2025",
+            "reason": "statistics_outside_query_scope"
+          },
+          {
+            "chunk_id": "nobel-physics-2023",
+            "reason": "award_year_mismatch"
+          }
+        ],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 74,
+      "question": "2020年诺贝尔物理学奖授予了谁（表彰哪个领域）？",
+      "category": "time_sensitive",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "no_retrieved_evidence",
+      "basis": "该库没有2020年度物理学奖记录，不应借2022/2023名单回答。",
+      "v2_evidence": [],
+      "year_alias_diagnostics": {
+        "hits": [],
+        "rejected": [
+          {
+            "chunk_id": "nobel-physics-2022",
+            "reason": "award_year_mismatch"
+          },
+          {
+            "chunk_id": "nobel-physics-repeat-through-2025",
+            "reason": "statistics_outside_query_scope"
+          },
+          {
+            "chunk_id": "nobel-physics-2023",
+            "reason": "award_year_mismatch"
+          }
+        ],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 76,
+      "question": "既然牛顿是相对论的提出者，那么请介绍他的理论。",
+      "category": "false_premise",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "相对论史和狭义相对论片段指向爱因斯坦，足以纠正牛顿提出相对论的前提。",
+      "v2_evidence": [
+        {
+          "id": "nobel-einstein-relativity-history",
+          "topics": [
+            "爱因斯坦",
+            "Einstein",
+            "相对论",
+            "时空"
+          ],
+          "scope": {
+            "kind": "scientific_history",
+            "subject_aliases": [
+              "爱因斯坦",
+              "Einstein"
+            ]
+          },
+          "text": "官方物理学奖历史介绍，爱因斯坦在1905年发展狭义相对论，随后在下一个十年继续发展广义相对论，将引力与时空结构联系起来。同一历史资料另将他的1921年度物理学奖与光电效应工作联系，而非把相对论提出年份当作获奖年份。",
+          "source_id": "nobel-physics-history",
+          "text_sha256": "285afb93b7fcc0164a7856f4ea537b06dc4123fc5a225e79f75821e72b4f7c28",
+          "score": 10.126365,
+          "matched_terms": [
+            "他的",
+            "对论",
+            "提出",
+            "相对"
+          ],
+          "source": {
+            "id": "nobel-physics-history",
+            "title": "NobelPrize.org The Nobel Prize in Physics 1901-2000",
+            "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+            "published_at": "2000-02-09",
+            "accessed_at": "2026-11-23",
+            "access_method": "indexed_body",
+            "direct_access_status": "403",
+            "locator": "From classical to quantum physics及Microcosmos and macrocosmos中Einstein段落",
+            "original_excerpt": "Einstein received the Physics Prize for 1921 (awarded in 1922)."
+          }
+        },
+        {
+          "id": "relativity-special",
+          "topics": [
+            "相对论",
+            "爱因斯坦",
+            "光速不变",
+            "狭义相对"
+          ],
+          "text": "狭义相对论由爱因斯坦在1905年提出，其原理包括匀速直线运动的相对性，以及所有观测者测得的真空光速相同。质能关系E=mc²与这一理论有关。",
+          "source_id": "nasa-relativity",
+          "text_sha256": "6bfa0ee0b10ef4c1a3f8d10ae4152822516208fc172c2fd0854b447c01104db4",
+          "score": 9.886936,
+          "matched_terms": [
+            "对论",
+            "提出",
+            "理论",
+            "相对"
+          ],
+          "source": {
+            "id": "nasa-relativity",
+            "title": "NASA Universe Glossary",
+            "url": "https://science.nasa.gov/universe/glossary/",
+            "published_at": null,
+            "accessed_at": "2026-11-22",
+            "locator": "relativity条目",
+            "access_method": "indexed_body"
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "nobel-einstein-relativity-history",
+            "topics": [
+              "爱因斯坦",
+              "Einstein",
+              "相对论",
+              "时空"
+            ],
+            "scope": {
+              "kind": "scientific_history",
+              "subject_aliases": [
+                "爱因斯坦",
+                "Einstein"
+              ]
+            },
+            "text": "官方物理学奖历史介绍，爱因斯坦在1905年发展狭义相对论，随后在下一个十年继续发展广义相对论，将引力与时空结构联系起来。同一历史资料另将他的1921年度物理学奖与光电效应工作联系，而非把相对论提出年份当作获奖年份。",
+            "source_id": "nobel-physics-history",
+            "text_sha256": "285afb93b7fcc0164a7856f4ea537b06dc4123fc5a225e79f75821e72b4f7c28",
+            "score": 10.126365,
+            "matched_terms": [
+              "他的",
+              "对论",
+              "提出",
+              "相对"
+            ],
+            "source": {
+              "id": "nobel-physics-history",
+              "title": "NobelPrize.org The Nobel Prize in Physics 1901-2000",
+              "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+              "published_at": "2000-02-09",
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "direct_access_status": "403",
+              "locator": "From classical to quantum physics及Microcosmos and macrocosmos中Einstein段落",
+              "original_excerpt": "Einstein received the Physics Prize for 1921 (awarded in 1922)."
+            }
+          },
+          {
+            "id": "relativity-special",
+            "topics": [
+              "相对论",
+              "爱因斯坦",
+              "光速不变",
+              "狭义相对"
+            ],
+            "text": "狭义相对论由爱因斯坦在1905年提出，其原理包括匀速直线运动的相对性，以及所有观测者测得的真空光速相同。质能关系E=mc²与这一理论有关。",
+            "source_id": "nasa-relativity",
+            "text_sha256": "6bfa0ee0b10ef4c1a3f8d10ae4152822516208fc172c2fd0854b447c01104db4",
+            "score": 9.886936,
+            "matched_terms": [
+              "对论",
+              "提出",
+              "理论",
+              "相对"
+            ],
+            "source": {
+              "id": "nasa-relativity",
+              "title": "NASA Universe Glossary",
+              "url": "https://science.nasa.gov/universe/glossary/",
+              "published_at": null,
+              "accessed_at": "2026-11-22",
+              "locator": "relativity条目",
+              "access_method": "indexed_body"
+            }
+          }
+        ],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 84,
+      "question": "既然蒸汽机是瓦特发明的，请介绍他发明蒸汽机的时间。",
+      "category": "false_premise",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "steam-history明确纽科门早于瓦特且瓦特为改进者；steam-use的1776—1778不是最初发明时间。",
+      "v2_evidence": [
+        {
+          "id": "steam-history",
+          "topics": [
+            "蒸汽机",
+            "瓦特",
+            "纽科门",
+            "Newcomen",
+            "Watt"
+          ],
+          "text": "纽科门与合作者约在1712年制造了成功的大气式蒸汽机，早于瓦特的机型。瓦特在蒸汽机发展中作出重要改进，不能将蒸汽机最初发明简单归为瓦特。",
+          "source_id": "smithsonian-steam",
+          "text_sha256": "c41e9dffdce49902316c28f55eca25a5b0540da9b8d4358bb827b91edd4308ec",
+          "score": 14.542458,
+          "matched_terms": [
+            "发明",
+            "汽机",
+            "瓦特",
+            "蒸汽"
+          ],
+          "source": {
+            "id": "smithsonian-steam",
+            "title": "Smithsonian机械馆藏目录",
+            "url": "https://repository.si.edu/bitstream/handle/10088/10218/1/USNMB_1731939_unit.pdf",
+            "published_at": null,
+            "publication_year": 1939,
+            "accessed_at": "2026-11-22",
+            "locator": "Thomas Newcomen 与 Watt Pumping Engine",
+            "access_method": "indexed_body"
+          }
+        },
+        {
+          "id": "steam-use",
+          "topics": [
+            "蒸汽机",
+            "瓦特",
+            "运河",
+            "抽水"
+          ],
+          "text": "博尔顿与瓦特约1776至1778年为伯明翰运河公司设计建造抽水蒸汽机，把水从低处提升到高处，以支持船闸运行。",
+          "source_id": "smithsonian-steam",
+          "text_sha256": "61f36b01079d18eb550fd7abeb4c3a475950751a17d8f91402d67dcca609ced1",
+          "score": 8.644795,
+          "matched_terms": [
+            "汽机",
+            "瓦特",
+            "蒸汽"
+          ],
+          "source": {
+            "id": "smithsonian-steam",
+            "title": "Smithsonian机械馆藏目录",
+            "url": "https://repository.si.edu/bitstream/handle/10088/10218/1/USNMB_1731939_unit.pdf",
+            "published_at": null,
+            "publication_year": 1939,
+            "accessed_at": "2026-11-22",
+            "locator": "Thomas Newcomen 与 Watt Pumping Engine",
+            "access_method": "indexed_body"
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "steam-history",
+            "topics": [
+              "蒸汽机",
+              "瓦特",
+              "纽科门",
+              "Newcomen",
+              "Watt"
+            ],
+            "text": "纽科门与合作者约在1712年制造了成功的大气式蒸汽机，早于瓦特的机型。瓦特在蒸汽机发展中作出重要改进，不能将蒸汽机最初发明简单归为瓦特。",
+            "source_id": "smithsonian-steam",
+            "text_sha256": "c41e9dffdce49902316c28f55eca25a5b0540da9b8d4358bb827b91edd4308ec",
+            "score": 14.542458,
+            "matched_terms": [
+              "发明",
+              "汽机",
+              "瓦特",
+              "蒸汽"
+            ],
+            "source": {
+              "id": "smithsonian-steam",
+              "title": "Smithsonian机械馆藏目录",
+              "url": "https://repository.si.edu/bitstream/handle/10088/10218/1/USNMB_1731939_unit.pdf",
+              "published_at": null,
+              "publication_year": 1939,
+              "accessed_at": "2026-11-22",
+              "locator": "Thomas Newcomen 与 Watt Pumping Engine",
+              "access_method": "indexed_body"
+            }
+          },
+          {
+            "id": "steam-use",
+            "topics": [
+              "蒸汽机",
+              "瓦特",
+              "运河",
+              "抽水"
+            ],
+            "text": "博尔顿与瓦特约1776至1778年为伯明翰运河公司设计建造抽水蒸汽机，把水从低处提升到高处，以支持船闸运行。",
+            "source_id": "smithsonian-steam",
+            "text_sha256": "61f36b01079d18eb550fd7abeb4c3a475950751a17d8f91402d67dcca609ced1",
+            "score": 8.644795,
+            "matched_terms": [
+              "汽机",
+              "瓦特",
+              "蒸汽"
+            ],
+            "source": {
+              "id": "smithsonian-steam",
+              "title": "Smithsonian机械馆藏目录",
+              "url": "https://repository.si.edu/bitstream/handle/10088/10218/1/USNMB_1731939_unit.pdf",
+              "published_at": null,
+              "publication_year": 1939,
+              "accessed_at": "2026-11-22",
+              "locator": "Thomas Newcomen 与 Watt Pumping Engine",
+              "access_method": "indexed_body"
+            }
+          }
+        ],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 94,
+      "question": "请介绍发明电灯的牛顿。",
+      "category": "false_premise",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "topic_only_insufficient",
+      "basis": "灯史支持多位发明者的改进，未给牛顿生平或直接身份记录；不能据此编造人物介绍。",
+      "v2_evidence": [
+        {
+          "id": "light-01",
+          "source_id": "doe-light",
+          "topics": [
+            "电灯",
+            "灯泡",
+            "白炽灯",
+            "爱迪生",
+            "斯旺"
+          ],
+          "text": "电灯的发展是许多发明者持续改进的结果，不能归功于单一发明者。爱迪生团队改进了白炽灯灯丝与真空技术，并推动商业化；斯旺等人也作出了贡献。",
+          "score": 8.211621,
+          "matched_terms": [
+            "发明",
+            "灯的",
+            "电灯"
+          ],
+          "source": {
+            "id": "doe-light",
+            "title": "US Department of Energy The History of the Light Bulb",
+            "url": "https://www.energy.gov/articles/history-light-bulb",
+            "published_at": "2013-11-22",
+            "accessed_at": "2026-11-22",
+            "locator": "Incandescent Bulbs Light the Way 前后段落",
+            "kind": "verified_chinese_paraphrase",
+            "original_excerpt": "Like all great inventions, the light bulb can’t be credited to one inventor."
+          }
+        },
+        {
+          "id": "light-02",
+          "source_id": "doe-light",
+          "topics": [
+            "电灯",
+            "灯泡",
+            "白炽灯",
+            "爱迪生"
+          ],
+          "text": "爱迪生不仅改进灯泡，还发展了使电灯实用的配套系统，包括发电、配电和计量。电灯商业化涉及灯泡和电力系统的共同发展。",
+          "score": 3.819557,
+          "matched_terms": [
+            "电灯"
+          ],
+          "source": {
+            "id": "doe-light",
+            "title": "US Department of Energy The History of the Light Bulb",
+            "url": "https://www.energy.gov/articles/history-light-bulb",
+            "published_at": "2013-11-22",
+            "accessed_at": "2026-11-22",
+            "locator": "Incandescent Bulbs Light the Way 前后段落",
+            "kind": "verified_chinese_paraphrase",
+            "original_excerpt": "Like all great inventions, the light bulb can’t be credited to one inventor."
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "light-01",
+            "source_id": "doe-light",
+            "topics": [
+              "电灯",
+              "灯泡",
+              "白炽灯",
+              "爱迪生",
+              "斯旺"
+            ],
+            "text": "电灯的发展是许多发明者持续改进的结果，不能归功于单一发明者。爱迪生团队改进了白炽灯灯丝与真空技术，并推动商业化；斯旺等人也作出了贡献。",
+            "score": 8.211621,
+            "matched_terms": [
+              "发明",
+              "灯的",
+              "电灯"
+            ],
+            "source": {
+              "id": "doe-light",
+              "title": "US Department of Energy The History of the Light Bulb",
+              "url": "https://www.energy.gov/articles/history-light-bulb",
+              "published_at": "2013-11-22",
+              "accessed_at": "2026-11-22",
+              "locator": "Incandescent Bulbs Light the Way 前后段落",
+              "kind": "verified_chinese_paraphrase",
+              "original_excerpt": "Like all great inventions, the light bulb can’t be credited to one inventor."
+            }
+          },
+          {
+            "id": "light-02",
+            "source_id": "doe-light",
+            "topics": [
+              "电灯",
+              "灯泡",
+              "白炽灯",
+              "爱迪生"
+            ],
+            "text": "爱迪生不仅改进灯泡，还发展了使电灯实用的配套系统，包括发电、配电和计量。电灯商业化涉及灯泡和电力系统的共同发展。",
+            "score": 3.819557,
+            "matched_terms": [
+              "电灯"
+            ],
+            "source": {
+              "id": "doe-light",
+              "title": "US Department of Energy The History of the Light Bulb",
+              "url": "https://www.energy.gov/articles/history-light-bulb",
+              "published_at": "2013-11-22",
+              "accessed_at": "2026-11-22",
+              "locator": "Incandescent Bulbs Light the Way 前后段落",
+              "kind": "verified_chinese_paraphrase",
+              "original_excerpt": "Like all great inventions, the light bulb can’t be credited to one inventor."
+            }
+          }
+        ],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": 99,
+      "question": "既然太阳是行星，请介绍太阳系中有哪些恒星。",
+      "category": "false_premise",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "sun-01直接支持太阳不是行星且为太阳系唯一恒星；planets-01只能支持行星名单，不能列成恒星。",
+      "v2_evidence": [
+        {
+          "id": "sun-01",
+          "source_id": "nasa-sun",
+          "topics": [
+            "太阳",
+            "恒星",
+            "黄矮星"
+          ],
+          "text": "太阳是一颗约45亿岁的黄矮恒星，是太阳系中唯一的恒星，主要由氢和氦构成。太阳是炽热的等离子体，没有坚硬的固体表面。太阳不是行星。",
+          "score": 22.337723,
+          "matched_terms": [
+            "太阳",
+            "恒星",
+            "是行",
+            "系中",
+            "行星",
+            "阳是",
+            "阳系"
+          ],
+          "source": {
+            "id": "nasa-sun",
+            "title": "NASA Sun Facts",
+            "url": "https://science.nasa.gov/sun/facts/",
+            "published_at": null,
+            "accessed_at": "2026-11-22",
+            "locator": "开头简介与10 things",
+            "kind": "verified_chinese_paraphrase",
+            "original_excerpt": "The Sun is the only star in our solar system."
+          }
+        },
+        {
+          "id": "planets-01",
+          "source_id": "nasa-planets",
+          "topics": [
+            "太阳系",
+            "行星",
+            "水星",
+            "金星",
+            "火星",
+            "海王星",
+            "天王星"
+          ],
+          "text": "太阳系有八颗行星：水星、金星、地球、火星、木星、土星、天王星、海王星。水星最靠近太阳。地球是距离太阳第三近的行星。",
+          "score": 9.402112,
+          "matched_terms": [
+            "太阳",
+            "行星",
+            "阳系"
+          ],
+          "source": {
+            "id": "nasa-planets",
+            "title": "NASA About the Planets",
+            "url": "https://science.nasa.gov/solar-system/planets/",
+            "published_at": null,
+            "accessed_at": "2026-11-22",
+            "locator": "About Planets 与 Jupiter Facts",
+            "kind": "verified_chinese_paraphrase",
+            "original_excerpt": "Jupiter is the fifth planet from the Sun, and the largest planet in our solar system."
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "sun-01",
+            "source_id": "nasa-sun",
+            "topics": [
+              "太阳",
+              "恒星",
+              "黄矮星"
+            ],
+            "text": "太阳是一颗约45亿岁的黄矮恒星，是太阳系中唯一的恒星，主要由氢和氦构成。太阳是炽热的等离子体，没有坚硬的固体表面。太阳不是行星。",
+            "score": 22.337723,
+            "matched_terms": [
+              "太阳",
+              "恒星",
+              "是行",
+              "系中",
+              "行星",
+              "阳是",
+              "阳系"
+            ],
+            "source": {
+              "id": "nasa-sun",
+              "title": "NASA Sun Facts",
+              "url": "https://science.nasa.gov/sun/facts/",
+              "published_at": null,
+              "accessed_at": "2026-11-22",
+              "locator": "开头简介与10 things",
+              "kind": "verified_chinese_paraphrase",
+              "original_excerpt": "The Sun is the only star in our solar system."
+            }
+          },
+          {
+            "id": "planets-01",
+            "source_id": "nasa-planets",
+            "topics": [
+              "太阳系",
+              "行星",
+              "水星",
+              "金星",
+              "火星",
+              "海王星",
+              "天王星"
+            ],
+            "text": "太阳系有八颗行星：水星、金星、地球、火星、木星、土星、天王星、海王星。水星最靠近太阳。地球是距离太阳第三近的行星。",
+            "score": 9.402112,
+            "matched_terms": [
+              "太阳",
+              "行星",
+              "阳系"
+            ],
+            "source": {
+              "id": "nasa-planets",
+              "title": "NASA About the Planets",
+              "url": "https://science.nasa.gov/solar-system/planets/",
+              "published_at": null,
+              "accessed_at": "2026-11-22",
+              "locator": "About Planets 与 Jupiter Facts",
+              "kind": "verified_chinese_paraphrase",
+              "original_excerpt": "Jupiter is the fifth planet from the Sun, and the largest planet in our solar system."
+            }
+          }
+        ],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": "NP1",
+      "question": "爱因斯坦为什么获得诺贝尔物理学奖？",
+      "category": "diagnostic_probe",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "奖项片段支持光电效应与理论物理贡献；1922为颁发年，不是奖项年度。",
+      "v2_evidence": [
+        {
+          "id": "nobel-einstein-1921",
+          "topics": [
+            "爱因斯坦",
+            "Einstein",
+            "光电效应",
+            "1921年诺贝尔物理学奖"
+          ],
+          "scope": {
+            "kind": "award_record",
+            "award_category": "physics",
+            "award_year": 1921,
+            "subject_aliases": [
+              "爱因斯坦",
+              "Einstein"
+            ]
+          },
+          "text": "爱因斯坦（Albert Einstein）获得1921年度诺贝尔物理学奖，该年度奖于1922年颁发。官方物理学奖历史说明，获奖与他对光电效应的解释有关，颁奖理由也涉及他对理论物理学的贡献。奖项年度与实际颁发年份需区别。",
+          "source_id": "nobel-physics-history",
+          "text_sha256": "0f0f82b3f493aefcf9e606a15cd0f1bd28c01f10aaad5f35fef921e373aa393c",
+          "score": 19.802111,
+          "matched_terms": [
+            "因斯",
+            "学奖",
+            "尔物",
+            "斯坦",
+            "爱因",
+            "物理",
+            "理学",
+            "获得",
+            "诺贝",
+            "贝尔"
+          ],
+          "source": {
+            "id": "nobel-physics-history",
+            "title": "NobelPrize.org The Nobel Prize in Physics 1901-2000",
+            "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+            "published_at": "2000-02-09",
+            "accessed_at": "2026-11-23",
+            "access_method": "indexed_body",
+            "direct_access_status": "403",
+            "locator": "From classical to quantum physics及Microcosmos and macrocosmos中Einstein段落",
+            "original_excerpt": "Einstein received the Physics Prize for 1921 (awarded in 1922)."
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "nobel-einstein-1921",
+            "topics": [
+              "爱因斯坦",
+              "Einstein",
+              "光电效应",
+              "1921年诺贝尔物理学奖"
+            ],
+            "scope": {
+              "kind": "award_record",
+              "award_category": "physics",
+              "award_year": 1921,
+              "subject_aliases": [
+                "爱因斯坦",
+                "Einstein"
+              ]
+            },
+            "text": "爱因斯坦（Albert Einstein）获得1921年度诺贝尔物理学奖，该年度奖于1922年颁发。官方物理学奖历史说明，获奖与他对光电效应的解释有关，颁奖理由也涉及他对理论物理学的贡献。奖项年度与实际颁发年份需区别。",
+            "source_id": "nobel-physics-history",
+            "text_sha256": "0f0f82b3f493aefcf9e606a15cd0f1bd28c01f10aaad5f35fef921e373aa393c",
+            "score": 19.802111,
+            "matched_terms": [
+              "因斯",
+              "学奖",
+              "尔物",
+              "斯坦",
+              "爱因",
+              "物理",
+              "理学",
+              "获得",
+              "诺贝",
+              "贝尔"
+            ],
+            "source": {
+              "id": "nobel-physics-history",
+              "title": "NobelPrize.org The Nobel Prize in Physics 1901-2000",
+              "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+              "published_at": "2000-02-09",
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "direct_access_status": "403",
+              "locator": "From classical to quantum physics及Microcosmos and macrocosmos中Einstein段落",
+              "original_excerpt": "Einstein received the Physics Prize for 1921 (awarded in 1922)."
+            }
+          }
+        ],
+        "rejected": [
+          {
+            "chunk_id": "nobel-physics-repeat-through-2025",
+            "reason": "statistics_outside_query_scope"
+          },
+          {
+            "chunk_id": "nobel-einstein-relativity-history",
+            "reason": "scientific_history_not_annual_award_record"
+          },
+          {
+            "chunk_id": "nobel-physics-2022",
+            "reason": "award_subject_mismatch"
+          },
+          {
+            "chunk_id": "nobel-physics-2023",
+            "reason": "award_subject_mismatch"
+          },
+          {
+            "chunk_id": "relativity-special",
+            "reason": "prefer_scoped_award_records_over_general_history"
+          }
+        ],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": "NP2",
+      "question": "1921年诺贝尔物理学奖授予了谁？",
+      "category": "diagnostic_probe",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "1921年度记录直接给出爱因斯坦。",
+      "v2_evidence": [
+        {
+          "id": "nobel-einstein-1921",
+          "topics": [
+            "爱因斯坦",
+            "Einstein",
+            "光电效应",
+            "1921年诺贝尔物理学奖"
+          ],
+          "scope": {
+            "kind": "award_record",
+            "award_category": "physics",
+            "award_year": 1921,
+            "subject_aliases": [
+              "爱因斯坦",
+              "Einstein"
+            ]
+          },
+          "text": "爱因斯坦（Albert Einstein）获得1921年度诺贝尔物理学奖，该年度奖于1922年颁发。官方物理学奖历史说明，获奖与他对光电效应的解释有关，颁奖理由也涉及他对理论物理学的贡献。奖项年度与实际颁发年份需区别。",
+          "source_id": "nobel-physics-history",
+          "text_sha256": "0f0f82b3f493aefcf9e606a15cd0f1bd28c01f10aaad5f35fef921e373aa393c",
+          "score": 14.083282,
+          "matched_terms": [
+            "1921",
+            "学奖",
+            "尔物",
+            "物理",
+            "理学",
+            "诺贝",
+            "贝尔"
+          ],
+          "source": {
+            "id": "nobel-physics-history",
+            "title": "NobelPrize.org The Nobel Prize in Physics 1901-2000",
+            "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+            "published_at": "2000-02-09",
+            "accessed_at": "2026-11-23",
+            "access_method": "indexed_body",
+            "direct_access_status": "403",
+            "locator": "From classical to quantum physics及Microcosmos and macrocosmos中Einstein段落",
+            "original_excerpt": "Einstein received the Physics Prize for 1921 (awarded in 1922)."
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "nobel-einstein-1921",
+            "topics": [
+              "爱因斯坦",
+              "Einstein",
+              "光电效应",
+              "1921年诺贝尔物理学奖"
+            ],
+            "scope": {
+              "kind": "award_record",
+              "award_category": "physics",
+              "award_year": 1921,
+              "subject_aliases": [
+                "爱因斯坦",
+                "Einstein"
+              ]
+            },
+            "text": "爱因斯坦（Albert Einstein）获得1921年度诺贝尔物理学奖，该年度奖于1922年颁发。官方物理学奖历史说明，获奖与他对光电效应的解释有关，颁奖理由也涉及他对理论物理学的贡献。奖项年度与实际颁发年份需区别。",
+            "source_id": "nobel-physics-history",
+            "text_sha256": "0f0f82b3f493aefcf9e606a15cd0f1bd28c01f10aaad5f35fef921e373aa393c",
+            "score": 14.083282,
+            "matched_terms": [
+              "1921",
+              "学奖",
+              "尔物",
+              "物理",
+              "理学",
+              "诺贝",
+              "贝尔"
+            ],
+            "source": {
+              "id": "nobel-physics-history",
+              "title": "NobelPrize.org The Nobel Prize in Physics 1901-2000",
+              "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+              "published_at": "2000-02-09",
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "direct_access_status": "403",
+              "locator": "From classical to quantum physics及Microcosmos and macrocosmos中Einstein段落",
+              "original_excerpt": "Einstein received the Physics Prize for 1921 (awarded in 1922)."
+            }
+          }
+        ],
+        "rejected": [
+          {
+            "chunk_id": "nobel-physics-2022",
+            "reason": "award_year_mismatch"
+          },
+          {
+            "chunk_id": "nobel-physics-repeat-through-2025",
+            "reason": "statistics_outside_query_scope"
+          },
+          {
+            "chunk_id": "nobel-physics-2023",
+            "reason": "award_year_mismatch"
+          }
+        ],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": "NP3",
+      "question": "1922年诺贝尔物理学奖授予了谁？",
+      "category": "diagnostic_probe",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "no_retrieved_evidence",
+      "basis": "缺1922年度记录；不能借1921奖项在1922颁发来回答。",
+      "v2_evidence": [],
+      "year_alias_diagnostics": {
+        "hits": [],
+        "rejected": [
+          {
+            "chunk_id": "nobel-physics-2022",
+            "reason": "award_year_mismatch"
+          },
+          {
+            "chunk_id": "nobel-physics-repeat-through-2025",
+            "reason": "statistics_outside_query_scope"
+          },
+          {
+            "chunk_id": "nobel-physics-2023",
+            "reason": "award_year_mismatch"
+          }
+        ],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": "NP4",
+      "question": "2023年诺贝尔文学奖授予了谁？",
+      "category": "diagnostic_probe",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "2023文学奖公告直接给出福瑟。",
+      "v2_evidence": [
+        {
+          "id": "nobel-literature-2023",
+          "topics": [
+            "诺贝尔文学奖",
+            "约恩·福瑟",
+            "福瑟",
+            "Jon Fosse"
+          ],
+          "scope": {
+            "kind": "award_record",
+            "award_category": "literature",
+            "award_year": 2023,
+            "subject_aliases": [
+              "福瑟",
+              "Jon Fosse"
+            ]
+          },
+          "text": "瑞典文学院2023年10月5日公告将2023年度诺贝尔文学奖授予挪威作家约恩·福瑟（Jon Fosse），表彰其富有创新性的戏剧与散文，赋予难以言说的事物以声音。此公告支持该年度文学奖的获奖者和理由，不是其他年份或其他奖项类别的名单。",
+          "source_id": "nobel-literature-2023-release",
+          "text_sha256": "42e1dc6c934598dd8864667e49b37e95052b756161e9e0361748eeeaaacd3a25",
+          "score": 17.923674,
+          "matched_terms": [
+            "2023",
+            "奖授",
+            "学奖",
+            "尔文",
+            "授予",
+            "文学",
+            "诺贝",
+            "贝尔"
+          ],
+          "source": {
+            "id": "nobel-literature-2023-release",
+            "title": "The Nobel Prize in Literature 2023 — Press release",
+            "url": "https://www.nobelprize.org/uploads/2023/10/press-literatureprize2023.pdf",
+            "published_at": "2023-10-05",
+            "accessed_at": "2026-11-23",
+            "access_method": "indexed_body",
+            "locator": "第1页Jon Fosse名单及颁奖理由",
+            "original_excerpt": "The Nobel Prize in Literature for 2023 is awarded to the Norwegian author Jon Fosse"
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "nobel-literature-2023",
+            "topics": [
+              "诺贝尔文学奖",
+              "约恩·福瑟",
+              "福瑟",
+              "Jon Fosse"
+            ],
+            "scope": {
+              "kind": "award_record",
+              "award_category": "literature",
+              "award_year": 2023,
+              "subject_aliases": [
+                "福瑟",
+                "Jon Fosse"
+              ]
+            },
+            "text": "瑞典文学院2023年10月5日公告将2023年度诺贝尔文学奖授予挪威作家约恩·福瑟（Jon Fosse），表彰其富有创新性的戏剧与散文，赋予难以言说的事物以声音。此公告支持该年度文学奖的获奖者和理由，不是其他年份或其他奖项类别的名单。",
+            "source_id": "nobel-literature-2023-release",
+            "text_sha256": "42e1dc6c934598dd8864667e49b37e95052b756161e9e0361748eeeaaacd3a25",
+            "score": 17.923674,
+            "matched_terms": [
+              "2023",
+              "奖授",
+              "学奖",
+              "尔文",
+              "授予",
+              "文学",
+              "诺贝",
+              "贝尔"
+            ],
+            "source": {
+              "id": "nobel-literature-2023-release",
+              "title": "The Nobel Prize in Literature 2023 — Press release",
+              "url": "https://www.nobelprize.org/uploads/2023/10/press-literatureprize2023.pdf",
+              "published_at": "2023-10-05",
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "locator": "第1页Jon Fosse名单及颁奖理由",
+              "original_excerpt": "The Nobel Prize in Literature for 2023 is awarded to the Norwegian author Jon Fosse"
+            }
+          }
+        ],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": "NP5",
+      "question": "2024年诺贝尔化学奖授予了谁？",
+      "category": "diagnostic_probe",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "no_retrieved_evidence",
+      "basis": "缺2024化学奖资料，年份和类别均不能借用其他记录。",
+      "v2_evidence": [],
+      "year_alias_diagnostics": {
+        "hits": [],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": "NP6",
+      "question": "比较2022年与2023年诺贝尔物理学奖的研究领域。",
+      "category": "diagnostic_probe",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "2022与2023两条公告分别提供比较的两半；仅一条不能支持完整跨年比较。",
+      "v2_evidence": [
+        {
+          "id": "nobel-physics-2022",
+          "topics": [
+            "诺贝尔物理学奖",
+            "阿斯佩",
+            "克劳泽",
+            "蔡林格",
+            "Aspect",
+            "Clauser",
+            "Zeilinger",
+            "量子纠缠"
+          ],
+          "scope": {
+            "kind": "award_record",
+            "award_category": "physics",
+            "award_year": 2022,
+            "subject_aliases": [
+              "阿斯佩",
+              "克劳泽",
+              "蔡林格",
+              "Aspect",
+              "Clauser",
+              "Zeilinger"
+            ]
+          },
+          "text": "2022年度诺贝尔物理学奖授予阿兰·阿斯佩（Alain Aspect）、约翰·克劳泽（John F. Clauser）和安东·蔡林格（Anton Zeilinger）。获奖工作涉及纠缠光子实验、验证贝尔不等式的违背，以及开创量子信息科学。这里的贝尔不等式属于物理学概念，不是电话发明史。",
+          "source_id": "nobel-physics-2022-release",
+          "text_sha256": "0b05d114163fbe48f7939bf155598c2b4796502881ace0eed5dde5900c028f62",
+          "score": 13.533123,
+          "matched_terms": [
+            "2022",
+            "学奖",
+            "尔物",
+            "物理",
+            "理学",
+            "诺贝",
+            "贝尔"
+          ],
+          "source": {
+            "id": "nobel-physics-2022-release",
+            "title": "The Nobel Prize in Physics 2022 — Press release",
+            "url": "https://www.nobelprize.org/uploads/2022/10/press-physicsprize2022.pdf",
+            "published_at": "2022-10-04",
+            "accessed_at": "2026-11-23",
+            "access_method": "indexed_body",
+            "locator": "第1页获奖人名单及颁奖理由",
+            "original_excerpt": "Alain Aspect, John Clauser and Anton Zeilinger"
+          }
+        },
+        {
+          "id": "nobel-physics-2023",
+          "topics": [
+            "诺贝尔物理学奖",
+            "阿戈斯蒂尼",
+            "克劳斯",
+            "吕利耶",
+            "Agostini",
+            "Krausz",
+            "Huillier",
+            "阿秒"
+          ],
+          "scope": {
+            "kind": "award_record",
+            "award_category": "physics",
+            "award_year": 2023,
+            "subject_aliases": [
+              "阿戈斯蒂尼",
+              "克劳斯",
+              "吕利耶",
+              "Agostini",
+              "Krausz",
+              "Huillier"
+            ]
+          },
+          "text": "2023年度诺贝尔物理学奖授予皮埃尔·阿戈斯蒂尼（Pierre Agostini）、费伦茨·克劳斯（Ferenc Krausz）和安妮·吕利耶（Anne L’Huillier）。获奖工作是产生阿秒光脉冲的实验方法，用于研究物质中的电子动力学，能够探测电子运动或能量变化等极快过程。",
+          "source_id": "nobel-physics-2023-release",
+          "text_sha256": "9a77eec4aa93fb28b88effc8a588a5b3c08ad93ae72cbabb24cd08ed803f878d",
+          "score": 13.219186,
+          "matched_terms": [
+            "2023",
+            "学奖",
+            "尔物",
+            "物理",
+            "理学",
+            "研究",
+            "诺贝",
+            "贝尔"
+          ],
+          "source": {
+            "id": "nobel-physics-2023-release",
+            "title": "The Nobel Prize in Physics 2023 — Press release",
+            "url": "https://www.nobelprize.org/prizes/physics/2023/press-release/",
+            "published_at": "2023-10-03",
+            "accessed_at": "2026-11-23",
+            "access_method": "indexed_body",
+            "locator": "公告开头名单与Experiments with light capture the shortest of moments",
+            "original_excerpt": "Pierre Agostini, Ferenc Krausz and Anne L’Huillier"
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "nobel-physics-2022",
+            "topics": [
+              "诺贝尔物理学奖",
+              "阿斯佩",
+              "克劳泽",
+              "蔡林格",
+              "Aspect",
+              "Clauser",
+              "Zeilinger",
+              "量子纠缠"
+            ],
+            "scope": {
+              "kind": "award_record",
+              "award_category": "physics",
+              "award_year": 2022,
+              "subject_aliases": [
+                "阿斯佩",
+                "克劳泽",
+                "蔡林格",
+                "Aspect",
+                "Clauser",
+                "Zeilinger"
+              ]
+            },
+            "text": "2022年度诺贝尔物理学奖授予阿兰·阿斯佩（Alain Aspect）、约翰·克劳泽（John F. Clauser）和安东·蔡林格（Anton Zeilinger）。获奖工作涉及纠缠光子实验、验证贝尔不等式的违背，以及开创量子信息科学。这里的贝尔不等式属于物理学概念，不是电话发明史。",
+            "source_id": "nobel-physics-2022-release",
+            "text_sha256": "0b05d114163fbe48f7939bf155598c2b4796502881ace0eed5dde5900c028f62",
+            "score": 13.533123,
+            "matched_terms": [
+              "2022",
+              "学奖",
+              "尔物",
+              "物理",
+              "理学",
+              "诺贝",
+              "贝尔"
+            ],
+            "source": {
+              "id": "nobel-physics-2022-release",
+              "title": "The Nobel Prize in Physics 2022 — Press release",
+              "url": "https://www.nobelprize.org/uploads/2022/10/press-physicsprize2022.pdf",
+              "published_at": "2022-10-04",
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "locator": "第1页获奖人名单及颁奖理由",
+              "original_excerpt": "Alain Aspect, John Clauser and Anton Zeilinger"
+            }
+          },
+          {
+            "id": "nobel-physics-2023",
+            "topics": [
+              "诺贝尔物理学奖",
+              "阿戈斯蒂尼",
+              "克劳斯",
+              "吕利耶",
+              "Agostini",
+              "Krausz",
+              "Huillier",
+              "阿秒"
+            ],
+            "scope": {
+              "kind": "award_record",
+              "award_category": "physics",
+              "award_year": 2023,
+              "subject_aliases": [
+                "阿戈斯蒂尼",
+                "克劳斯",
+                "吕利耶",
+                "Agostini",
+                "Krausz",
+                "Huillier"
+              ]
+            },
+            "text": "2023年度诺贝尔物理学奖授予皮埃尔·阿戈斯蒂尼（Pierre Agostini）、费伦茨·克劳斯（Ferenc Krausz）和安妮·吕利耶（Anne L’Huillier）。获奖工作是产生阿秒光脉冲的实验方法，用于研究物质中的电子动力学，能够探测电子运动或能量变化等极快过程。",
+            "source_id": "nobel-physics-2023-release",
+            "text_sha256": "9a77eec4aa93fb28b88effc8a588a5b3c08ad93ae72cbabb24cd08ed803f878d",
+            "score": 13.219186,
+            "matched_terms": [
+              "2023",
+              "学奖",
+              "尔物",
+              "物理",
+              "理学",
+              "研究",
+              "诺贝",
+              "贝尔"
+            ],
+            "source": {
+              "id": "nobel-physics-2023-release",
+              "title": "The Nobel Prize in Physics 2023 — Press release",
+              "url": "https://www.nobelprize.org/prizes/physics/2023/press-release/",
+              "published_at": "2023-10-03",
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "locator": "公告开头名单与Experiments with light capture the shortest of moments",
+              "original_excerpt": "Pierre Agostini, Ferenc Krausz and Anne L’Huillier"
+            }
+          }
+        ],
+        "rejected": [
+          {
+            "chunk_id": "nobel-physics-repeat-through-2025",
+            "reason": "statistics_outside_query_scope"
+          }
+        ],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": "BP1",
+      "question": "1921年度诺贝尔物理学奖实际在哪一年颁发？",
+      "category": "diagnostic_probe",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "retrieval_miss_with_available_evidence",
+      "basis": "V2未命中，但库中1921记录明确写1922年颁发；年份别名回退可召回，这是检索漏检而非资料缺失。",
+      "v2_evidence": [],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "nobel-einstein-1921",
+            "topics": [
+              "爱因斯坦",
+              "Einstein",
+              "光电效应",
+              "1921年诺贝尔物理学奖"
+            ],
+            "scope": {
+              "kind": "award_record",
+              "award_category": "physics",
+              "award_year": 1921,
+              "subject_aliases": [
+                "爱因斯坦",
+                "Einstein"
+              ]
+            },
+            "text": "爱因斯坦（Albert Einstein）获得1921年度诺贝尔物理学奖，该年度奖于1922年颁发。官方物理学奖历史说明，获奖与他对光电效应的解释有关，颁奖理由也涉及他对理论物理学的贡献。奖项年度与实际颁发年份需区别。",
+            "source_id": "nobel-physics-history",
+            "text_sha256": "0f0f82b3f493aefcf9e606a15cd0f1bd28c01f10aaad5f35fef921e373aa393c",
+            "score": 33.379558,
+            "matched_terms": [
+              "1921",
+              "因斯",
+              "学奖",
+              "实际",
+              "尔物",
+              "年度",
+              "年颁",
+              "度诺",
+              "斯坦",
+              "爱因",
+              "物理",
+              "理学",
+              "诺贝",
+              "贝尔",
+              "颁发"
+            ],
+            "source": {
+              "id": "nobel-physics-history",
+              "title": "NobelPrize.org The Nobel Prize in Physics 1901-2000",
+              "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+              "published_at": "2000-02-09",
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "direct_access_status": "403",
+              "locator": "From classical to quantum physics及Microcosmos and macrocosmos中Einstein段落",
+              "original_excerpt": "Einstein received the Physics Prize for 1921 (awarded in 1922)."
+            }
+          }
+        ],
+        "rejected": [
+          {
+            "chunk_id": "nobel-physics-2022",
+            "reason": "award_year_mismatch"
+          },
+          {
+            "chunk_id": "nobel-physics-repeat-through-2025",
+            "reason": "statistics_outside_query_scope"
+          },
+          {
+            "chunk_id": "nobel-physics-2023",
+            "reason": "award_year_mismatch"
+          }
+        ],
+        "selection_events": [
+          "explicit_year_category_alias_fallback"
+        ],
+        "query_expansion": {
+          "effective_query": "1921年度诺贝尔物理学奖实际在哪一年颁发？\n检索主题别名：爱因斯坦",
+          "added_aliases": [
+            "爱因斯坦"
+          ],
+          "eligible_chunk_ids": [
+            "nobel-einstein-1921"
+          ],
+          "scoring_query": "expanded",
+          "fallback_rejected": [
+            {
+              "chunk_id": "nobel-einstein-relativity-history",
+              "reason": "scientific_history_not_annual_award_record"
+            },
+            {
+              "chunk_id": "nobel-physics-2022",
+              "reason": "award_year_mismatch"
+            },
+            {
+              "chunk_id": "nobel-physics-repeat-through-2025",
+              "reason": "statistics_outside_query_scope"
+            },
+            {
+              "chunk_id": "nobel-physics-2023",
+              "reason": "award_year_mismatch"
+            },
+            {
+              "chunk_id": "relativity-special",
+              "reason": "prefer_scoped_award_records_over_general_history"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "BP2",
+      "question": "请介绍2023年诺贝尔文学奖得主“王明远”的获奖原因。",
+      "category": "diagnostic_probe",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_premise_correction_only",
+      "basis": "年度记录支持福瑟身份和理由，不支持王明远获奖；只能纠正前提后介绍资料主体。",
+      "v2_evidence": [
+        {
+          "id": "nobel-literature-2023",
+          "topics": [
+            "诺贝尔文学奖",
+            "约恩·福瑟",
+            "福瑟",
+            "Jon Fosse"
+          ],
+          "scope": {
+            "kind": "award_record",
+            "award_category": "literature",
+            "award_year": 2023,
+            "subject_aliases": [
+              "福瑟",
+              "Jon Fosse"
+            ]
+          },
+          "text": "瑞典文学院2023年10月5日公告将2023年度诺贝尔文学奖授予挪威作家约恩·福瑟（Jon Fosse），表彰其富有创新性的戏剧与散文，赋予难以言说的事物以声音。此公告支持该年度文学奖的获奖者和理由，不是其他年份或其他奖项类别的名单。",
+          "source_id": "nobel-literature-2023-release",
+          "text_sha256": "42e1dc6c934598dd8864667e49b37e95052b756161e9e0361748eeeaaacd3a25",
+          "score": 18.104643,
+          "matched_terms": [
+            "2023",
+            "学奖",
+            "尔文",
+            "文学",
+            "的获",
+            "获奖",
+            "诺贝",
+            "贝尔"
+          ],
+          "source": {
+            "id": "nobel-literature-2023-release",
+            "title": "The Nobel Prize in Literature 2023 — Press release",
+            "url": "https://www.nobelprize.org/uploads/2023/10/press-literatureprize2023.pdf",
+            "published_at": "2023-10-05",
+            "accessed_at": "2026-11-23",
+            "access_method": "indexed_body",
+            "locator": "第1页Jon Fosse名单及颁奖理由",
+            "original_excerpt": "The Nobel Prize in Literature for 2023 is awarded to the Norwegian author Jon Fosse"
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "nobel-literature-2023",
+            "topics": [
+              "诺贝尔文学奖",
+              "约恩·福瑟",
+              "福瑟",
+              "Jon Fosse"
+            ],
+            "scope": {
+              "kind": "award_record",
+              "award_category": "literature",
+              "award_year": 2023,
+              "subject_aliases": [
+                "福瑟",
+                "Jon Fosse"
+              ]
+            },
+            "text": "瑞典文学院2023年10月5日公告将2023年度诺贝尔文学奖授予挪威作家约恩·福瑟（Jon Fosse），表彰其富有创新性的戏剧与散文，赋予难以言说的事物以声音。此公告支持该年度文学奖的获奖者和理由，不是其他年份或其他奖项类别的名单。",
+            "source_id": "nobel-literature-2023-release",
+            "text_sha256": "42e1dc6c934598dd8864667e49b37e95052b756161e9e0361748eeeaaacd3a25",
+            "score": 18.104643,
+            "matched_terms": [
+              "2023",
+              "学奖",
+              "尔文",
+              "文学",
+              "的获",
+              "获奖",
+              "诺贝",
+              "贝尔"
+            ],
+            "source": {
+              "id": "nobel-literature-2023-release",
+              "title": "The Nobel Prize in Literature 2023 — Press release",
+              "url": "https://www.nobelprize.org/uploads/2023/10/press-literatureprize2023.pdf",
+              "published_at": "2023-10-05",
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "locator": "第1页Jon Fosse名单及颁奖理由",
+              "original_excerpt": "The Nobel Prize in Literature for 2023 is awarded to the Norwegian author Jon Fosse"
+            }
+          }
+        ],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": "BP3",
+      "question": "“爱因斯坦”获得诺贝尔物理学奖是因为相对论吗？",
+      "category": "diagnostic_probe",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "奖项记录给出光电效应工作，支持区分其与相对论的关系；不应把科学贡献全当颁奖理由。",
+      "v2_evidence": [
+        {
+          "id": "nobel-einstein-1921",
+          "topics": [
+            "爱因斯坦",
+            "Einstein",
+            "光电效应",
+            "1921年诺贝尔物理学奖"
+          ],
+          "scope": {
+            "kind": "award_record",
+            "award_category": "physics",
+            "award_year": 1921,
+            "subject_aliases": [
+              "爱因斯坦",
+              "Einstein"
+            ]
+          },
+          "text": "爱因斯坦（Albert Einstein）获得1921年度诺贝尔物理学奖，该年度奖于1922年颁发。官方物理学奖历史说明，获奖与他对光电效应的解释有关，颁奖理由也涉及他对理论物理学的贡献。奖项年度与实际颁发年份需区别。",
+          "source_id": "nobel-physics-history",
+          "text_sha256": "0f0f82b3f493aefcf9e606a15cd0f1bd28c01f10aaad5f35fef921e373aa393c",
+          "score": 19.802111,
+          "matched_terms": [
+            "因斯",
+            "学奖",
+            "尔物",
+            "斯坦",
+            "爱因",
+            "物理",
+            "理学",
+            "获得",
+            "诺贝",
+            "贝尔"
+          ],
+          "source": {
+            "id": "nobel-physics-history",
+            "title": "NobelPrize.org The Nobel Prize in Physics 1901-2000",
+            "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+            "published_at": "2000-02-09",
+            "accessed_at": "2026-11-23",
+            "access_method": "indexed_body",
+            "direct_access_status": "403",
+            "locator": "From classical to quantum physics及Microcosmos and macrocosmos中Einstein段落",
+            "original_excerpt": "Einstein received the Physics Prize for 1921 (awarded in 1922)."
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "nobel-einstein-1921",
+            "topics": [
+              "爱因斯坦",
+              "Einstein",
+              "光电效应",
+              "1921年诺贝尔物理学奖"
+            ],
+            "scope": {
+              "kind": "award_record",
+              "award_category": "physics",
+              "award_year": 1921,
+              "subject_aliases": [
+                "爱因斯坦",
+                "Einstein"
+              ]
+            },
+            "text": "爱因斯坦（Albert Einstein）获得1921年度诺贝尔物理学奖，该年度奖于1922年颁发。官方物理学奖历史说明，获奖与他对光电效应的解释有关，颁奖理由也涉及他对理论物理学的贡献。奖项年度与实际颁发年份需区别。",
+            "source_id": "nobel-physics-history",
+            "text_sha256": "0f0f82b3f493aefcf9e606a15cd0f1bd28c01f10aaad5f35fef921e373aa393c",
+            "score": 19.802111,
+            "matched_terms": [
+              "因斯",
+              "学奖",
+              "尔物",
+              "斯坦",
+              "爱因",
+              "物理",
+              "理学",
+              "获得",
+              "诺贝",
+              "贝尔"
+            ],
+            "source": {
+              "id": "nobel-physics-history",
+              "title": "NobelPrize.org The Nobel Prize in Physics 1901-2000",
+              "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+              "published_at": "2000-02-09",
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "direct_access_status": "403",
+              "locator": "From classical to quantum physics及Microcosmos and macrocosmos中Einstein段落",
+              "original_excerpt": "Einstein received the Physics Prize for 1921 (awarded in 1922)."
+            }
+          }
+        ],
+        "rejected": [
+          {
+            "chunk_id": "nobel-einstein-relativity-history",
+            "reason": "scientific_history_not_annual_award_record"
+          },
+          {
+            "chunk_id": "nobel-physics-repeat-through-2025",
+            "reason": "statistics_outside_query_scope"
+          },
+          {
+            "chunk_id": "nobel-physics-2022",
+            "reason": "award_subject_mismatch"
+          },
+          {
+            "chunk_id": "nobel-physics-2023",
+            "reason": "award_subject_mismatch"
+          },
+          {
+            "chunk_id": "relativity-special",
+            "reason": "prefer_scoped_award_records_over_general_history"
+          },
+          {
+            "chunk_id": "relativity-general",
+            "reason": "prefer_scoped_award_records_over_general_history"
+          }
+        ],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    },
+    {
+      "id": "BP4",
+      "question": "2023年诺贝尔文学奖得主“福瑟”的获奖理由是什么？",
+      "category": "diagnostic_probe",
+      "inspection_origin": "AI_developer_not_independent_human",
+      "support_judgment": "supports_core",
+      "basis": "同一年度同一主体记录中已有创新戏剧与散文的颁奖理由，不需要另行推测。",
+      "v2_evidence": [
+        {
+          "id": "nobel-literature-2023",
+          "topics": [
+            "诺贝尔文学奖",
+            "约恩·福瑟",
+            "福瑟",
+            "Jon Fosse"
+          ],
+          "scope": {
+            "kind": "award_record",
+            "award_category": "literature",
+            "award_year": 2023,
+            "subject_aliases": [
+              "福瑟",
+              "Jon Fosse"
+            ]
+          },
+          "text": "瑞典文学院2023年10月5日公告将2023年度诺贝尔文学奖授予挪威作家约恩·福瑟（Jon Fosse），表彰其富有创新性的戏剧与散文，赋予难以言说的事物以声音。此公告支持该年度文学奖的获奖者和理由，不是其他年份或其他奖项类别的名单。",
+          "source_id": "nobel-literature-2023-release",
+          "text_sha256": "42e1dc6c934598dd8864667e49b37e95052b756161e9e0361748eeeaaacd3a25",
+          "score": 22.552183,
+          "matched_terms": [
+            "2023",
+            "学奖",
+            "尔文",
+            "文学",
+            "理由",
+            "的获",
+            "福瑟",
+            "获奖",
+            "诺贝",
+            "贝尔"
+          ],
+          "source": {
+            "id": "nobel-literature-2023-release",
+            "title": "The Nobel Prize in Literature 2023 — Press release",
+            "url": "https://www.nobelprize.org/uploads/2023/10/press-literatureprize2023.pdf",
+            "published_at": "2023-10-05",
+            "accessed_at": "2026-11-23",
+            "access_method": "indexed_body",
+            "locator": "第1页Jon Fosse名单及颁奖理由",
+            "original_excerpt": "The Nobel Prize in Literature for 2023 is awarded to the Norwegian author Jon Fosse"
+          }
+        }
+      ],
+      "year_alias_diagnostics": {
+        "hits": [
+          {
+            "id": "nobel-literature-2023",
+            "topics": [
+              "诺贝尔文学奖",
+              "约恩·福瑟",
+              "福瑟",
+              "Jon Fosse"
+            ],
+            "scope": {
+              "kind": "award_record",
+              "award_category": "literature",
+              "award_year": 2023,
+              "subject_aliases": [
+                "福瑟",
+                "Jon Fosse"
+              ]
+            },
+            "text": "瑞典文学院2023年10月5日公告将2023年度诺贝尔文学奖授予挪威作家约恩·福瑟（Jon Fosse），表彰其富有创新性的戏剧与散文，赋予难以言说的事物以声音。此公告支持该年度文学奖的获奖者和理由，不是其他年份或其他奖项类别的名单。",
+            "source_id": "nobel-literature-2023-release",
+            "text_sha256": "42e1dc6c934598dd8864667e49b37e95052b756161e9e0361748eeeaaacd3a25",
+            "score": 22.552183,
+            "matched_terms": [
+              "2023",
+              "学奖",
+              "尔文",
+              "文学",
+              "理由",
+              "的获",
+              "福瑟",
+              "获奖",
+              "诺贝",
+              "贝尔"
+            ],
+            "source": {
+              "id": "nobel-literature-2023-release",
+              "title": "The Nobel Prize in Literature 2023 — Press release",
+              "url": "https://www.nobelprize.org/uploads/2023/10/press-literatureprize2023.pdf",
+              "published_at": "2023-10-05",
+              "accessed_at": "2026-11-23",
+              "access_method": "indexed_body",
+              "locator": "第1页Jon Fosse名单及颁奖理由",
+              "original_excerpt": "The Nobel Prize in Literature for 2023 is awarded to the Norwegian author Jon Fosse"
+            }
+          }
+        ],
+        "rejected": [],
+        "selection_events": [],
+        "query_expansion": null
+      }
+    }
+  ],
+  "counts": {
+    "no_retrieved_evidence": 8,
+    "supports_core": 16,
+    "supports_core_with_scope": 1,
+    "supports_premise_correction_only": 2,
+    "topic_only_insufficient": 2,
+    "retrieval_miss_with_available_evidence": 1
+  },
+  "inputs_sha256": {
+    "docs\\c_work\\development_dataset.json": "63578646622e934be3dc099a3aac9d91678f3612631cd0d1ed6772f1e083c230",
+    "configs\\c_evidence_binding.json": "c0adfb200f5686b34726d775fa5f6eaf057a57ee9b64f428055309589bba6dc0",
+    "knowledge\\corpus_v4.json": "65b7832dfa9680b9b4ab0f71a984d6a036f20ca4acd7ca36a93cb5e8fc0f9dc6"
+  },
+  "runtime_sha256": {
+    "experiments\\analyze_c_retrieval_support.py": "f2c25d24027fdc49985adafc3e0e8eedafc71cb85643bd7697cbf2cd6c9e6c53",
+    "src\\governance\\retrieval.py": "03a46e8dcd22c7ecbcb412c3459eaa8a8ad1e79add5bca3dd03c9da8c7ef98c3",
+    "src\\governance\\retrieval_safe.py": "e5f2a97f90ea6cb8a98920a6aeee009d096c7cd4e91c6300acca97b9d63d3454",
+    "src\\governance\\retrieval_scoped.py": "b07cdd8761f50cdabe66144ab06fc9f290cb82daa0d6940f10aca17146f0cd94",
+    "src\\governance\\retrieval_year_alias.py": "68f835aacd881125a7347f07e0d953f855d23b1e460933b2a08fb9a26632d936"
+  }
+}

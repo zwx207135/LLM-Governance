@@ -1,0 +1,36 @@
+{
+  "stage": "targeted_development_not_independent_test",
+  "independent_human_reviews": 0,
+  "factual_accuracy": null,
+  "total_model_calls": 95,
+  "runs": {
+    "nobel_scope_v1": {
+      "records": 57,
+      "truncated": 0,
+      "records_sha256": "15c9343d33fc0653f4abae89424b1e50c57c6fb7729ffd0c336dba0495dfde91",
+      "frozen_prompt_replays_verified": 57,
+      "rejected_candidates": 36
+    },
+    "nobel_scope_followup_v1": {
+      "records": 19,
+      "truncated": 0,
+      "records_sha256": "0edf7a6e5b46b533a9f4f49c08ddc2797ee6734c8a4f5f4a3f4b09132336430d",
+      "frozen_prompt_replays_verified": 19,
+      "rejected_candidates": 24
+    },
+    "nobel_scope_followup_v2": {
+      "records": 19,
+      "truncated": 0,
+      "records_sha256": "f37869447a12381b51f51e21da6f2803f8d63b3a3c4ff9a8e34650b303ce7adb",
+      "frozen_prompt_replays_verified": 19,
+      "rejected_candidates": 26
+    }
+  },
+  "prototype_followup_retained": "nobel_scope_followup_v1",
+  "final_exploratory_candidate": "AwardScopedRetrieverV2 in nobel_scope_followup_v2",
+  "corpus_sources": 21,
+  "corpus_chunks": 31,
+  "added_sources": 5,
+  "added_chunks": 6,
+  "old_corpus_sha256": "deb3f7e7b341e58e52fd5dc2adbcd44c43e47a09904085be6bbe484201597938"
+}

@@ -1,0 +1,304 @@
+{
+  "stage": "targeted_development_diagnostics",
+  "runs": {
+    "anchor_diagnostics_v1": {
+      "model_calls": 32,
+      "pairs": 16,
+      "changed_prompts": 3,
+      "changed_answers": 3,
+      "truncated_outputs": 0,
+      "rejected_candidates": 4,
+      "factual_accuracy": null,
+      "human_review_count": 0,
+      "records_sha256": "c43e515d12e3da00ece06df0a2e2c3365f0dc60127140d84be0f80f753ad2414"
+    },
+    "evidence_first_v1": {
+      "model_calls": 32,
+      "pairs": 16,
+      "changed_prompts": 3,
+      "changed_answers": 3,
+      "truncated_outputs": 0,
+      "rejected_candidates": 4,
+      "factual_accuracy": null,
+      "human_review_count": 0,
+      "records_sha256": "f0d2e6f0daed6d4b1fb5c544e7c43a389c5f673875b7460261280ffe69d238f8"
+    }
+  },
+  "historical_cases": 11,
+  "historical_diagnosis_counts": {
+    "coverage_gap_control": 1,
+    "coverage_gap_and_anchor_collision": 1,
+    "entity_hierarchy_error": 1,
+    "supported_answer_control": 1,
+    "subject_binding_and_identity_gap": 1,
+    "no_hit_abstention_control": 1,
+    "source_not_ingested": 1,
+    "premise_correction_failure": 1,
+    "evidence_ignored": 1,
+    "task_incomplete": 1,
+    "contradiction_and_category_error": 1
+  },
+  "retrieval_only_checked_questions": 125,
+  "retrieval_changes": [
+    {
+      "id": 7,
+      "question": "爱因斯坦获得过几次诺贝尔物理学奖？",
+      "before": [
+        "relativity-special",
+        "bell-history"
+      ],
+      "after": [
+        "relativity-special"
+      ],
+      "diagnostics": [
+        {
+          "chunk_id": "bell-history",
+          "reason": "lexical_anchor_collision",
+          "legacy_anchors": [
+            "贝尔"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "请介绍2023年诺贝尔文学奖得主“李华”的代表作品。",
+      "before": [
+        "bell-history"
+      ],
+      "after": [],
+      "diagnostics": [
+        {
+          "chunk_id": "bell-history",
+          "reason": "lexical_anchor_collision",
+          "legacy_anchors": [
+            "贝尔"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "诺贝尔物理学奖得主“陈晓东”是因为什么研究获得该奖项的？",
+      "before": [
+        "bell-history"
+      ],
+      "after": [],
+      "diagnostics": [
+        {
+          "chunk_id": "bell-history",
+          "reason": "lexical_anchor_collision",
+          "legacy_anchors": [
+            "贝尔"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "question": "2020年诺贝尔和平奖得主“张伟”是因为什么贡献获奖的？",
+      "before": [
+        "bell-history"
+      ],
+      "after": [],
+      "diagnostics": [
+        {
+          "chunk_id": "bell-history",
+          "reason": "lexical_anchor_collision",
+          "legacy_anchors": [
+            "贝尔"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "question": "诺贝尔化学奖得主“刘建平”是因为什么研究获奖的？",
+      "before": [
+        "bell-history"
+      ],
+      "after": [],
+      "diagnostics": [
+        {
+          "chunk_id": "bell-history",
+          "reason": "lexical_anchor_collision",
+          "legacy_anchors": [
+            "贝尔"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "question": "2023年诺贝尔物理学奖授予了谁（表彰哪个领域）？",
+      "before": [
+        "bell-history"
+      ],
+      "after": [],
+      "diagnostics": [
+        {
+          "chunk_id": "bell-history",
+          "reason": "lexical_anchor_collision",
+          "legacy_anchors": [
+            "贝尔"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "question": "2020年诺贝尔化学奖授予了谁（表彰哪个领域）？",
+      "before": [
+        "bell-history"
+      ],
+      "after": [],
+      "diagnostics": [
+        {
+          "chunk_id": "bell-history",
+          "reason": "lexical_anchor_collision",
+          "legacy_anchors": [
+            "贝尔"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "question": "2022年诺贝尔物理学奖授予了谁（表彰哪个领域）？",
+      "before": [
+        "bell-history"
+      ],
+      "after": [],
+      "diagnostics": [
+        {
+          "chunk_id": "bell-history",
+          "reason": "lexical_anchor_collision",
+          "legacy_anchors": [
+            "贝尔"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "question": "2021年诺贝尔文学奖得主是谁？",
+      "before": [
+        "bell-history"
+      ],
+      "after": [],
+      "diagnostics": [
+        {
+          "chunk_id": "bell-history",
+          "reason": "lexical_anchor_collision",
+          "legacy_anchors": [
+            "贝尔"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "question": "2019年诺贝尔文学奖得主是谁？",
+      "before": [
+        "bell-history"
+      ],
+      "after": [],
+      "diagnostics": [
+        {
+          "chunk_id": "bell-history",
+          "reason": "lexical_anchor_collision",
+          "legacy_anchors": [
+            "贝尔"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "question": "2022年诺贝尔文学奖得主是谁？",
+      "before": [
+        "bell-history"
+      ],
+      "after": [],
+      "diagnostics": [
+        {
+          "chunk_id": "bell-history",
+          "reason": "lexical_anchor_collision",
+          "legacy_anchors": [
+            "贝尔"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "question": "2024年诺贝尔文学奖得主是谁？",
+      "before": [
+        "bell-history"
+      ],
+      "after": [],
+      "diagnostics": [
+        {
+          "chunk_id": "bell-history",
+          "reason": "lexical_anchor_collision",
+          "legacy_anchors": [
+            "贝尔"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "question": "2024年诺贝尔和平奖授予了哪个组织？",
+      "before": [
+        "bell-history"
+      ],
+      "after": [],
+      "diagnostics": [
+        {
+          "chunk_id": "bell-history",
+          "reason": "lexical_anchor_collision",
+          "legacy_anchors": [
+            "贝尔"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "question": "2020年诺贝尔物理学奖授予了谁（表彰哪个领域）？",
+      "before": [
+        "bell-history"
+      ],
+      "after": [],
+      "diagnostics": [
+        {
+          "chunk_id": "bell-history",
+          "reason": "lexical_anchor_collision",
+          "legacy_anchors": [
+            "贝尔"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "question": "2019年诺贝尔经济学奖授予了谁（表彰哪个领域）？",
+      "before": [
+        "bell-history"
+      ],
+      "after": [],
+      "diagnostics": [
+        {
+          "chunk_id": "bell-history",
+          "reason": "lexical_anchor_collision",
+          "legacy_anchors": [
+            "贝尔"
+          ]
+        }
+      ]
+    }
+  ],
+  "factual_accuracy": null,
+  "human_review_count": 0
+}

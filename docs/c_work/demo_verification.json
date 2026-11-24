@@ -1,0 +1,9 @@
+{
+  "stage": "demonstration_not_evaluation",
+  "records": 12,
+  "model_generated_answers": 11,
+  "program_abstentions": 1,
+  "input_and_runtime_snapshots_verified": true,
+  "reference_and_scoring_fields_in_inputs": false,
+  "independent_human_reviews_completed": 0
+}

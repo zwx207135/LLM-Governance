@@ -17,6 +17,9 @@ models/*
 # Experiment results
 results/*
 
+# Local release archives and extracted verification workspaces
+/release/
+
 # Jupyter
 .ipynb_checkpoints/
 

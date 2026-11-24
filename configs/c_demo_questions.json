@@ -1,0 +1,9 @@
+{
+  "purpose": "现场功能演示；不是新增独立评测样本，不使用候选参考答案。",
+  "items": [
+    {"id": "D01", "question": "声音能在真空中传播吗？请说明原因。", "category": "factual"},
+    {"id": "D02", "question": "请介绍“星辰科技2026量子手机”的售价和电池续航。", "category": "general"},
+    {"id": "D03", "question": "解方程：x²=144，列出全部实数解。", "category": "math_logic"},
+    {"id": "D04", "question": "从材料提取姓名和年龄，只输出JSON，不要解释。材料：林青，23岁。字段为name和age，age用整数。", "category": "normal_control"}
+  ]
+}

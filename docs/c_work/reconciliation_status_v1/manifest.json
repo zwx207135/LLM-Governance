@@ -1,0 +1,20 @@
+{
+  "protocol": "c-two-human-resolution-v1",
+  "annotation_inputs": [
+    {
+      "snapshot": "original_annotations_00.json",
+      "original_path": "docs\\c_work\\reviews\\developer_reviews_v1.json",
+      "sha256": "c61971353eafa3266b2317583bd8ee091365cf32c1be4a9a0c01ba191752cc99"
+    }
+  ],
+  "decisions_sha256": null,
+  "adjudicator_id": null,
+  "runtime_sha256": {
+    "experiments/reconcile_c_reviews.py": "955c5a7493a2198d97ced373b776a3837392cead5da889f054f7d55ff83288c4",
+    "experiments/evaluate_c_reviews.py": "8f5a6f337da714ea0c5e78c167486044483119e62899b8b3cb084b713851dd98",
+    "experiments/report_c_suite.py": "d3d833f871aa2f28a118760741019d698fb5922d10fc50df2dc2aa3ca9cd75d2",
+    "src/evaluation/reconciliation.py": "11df02b4fb4aab6b8bb10d6771d7fb903de3709fdaa592ff47bc1603a660e026",
+    "src/evaluation/review_metrics.py": "68e5a75fc62be1913412561177afbdda15ed1ef3b72b00a84a55ff174821483b",
+    "src/utils/experiment_io.py": "f47ae5d1d555919df82909ac1cde362058e1a64ca60c1239b435774d105f398f"
+  }
+}

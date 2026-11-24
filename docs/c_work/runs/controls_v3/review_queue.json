@@ -1,0 +1,322 @@
+[
+  {
+    "id": "N01",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N01",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N02",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N02",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N03",
+    "mode": "retrieval",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N03",
+    "mode": "combined",
+    "flags": [
+      "no_explicit_evidence_id"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N04",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N04",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N05",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N05",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N06",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N06",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N07",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N07",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N08",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N08",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N09",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N09",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N10",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N10",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N11",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N11",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N12",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N12",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N13",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N13",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N14",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N14",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N15",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N15",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N16",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N16",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N17",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N17",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N18",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N18",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N19",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N19",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N20",
+    "mode": "combined",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  },
+  {
+    "id": "N20",
+    "mode": "retrieval",
+    "flags": [
+      "knowledge_coverage_gap"
+    ],
+    "status": "screening_only_not_final_labels"
+  }
+]

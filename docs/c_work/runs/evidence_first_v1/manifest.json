@@ -1,0 +1,227 @@
+{
+  "schema_version": 2,
+  "stage": "development_only",
+  "contract": {
+    "config": {
+      "stage": "targeted_development_diagnostics_not_independent_test",
+      "corpus": "knowledge/corpus_v3.json",
+      "dataset": "docs/c_work/development_dataset.json",
+      "model_path": "models/Qwen2.5-0.5B-Instruct",
+      "seed": 20261122,
+      "generation": {
+        "max_new_tokens": 160,
+        "do_sample": false
+      },
+      "retrieval": {
+        "top_k": 2,
+        "min_score": 1.5
+      },
+      "existing_ids": [
+        1,
+        7,
+        17,
+        18,
+        28,
+        32,
+        38,
+        76,
+        84,
+        94,
+        99
+      ],
+      "probes": [
+        {
+          "id": "AP1",
+          "question": "诺贝尔物理学奖的获奖原因是什么？",
+          "category": "diagnostic_probe"
+        },
+        {
+          "id": "AP2",
+          "question": "诺贝尔奖和相对论有什么关系？",
+          "category": "diagnostic_probe"
+        },
+        {
+          "id": "AP3",
+          "question": "贝尔在电话发展中做了什么？",
+          "category": "diagnostic_probe"
+        },
+        {
+          "id": "AP4",
+          "question": "贝尔与诺贝尔和电话有什么关系？",
+          "category": "diagnostic_probe"
+        },
+        {
+          "id": "AP5",
+          "question": "请介绍诺贝尔。",
+          "category": "diagnostic_probe"
+        }
+      ],
+      "prompt_policy": "资料核对步骤：\n先用一句话说明资料明确支持的主体和事实，再回答问题。\n主题相近不等于资料证明了题设人物、获奖次数、产品参数或发明归属。\n若资料与题目前提冲突，先纠正前提；若资料不足以回答所问细节，明确说明不足，不补造细节。\n不要把资料中的其他主体、对象层级或时间移植到问题主体上；回答前检查前后是否矛盾。"
+    },
+    "dataset_sha256": "63578646622e934be3dc099a3aac9d91678f3612631cd0d1ed6772f1e083c230",
+    "corpus_sha256": "deb3f7e7b341e58e52fd5dc2adbcd44c43e47a09904085be6bbe484201597938",
+    "runtime_sha256": {
+      "experiments/run_c_anchor_diagnostics.py": "460b089e13566277190ef8b121bce660b5439df3cbf0a440187faa754eb3a5f0",
+      "src/governance/retrieval_safe.py": "e5f2a97f90ea6cb8a98920a6aeee009d096c7cd4e91c6300acca97b9d63d3454",
+      "src/governance/retrieval.py": "03a46e8dcd22c7ecbcb412c3459eaa8a8ad1e79add5bca3dd03c9da8c7ef98c3",
+      "src/governance/anti_hallucination.py": "564ea4bd8f559987fe9b487dc8a0285d43fe0da07d173d697dcc32a1c80f8cd7",
+      "src/models/llm_model.py": "01245282117e7c74a17247aa6f9e537de46a4d833c1fea81c26f96d08b0dc939",
+      "src/utils/experiment_io.py": "f47ae5d1d555919df82909ac1cde362058e1a64ca60c1239b435774d105f398f"
+    },
+    "model_sha256": {
+      "config.json": "18e18afcaccafade98daf13a54092927904649e1dd4eba8299ab717d5d94ff45",
+      "configuration.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "generation_config.json": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+      "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "model.safetensors": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+      "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "contract_sha256": "acf56cf63f8973308a2991ede52cc6b721889a45cbfef9bb8f18c907aa122444",
+  "planned_records": [
+    [
+      "1",
+      "legacy"
+    ],
+    [
+      "1",
+      "safe_anchor"
+    ],
+    [
+      "7",
+      "safe_anchor"
+    ],
+    [
+      "7",
+      "legacy"
+    ],
+    [
+      "17",
+      "legacy"
+    ],
+    [
+      "17",
+      "safe_anchor"
+    ],
+    [
+      "18",
+      "safe_anchor"
+    ],
+    [
+      "18",
+      "legacy"
+    ],
+    [
+      "28",
+      "legacy"
+    ],
+    [
+      "28",
+      "safe_anchor"
+    ],
+    [
+      "32",
+      "safe_anchor"
+    ],
+    [
+      "32",
+      "legacy"
+    ],
+    [
+      "38",
+      "legacy"
+    ],
+    [
+      "38",
+      "safe_anchor"
+    ],
+    [
+      "76",
+      "safe_anchor"
+    ],
+    [
+      "76",
+      "legacy"
+    ],
+    [
+      "84",
+      "legacy"
+    ],
+    [
+      "84",
+      "safe_anchor"
+    ],
+    [
+      "94",
+      "safe_anchor"
+    ],
+    [
+      "94",
+      "legacy"
+    ],
+    [
+      "99",
+      "legacy"
+    ],
+    [
+      "99",
+      "safe_anchor"
+    ],
+    [
+      "AP1",
+      "safe_anchor"
+    ],
+    [
+      "AP1",
+      "legacy"
+    ],
+    [
+      "AP2",
+      "legacy"
+    ],
+    [
+      "AP2",
+      "safe_anchor"
+    ],
+    [
+      "AP3",
+      "safe_anchor"
+    ],
+    [
+      "AP3",
+      "legacy"
+    ],
+    [
+      "AP4",
+      "legacy"
+    ],
+    [
+      "AP4",
+      "safe_anchor"
+    ],
+    [
+      "AP5",
+      "safe_anchor"
+    ],
+    [
+      "AP5",
+      "legacy"
+    ]
+  ],
+  "status": "completed",
+  "segments": [],
+  "counts": {
+    "planned": 32,
+    "ok": 32,
+    "prepared": 0,
+    "errors": 0,
+    "missing": 0
+  },
+  "evaluation_status": "pending_independent_review",
+  "torch": "2.14.0+cu126",
+  "transformers": "5.17.0",
+  "device": "cuda",
+  "finished_at": "2026-11-23T11:37:02.732697+00:00"
+}

@@ -1,0 +1,22 @@
+{
+  "stage": "developer_followup_not_frozen_test",
+  "counts": {
+    "reference_issue": 4,
+    "pending_source_review": 5,
+    "context_only": 8
+  },
+  "items": 17,
+  "sources": 14,
+  "reference_proposals": 4,
+  "independent_human_reviews": 0,
+  "followup_sha256": "82f2a6bbc73edd57516345d59fbd10043a1b0e18406804def8c231c5e0dd8d49",
+  "unchanged_frozen_inputs": {
+    "datasets/hallucination/test_set.json": "3477889ae807858e0763bce4c80534f7fc834e001a7136c7a47b0bd4f34892ed",
+    "docs/c_work/data_audit.json": "7daf809070beb81e71feb90da4e04aa248914907ce954012298a70f5da78fec0",
+    "docs/c_work/source_registry.json": "d605ecab3a549617316bc47af3b9cdea6c1ed78c4028afde0ea9f52812b5bee6",
+    "docs/c_work/reviewed_candidate.json": "dbc21119f754694fdb96cf5252cddcb987c21b81288d16a270b1c8c8e63a2338",
+    "docs/c_work/development_dataset.json": "63578646622e934be3dc099a3aac9d91678f3612631cd0d1ed6772f1e083c230",
+    "docs/c_work/data_usage.json": "329445283cb59041b802a8f42f6d682e048e77cf9bc3f125e3742c102320c5a5",
+    "knowledge/corpus_v3.json": "deb3f7e7b341e58e52fd5dc2adbcd44c43e47a09904085be6bbe484201597938"
+  }
+}

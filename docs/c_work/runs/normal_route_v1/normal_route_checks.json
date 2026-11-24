@@ -1,0 +1,145 @@
+{
+  "stage": "normal_task_development_route_comparison",
+  "records": 48,
+  "model_generated_answers": 48,
+  "strict_checks": [
+    {
+      "mode": "combined_prompt",
+      "passed": 5,
+      "checked": 10
+    },
+    {
+      "mode": "baseline_off",
+      "passed": 5,
+      "checked": 10
+    }
+  ],
+  "original_combined_prompt_replay": {
+    "n": 4,
+    "same_answer": 4
+  },
+  "formal_winner_selected": false,
+  "independent_human_reviews": 0,
+  "checks": [
+    {
+      "id": "N1",
+      "mode": "combined_prompt",
+      "passed": true,
+      "answer": "林青"
+    },
+    {
+      "id": "N1",
+      "mode": "baseline_off",
+      "passed": true,
+      "answer": "林青"
+    },
+    {
+      "id": "N2",
+      "mode": "baseline_off",
+      "passed": true,
+      "answer": "3,5,8"
+    },
+    {
+      "id": "N2",
+      "mode": "combined_prompt",
+      "passed": true,
+      "answer": "3,5,8"
+    },
+    {
+      "id": "N3",
+      "mode": "combined_prompt",
+      "passed": true,
+      "answer": "{\"name\": \"林青\", \"age\": 23}"
+    },
+    {
+      "id": "N3",
+      "mode": "baseline_off",
+      "passed": true,
+      "answer": "{\n  \"name\": \"林青\",\n  \"age\": 23\n}"
+    },
+    {
+      "id": "N4",
+      "mode": "baseline_off",
+      "passed": true,
+      "answer": "HELLO"
+    },
+    {
+      "id": "N4",
+      "mode": "combined_prompt",
+      "passed": false,
+      "answer": "H ello"
+    },
+    {
+      "id": "N07",
+      "mode": "combined_prompt",
+      "passed": false,
+      "answer": "笔记本"
+    },
+    {
+      "id": "N07",
+      "mode": "baseline_off",
+      "passed": false,
+      "answer": "笔记本"
+    },
+    {
+      "id": "N08",
+      "mode": "baseline_off",
+      "passed": false,
+      "answer": "编写报告。"
+    },
+    {
+      "id": "N08",
+      "mode": "combined_prompt",
+      "passed": false,
+      "answer": "编写报告"
+    },
+    {
+      "id": "N09",
+      "mode": "combined_prompt",
+      "passed": true,
+      "answer": "2026年11月22日"
+    },
+    {
+      "id": "N09",
+      "mode": "baseline_off",
+      "passed": true,
+      "answer": "2026年11月22日"
+    },
+    {
+      "id": "N10",
+      "mode": "baseline_off",
+      "passed": false,
+      "answer": "11, 8, 5, 3"
+    },
+    {
+      "id": "N10",
+      "mode": "combined_prompt",
+      "passed": true,
+      "answer": "3, 5, 8, 11"
+    },
+    {
+      "id": "N11",
+      "mode": "combined_prompt",
+      "passed": false,
+      "answer": "Apple, Book, Cat"
+    },
+    {
+      "id": "N11",
+      "mode": "baseline_off",
+      "passed": false,
+      "answer": "Apple, Book, Cat"
+    },
+    {
+      "id": "N15",
+      "mode": "combined_prompt",
+      "passed": false,
+      "answer": "```json\n{\n  \"name\": \"小林\",\n  \"task\": \"检索\"\n}\n```"
+    },
+    {
+      "id": "N15",
+      "mode": "baseline_off",
+      "passed": false,
+      "answer": "```json\n{\n  \"name\": \"小林\",\n  \"task\": \"任务1\"\n}\n```"
+    }
+  ]
+}

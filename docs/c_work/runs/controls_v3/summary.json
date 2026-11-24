@@ -1,0 +1,94 @@
+{
+  "stage": "development_only",
+  "questions": 20,
+  "records": 80,
+  "successful_records": 80,
+  "data_roles": {
+    "normal_control": 80
+  },
+  "modes": [
+    {
+      "mode": "baseline",
+      "planned": 20,
+      "successful": 20,
+      "failed": 0,
+      "mean_generation_seconds": 0.7499,
+      "median_generation_seconds": 0.3361,
+      "mean_prepare_seconds": 5e-06,
+      "mean_output_tokens": 35.3,
+      "truncated_numerator": 0,
+      "truncated_denominator": 20,
+      "retrieval_status": {
+        "disabled": 20
+      },
+      "paired_baseline_n": 20,
+      "paired_mean_generation_delta_seconds": 0.0,
+      "screening_flags": {}
+    },
+    {
+      "mode": "constraint",
+      "planned": 20,
+      "successful": 20,
+      "failed": 0,
+      "mean_generation_seconds": 0.4808,
+      "median_generation_seconds": 0.3069,
+      "mean_prepare_seconds": 6e-06,
+      "mean_output_tokens": 22.7,
+      "truncated_numerator": 0,
+      "truncated_denominator": 20,
+      "retrieval_status": {
+        "disabled": 20
+      },
+      "paired_baseline_n": 20,
+      "paired_mean_generation_delta_seconds": -0.2691,
+      "screening_flags": {}
+    },
+    {
+      "mode": "retrieval",
+      "planned": 20,
+      "successful": 20,
+      "failed": 0,
+      "mean_generation_seconds": 0.5042,
+      "median_generation_seconds": 0.3502,
+      "mean_prepare_seconds": 0.000135,
+      "mean_output_tokens": 23.65,
+      "truncated_numerator": 0,
+      "truncated_denominator": 20,
+      "retrieval_status": {
+        "no_hit": 19,
+        "hit": 1
+      },
+      "paired_baseline_n": 20,
+      "paired_mean_generation_delta_seconds": -0.2457,
+      "screening_flags": {
+        "knowledge_coverage_gap": 19,
+        "no_explicit_evidence_id": 1
+      }
+    },
+    {
+      "mode": "combined",
+      "planned": 20,
+      "successful": 20,
+      "failed": 0,
+      "mean_generation_seconds": 0.5108,
+      "median_generation_seconds": 0.3275,
+      "mean_prepare_seconds": 8e-05,
+      "mean_output_tokens": 24.25,
+      "truncated_numerator": 0,
+      "truncated_denominator": 20,
+      "retrieval_status": {
+        "no_hit": 19,
+        "hit": 1
+      },
+      "paired_baseline_n": 20,
+      "paired_mean_generation_delta_seconds": -0.2391,
+      "screening_flags": {
+        "knowledge_coverage_gap": 19,
+        "no_explicit_evidence_id": 1
+      }
+    }
+  ],
+  "accuracy": null,
+  "hallucination_rate": null,
+  "evaluation_status": "pending_independent_review"
+}
