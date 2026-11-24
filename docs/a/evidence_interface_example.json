@@ -1,0 +1,10 @@
+{
+  "sample/uid": {
+    "chunks": [],
+    "snapshot": "C必须填写真实知识库版本",
+    "retrieval_parameters": {
+      "top_k": 3
+    },
+    "note": "空chunks表示真实检索无命中；此示例不可用于证明已完成检索"
+  }
+}

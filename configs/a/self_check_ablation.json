@@ -1,0 +1,18 @@
+[
+  {
+    "name": "joint_with_check",
+    "strategy": "basic",
+    "fairness": true,
+    "self_check": true,
+    "anti_hallucination": true,
+    "retrieval": true
+  },
+  {
+    "name": "joint_without_check",
+    "strategy": "basic",
+    "fairness": true,
+    "self_check": false,
+    "anti_hallucination": true,
+    "retrieval": true
+  }
+]

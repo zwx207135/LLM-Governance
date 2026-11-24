@@ -1,0 +1,50 @@
+[
+  {
+    "name": "E0",
+    "strategy": "basic",
+    "fairness": false,
+    "self_check": false,
+    "anti_hallucination": false,
+    "retrieval": false
+  },
+  {
+    "name": "E1",
+    "strategy": "basic",
+    "fairness": true,
+    "self_check": false,
+    "anti_hallucination": false,
+    "retrieval": false
+  },
+  {
+    "name": "E2",
+    "strategy": "basic",
+    "fairness": false,
+    "self_check": false,
+    "anti_hallucination": true,
+    "retrieval": true
+  },
+  {
+    "name": "E3",
+    "strategy": "basic",
+    "fairness": true,
+    "self_check": false,
+    "anti_hallucination": true,
+    "retrieval": true
+  },
+  {
+    "name": "E3_without_fairness",
+    "strategy": "basic",
+    "fairness": false,
+    "self_check": false,
+    "anti_hallucination": true,
+    "retrieval": true
+  },
+  {
+    "name": "E3_without_anti",
+    "strategy": "basic",
+    "fairness": true,
+    "self_check": false,
+    "anti_hallucination": false,
+    "retrieval": false
+  }
+]

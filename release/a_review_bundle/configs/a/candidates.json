@@ -1,0 +1,34 @@
+[
+  {
+    "name": "E0",
+    "strategy": "basic",
+    "fairness": false,
+    "self_check": false,
+    "anti_hallucination": false,
+    "retrieval": false
+  },
+  {
+    "name": "basic",
+    "strategy": "basic",
+    "fairness": true,
+    "self_check": false,
+    "anti_hallucination": false,
+    "retrieval": false
+  },
+  {
+    "name": "typed",
+    "strategy": "typed",
+    "fairness": true,
+    "self_check": false,
+    "anti_hallucination": false,
+    "retrieval": false
+  },
+  {
+    "name": "self_check",
+    "strategy": "basic",
+    "fairness": true,
+    "self_check": true,
+    "anti_hallucination": false,
+    "retrieval": false
+  }
+]

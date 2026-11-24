@@ -1,0 +1,58 @@
+{
+  "E0": {
+    "records": 12,
+    "ok": 12,
+    "errors": 0,
+    "mean_calls": 1,
+    "mean_latency_s": 2.6186770686666656,
+    "median_latency_s": 2.5780688490000045,
+    "mean_final_tokens": 128,
+    "final_truncated": 12,
+    "mean_all_call_tokens": 128,
+    "paired_n": 12,
+    "mean_latency_delta_s": 0.0,
+    "mean_final_tokens_delta": 0
+  },
+  "basic": {
+    "records": 12,
+    "ok": 12,
+    "errors": 0,
+    "mean_calls": 1,
+    "mean_latency_s": 2.5540927283333352,
+    "median_latency_s": 2.560181432999997,
+    "mean_final_tokens": 126.91666666666667,
+    "final_truncated": 10,
+    "mean_all_call_tokens": 126.91666666666667,
+    "paired_n": 12,
+    "mean_latency_delta_s": -0.06458434033333067,
+    "mean_final_tokens_delta": -1.0833333333333333
+  },
+  "typed": {
+    "records": 12,
+    "ok": 12,
+    "errors": 0,
+    "mean_calls": 1,
+    "mean_latency_s": 2.603037040750015,
+    "median_latency_s": 2.576219813499989,
+    "mean_final_tokens": 126.66666666666667,
+    "final_truncated": 10,
+    "mean_all_call_tokens": 126.66666666666667,
+    "paired_n": 12,
+    "mean_latency_delta_s": -0.01564002791665094,
+    "mean_final_tokens_delta": -1.3333333333333333
+  },
+  "self_check": {
+    "records": 12,
+    "ok": 12,
+    "errors": 0,
+    "mean_calls": 3,
+    "mean_latency_s": 3.6211429889166546,
+    "median_latency_s": 3.44837153200001,
+    "mean_final_tokens": 36.916666666666664,
+    "final_truncated": 0,
+    "mean_all_call_tokens": 181.25,
+    "paired_n": 12,
+    "mean_latency_delta_s": 1.002465920249989,
+    "mean_final_tokens_delta": -91.08333333333333
+  }
+}

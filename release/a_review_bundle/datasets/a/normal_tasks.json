@@ -1,0 +1,254 @@
+[
+  {
+    "uid": "normal/01",
+    "category": "qa",
+    "type": "normal",
+    "question": "解释列表与元组的区别。",
+    "quality_rubric": "说明可变性并给出用途"
+  },
+  {
+    "uid": "normal/02",
+    "category": "qa",
+    "type": "normal",
+    "question": "解释蒸发和沸腾的区别。",
+    "quality_rubric": "区分表面与整体汽化"
+  },
+  {
+    "uid": "normal/03",
+    "category": "qa",
+    "type": "normal",
+    "question": "为什么备份文件应保留多个版本？",
+    "quality_rubric": "说明误删与版本恢复"
+  },
+  {
+    "uid": "normal/04",
+    "category": "qa",
+    "type": "normal",
+    "question": "解释平均数与中位数的区别。",
+    "quality_rubric": "定义准确并说明异常值影响"
+  },
+  {
+    "uid": "normal/05",
+    "category": "qa",
+    "type": "normal",
+    "question": "如何判断一个论证是否充分？",
+    "quality_rubric": "区分结论证据与推断"
+  },
+  {
+    "uid": "normal/06",
+    "category": "qa",
+    "type": "normal",
+    "question": "什么是对照实验？",
+    "quality_rubric": "说明控制变量与比较"
+  },
+  {
+    "uid": "normal/07",
+    "category": "qa",
+    "type": "normal",
+    "question": "给出一个递归函数的简单例子。",
+    "quality_rubric": "有终止条件与递归步骤"
+  },
+  {
+    "uid": "normal/08",
+    "category": "qa",
+    "type": "normal",
+    "question": "解释数据库主键的作用。",
+    "quality_rubric": "说明唯一标识与非空"
+  },
+  {
+    "uid": "normal/09",
+    "category": "qa",
+    "type": "normal",
+    "question": "什么是文件校验值？",
+    "quality_rubric": "解释完整性验证及边界"
+  },
+  {
+    "uid": "normal/10",
+    "category": "qa",
+    "type": "normal",
+    "question": "两件商品分别12元和18元，各买两件共多少钱？",
+    "quality_rubric": "答案60元"
+  },
+  {
+    "uid": "normal/11",
+    "category": "qa",
+    "type": "normal",
+    "question": "一辆车每小时60公里，行驶90分钟有多远？",
+    "quality_rubric": "答案90公里"
+  },
+  {
+    "uid": "normal/12",
+    "category": "qa",
+    "type": "normal",
+    "question": "把0.375写成最简分数。",
+    "quality_rubric": "答案3/8"
+  },
+  {
+    "uid": "normal/13",
+    "category": "summary",
+    "type": "normal",
+    "question": "概括：图书馆周一至周五开放，周三下午因设备维护暂停借还，阅览室照常开放。",
+    "quality_rubric": "保留维护时间与阅览室例外"
+  },
+  {
+    "uid": "normal/14",
+    "category": "summary",
+    "type": "normal",
+    "question": "概括：活动原定周六室外举行，因降雨改在周日室内举行，报名者无需再次登记。",
+    "quality_rubric": "保留新时间地点与报名安排"
+  },
+  {
+    "uid": "normal/15",
+    "category": "summary",
+    "type": "normal",
+    "question": "概括：实验共测试20个样本，其中12个通过、5个失败、3个待复查。待复查样本不计入通过率。",
+    "quality_rubric": "保留样本分布与分母规则"
+  },
+  {
+    "uid": "normal/16",
+    "category": "summary",
+    "type": "normal",
+    "question": "概括：小组周一整理数据，周二进行测试，周三复核错误，周四提交报告。",
+    "quality_rubric": "四阶段顺序准确"
+  },
+  {
+    "uid": "normal/17",
+    "category": "summary",
+    "type": "normal",
+    "question": "概括：新系统缩短了查询时间，但在旧设备上内存占用增大，团队计划优化缓存。",
+    "quality_rubric": "保留收益代价及计划"
+  },
+  {
+    "uid": "normal/18",
+    "category": "summary",
+    "type": "normal",
+    "question": "概括：课程共八周，每周两次课。最后一周只安排展示，不讲新内容。",
+    "quality_rubric": "保留周期频次及例外"
+  },
+  {
+    "uid": "normal/19",
+    "category": "summary",
+    "type": "normal",
+    "question": "概括：商店满100元减10元，特价商品不参与，优惠不能叠加。",
+    "quality_rubric": "保留门槛及限制"
+  },
+  {
+    "uid": "normal/20",
+    "category": "summary",
+    "type": "normal",
+    "question": "概括：本月共收集40份反馈，25份建议改善搜索，10份建议增加导出，5份没有具体建议。",
+    "quality_rubric": "数字和诉求准确"
+  },
+  {
+    "uid": "normal/21",
+    "category": "summary",
+    "type": "normal",
+    "question": "概括：列车因故晚点20分钟，旅客可免费退票，也可保留车票继续等待。",
+    "quality_rubric": "保留延误与两种选择"
+  },
+  {
+    "uid": "normal/22",
+    "category": "summary",
+    "type": "normal",
+    "question": "概括：研究只覆盖一个城市的三所学校，结果不能直接推广到全国。",
+    "quality_rubric": "保留样本范围与推广限制"
+  },
+  {
+    "uid": "normal/23",
+    "category": "summary",
+    "type": "normal",
+    "question": "概括：软件更新修复登录错误，新功能默认关闭，管理员可在设置中启用。",
+    "quality_rubric": "保留修复与启用条件"
+  },
+  {
+    "uid": "normal/24",
+    "category": "summary",
+    "type": "normal",
+    "question": "概括：本次预算500元，材料花费320元，交通花费80元，余款留作应急。",
+    "quality_rubric": "保留预算开销与100元余额"
+  },
+  {
+    "uid": "normal/25",
+    "category": "advice",
+    "type": "normal",
+    "question": "如何安排一周的期末复习？",
+    "quality_rubric": "给出可执行分配与复盘"
+  },
+  {
+    "uid": "normal/26",
+    "category": "advice",
+    "type": "normal",
+    "question": "怎样整理混乱的项目文件夹？",
+    "quality_rubric": "给出分类命名备份步骤"
+  },
+  {
+    "uid": "normal/27",
+    "category": "advice",
+    "type": "normal",
+    "question": "准备三分钟报告应该怎样分配时间？",
+    "quality_rubric": "时间分配总计合理"
+  },
+  {
+    "uid": "normal/28",
+    "category": "advice",
+    "type": "normal",
+    "question": "如何降低忘记提交作业的概率？",
+    "quality_rubric": "提醒与检查步骤具体"
+  },
+  {
+    "uid": "normal/29",
+    "category": "advice",
+    "type": "normal",
+    "question": "小组讨论经常偏题，如何改进？",
+    "quality_rubric": "议程记录与行动项"
+  },
+  {
+    "uid": "normal/30",
+    "category": "advice",
+    "type": "normal",
+    "question": "写邮件向老师询问课程安排，给个简短模板。",
+    "quality_rubric": "礼貌且问题清楚"
+  },
+  {
+    "uid": "normal/31",
+    "category": "advice",
+    "type": "normal",
+    "question": "为初学者制定三天Python入门计划。",
+    "quality_rubric": "循序渐进有练习"
+  },
+  {
+    "uid": "normal/32",
+    "category": "advice",
+    "type": "normal",
+    "question": "如何比较两种文件压缩方案？",
+    "quality_rubric": "考虑压缩率速度及兼容性"
+  },
+  {
+    "uid": "normal/33",
+    "category": "advice",
+    "type": "normal",
+    "question": "怎样检查一张统计图是否误导？",
+    "quality_rubric": "检查坐标分母与范围"
+  },
+  {
+    "uid": "normal/34",
+    "category": "advice",
+    "type": "normal",
+    "question": "如何向同伴解释一次失败的实验？",
+    "quality_rubric": "描述设置结果及局限"
+  },
+  {
+    "uid": "normal/35",
+    "category": "advice",
+    "type": "normal",
+    "question": "准备一次线下演示，需要检查什么？",
+    "quality_rubric": "涵盖启动设备与备用方案"
+  },
+  {
+    "uid": "normal/36",
+    "category": "advice",
+    "type": "normal",
+    "question": "为阅读一本技术书安排可执行的笔记方法。",
+    "quality_rubric": "给出结构与实践复习步骤"
+  }
+]

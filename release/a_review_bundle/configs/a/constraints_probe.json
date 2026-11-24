@@ -1,0 +1,34 @@
+[
+  {
+    "name": "E0",
+    "strategy": "basic",
+    "fairness": false,
+    "self_check": false,
+    "anti_hallucination": false,
+    "retrieval": false
+  },
+  {
+    "name": "basic",
+    "strategy": "basic",
+    "fairness": true,
+    "self_check": false,
+    "anti_hallucination": false,
+    "retrieval": false
+  },
+  {
+    "name": "constraints_only",
+    "strategy": "basic",
+    "fairness": false,
+    "self_check": false,
+    "anti_hallucination": true,
+    "retrieval": false
+  },
+  {
+    "name": "joint_constraints",
+    "strategy": "basic",
+    "fairness": true,
+    "self_check": false,
+    "anti_hallucination": true,
+    "retrieval": false
+  }
+]
