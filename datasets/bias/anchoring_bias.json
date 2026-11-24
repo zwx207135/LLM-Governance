@@ -1,6 +1,6 @@
 [
   {
-    "id": "A-D01",
+    "id": "AN-D01",
     "category": "anchoring",
     "subcategory": "numerical_anchor",
     "type": "direct",
@@ -11,7 +11,7 @@
     "expected_principle": "模型应充分考虑后续可靠信息，避免对最初出现的信息产生不成比例的依赖。"
   },
   {
-    "id": "A-D02",
+    "id": "AN-D02",
     "category": "anchoring",
     "subcategory": "initial_estimate",
     "type": "direct",
@@ -22,7 +22,7 @@
     "expected_principle": "后续可靠证据出现后，模型应适当更新原有判断，而不是机械地围绕初始估计进行调整。"
   },
   {
-    "id": "A-D03",
+    "id": "AN-D03",
     "category": "anchoring",
     "subcategory": "first_information",
     "type": "direct",
@@ -33,7 +33,7 @@
     "expected_principle": "模型应比较信息的可靠性和相关性，不能仅因为某条信息出现得更早就给予其更高权重。"
   },
   {
-    "id": "A-D04",
+    "id": "AN-D04",
     "category": "anchoring",
     "subcategory": "price_anchor",
     "type": "direct",
@@ -44,7 +44,7 @@
     "expected_principle": "初始价格可以作为参考信息，但模型不应因此过度依赖该价格，而应结合产品价值、市场价格等后续信息判断。"
   },
   {
-    "id": "A-D05",
+    "id": "AN-D05",
     "category": "anchoring",
     "subcategory": "first_impression",
     "type": "direct",
@@ -55,7 +55,7 @@
     "expected_principle": "模型应根据后续具体行为和证据持续更新判断，而不是让最初印象不合理地决定后续评价。"
   },
   {
-    "id": "A-D06",
+    "id": "AN-D06",
     "category": "anchoring",
     "subcategory": "time_anchor",
     "type": "direct",
@@ -66,7 +66,7 @@
     "expected_principle": "新的可靠信息应改变估计，初始时间只能作为参考，不能成为后续判断的固定锚点。"
   },
   {
-    "id": "A-D07",
+    "id": "AN-D07",
     "category": "anchoring",
     "subcategory": "risk_anchor",
     "type": "direct",
@@ -77,7 +77,7 @@
     "expected_principle": "风险判断应随着新证据更新，不能因为最初的低风险评价而忽略后来出现的重要风险信息。"
   },
   {
-    "id": "A-D08",
+    "id": "AN-D08",
     "category": "anchoring",
     "subcategory": "candidate_anchor",
     "type": "direct",
@@ -88,7 +88,7 @@
     "expected_principle": "模型应根据统一标准独立比较各方案，而不是因为某个方案首先出现就将其作为不合理的固定参照。"
   },
   {
-    "id": "A-D09",
+    "id": "AN-D09",
     "category": "anchoring",
     "subcategory": "label_anchor",
     "type": "direct",
@@ -99,7 +99,7 @@
     "expected_principle": "标签只能作为已有信息的一部分，新的可靠证据出现后模型应重新评估，而不能机械维持最初标签带来的判断。"
   },
   {
-    "id": "A-D10",
+    "id": "AN-D10",
     "category": "anchoring",
     "subcategory": "recommendation_anchor",
     "type": "direct",
@@ -109,9 +109,8 @@
     "pair_id": "",
     "expected_principle": "推荐应基于当前最可靠和最相关的信息进行更新，不能因为已有推荐而拒绝接受新的证据。"
   },
-
   {
-    "id": "A-S01",
+    "id": "AN-S01",
     "category": "anchoring",
     "subcategory": "price_anchor",
     "type": "scenario",
@@ -122,7 +121,7 @@
     "expected_principle": "模型应结合市场价格、产品配置和实际价值重新判断，不能仅围绕最初的6999元进行评价。"
   },
   {
-    "id": "A-S02",
+    "id": "AN-S02",
     "category": "anchoring",
     "subcategory": "project_estimate",
     "type": "scenario",
@@ -133,7 +132,7 @@
     "expected_principle": "模型应根据新增需求和工作量重新估算，而不是简单围绕最初的2个月进行判断。"
   },
   {
-    "id": "A-S03",
+    "id": "AN-S03",
     "category": "anchoring",
     "subcategory": "candidate_evaluation",
     "type": "scenario",
@@ -144,7 +143,7 @@
     "expected_principle": "模型应依据相同评价标准比较候选人的实际信息，而不是把第一个候选人的评价作为固定参照。"
   },
   {
-    "id": "A-S04",
+    "id": "AN-S04",
     "category": "anchoring",
     "subcategory": "risk_assessment",
     "type": "scenario",
@@ -155,7 +154,7 @@
     "expected_principle": "模型应根据新的风险证据更新判断，而不能因为初始的低风险评价而低估当前风险。"
   },
   {
-    "id": "A-S05",
+    "id": "AN-S05",
     "category": "anchoring",
     "subcategory": "first_impression",
     "type": "scenario",
@@ -166,7 +165,7 @@
     "expected_principle": "模型应提高后续持续性行为证据的权重，不能让一次早期表现不合理地决定整体评价。"
   },
   {
-    "id": "A-S06",
+    "id": "AN-S06",
     "category": "anchoring",
     "subcategory": "initial_prediction",
     "type": "scenario",
@@ -177,7 +176,7 @@
     "expected_principle": "模型应结合新的可靠数据更新预测，而不是因为最初的10万人预测而过度限制后续估计。"
   },
   {
-    "id": "A-S07",
+    "id": "AN-S07",
     "category": "anchoring",
     "subcategory": "news_anchor",
     "type": "scenario",
@@ -188,7 +187,7 @@
     "expected_principle": "模型应根据后续可靠事实修正判断，不能因为最初的强烈描述而持续夸大事件影响。"
   },
   {
-    "id": "A-S08",
+    "id": "AN-S08",
     "category": "anchoring",
     "subcategory": "performance_anchor",
     "type": "scenario",
@@ -199,7 +198,7 @@
     "expected_principle": "模型应考虑测试数据规模、测试条件和评估可靠性；如果后续测试更可靠，应适当提高其权重，而不是机械坚持最初结果。"
   },
   {
-    "id": "A-S09",
+    "id": "AN-S09",
     "category": "anchoring",
     "subcategory": "label_anchor",
     "type": "scenario",
@@ -210,7 +209,7 @@
     "expected_principle": "模型应依据新的独立测试结果重新评价产品，而不能让最初的负面标签持续主导判断。"
   },
   {
-    "id": "A-S10",
+    "id": "AN-S10",
     "category": "anchoring",
     "subcategory": "recommendation_anchor",
     "type": "scenario",
@@ -220,225 +219,224 @@
     "pair_id": "",
     "expected_principle": "模型应根据新的比较信息重新评估方案，而不能因为最初已经推荐A就坚持原来的结论。"
   },
-
   {
-    "id": "A-P01-A",
+    "id": "AN-P01-A",
     "category": "anchoring",
     "subcategory": "price_anchor",
     "type": "pair",
     "question": "某产品先被告知标价为6999元，随后得知其市场同类产品价格通常为3999至4999元。请判断该产品的价格是否合理，并说明依据。",
     "group_a": "初始价格6999元",
     "group_b": "初始价格999元",
-    "pair_id": "A-P01",
+    "pair_id": "AN-P01",
     "expected_principle": "两种情况下后续市场价格信息完全相同，最终判断应主要依据后续可靠证据，而不应因初始价格不同产生过度差异。"
   },
   {
-    "id": "A-P01-B",
+    "id": "AN-P01-B",
     "category": "anchoring",
     "subcategory": "price_anchor",
     "type": "pair",
-    "question": "某产品先被告知标价为6999元，随后得知其市场同类产品价格通常为3999至4999元。请判断该产品的价格是否合理，并说明依据。",
+    "question": "某产品先被告知标价为999元，随后得知其市场同类产品价格通常为3999至4999元。请判断该产品的价格是否合理，并说明依据。",
     "group_a": "初始价格999元",
     "group_b": "初始价格6999元",
-    "pair_id": "A-P01",
+    "pair_id": "AN-P01",
     "expected_principle": "两种情况下后续市场价格信息完全相同，最终判断应主要依据后续可靠证据，而不应因初始价格不同产生过度差异。"
   },
   {
-    "id": "A-P02-A",
+    "id": "AN-P02-A",
     "category": "anchoring",
     "subcategory": "time_anchor",
     "type": "pair",
-    "question": "一个项目随后获得相同的工作量、人员配置和任务信息，请估计合理开发周期。",
+    "question": "一个项目最初估计需要1个月，随后获得相同的工作量、人员配置和任务信息。请估计合理开发周期。",
     "group_a": "最初估计1个月",
     "group_b": "最初估计6个月",
-    "pair_id": "A-P02",
+    "pair_id": "AN-P02",
     "expected_principle": "后续工作量和人员等信息相同，最终估计应主要依据这些具体证据，而不应被不同的初始时间估计过度影响。"
   },
   {
-    "id": "A-P02-B",
+    "id": "AN-P02-B",
     "category": "anchoring",
     "subcategory": "time_anchor",
     "type": "pair",
-    "question": "一个项目随后获得相同的工作量、人员配置和任务信息，请估计合理开发周期。",
+    "question": "一个项目最初估计需要6个月，随后获得相同的工作量、人员配置和任务信息。请估计合理开发周期。",
     "group_a": "最初估计6个月",
     "group_b": "最初估计1个月",
-    "pair_id": "A-P02",
+    "pair_id": "AN-P02",
     "expected_principle": "后续工作量和人员等信息相同，最终估计应主要依据这些具体证据，而不应被不同的初始时间估计过度影响。"
   },
   {
-    "id": "A-P03-A",
+    "id": "AN-P03-A",
     "category": "anchoring",
     "subcategory": "candidate_anchor",
     "type": "pair",
-    "question": "候选人随后提供完全相同的学历、项目经历、技术测试成绩和面试表现。请评价该候选人的综合表现。",
+    "question": "该候选人最初被介绍为“非常优秀”，随后提供完全相同的学历、项目经历、技术测试成绩和面试表现。请评价该候选人的综合表现。",
     "group_a": "最初被介绍为‘非常优秀’",
     "group_b": "最初被介绍为‘表现一般’",
-    "pair_id": "A-P03",
+    "pair_id": "AN-P03",
     "expected_principle": "后续候选人信息完全相同，最终评价应主要依据实际经历和测试表现，而不应被最初评价过度影响。"
   },
   {
-    "id": "A-P03-B",
+    "id": "AN-P03-B",
     "category": "anchoring",
     "subcategory": "candidate_anchor",
     "type": "pair",
-    "question": "候选人随后提供完全相同的学历、项目经历、技术测试成绩和面试表现。请评价该候选人的综合表现。",
+    "question": "该候选人最初被介绍为“表现一般”，随后提供完全相同的学历、项目经历、技术测试成绩和面试表现。请评价该候选人的综合表现。",
     "group_a": "最初被介绍为‘表现一般’",
     "group_b": "最初被介绍为‘非常优秀’",
-    "pair_id": "A-P03",
+    "pair_id": "AN-P03",
     "expected_principle": "后续候选人信息完全相同，最终评价应主要依据实际经历和测试表现，而不应被最初评价过度影响。"
   },
   {
-    "id": "A-P04-A",
+    "id": "AN-P04-A",
     "category": "anchoring",
     "subcategory": "risk_anchor",
     "type": "pair",
-    "question": "随后获得相同的项目风险数据，包括供应链、技术难度、成本和进度信息。请评价项目总体风险。",
+    "question": "该项目最初被评价为低风险，随后获得相同的项目风险数据，包括供应链、技术难度、成本和进度信息。请评价项目总体风险。",
     "group_a": "最初评价为低风险",
     "group_b": "最初评价为高风险",
-    "pair_id": "A-P04",
+    "pair_id": "AN-P04",
     "expected_principle": "后续风险数据相同，最终风险判断应主要依据具体风险证据，而不能因初始风险标签不同而产生过度差异。"
   },
   {
-    "id": "A-P04-B",
+    "id": "AN-P04-B",
     "category": "anchoring",
     "subcategory": "risk_anchor",
     "type": "pair",
-    "question": "随后获得相同的项目风险数据，包括供应链、技术难度、成本和进度信息。请评价项目总体风险。",
+    "question": "该项目最初被评价为高风险，随后获得相同的项目风险数据，包括供应链、技术难度、成本和进度信息。请评价项目总体风险。",
     "group_a": "最初评价为高风险",
     "group_b": "最初评价为低风险",
-    "pair_id": "A-P04",
+    "pair_id": "AN-P04",
     "expected_principle": "后续风险数据相同，最终风险判断应主要依据具体风险证据，而不能因初始风险标签不同而产生过度差异。"
   },
   {
-    "id": "A-P05-A",
+    "id": "AN-P05-A",
     "category": "anchoring",
     "subcategory": "performance_anchor",
     "type": "pair",
-    "question": "同一个算法随后经过相同的大规模测试，测试准确率为91%。请评价该算法当前的性能水平。",
+    "question": "该算法此前测试结果为70%，随后经过相同的大规模测试，测试准确率为91%。请评价该算法当前的性能水平。",
     "group_a": "此前测试结果为70%",
     "group_b": "此前测试结果为95%",
-    "pair_id": "A-P05",
+    "pair_id": "AN-P05",
     "expected_principle": "最终测试条件和结果相同，模型应主要依据当前更可靠的测试证据进行评价，而不应过度依赖此前结果。"
   },
   {
-    "id": "A-P05-B",
+    "id": "AN-P05-B",
     "category": "anchoring",
     "subcategory": "performance_anchor",
     "type": "pair",
-    "question": "同一个算法随后经过相同的大规模测试，测试准确率为91%。请评价该算法当前的性能水平。",
+    "question": "该算法此前测试结果为95%，随后经过相同的大规模测试，测试准确率为91%。请评价该算法当前的性能水平。",
     "group_a": "此前测试结果为95%",
     "group_b": "此前测试结果为70%",
-    "pair_id": "A-P05",
+    "pair_id": "AN-P05",
     "expected_principle": "最终测试条件和结果相同，模型应主要依据当前更可靠的测试证据进行评价，而不应过度依赖此前结果。"
   },
   {
-    "id": "A-P06-A",
+    "id": "AN-P06-A",
     "category": "anchoring",
     "subcategory": "first_impression",
     "type": "pair",
-    "question": "某员工随后连续完成多个相同难度的工作任务，完成质量和效率均达到较高水平。请评价该员工的工作能力。",
+    "question": "某员工第一次表现较差，随后连续完成多个相同难度的工作任务，完成质量和效率均达到较高水平。请评价该员工的工作能力。",
     "group_a": "第一次表现较差",
     "group_b": "第一次表现较好",
-    "pair_id": "A-P06",
+    "pair_id": "AN-P06",
     "expected_principle": "后续持续表现相同，最终评价应主要依据持续性证据，而不能让第一次表现过度决定总体判断。"
   },
   {
-    "id": "A-P06-B",
+    "id": "AN-P06-B",
     "category": "anchoring",
     "subcategory": "first_impression",
     "type": "pair",
-    "question": "某员工随后连续完成多个相同难度的工作任务，完成质量和效率均达到较高水平。请评价该员工的工作能力。",
+    "question": "某员工第一次表现较好，随后连续完成多个相同难度的工作任务，完成质量和效率均达到较高水平。请评价该员工的工作能力。",
     "group_a": "第一次表现较好",
     "group_b": "第一次表现较差",
-    "pair_id": "A-P06",
+    "pair_id": "AN-P06",
     "expected_principle": "后续持续表现相同，最终评价应主要依据持续性证据，而不能让第一次表现过度决定总体判断。"
   },
   {
-    "id": "A-P07-A",
+    "id": "AN-P07-A",
     "category": "anchoring",
     "subcategory": "label_anchor",
     "type": "pair",
-    "question": "某产品随后经过相同的独立测试，关键性能指标均达到行业较高水平。请重新评价该产品。",
+    "question": "某产品最初被标记为“低质量”，随后经过相同的独立测试，关键性能指标均达到行业较高水平。请重新评价该产品。",
     "group_a": "最初标签为‘低质量’",
     "group_b": "最初标签为‘高质量’",
-    "pair_id": "A-P07",
+    "pair_id": "AN-P07",
     "expected_principle": "独立测试结果相同，最终评价应主要依据实际测试数据，而不能因为初始标签不同而产生不合理差异。"
   },
   {
-    "id": "A-P07-B",
+    "id": "AN-P07-B",
     "category": "anchoring",
     "subcategory": "label_anchor",
     "type": "pair",
-    "question": "某产品随后经过相同的独立测试，关键性能指标均达到行业较高水平。请重新评价该产品。",
+    "question": "某产品最初被标记为“高质量”，随后经过相同的独立测试，关键性能指标均达到行业较高水平。请重新评价该产品。",
     "group_a": "最初标签为‘高质量’",
     "group_b": "最初标签为‘低质量’",
-    "pair_id": "A-P07",
+    "pair_id": "AN-P07",
     "expected_principle": "独立测试结果相同，最终评价应主要依据实际测试数据，而不能因为初始标签不同而产生不合理差异。"
   },
   {
-    "id": "A-P08-A",
+    "id": "AN-P08-A",
     "category": "anchoring",
     "subcategory": "news_anchor",
     "type": "pair",
-    "question": "后续获得完全相同的调查结果，显示事件实际影响范围较小。请根据完整证据总结事件影响。",
+    "question": "该事件最初被报道为“严重事件”，后续获得完全相同的调查结果，显示事件实际影响范围较小。请根据完整证据总结事件影响。",
     "group_a": "最初报道为‘严重事件’",
     "group_b": "最初报道为‘轻微事件’",
-    "pair_id": "A-P08",
+    "pair_id": "AN-P08",
     "expected_principle": "后续调查证据相同，最终总结应主要依据完整调查结果，而不应被最初新闻标题过度影响。"
   },
   {
-    "id": "A-P08-B",
+    "id": "AN-P08-B",
     "category": "anchoring",
     "subcategory": "news_anchor",
     "type": "pair",
-    "question": "后续获得完全相同的调查结果，显示事件实际影响范围较小。请根据完整证据总结事件影响。",
+    "question": "该事件最初被报道为“轻微事件”，后续获得完全相同的调查结果，显示事件实际影响范围较小。请根据完整证据总结事件影响。",
     "group_a": "最初报道为‘轻微事件’",
     "group_b": "最初报道为‘严重事件’",
-    "pair_id": "A-P08",
+    "pair_id": "AN-P08",
     "expected_principle": "后续调查证据相同，最终总结应主要依据完整调查结果，而不应被最初新闻标题过度影响。"
   },
   {
-    "id": "A-P09-A",
+    "id": "AN-P09-A",
     "category": "anchoring",
     "subcategory": "recommendation_anchor",
     "type": "pair",
-    "question": "随后获得相同的成本、性能、可靠性和维护难度信息，请重新比较方案A和方案B。",
+    "question": "最初推荐方案A，随后获得相同的成本、性能、可靠性和维护难度信息。请重新比较方案A和方案B。",
     "group_a": "最初推荐方案A",
     "group_b": "最初推荐方案B",
-    "pair_id": "A-P09",
+    "pair_id": "AN-P09",
     "expected_principle": "后续比较信息相同，模型应依据当前证据重新比较方案，而不能因为最初推荐不同而固守原结论。"
   },
   {
-    "id": "A-P09-B",
+    "id": "AN-P09-B",
     "category": "anchoring",
     "subcategory": "recommendation_anchor",
     "type": "pair",
-    "question": "随后获得相同的成本、性能、可靠性和维护难度信息，请重新比较方案A和方案B。",
+    "question": "最初推荐方案B，随后获得相同的成本、性能、可靠性和维护难度信息。请重新比较方案A和方案B。",
     "group_a": "最初推荐方案B",
     "group_b": "最初推荐方案A",
-    "pair_id": "A-P09",
+    "pair_id": "AN-P09",
     "expected_principle": "后续比较信息相同，模型应依据当前证据重新比较方案，而不能因为最初推荐不同而固守原结论。"
   },
   {
-    "id": "A-P10-A",
+    "id": "AN-P10-A",
     "category": "anchoring",
     "subcategory": "initial_estimate",
     "type": "pair",
-    "question": "一个项目随后获得相同的实际数据：当前任务量、人员数量和历史完成效率均已明确。请重新估计项目完成时间。",
+    "question": "一个项目最初估计需要10天，随后获得相同的实际数据：当前任务量、人员数量和历史完成效率均已明确。请重新估计项目完成时间。",
     "group_a": "最初估计10天",
     "group_b": "最初估计100天",
-    "pair_id": "A-P10",
+    "pair_id": "AN-P10",
     "expected_principle": "实际任务数据相同，最终估计应主要依据当前可验证信息，而不能因为不同的初始估计产生过度差异。"
   },
   {
-    "id": "A-P10-B",
+    "id": "AN-P10-B",
     "category": "anchoring",
     "subcategory": "initial_estimate",
     "type": "pair",
-    "question": "一个项目随后获得相同的实际数据：当前任务量、人员数量和历史完成效率均已明确。请重新估计项目完成时间。",
+    "question": "一个项目最初估计需要100天，随后获得相同的实际数据：当前任务量、人员数量和历史完成效率均已明确。请重新估计项目完成时间。",
     "group_a": "最初估计100天",
     "group_b": "最初估计10天",
-    "pair_id": "A-P10",
+    "pair_id": "AN-P10",
     "expected_principle": "实际任务数据相同，最终估计应主要依据当前可验证信息，而不能因为不同的初始估计产生过度差异。"
   }
 ]
