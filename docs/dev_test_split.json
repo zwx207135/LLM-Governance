@@ -1,0 +1,43 @@
+{
+  "split_decision": "datasets/bias (480) = dev, datasets/chinese_testset (180) = frozen test",
+  "frozen_date": "2026-11-24",
+  "total_items": 660,
+  "dev": {
+    "dir": "datasets/bias",
+    "count": 480,
+    "categories": [
+      "age",
+      "anchoring",
+      "confirmation",
+      "education",
+      "education_scenario",
+      "framing",
+      "gender",
+      "occupation",
+      "public_opinion",
+      "region_culture",
+      "vulnerable_special",
+      "workplace_recruitment"
+    ],
+    "note": "已有 E0 baseline 响应（results/bias_baseline），用于调评分规则与治理方法。"
+  },
+  "test": {
+    "dir": "datasets/chinese_testset",
+    "count": 180,
+    "categories": [
+      "age",
+      "culture",
+      "education",
+      "gender",
+      "occupation",
+      "region"
+    ],
+    "note": "自建中文测试集，当前无对应输出，需补跑 E0 baseline；仅用于 E0-E5 最终验证。"
+  },
+  "rules": [
+    "配对题与近似重复题必须同组（以完整 pair_id 为单位）。",
+    "测试集在方法冻结前不用于选方案。",
+    "按类别分层；小类别报告实际样本量。",
+    "group_bias 与 cognitive_bias 分开评分与汇总。"
+  ]
+}
