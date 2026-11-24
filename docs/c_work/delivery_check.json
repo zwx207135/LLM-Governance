@@ -3,7 +3,7 @@
   "passed": true,
   "tests_executed_this_check": true,
   "tests": {
-    "tests_run": 151,
+    "tests_run": 157,
     "failures": 0,
     "errors": 0,
     "skipped": 0,
@@ -133,6 +133,19 @@
     "records": 34,
     "frozen_replays_verified": true,
     "formal_accuracy": null
+  },
+  "C_pilot_AI_draft": {
+    "passed": true,
+    "rows": 25,
+    "columns": 17,
+    "original_bytes_verified": true,
+    "xlsx_csv_and_evidence_verified": true,
+    "ai_assisted_judgments": 25,
+    "independent_human_judgments": 0,
+    "adjudications": 0,
+    "formal_accuracy": null,
+    "unknown_entity_truth_not_assumed": true,
+    "model_inference_calls": 0
   },
   "note": "No new inference; this checks development artifacts, not final acceptance or effectiveness."
 }

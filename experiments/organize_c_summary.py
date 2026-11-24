@@ -65,9 +65,10 @@ def main():
     tests = read("test_results.json")
     v4 = json.loads((ROOT / "knowledge/build_manifest_v4.json").read_text(encoding="utf-8"))
     totals = inventory["totals"]
-    lines = ["# C分工已完成内容总览", "", "整理日期：2026-11-24。只汇总C自己的数据、知识库、抗幻组件、消融和故障分析。旧记录与不成功候选保留；开发成果不代表正式验收通过。", "",
+    lines = ["# C分工已完成内容总览", "", "整理日期：2026-11-25。只汇总C自己的数据、知识库、抗幻组件、消融和故障分析。旧记录与不成功候选保留；开发成果不代表正式验收通过。", "",
              "## 一眼看当前状态", "",
              "- 开发交付收尾说明与待核验事项：[C_CLOSEOUT](C_CLOSEOUT.md)。",
+             "- 新增组员25条试标的[C侧AI辅助稿](pilot_C_ai_v1/README.md)：CSV/Excel、逐条证据及原表快照已交付；等待C/D标签统一和独立真人复核，不计为新模型实验或正式评分。",
              f"- 原题{audit['items']}条已完成结构与来源初审；22条不确定性探针不再把未证实的不存在断言当事实真值。",
              f"- 当前v4开发知识库：{v4['sources']}个来源、{v4['chunks']}个片段；旧v3的16源25段及实验快照保留。",
              f"- 下列{inventory['run_directories']}个C开发运行目录，共{totals['outputs']}条输出：{totals['model_calls']}次模型调用、{totals['program_outputs']}条程序拒答。跨轮包含重复题目和重复答案，不是独立样本数。",

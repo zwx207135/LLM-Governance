@@ -9,7 +9,7 @@
     "program_outputs": 5
   },
   "tests": {
-    "tests_run": 151,
+    "tests_run": 157,
     "failures": 0,
     "errors": 0,
     "skipped": 0,
@@ -22,7 +22,7 @@
   "normal_route_records_verified": 48,
   "support_evidence_replays": 30,
   "historical_failure_chains": 11,
-  "active_local_links_checked": 118,
+  "active_local_links_checked": 123,
   "original_dataset_unchanged": true,
   "independent_human_reviews": 0,
   "remaining_original_target_ids": [
@@ -34,15 +34,15 @@
   ],
   "formal_accuracy": null,
   "active_document_sha256": {
-    "README.md": "e3e2c3b0f2691a9fb64394d56b11ea3ad6bacd3443a21792952305352d58a028",
-    "C_PROGRESS.md": "d392ff9b0d19ff08949689cdbd9dff2bf81a4382060a74e9e8860f32d4ac5286",
-    "docs/c_work/C_HANDOFF.md": "9505679db72db6006af469819e3251651b9daa55f985949c5863cca9a7023f9b",
-    "docs/c_work/C_ONLY_STATUS.md": "58f81876e7ea4b63778e641a162422f3c636f472d24223ed4b1e17e768938830",
+    "README.md": "264d6b9977a1e16e51db5df7b057664b539930d2f8b8c676da6c7e8bcd1e37aa",
+    "C_PROGRESS.md": "5c200c45b207a7fa286625bb515523a6773c5a99fdc0552d0d905acefda6b66f",
+    "docs/c_work/C_HANDOFF.md": "6731858772d0abac68c303bf30b995360d2ff0d0ea7a086186a0799f4384a8da",
+    "docs/c_work/C_ONLY_STATUS.md": "2571910e3bd1b896a0906c77531719bf31ce22199f175f9eca701c0fb091417f",
     "docs/c_work/C_COMPONENT_HANDOFF.md": "d2bc3f558dda31f0391c941a9c177b34e502eeaef3fb57f2107dc13a85be34ab",
     "docs/c_work/C_EVIDENCE_USE.md": "9c958c9e996da964de765395dbf72311132df1c9838635270289322853ba6d13",
     "docs/c_work/C_SUBJECT_FOCUS.md": "ef18c7aff9a2e3683127ba37b19012324eacec78c01dd740ca9925fa36e93204",
     "docs/c_work/C_NOBEL_SUPPLEMENT.md": "ebaa0a18f04d6af61212c6866f407f6d5f2096568d94a5b7c654d656d32864bb",
     "docs/c_work/C_FAILURE_EVIDENCE.md": "7251e8265336dbf0bbd2ca5aedf767903d7af8891b3e5b0258a08f4fa9791472",
-    "docs/c_work/C_CLOSEOUT.md": "051f480c5c7d25f28a4ea0e6364a6dce5dc51bb4a288c93ff7825364a9f21b5f"
+    "docs/c_work/C_CLOSEOUT.md": "ee2d7f1dc74204ad2e7cb22698f3432a91ee92849bd2b71b6a7223ac2a5f1c7b"
   }
 }

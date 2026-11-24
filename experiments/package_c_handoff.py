@@ -50,7 +50,7 @@ def main():
     for folder in ("src", "experiments", "tests", "configs", "knowledge", "datasets"):
         files.extend(p for p in (ROOT / folder).rglob("*") if p.is_file() and p.suffix in (".py", ".json", ".md"))
     documents = ROOT / "docs/c_work"
-    files.extend(p for p in documents.rglob("*") if p.is_file() and "runs" not in p.relative_to(documents).parts and p.suffix in (".py", ".md", ".json", ".csv", ".png", ".svg"))
+    files.extend(p for p in documents.rglob("*") if p.is_file() and "runs" not in p.relative_to(documents).parts and p.suffix in (".py", ".md", ".json", ".csv", ".png", ".svg", ".xlsx", ".mjs"))
     for run in (*RUNS, "joint_smoke_v1"):
         files.extend(p for p in (documents / "runs" / run).rglob("*") if p.is_file() and p.suffix in (".py", ".json", ".jsonl", ".md", ".csv", ".png"))
     files.extend(p for p in (ROOT / "README.md", ROOT / ".gitignore", ROOT / "C_PROGRESS.md") if p.exists())

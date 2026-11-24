@@ -1,5 +1,7 @@
 # LLM Governance
 
+2026-11-25新增：[25条C侧辅助试标与证据](docs/c_work/pilot_C_ai_v1/README.md)，含CSV/Excel、原表快照和校验；为AI预标注，待C/D统一口径并独立人工复核。
+
 C开发交付收尾与核验入口：[C_CLOSEOUT](docs/c_work/C_CLOSEOUT.md)。
 
 继续工作先读：[C进度文件](C_PROGRESS.md)，包含任务范围、当前进度、未完成项和下一步顺序。

@@ -18,3 +18,4 @@
 # Generated SVG paths and verbatim model outputs retain their original whitespace.
 /docs/c_work/figures/*.svg -whitespace
 /docs/c_work/runs/** -whitespace
+/docs/c_work/pilot_C_ai_v1/*.csv -whitespace
