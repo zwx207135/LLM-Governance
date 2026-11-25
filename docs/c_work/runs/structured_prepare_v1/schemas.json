@@ -1,0 +1,11 @@
+{
+  "version": "c-finite-json-schemas-v1",
+  "purpose": "输出约束，仅有字段与完整可选值，不含正确答案。字段顺序与JSON序列化固定，所有语义组合保留。",
+  "schemas": {
+    "B01": {"fields": [{"name": "namesake_documented", "values": [true, false]}, {"name": "specific_contribution", "values": ["supported", "refuted", "not_established"]}]},
+    "B02": {"fields": [{"name": "namesake_documented", "values": [true, false]}, {"name": "nobel_identity", "values": ["supported", "refuted", "not_established"]}]},
+    "B03": {"fields": [{"name": "only_su7", "values": [true, false]}, {"name": "su9_parameters", "values": ["supported", "refuted", "not_established"]}]},
+    "B04": {"fields": [{"name": "listed_in_excerpt", "values": [true, false]}, {"name": "no_related_research", "values": ["supported", "refuted", "not_established"]}]},
+    "B05": {"fields": [{"name": "namesake_documented", "values": [true, false]}, {"name": "nobel_identity", "values": ["supported", "refuted", "not_established"]}]}
+  }
+}

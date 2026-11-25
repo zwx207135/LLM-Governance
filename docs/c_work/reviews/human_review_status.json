@@ -1,0 +1,14 @@
+{
+  "review_scope": "human_only",
+  "status": "no_independent_human_reviews",
+  "review_count": 0,
+  "unadjudicated_record_count": 0,
+  "tables": [],
+  "human_agreement": {
+    "status": "unavailable",
+    "reason": "Requires two distinct human reviewers of identical records",
+    "n": 0,
+    "kappa": null
+  },
+  "warning": "Purposefully selected development cases; no population-level effectiveness claim."
+}

@@ -1,0 +1,14 @@
+{
+  "stage": "joint_integration_smoke_not_E3_evaluation",
+  "records": 6,
+  "errors": 0,
+  "runtime_sha256": {
+    "src/governance/joint.py": "fbfde780e66c343d6aae0b5edf776657c36738258cc6ad854a57f945b5dce3aa",
+    "src/governance/consistency.py": "32b74139c710db36036ae1821014064b78597e3be82a1bbe4f4bdb1a7c4ce44b",
+    "src/governance/service.py": "ee2693cf6926e336ab79444e20bba7e720e188ec84e5e9fc4139ce70a6636975",
+    "src/models/llm_model.py": "01245282117e7c74a17247aa6f9e537de46a4d833c1fea81c26f96d08b0dc939",
+    "knowledge/corpus_v3.json": "deb3f7e7b341e58e52fd5dc2adbcd44c43e47a09904085be6bbe484201597938",
+    "experiments/demo_c_joint.py": "1c9c9d0d7b6929a7b0145d353d0eb046cc377f5c37e2e4516c414137cc814326"
+  },
+  "bias_effectiveness": "not_evaluated"
+}

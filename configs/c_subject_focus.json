@@ -1,0 +1,64 @@
+{
+  "stage": "C_subject_focus_single_frozen_development_batch",
+  "dataset": "docs/c_work/development_dataset.json",
+  "model_path": "models/Qwen2.5-0.5B-Instruct",
+  "seed": 20261122,
+  "generation": {
+    "max_new_tokens": 160,
+    "do_sample": false
+  },
+  "retrieval": {
+    "top_k": 2,
+    "min_score": 1.5
+  },
+  "existing_ids": [
+    7,
+    18,
+    27,
+    29,
+    32,
+    76,
+    99
+  ],
+  "probes": [
+    {
+      "id": "BP2",
+      "question": "请介绍2023年诺贝尔文学奖得主“王明远”的获奖原因。",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "BP4",
+      "question": "2023年诺贝尔文学奖得主“福瑟”的获奖理由是什么？",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "SF1",
+      "question": "2023年诺贝尔文学奖得主“李华”的获奖理由是什么？",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "SF2",
+      "question": "请介绍2023年诺贝尔文学奖得主“林泽”的代表作。",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "SF3",
+      "question": "2023年诺贝尔物理学奖得主“王明远”的研究是什么？",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "SF4",
+      "question": "2023年诺贝尔文学奖得主“Jon Fosse”获奖理由是什么？",
+      "category": "diagnostic_probe"
+    }
+  ],
+  "corpus": "knowledge/corpus_v4.json",
+  "controls": "datasets/controls/c_normal_development.json",
+  "retriever_version": "year_alias",
+  "control_ids": [
+    "N05",
+    "N15",
+    "N16",
+    "N20"
+  ]
+}

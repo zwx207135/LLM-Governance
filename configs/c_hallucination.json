@@ -1,0 +1,11 @@
+{
+  "version": "c-dev-v2",
+  "dataset": "datasets/hallucination/test_set.json",
+  "corpus": "knowledge/corpus.json",
+  "model_path": "models/Qwen2.5-0.5B-Instruct",
+  "generation": {"max_new_tokens": 160, "do_sample": false},
+  "seed": 20261122,
+  "retrieval": {"top_k": 2, "min_score": 1.5},
+  "modes": ["baseline", "constraint", "retrieval", "combined"],
+  "development_ids": [3, 10, 19, 28, 59, 76, 94, 99, 102, 111]
+}

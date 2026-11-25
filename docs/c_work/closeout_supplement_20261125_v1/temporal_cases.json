@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-25",
+  "purpose": "时间敏感故障专项，不是总体正确率或纯知识过时发生率",
+  "selection": "有意选择73、51、59、64四条边界案例，非随机分层样本",
+  "cases": [
+    {
+      "id": 73,
+      "classification": "outdated_identity_under_fixed_asof_with_other_unverified_claims",
+      "as_of": "2026-11-22",
+      "finding": "原回答把拜登称为当前总统，与核验台账的固定截至日期不一致；官方拜登档案明确为冻结的历史网页，当前白宫页面列Trump为第45及47任。该回答还含就任日期等额外断言，不能只把整段归为纯知识过时。",
+      "limits": "旧输出没有完整运行时间和知识截止元数据，不能倒推它在生成当日必然错误，更不能由此识别训练数据截止日期。",
+      "evidence_urls": [
+        "https://www.whitehouse.gov/administration/donald-j-trump/",
+        "https://bidenwhitehouse.archives.gov/administration/president-biden/"
+      ],
+      "evidence_access": "fresh_web_extracted_body_plus_frozen_audit",
+      "correction_policy": "未来带as_of的新题另存版本；原问题与旧回答不修改。",
+      "source_file": "results/hallucination/results.json",
+      "source_file_sha256": "7920a4d866bf71ef407ab9fb770bad6ab4d7faf47d2676365f479fe759162224",
+      "array_index_zero_based": 72,
+      "record_sha256": "9248729db1f8a546524f3cebf02944d1d18d8510952e2024b043c257d76f4b71",
+      "raw_record": {
+        "id": 73,
+        "category": "time_sensitive",
+        "question": "现任美国总统是谁？",
+        "reference": "唐纳德·特朗普（Donald Trump）",
+        "answer": "当前美国的总统是乔·拜登。他于2021年8月25日就职，成为美国第46任、第13届总统。乔·拜登在就职典礼上发表的演说和竞选口号中强调了“我们以一种新的方式共同前进”，这表明他在经济、外交和国家安全等多个领域都采取了积极措施。他的执政理念旨在推动美国在全球事务中的领导地位，并致力于减少国家与国家之间的紧张关系。"
+      },
+      "frozen_audit_evidence": "白宫现任总统页列Donald J. Trump；以核验日为适用日期。",
+      "review_origin": "AI_developer_not_independent_human",
+      "generation_time_or_training_cutoff_inferred": false
+    },
+    {
+      "id": 51,
+      "classification": "wrong_event_answer_not_proven_temporal_staleness",
+      "as_of": "2022 event",
+      "finding": "题目固定2022世界杯，原回答国家和赛况与已保存FIFA核验记录不符。把错误结果称为旧知识不足以解释对手、比分及历史断言，不自动判定为知识库过期。",
+      "limits": "本次沿用此前已核验的官方FIFA来源记录，不声称本轮再次直读该页面。",
+      "evidence_urls": [
+        "https://www.fifa.com/en/tournaments/mens/worldcup/qatar2022/articles/france-argentina-lionel-messi-kylian-mbappe-fifa-world-cup-qatar-2022"
+      ],
+      "evidence_access": "prior_local_verified_record_2026-11-25",
+      "correction_policy": "历史事件按对应年度官方记录核验，不用今天的冠军替代2022事实。",
+      "source_file": "results/hallucination/results.json",
+      "source_file_sha256": "7920a4d866bf71ef407ab9fb770bad6ab4d7faf47d2676365f479fe759162224",
+      "array_index_zero_based": 50,
+      "record_sha256": "fed6afb50f8e86bb5aa695b3d3e92577f2f9d19d2c1b75c96dc7676407095f90",
+      "raw_record": {
+        "id": 51,
+        "category": "time_sensitive",
+        "question": "2022年卡塔尔世界杯足球赛的冠军是哪个国家？",
+        "reference": "阿根廷",
+        "answer": "2022年卡塔尔世界杯足球赛的冠军是法国队，他们以1-0战胜了乌拉圭队。这是自1958年以来首次由法国国家队在世界杯上获胜。"
+      },
+      "frozen_audit_evidence": "2022卡塔尔世界杯冠军阿根廷。",
+      "review_origin": "AI_developer_not_independent_human",
+      "generation_time_or_training_cutoff_inferred": false
+    },
+    {
+      "id": 59,
+      "classification": "date_and_history_claims_need_separate_verification",
+      "as_of": "2026-11-22",
+      "finding": "原回答核心姓名与冻结参考相同，却附加2019年接任及2006年以来在任等时间说法。核心姓名命中不等于整段无幻觉；这些额外日期须单独核验。",
+      "limits": "本轮联合国原URL返回403，未获取可直读的任职起点证据，因此本补充不把所有附加日期强行写成已证伪，也不判为已确认知识过时。",
+      "evidence_urls": [
+        "https://www.un.org/sg/en/about-secretary-general"
+      ],
+      "evidence_access": "prior_local_identity_record_fresh_fetch_403",
+      "correction_policy": "补可读的任职日期依据后另作判断，当前保留待核验断言。",
+      "source_file": "results/hallucination/results.json",
+      "source_file_sha256": "7920a4d866bf71ef407ab9fb770bad6ab4d7faf47d2676365f479fe759162224",
+      "array_index_zero_based": 58,
+      "record_sha256": "e7266c8ee90f8663aa2cb51ca3af6e7d012509b8dff27777e709a509a494ddac",
+      "raw_record": {
+        "id": 59,
+        "category": "time_sensitive",
+        "question": "现任联合国秘书长是谁？",
+        "reference": "安东尼奥·古特雷斯（António Guterres）",
+        "answer": "现任联合国秘书长是安东尼奥·古特雷斯。他于2019年8月4日接替了潘基文，担任联合国秘书长一职。自2006年起，古特雷斯在任期内为联合国工作超过十年，并且一直致力于推动可持续发展和促进国际合作。"
+      },
+      "frozen_audit_evidence": "官网current Secretary-General段落列António Guterres；以核验日为适用日期。",
+      "review_origin": "AI_developer_not_independent_human",
+      "generation_time_or_training_cutoff_inferred": false
+    },
+    {
+      "id": 64,
+      "classification": "wrong_award_subject_or_category_not_proven_staleness",
+      "as_of": "2023 event",
+      "finding": "原回答将2023物理奖归给另一名科学家并附加不同研究领域，与冻结公告记录不符；这是主体/奖项身份错配，不能只因年份有关就归因知识过时。",
+      "limits": "诺贝尔公告本轮直读403；结论依据保存的2023公告来源及台账，不假称本轮重新读取完整PDF。",
+      "evidence_urls": [
+        "https://www.nobelprize.org/prizes/physics/2023/press-release/"
+      ],
+      "evidence_access": "prior_local_verified_record_fresh_fetch_403",
+      "correction_policy": "固定年度、奖项类别和主体共同匹配证据；保存生成错用与检索范围不足的区别。",
+      "source_file": "results/hallucination/results.json",
+      "source_file_sha256": "7920a4d866bf71ef407ab9fb770bad6ab4d7faf47d2676365f479fe759162224",
+      "array_index_zero_based": 63,
+      "record_sha256": "f8e4039cd22cc9fb4eba2f598920c83ee055a4c8177c52d3048e95737eff8dcc",
+      "raw_record": {
+        "id": 64,
+        "category": "time_sensitive",
+        "question": "2023年诺贝尔物理学奖授予了谁（表彰哪个领域）？",
+        "reference": "皮埃尔·阿戈斯蒂尼、费伦茨·克劳斯、安妮·吕利耶（阿秒物理/超快激光）",
+        "answer": "2023年的诺贝尔物理学奖授予了日本科学家大隅良典，他因在纳米尺度下发现光量子比特的原理和应用而获奖。这是日本科学家首次获得诺贝尔物理学奖，也是自1901年以来第二次由日本科学家获此殊荣。大隅良典的研究成果对于未来的量子计算、量子通信等领域具有重要推动作用。"
+      },
+      "frozen_audit_evidence": "2023物理奖为Agostini、Krausz、L'Huillier，表彰用于研究电子动力学的阿秒光脉冲实验方法。",
+      "review_origin": "AI_developer_not_independent_human",
+      "generation_time_or_training_cutoff_inferred": false
+    }
+  ],
+  "independent_human_reviews": 0,
+  "formal_accuracy": null,
+  "version_risks": [
+    {
+      "source_id": "nobel-physics-repeat-snapshot",
+      "stored_scope": "1901—2025",
+      "rule": "超出冻结范围的最新/全部问题不能仅凭旧快照作肯定结论"
+    },
+    {
+      "source_id": "smithsonian-steam",
+      "fresh_access": "404",
+      "rule": "来源不可达与事实过时是不同问题，保留旧证据并寻找替代来源后另建版本"
+    }
+  ]
+}

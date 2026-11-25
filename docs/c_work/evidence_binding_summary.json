@@ -1,0 +1,36 @@
+{
+  "scope": "C_method_diagnostics_only",
+  "independent_human_reviews": 0,
+  "formal_accuracy": null,
+  "runs": {
+    "evidence_binding_v1": {
+      "model_calls": 86,
+      "pairs": 43,
+      "same_evidence_pairs": 43,
+      "card_applied_pairs": 11,
+      "changed_answers": 11,
+      "truncated": 1,
+      "normal_control_pairs": 20,
+      "normal_same_prompt_pairs": 20,
+      "normal_same_answer_pairs": 20,
+      "records_sha256": "8c3c9902a8de0f07fc5d1ad58eefac2eb42a98ceeb72a8f6ad976cc32b7893f1",
+      "frozen_replays_verified": 86
+    },
+    "year_alias_v1": {
+      "model_calls": 12,
+      "pairs": 6,
+      "same_evidence_pairs": 6,
+      "card_applied_pairs": 3,
+      "changed_answers": 3,
+      "truncated": 0,
+      "normal_control_pairs": 2,
+      "normal_same_prompt_pairs": 2,
+      "normal_same_answer_pairs": 2,
+      "records_sha256": "02edcb0364287ffa4e740362dbc9ebe8b401c7bf7856a9d74ee6015231d98255",
+      "frozen_replays_verified": 12
+    }
+  },
+  "total_model_calls": 98,
+  "year_alias_regression_checked_questions": 125,
+  "year_alias_regression_changed_ids": []
+}

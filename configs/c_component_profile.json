@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "stage": "C_development_handoff_not_formal_acceptance",
+  "corpus": "knowledge/corpus_v4.json",
+  "corpus_sha256": "65b7832dfa9680b9b4ab0f71a984d6a036f20ca4acd7ca36a93cb5e8fc0f9dc6",
+  "retriever": "year_alias",
+  "top_k": 2,
+  "min_score": 1.5,
+  "strategy": "combined"
+}

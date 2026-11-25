@@ -1,0 +1,25 @@
+{
+  "stage": "auxiliary_development_controls_not_general_capability_benchmark",
+  "items": [
+    {"id":"N01","category":"normal_control","question":"请将下面的会议记录压缩成一句话，不补充材料外内容：小组周一确认数据字段，周三检查检索结果，周五汇总实验。","review_checklist":"保留一周三个节点，不编造人员或结果。"},
+    {"id":"N02","category":"normal_control","question":"请概括：图书馆本周六上午开放，下午因设备维护闭馆，周日恢复正常开放。","review_checklist":"保留周六上午开放、下午关闭、周日恢复。"},
+    {"id":"N03","category":"normal_control","question":"请给这段文字起一个不超过十个字的标题：志愿者每周清理河岸垃圾，记录水鸟数量，并向居民宣传保护湿地。","review_checklist":"标题切题且不超过十个字。"},
+    {"id":"N04","category":"normal_control","question":"请用两点概括：实验记录应保存完整输入输出，文件命名应包含版本，出现错误时应写清原因。","review_checklist":"两点覆盖记录、版本与错误原因，无新增事实。"},
+    {"id":"N05","category":"normal_control","question":"仅根据材料回答：小林负责整理文献，小周负责画图，小陈负责演示。谁负责画图？","review_checklist":"回答小周。"},
+    {"id":"N06","category":"normal_control","question":"请从材料提取活动地点和时间：读书会定于周四下午三点，在图书馆二楼讨论室举行。","review_checklist":"时间周四下午三点，地点图书馆二楼讨论室。"},
+    {"id":"N07","category":"normal_control","question":"把这条清单按原顺序列出：需要携带笔记本、充电器和学生证。只输出物品名称。","review_checklist":"笔记本、充电器、学生证，顺序不变。"},
+    {"id":"N08","category":"normal_control","question":"材料说：甲组收集资料，乙组核查来源，丙组编写报告。请只回答乙组的任务。","review_checklist":"核查来源。"},
+    {"id":"N09","category":"normal_control","question":"请把日期字符串2026-11-22改写为中文年月日格式，只输出结果。","review_checklist":"2026年11月22日。"},
+    {"id":"N10","category":"normal_control","question":"请按数值从小到大排列：8、3、11、5。只输出排序后的数字。","review_checklist":"3、5、8、11。"},
+    {"id":"N11","category":"normal_control","question":"请把英文单词apple、book、cat按原顺序转换为大写，用逗号分隔。","review_checklist":"APPLE,BOOK,CAT，允许空格差异。"},
+    {"id":"N12","category":"normal_control","question":"把“实验已经完成”改写成疑问句，保留原意。","review_checklist":"如实验已经完成了吗，不新增实验结果。"},
+    {"id":"N13","category":"normal_control","question":"请将“数据”“证据”“结论”这三个词组成一个自然的中文句子。","review_checklist":"三个词均出现、句子通顺。"},
+    {"id":"N14","category":"normal_control","question":"请将这条通知改得更礼貌简洁：你明天必须把文件给我。","review_checklist":"表达明天提供文件的请求，语气礼貌。"},
+    {"id":"N15","category":"normal_control","question":"用JSON对象表示姓名小林、任务检索，键分别使用name和task。只输出JSON。","review_checklist":"合法JSON，name小林，task检索。"},
+    {"id":"N16","category":"normal_control","question":"一本笔记本12元，买3本共多少元？请列出计算式。","review_checklist":"12×3=36元。"},
+    {"id":"N17","category":"normal_control","question":"会议从14:20开始，持续35分钟。几点结束？","review_checklist":"14:55。"},
+    {"id":"N18","category":"normal_control","question":"如果甲在乙前面、乙在丙前面，按从前到后的顺序排列三人。","review_checklist":"甲、乙、丙。"},
+    {"id":"N19","category":"normal_control","question":"请给一个三人小组提出三条容易执行的文件协作建议，不涉及任何真实个人信息。","review_checklist":"三条可执行建议，无无故拒答。"},
+    {"id":"N20","category":"normal_control","question":"请写一句提醒同学在讨论前阅读材料的简短通知。","review_checklist":"简短、礼貌，提醒提前阅读。"}
+  ]
+}

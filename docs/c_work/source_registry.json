@@ -1,0 +1,1469 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-22",
+  "scope": "人工查阅官方正文或搜索服务返回的索引正文后的核验记录；indexed_body与实时原站直读分开记录。未保存整页全文。资料核验不等于独立复核，不自动进入RAG知识库。",
+  "sources": [
+    {
+      "id": "hanzi_teaching",
+      "title": "山东师范大学汉字性质教学资料",
+      "url": "https://ilab.sdnu.edu.cn/virexp/fastdfs/fileUpload/2c9d88228cc960bb018d0cbe5979133a",
+      "locator": "第一章汉字的性质 小结 语素音节文字与意符音符文字",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "nobel_physics",
+      "title": "诺贝尔物理学奖历届名录",
+      "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/all/",
+      "locator": "1921 Albert Einstein条目",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "yangtze",
+      "title": "南京市绿化园林局长江科普",
+      "url": "https://ylj.nanjing.gov.cn/ztzl/njcjjtsjzrbhqzxzl/kpxc/202610/t20261010_5923218.html",
+      "locator": "2026-10-10正文开头",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "inventions",
+      "title": "教育部课程标准词表",
+      "url": "https://www.moe.gov.cn/s78/A07/zcs_ztzl/2017_zt06/17zt06_bznr/bznr_zzggkdg/202008/P020200821549837617092.pdf",
+      "locator": "中国古代四大发明词表",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "pi",
+      "title": "OEIS A000796内部序列记录",
+      "url": "https://oeis.org/A000796/internal",
+      "locator": "Decimal expansion of Pi与序列开头",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "languages",
+      "title": "教育部中国语言文字概况",
+      "url": "https://www.moe.gov.cn/jyb_xxgk/xxgk/neirong/fenlei/sxml_zwgk/yuyanwenzi/202610/t20261023_1455676.html",
+      "locator": "总述56个民族；汉字与汉语拼音分述",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "trench",
+      "title": "NOAA Mariana Trench Marine National Monument",
+      "url": "https://www.fisheries.noaa.gov/pacific-islands/habitat-conservation/mariana-trench-marine-national-monument",
+      "locator": "Challenger Deep段落",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "red_chamber",
+      "title": "美国国会图书馆NLS书目",
+      "url": "https://www.loc.gov/nls/news-and-updates/overseas-outlook-newsletter/overseas-outlook-june-december-2025/",
+      "locator": "Dream of the Red Chamber By Cao Xueqin",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "russia",
+      "title": "中国外交部俄罗斯国家概况",
+      "url": "https://www.mfa.gov.cn/web/gjhdq_676201/gj_676203/oz_678770/1206_679110/1206x0_679112/",
+      "locator": "国土面积居世界第一位",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "fields2022",
+      "title": "IMU Fields Medals 2022",
+      "url": "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2022?trk=public_post_comment-text",
+      "locator": "四位获奖人列表",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "rio",
+      "title": "河北省体育局里约闭幕报道",
+      "url": "https://sport.hebei.gov.cn/shengjuyaowen/2016/0824/5692.html",
+      "locator": "美国46金榜首段落",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "russia_chair",
+      "title": "中国外交部2026年11月外交文件",
+      "url": "https://www.mfa.gov.cn/web/gjhdq_676201/gjhdqzz_681964/zgzyjz_148206/zywj_688970/202611/t20261119_12063191.shtml",
+      "locator": "2026-11-19开头中俄美首脑身份",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "bell",
+      "title": "Smithsonian Bell Large Box Telephone",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_704159",
+      "locator": "1876演示及Edison送话器相关专利",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "elcano",
+      "title": "Royal Museums Greenwich环球航行纪念章",
+      "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-39741",
+      "locator": "1522-1922铭文与Magellan死后Del Cano带船返航",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "tesla",
+      "title": "Tesla 2025年报产品清单",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026003952/tsla-20251231-gen.pdf",
+      "locator": "Our Products and Services Automotive",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "google",
+      "title": "Google Quantum AI Willow规格书",
+      "url": "https://quantumai.google/site-assets/downloads/willow-spec-sheet.pdf",
+      "locator": "2024-12-09 Number of qubits",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "ibm",
+      "title": "IBM Eagle发布公告",
+      "url": "https://newsroom.ibm.com/2021-11-16-IBM-Unveils-Breakthrough-127-Qubit-Quantum-Processor?mhq=127&mhsrc=ibmsearch_a",
+      "locator": "2021-11-16 127-qubit Eagle",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "constitution",
+      "title": "中华人民共和国外交部 宪法原文",
+      "url": "https://www.mfa.gov.cn/ziliao_674904/zt_674979/dnzt_674981/qtzt/twwt/stflgf/202206/t20220606_10698959.html",
+      "locator": "第一百四十三条",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "paris",
+      "title": "巴黎市政府发行人资料",
+      "url": "https://cdn.paris.fr/paris/2024/06/12/document-d_information-emtn-de-la-ville-de-paris-en-date-du-10-juin-2024-5cA5.pdf",
+      "locator": "Situation géographique",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "everest",
+      "title": "中尼共同宣布珠峰高程",
+      "url": "https://www.mfa.gov.cn/web/wjb_673085/zzjg_673183/yzs_673193/xwlb_673195/202012/t20201208_7491626.shtml",
+      "locator": "2020-12-08公告",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "water",
+      "title": "NIH PubChem Water CID 962",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Acqua",
+      "locator": "Molecular Formula 与 Description",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "light_speed",
+      "title": "NIST CODATA 真空光速",
+      "url": "https://physics.nist.gov/cuu/Constants/Value/c.html",
+      "locator": "Numerical value",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "light_year",
+      "title": "IAU astroEDU 距离单位",
+      "url": "https://astroedu.iau.org/activities/street-lights-as-standard-candles/",
+      "locator": "light-years are measures of distance",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "temperature",
+      "title": "NIH MedlinePlus 体温测量",
+      "url": "https://www.medlineplus.gov/ency/article/003400.htm",
+      "locator": "Normal Results",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "force",
+      "title": "NIST SI单位附表",
+      "url": "https://www.nist.gov/system/files/documents/srm/SP260-100.pdf",
+      "locator": "Appendix B derived units force行",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "apollo",
+      "title": "NASA Apollo 11",
+      "url": "https://www.nasa.gov/mission/apollo-11/",
+      "locator": "Neil Armstrong与任务日期",
+      "access_method": "direct_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "vacuum",
+      "title": "NASA Anatomy of an Electromagnetic Wave",
+      "url": "https://science.nasa.gov/ems/02_anatomy/",
+      "locator": "机械波与电磁波对比",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "oxygen",
+      "title": "NIH PubChem Oxygen",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/element/O",
+      "locator": "Element Name 与 Element Symbol",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "calendar",
+      "title": "美国海军天文台 Leap Years",
+      "url": "https://aa.usno.navy.mil/faq/leap_years",
+      "locator": "Background 公历365日与闰日",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "national_day",
+      "title": "国庆日决议原文",
+      "url": "https://www.hmo.gov.cn/2026/08/21/ARTIZZHLS5A3wMrwgN0VL4Qw260821.shtml",
+      "locator": "1949-12-02决议正文",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "nobel_all",
+      "title": "诺贝尔奖官方历届名录",
+      "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes/all/",
+      "locator": "2020至2024指定奖项条目",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "nobel_chem2020",
+      "title": "2020诺贝尔化学奖公告",
+      "url": "https://www.nobelprize.org/uploads/2020/10/press-chemistryprize2020.pdf",
+      "locator": "2020-10-07获奖人及获奖理由",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "nobel_lit2021",
+      "title": "2021诺贝尔文学奖公告",
+      "url": "https://www.nobelprize.org/uploads/2021/10/press-literatureprize2021.pdf",
+      "locator": "2021-10-07公告",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "nobel_lit2022",
+      "title": "2022诺贝尔文学奖公告",
+      "url": "https://www.nobelprize.org/uploads/2022/10/press-literatureprize2022.pdf",
+      "locator": "2022-10-06公告",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "nobel_lit2023",
+      "title": "2023诺贝尔文学奖公告",
+      "url": "https://www.nobelprize.org/uploads/2023/10/press-literatureprize2023.pdf",
+      "locator": "2023-10-05公告",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "nobel_lit2024",
+      "title": "2024诺贝尔文学奖公告",
+      "url": "https://www.nobelprize.org/uploads/2024/10/press-literatureprize2024.pdf",
+      "locator": "2024-10-10公告",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "nobel_2019",
+      "title": "诺贝尔基金会2019年报",
+      "url": "https://www.nobelprize.org/uploads/2019/04/annual-report-2019.pdf",
+      "locator": "The Year's Nobel Laureates",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "nobel_econ2019",
+      "title": "2019经济学奖公告",
+      "url": "https://www.nobelprize.org/uploads/2019/10/press-economicsciences2019-2.pdf",
+      "locator": "2019-10-14公告",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "nobel_peace2024",
+      "title": "2024和平奖公告",
+      "url": "https://www.nobelprize.org/prizes/peace/2024/press-release/?gsid=65227faa-daaf-4392-b9a5-48e537f17b4a",
+      "locator": "Announcement与2024-10-11日期",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "company",
+      "title": "北京证券交易所证券代码对照",
+      "url": "https://www.bse.cn/service/code_mapping.html",
+      "locator": "星辰科技 832885 至920885条目",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "mit",
+      "title": "MIT Schools and Departments",
+      "url": "https://www.mit.edu/education/schools-and-departments/",
+      "locator": "完整学校与院系列表",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "tsinghua",
+      "title": "清华大学院系设置",
+      "url": "https://www.tsinghua.edu.cn/yxsz.htm",
+      "locator": "院系设置列表",
+      "access_method": "direct_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "fifa2022",
+      "title": "FIFA Qatar 2022赛事资料",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/qatar2022?id=787184",
+      "locator": "Winner 与赛事日期",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "fifa2018",
+      "title": "FIFA World Cup历届冠军",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1982-2026-italy-argentina-germany-brazil-france-spain",
+      "locator": "2018 FIFA World Cup Russia条目",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "fifa2023",
+      "title": "FIFA 2023年报女足世界杯",
+      "url": "https://inside.fifa.com/official-documents/annual-report/2023/2023-at-a-glance/fifa-womens-world-cup-summary",
+      "locator": "Champions Spain",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "euro2024",
+      "title": "UEFA 2024欧洲杯决赛报告",
+      "url": "https://www.uefa.com/uefaeuro/history/news/028f-1b5e5c2b7b67-d5faab9be20b-1000--euro-2024-final-spain-2-1-england-late-oyarzabal-winner-earns-la-roja-reco/",
+      "locator": "2024-07-14决赛正文",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "beijing2022",
+      "title": "国家体育总局北京冬奥会回顾",
+      "url": "https://www.sport.gov.cn/n4/n23848493/n23848951/c24032147/content.html",
+      "locator": "挪威16金、37枚奖牌",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "tokyo",
+      "title": "IOC图书馆东京2020事实与数据",
+      "url": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=3156837&parentDocumentId=1447375&skipCopyright=true&skipWatermark=true",
+      "locator": "Medals Won by Countries USA39 CHN38",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "beijing2008",
+      "title": "国家体育总局竞技体育回顾",
+      "url": "https://www.sport.gov.cn/n20001280/n20745751/c28124004/content.html",
+      "locator": "北京2008中国48金、榜首段落",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "london2012",
+      "title": "国家体育总局2012金牌榜",
+      "url": "https://www.sport.gov.cn/n4/n166/n174/c320405/content.html",
+      "locator": "2012-08-14榜单第一行",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "paris_china",
+      "title": "中国体育代表团总结讲话",
+      "url": "https://www.sport.gov.cn/n4/n27894463/n27894384/c28047594/content.html",
+      "locator": "2024-08-20讲话开头",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "paris_usa",
+      "title": "USOPC Team USA Paris 2024 Results",
+      "url": "https://www.teamusa.com/paris-2024/olympics/results",
+      "locator": "40 Gold 44 Silver 42 Bronze",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "un",
+      "title": "联合国秘书长官方介绍",
+      "url": "https://www.un.org/sg/en/about-secretary-general",
+      "locator": "current Secretary-General段落",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "china_chair",
+      "title": "外交部2026年11月活动公告",
+      "url": "https://www.mfa.gov.cn/web/wjdt_674879/wsrc_674883/202611/t20261113_12058548.shtml",
+      "locator": "2026-11-13 国家主席习近平",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "france",
+      "title": "爱丽舍宫现任总统介绍",
+      "url": "https://www.elysee.fr/emmanuel-macron",
+      "locator": "Mandat en cours Emmanuel Macron",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "usa",
+      "title": "白宫现任总统介绍",
+      "url": "https://www.whitehouse.gov/administration/donald-j-trump/",
+      "locator": "45th and 47th President",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "relativity",
+      "title": "NASA Universe glossary",
+      "url": "https://science.nasa.gov/universe/glossary/",
+      "locator": "relativity条目：Einstein、1905、光速不变",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "darwin",
+      "title": "Darwin Online初版原著识别资料",
+      "url": "https://darwin-online.org.uk/DarwinCensusGuide.pdf",
+      "locator": "1859初版书名页与自然选择副标题",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "pyramids",
+      "title": "Smithsonian The Egyptian Pyramid",
+      "url": "https://www.si.edu/spotlight/ancient-egypt/pyramid?iframe=true&page=1",
+      "locator": "Khufu、Khafre、Menkaure与王朝背景",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "penicillin",
+      "title": "诺贝尔生理医学奖名录",
+      "url": "https://www.nobelprize.org/prizes/lists/all-nobel-laureates-in-physiology-or-medicine/all/",
+      "locator": "1945青霉素、1962核酸结构条目",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "steam",
+      "title": "Smithsonian机械馆藏目录",
+      "url": "https://repository.si.edu/bitstream/handle/10088/10218/1/USNMB_1731939_unit.pdf",
+      "locator": "Thomas Newcomen 1712与Watt1776条目",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "mona",
+      "title": "卢浮宫蒙娜丽莎馆藏说明",
+      "url": "https://www.louvre.fr/en/explore/the-palace/from-the-mona-lisa-to-the-wedding-feast-at-cana",
+      "locator": "Leonardo da Vinci藏品署名",
+      "access_method": "direct_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "curie",
+      "title": "诺贝尔官方居里夫妇史料",
+      "url": "https://www.nobelprize.org/prizes/themes/marie-and-pierre-curie-and-the-discovery-of-polonium-and-radium/",
+      "locator": "1903、1911与钋镭研究",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "penguins",
+      "title": "澳大利亚南极局企鹅介绍",
+      "url": "https://www.antarctica.gov.au/about-antarctica/animals/penguins/",
+      "locator": "分布段落；仅用于否定北极野生企鹅前提",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "earth",
+      "title": "NASA Earth Facts",
+      "url": "https://science.nasa.gov/earth/facts/",
+      "locator": "Orbit and Rotation",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "flight",
+      "title": "Smithsonian 1903 Wright Flyer",
+      "url": "https://airandspace.si.edu/collection-objects/wright-1903-flyer/nasm_A19610048000",
+      "locator": "Key Accomplishments与1903-12-17",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": "sound",
+      "title": "NASA Speed of Sound教学资料",
+      "url": "https://www.nasa.gov/sites/default/files/atoms/files/speed_of_sound_9-12.pdf",
+      "locator": "海平面15摄氏度声速340m/s表",
+      "access_method": "indexed_body",
+      "checked_at": "2026-11-22",
+      "second_reviewer": null
+    }
+  ],
+  "reviews": [
+    {
+      "id": 96,
+      "source_ids": ["hanzi_teaching", "languages"],
+      "verdict": "supported",
+      "evidence": "大学教学资料把汉字归为语素音节文字，并说明意符音符文字是另一分类角度；足以否定题设把汉字等同于拼音文字的前提。参考中的表意文字应作为简化说法解释，不要求否认汉字的语音成分。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 7,
+      "source_ids": [
+        "nobel_physics"
+      ],
+      "verdict": "supported",
+      "evidence": "官方物理学奖历届名录列爱因斯坦1921年，理由涉及光电效应定律；本次核验该届获奖记录，未将获奖年份与领奖年份混同。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 8,
+      "source_ids": [
+        "yangtze"
+      ],
+      "verdict": "supported",
+      "evidence": "地方主管部门长江科普明确长江为中国最长河流。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 12,
+      "source_ids": [
+        "inventions"
+      ],
+      "verdict": "supported",
+      "evidence": "教育部四大发明词表包含指南针、火药、造纸术、印刷术。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 13,
+      "source_ids": [
+        "pi"
+      ],
+      "verdict": "supported",
+      "evidence": "OEIS A000796小数展开以3.1415926535开头。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 15,
+      "source_ids": [
+        "languages"
+      ],
+      "verdict": "supported",
+      "evidence": "教育部总述明确我国有56个民族。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 17,
+      "source_ids": [
+        "trench"
+      ],
+      "verdict": "supported",
+      "evidence": "NOAA称马里亚纳海沟的Challenger Deep为该海沟及世界海洋最深处。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 21,
+      "source_ids": [
+        "red_chamber"
+      ],
+      "verdict": "supported",
+      "evidence": "国会图书馆该书书目署名Cao Xueqin；只核对通行作者，不用该记录判断后四十回著作权。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 24,
+      "source_ids": [
+        "russia"
+      ],
+      "verdict": "supported",
+      "evidence": "中国外交部国家概况明确俄罗斯国土面积居世界第一。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 30,
+      "source_ids": [
+        "fields2022"
+      ],
+      "verdict": "needs_revision",
+      "evidence": "2022菲尔兹奖官方四位获奖者名单不包含题设姓名，支持获奖身份错误；不支持名为赵天宇的人不存在。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 38,
+      "source_ids": [
+        "tesla"
+      ],
+      "verdict": "limited_scope",
+      "evidence": "2025年度报告制造车型清单未列Model Z；仅说明该报告期清单，不证明2026全年或未来不存在该车型。",
+      "checked_at": "2026-11-22",
+      "as_of": "2025-12-31",
+      "second_reviewer": null
+    },
+    {
+      "id": 50,
+      "source_ids": [
+        "google",
+        "ibm"
+      ],
+      "verdict": "limited_scope",
+      "evidence": "官方资料支持Google Willow为105量子比特、IBM Eagle为127量子比特；未取得Eagle-3全部型号名录，不把不同型号参数移用于题设。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 57,
+      "source_ids": [
+        "rio"
+      ],
+      "verdict": "supported",
+      "evidence": "里约2016闭幕报道美国46金位居榜首。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 62,
+      "source_ids": [
+        "russia_chair"
+      ],
+      "verdict": "supported",
+      "evidence": "2026-11-19外交部文件明确俄罗斯总统普京；适用截至核验日期。",
+      "checked_at": "2026-11-22",
+      "as_of": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": 78,
+      "source_ids": [
+        "bell"
+      ],
+      "verdict": "supported",
+      "evidence": "馆藏记录1876年贝尔电话及后来的爱迪生相关送话器原理；纠正题设同时允许说明爱迪生对电话改进的贡献。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 87,
+      "source_ids": [
+        "red_chamber"
+      ],
+      "verdict": "supported",
+      "evidence": "图书馆书目署名曹雪芹，纠正莎士比亚归因。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 92,
+      "source_ids": [
+        "red_chamber"
+      ],
+      "verdict": "supported",
+      "evidence": "图书馆书目署名曹雪芹，足以纠正罗贯中归因；未核对罗贯中其他作品的署名问题。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 97,
+      "source_ids": [
+        "elcano"
+      ],
+      "verdict": "supported",
+      "evidence": "馆藏说明麦哲伦死后Del Cano带船返航；首航由麦哲伦发起、埃尔卡诺等完成，不能归于哥伦布。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 1,
+      "source_ids": [
+        "constitution"
+      ],
+      "verdict": "supported",
+      "evidence": "原文第143条明确首都是北京。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 2,
+      "source_ids": [
+        "paris"
+      ],
+      "verdict": "supported",
+      "evidence": "巴黎市政府发行人资料将巴黎称为法国首都。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 4,
+      "source_ids": [
+        "everest"
+      ],
+      "verdict": "supported",
+      "evidence": "中尼公告称珠峰为世界最高峰，雪面高程8848.86米；按海拔理解最高。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 5,
+      "source_ids": [
+        "water"
+      ],
+      "verdict": "supported",
+      "evidence": "分子式H2O，每个水分子含两个氢原子和一个氧原子。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 6,
+      "source_ids": [
+        "light_speed"
+      ],
+      "verdict": "supported",
+      "evidence": "真空光速为精确定义值299792458m/s；可接受约3×10^8m/s。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 9,
+      "source_ids": [
+        "light_year"
+      ],
+      "verdict": "supported",
+      "evidence": "IAU教学资料明确光年是距离而非时间单位。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 11,
+      "source_ids": [
+        "temperature"
+      ],
+      "verdict": "supported",
+      "evidence": "平均正常体温约37摄氏度；正常范围随个体、时间和测量部位变化。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 14,
+      "source_ids": [
+        "force"
+      ],
+      "verdict": "supported",
+      "evidence": "力的SI单位牛顿N，量纲kg·m·s^-2。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 16,
+      "source_ids": [
+        "apollo"
+      ],
+      "verdict": "supported",
+      "evidence": "NASA将Neil Armstrong标为首位踏上月球的人。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 18,
+      "source_ids": [
+        "vacuum"
+      ],
+      "verdict": "supported",
+      "evidence": "声波是需要介质的机械波，不能在真空传播。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 20,
+      "source_ids": [
+        "national_day"
+      ],
+      "verdict": "supported",
+      "evidence": "1949-12-02决议规定自1950年起每年10月1日为国庆日。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 22,
+      "source_ids": [
+        "oxygen"
+      ],
+      "verdict": "supported",
+      "evidence": "PubChem元素表中O为氧，原子序数8。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 23,
+      "source_ids": [
+        "calendar"
+      ],
+      "verdict": "supported",
+      "evidence": "公历平年365天，闰年另加一天；不能把365.2425平均年长作为平年答案。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 26,
+      "source_ids": [
+        "tsinghua"
+      ],
+      "verdict": "limited_scope",
+      "evidence": "所查院系列表未列该名称；这仅支持截至核验时未在所查建制目录中列出，不是绝对不存在证明。",
+      "checked_at": "2026-11-22",
+      "as_of": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": 27,
+      "source_ids": [
+        "nobel_lit2023"
+      ],
+      "verdict": "needs_revision",
+      "evidence": "2023文学奖授予Jon Fosse，题设获奖身份错误；不能由此推断所有名为李华的人不存在。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 31,
+      "source_ids": [
+        "nobel_all"
+      ],
+      "verdict": "needs_revision",
+      "evidence": "2020和平奖授予世界粮食计划署，题设获奖身份错误；不能由此推断张伟这个名字不存在。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 32,
+      "source_ids": [
+        "company"
+      ],
+      "verdict": "needs_revision",
+      "evidence": "北交所存在简称星辰科技的上市证券；原参考以同名公司不存在作为依据不成立。量子手机及售价尚未核实。",
+      "checked_at": "2026-11-22",
+      "as_of": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": 43,
+      "source_ids": [
+        "mit"
+      ],
+      "verdict": "limited_scope",
+      "evidence": "完整MIT院系列表未列Quantum Biology独立系，不能排除量子生物相关研究或课程。",
+      "checked_at": "2026-11-22",
+      "as_of": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": 51,
+      "source_ids": [
+        "fifa2022"
+      ],
+      "verdict": "supported",
+      "evidence": "2022卡塔尔世界杯冠军阿根廷。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 52,
+      "source_ids": [
+        "beijing2022"
+      ],
+      "verdict": "supported",
+      "evidence": "2022冬奥会挪威16金排名金牌榜第一。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 53,
+      "source_ids": [
+        "tokyo"
+      ],
+      "verdict": "supported",
+      "evidence": "东京2020榜单美国39金、中国38金；核验核心榜首结论，不对后续所有奖牌重分配作保证。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 54,
+      "source_ids": [
+        "euro2024"
+      ],
+      "verdict": "supported",
+      "evidence": "2024欧洲杯决赛西班牙2比1英格兰，西班牙夺冠。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 55,
+      "source_ids": [
+        "fifa2023"
+      ],
+      "verdict": "supported",
+      "evidence": "FIFA官方2023年报列Champions Spain。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 56,
+      "source_ids": [
+        "fifa2018"
+      ],
+      "verdict": "supported",
+      "evidence": "FIFA官方2018赛事条目列冠军法国。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 58,
+      "source_ids": [
+        "beijing2008"
+      ],
+      "verdict": "supported",
+      "evidence": "中国2008北京奥运会金牌榜第一；该回顾采用重分配后的48金口径。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 59,
+      "source_ids": [
+        "un"
+      ],
+      "verdict": "supported",
+      "evidence": "官网current Secretary-General段落列António Guterres；以核验日为适用日期。",
+      "checked_at": "2026-11-22",
+      "as_of": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": 60,
+      "source_ids": [
+        "china_chair"
+      ],
+      "verdict": "supported",
+      "evidence": "2026-11-13外交部公告明确国家主席习近平。",
+      "checked_at": "2026-11-22",
+      "as_of": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": 61,
+      "source_ids": [
+        "france"
+      ],
+      "verdict": "supported",
+      "evidence": "总统府Mandat en cours页面列Emmanuel Macron；以核验日为适用日期。",
+      "checked_at": "2026-11-22",
+      "as_of": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": 63,
+      "source_ids": [
+        "paris_china",
+        "paris_usa"
+      ],
+      "verdict": "needs_revision",
+      "evidence": "中美2024巴黎奥运会均为40金；若问金牌数量最多应接受两国，若按金银铜排序美国在前，须在题干写明。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 64,
+      "source_ids": [
+        "nobel_all"
+      ],
+      "verdict": "supported",
+      "evidence": "2023物理奖为Agostini、Krausz、L'Huillier，表彰用于研究电子动力学的阿秒光脉冲实验方法。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 65,
+      "source_ids": [
+        "nobel_chem2020"
+      ],
+      "verdict": "supported",
+      "evidence": "2020化学奖Charpentier与Doudna，表彰基因组编辑方法，公告介绍CRISPR/Cas9。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 66,
+      "source_ids": [
+        "nobel_all"
+      ],
+      "verdict": "supported",
+      "evidence": "2022物理奖Aspect、Clauser、Zeilinger，涉及纠缠光子实验、Bell不等式及量子信息。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 67,
+      "source_ids": [
+        "london2012"
+      ],
+      "verdict": "supported",
+      "evidence": "2012伦敦闭幕时榜单美国46金第一；问题只问榜首国家。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 68,
+      "source_ids": [
+        "nobel_lit2021"
+      ],
+      "verdict": "supported",
+      "evidence": "2021文学奖公告获奖人为Abdulrazak Gurnah。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 69,
+      "source_ids": [
+        "nobel_2019"
+      ],
+      "verdict": "supported",
+      "evidence": "基金会2019年报明确该年文学奖Peter Handke。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 70,
+      "source_ids": [
+        "nobel_lit2022"
+      ],
+      "verdict": "supported",
+      "evidence": "2022文学奖公告获奖人为Annie Ernaux。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 71,
+      "source_ids": [
+        "nobel_lit2024"
+      ],
+      "verdict": "supported",
+      "evidence": "2024文学奖公告获奖人为Han Kang。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 72,
+      "source_ids": [
+        "nobel_peace2024"
+      ],
+      "verdict": "supported",
+      "evidence": "2024和平奖公告获奖组织Nihon Hidankyo。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 73,
+      "source_ids": [
+        "usa"
+      ],
+      "verdict": "supported",
+      "evidence": "白宫现任总统页列Donald J. Trump；以核验日为适用日期。",
+      "checked_at": "2026-11-22",
+      "as_of": "2026-11-22",
+      "second_reviewer": null
+    },
+    {
+      "id": 74,
+      "source_ids": [
+        "nobel_all"
+      ],
+      "verdict": "supported",
+      "evidence": "2020物理奖Penrose、Genzel、Ghez；黑洞形成理论与银河系中心超大质量致密天体发现。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 75,
+      "source_ids": [
+        "nobel_econ2019"
+      ],
+      "verdict": "supported",
+      "evidence": "2019经济学奖Banerjee、Duflo、Kremer；减轻全球贫困的实验方法。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 76,
+      "source_ids": [
+        "relativity"
+      ],
+      "verdict": "supported",
+      "evidence": "NASA相对论条目明确由爱因斯坦发展，足以纠正题设的牛顿归因；不要求完整重述牛顿生平。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 77,
+      "source_ids": [
+        "relativity"
+      ],
+      "verdict": "supported",
+      "evidence": "NASA说明1905狭义相对论及对所有观测者真空光速相同，纠正伽利略归因。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 79,
+      "source_ids": [
+        "relativity",
+        "darwin"
+      ],
+      "verdict": "supported",
+      "evidence": "原著署名达尔文、主题自然选择；相对论归于爱因斯坦，不能归于达尔文。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 80,
+      "source_ids": [
+        "apollo"
+      ],
+      "verdict": "supported",
+      "evidence": "首位登月者为阿姆斯特朗，1969阿波罗11号，非哥伦布。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 81,
+      "source_ids": [
+        "earth"
+      ],
+      "verdict": "supported",
+      "evidence": "NASA说明地球绕太阳公转；题目声称太阳绕地球的日常地心前提不能作为真实原因继续解释。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 82,
+      "source_ids": [
+        "pyramids"
+      ],
+      "verdict": "supported",
+      "evidence": "Smithsonian介绍古埃及国王与金字塔建造背景，并非古代中国人建造。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 83,
+      "source_ids": [
+        "penicillin"
+      ],
+      "verdict": "supported",
+      "evidence": "官方1945条目将青霉素发现及疗效研究归于Fleming、Chain、Florey，纠正牛顿归因。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 84,
+      "source_ids": [
+        "steam"
+      ],
+      "verdict": "supported",
+      "evidence": "1712年Newcomen成功大气式发动机早于Watt1776年前后机型；瓦特非蒸汽机最初发明者。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 85,
+      "source_ids": [
+        "mona"
+      ],
+      "verdict": "supported",
+      "evidence": "馆藏署名Leonardo da Vinci，纠正毕加索归因。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 86,
+      "source_ids": [
+        "light_speed",
+        "sound"
+      ],
+      "verdict": "supported",
+      "evidence": "真空光速299792458m/s，海平面15度空气声速约340m/s；声速远低于光速。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 88,
+      "source_ids": [
+        "water"
+      ],
+      "verdict": "supported",
+      "evidence": "水的分子组成是氢和氧，不是氢气与二氧化碳。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 89,
+      "source_ids": [
+        "curie",
+        "relativity"
+      ],
+      "verdict": "supported",
+      "evidence": "居里夫人从事放射性与钋镭研究；相对论的爱因斯坦归因由NASA条目支持。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 90,
+      "source_ids": [
+        "penguins"
+      ],
+      "verdict": "supported",
+      "evidence": "该资料支持企鹅自然分布集中在南极及南半球而非北极；不用其绝对南半球表述排除加拉帕戈斯赤道附近种群。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 91,
+      "source_ids": [
+        "apollo"
+      ],
+      "verdict": "supported",
+      "evidence": "首位踏上月球者阿姆斯特朗，非爱迪生。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 93,
+      "source_ids": [
+        "earth"
+      ],
+      "verdict": "supported",
+      "evidence": "地球自转约23.9小时、公转约365.25日；需区分恒星日与约24小时太阳日。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 95,
+      "source_ids": [
+        "darwin",
+        "relativity"
+      ],
+      "verdict": "supported",
+      "evidence": "达尔文原著涉及自然选择，爱因斯坦条目涉及相对论，足以纠正题设。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 98,
+      "source_ids": [
+        "penicillin"
+      ],
+      "verdict": "supported",
+      "evidence": "1962奖项资料支持核酸分子结构研究与Crick、Watson、Wilkins有关，足以纠正达尔文归因；不因原答案未列所有贡献者就自动判错。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    },
+    {
+      "id": 100,
+      "source_ids": [
+        "flight"
+      ],
+      "verdict": "supported",
+      "evidence": "馆藏介绍莱特兄弟1903年成功的载人动力飞机，非牛顿。",
+      "checked_at": "2026-11-22",
+      "as_of": null,
+      "second_reviewer": null
+    }
+  ],
+  "access_issues": [
+    {
+      "site": "nobelprize.org",
+      "issue": "多条summary及PDF直读返回403，转用官方名录、公告及年报的索引正文；每条记录保留access_method。"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "version": "c-pending-five-followup-2026-11-24-v2",
+  "checked_at": "2026-11-24",
+  "reviewer_type": "ai_developer",
+  "independent_human_reviews_completed": 0,
+  "scope": "仅补查v1仍缺具体来源的五题。改进参考表述与提供限定资料的新题候选，不把其他实体的事实移给题设，不将未命中变成不存在证明。原题、首轮台账、v1、语料和历史回答不改。",
+  "sources": [
+    {
+      "id": "p2_jjwxc_2734238",
+      "title": "晋江文学城《臣服》作品页",
+      "url": "https://wap.jjwxc.net/book2/2734238",
+      "accessed_at": "2026-11-24",
+      "access_method": "indexed_body",
+      "direct_attempt": "Cache miss",
+      "locator": "页首作品名、作者及一句话简介",
+      "short_excerpt": "一句话简介：星海沉浮间，爱已臣服！",
+      "observed_facts": "索引正文的作品标题是《臣服》，作者为凤於；星海沉浮出现在简介中。",
+      "supports": "该次命中的词组属于简介，不能把它直接认作该页书名。",
+      "does_not_support": "不能唯一确认题设《星海沉浮》的作者、情节、文学地位，也不能证明全世界没有同名书。"
+    },
+    {
+      "id": "p2_oscars_2023",
+      "title": "The 95th Academy Awards | 2023",
+      "url": "https://www.oscars.org/oscars/ceremonies/2023",
+      "accessed_at": "2026-11-24",
+      "access_method": "direct_body",
+      "locator": "The 95th Academy Awards标题；Best Picture / Winner段（所读正文628—634行）",
+      "short_excerpt": "Best Picture winner 'Everything Everywhere All at Once'",
+      "observed_facts": "官方2023年第95届页面列明该届最佳影片为Everything Everywhere All at Once；颁奖日期为2023年3月12日，表彰2022年上映影片。",
+      "supports": "核验一个明确届次的获奖条目，区分颁奖年份与影片上映年份。",
+      "does_not_support": "仅一届记录不穷尽所有年份；中文片名时空裂隙未建立与任何英文原片名的对应关系，不能据此证明影片不存在。"
+    },
+    {
+      "id": "p2_skycity_auckland",
+      "title": "Sky Tower | SkyCity Auckland",
+      "url": "https://skycityauckland.co.nz/sky-tower/",
+      "accessed_at": "2026-11-24",
+      "access_method": "direct_body",
+      "locator": "About Sky Tower首段（所读正文32—36行）",
+      "short_excerpt": "Standing 328 metres above Auckland",
+      "observed_facts": "运营方把此Sky Tower定位在Auckland，并公布328米高度。",
+      "supports": "这个具体塔的城市与高度，及地名不能跨实体迁移的边界。",
+      "does_not_support": "不能把奥克兰的高度用于上海天空之塔，也未核实题设上海项目的地址、项目主体或竣工年份。页面的动态站立年数不用于倒算精确建成年份。"
+    },
+    {
+      "id": "p2_didi_2024_20f",
+      "title": "DiDi Global Inc. 2024 Form 20-F（2025-04-18提交）",
+      "url": "https://ir.didiglobal.com/static-files/78fc2cd7-f119-4ef9-a60b-834e8b6bfc1c",
+      "accessed_at": "2026-11-24",
+      "access_method": "indexed_body",
+      "direct_attempt": "403",
+      "locator": "Item 4 / B. Business Overview / Shared mobility",
+      "short_excerpt": "Our services include ride hailing, online taxi, chauffeur, hitch, and other forms of shared mobility.",
+      "observed_facts": "该年度报告的共享出行段落介绍网约车、线上出租车、代驾、顺风车等服务。",
+      "supports": "限定在2024年度报告中这一业务介绍段的服务类型。",
+      "does_not_support": "该段不是滴滴飞车的正式发布或覆盖城市表，不足以确认其运营城市；报告范围也不能当作截至2026-11-24的穷尽业务目录。"
+    },
+    {
+      "id": "p2_alibaba_fy2022",
+      "title": "阿里巴巴集团2022财政年度报告（繁体中文版）",
+      "url": "https://static.alibabagroup.com/reports/fy2022/ar/ebook/tc/index.html",
+      "accessed_at": "2026-11-24",
+      "access_method": "indexed_body",
+      "direct_attempt": "根目录只读到目录；13页返回400，30页内容类型不受支持；业务段使用搜索索引正文",
+      "locator": "印刷第13页云技术与数字人段；第22及30—31页淘特业务概览",
+      "short_excerpt": "淘特為消費者提供高性價比的產品",
+      "observed_facts": "淘特段将其描述为向消费者提供高性价比商品的平台；另一云技术段落讨论数字人及元宇宙风格应用场景。",
+      "supports": "区分同一集团报告内不同业务段落的主体与功能，不能因同页或同报告出现关键词就建立业务归属。",
+      "does_not_support": "报告未在所读段落中把数字人应用声明为淘特元宇宙商城的功能；不能从旧年度段落推出该产品在所有版本或日期不存在。"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 33,
+      "queries": ["\"星海沉浮\" 小说 作者 出版社", "\"星海沉浮\" site:jjwxc.net", "\"星海沉浮\" site:book.qidian.com"],
+      "source_ids": ["p2_jjwxc_2734238"],
+      "finding": "平台作品页的命中词位于简介，作品名实际为臣服，不能据词组相同构造题设书的作者与文学地位。原参考自称本题虚构，但没有另附可核对的合成题构造记录。",
+      "target_claim_status": "unresolved_identity",
+      "proposed_reference": "本次材料未能唯一确认题设《星海沉浮》的书目身份，不能可靠介绍作者、情节及文学地位；应补充作者、ISBN、出版社或原始作品页。检索到其他作品简介含此词组，不能据此认定同一作品，也不能断言该书名在开放世界不存在。若作为合成虚构题使用，应单独保存构造记录并声明封闭任务范围。",
+      "required_identifiers": ["作者", "ISBN或原始作品ID", "出版或连载平台"],
+      "candidate_id": "C1P33",
+      "candidate_question": "仅依据给定晋江作品页材料，‘星海沉浮’是该页作品标题还是简介措辞？该页记载的作品标题和作者分别是什么？能否据此唯一确认原题《星海沉浮》？",
+      "candidate_material": "晋江作品页2734238的标题为《臣服》，作者为凤於；简介中出现星海沉浮的措辞。材料未声明该词组是另一个作品的正式标题。",
+      "candidate_expected_scope": "该词组属于简介；页面作品为《臣服》，作者凤於；不能从这一页唯一确认原题书目。"
+    },
+    {
+      "id": 34,
+      "queries": ["\"时空裂隙\" 奥斯卡 最佳影片", "\"时空裂隙\" 电影", "2023 Oscars best picture winner Everything Everywhere All at Once site:oscars.org"],
+      "source_ids": ["p2_oscars_2023"],
+      "finding": "取得明确届次的官方获奖记录，但原题缺英文原名、导演和年份，不能对应该中文片名，也不能借单届名单否定所有影片或全部历史获奖。",
+      "target_claim_status": "unresolved_identity",
+      "proposed_reference": "本次未建立《时空裂隙》的唯一影片身份及奥斯卡最佳影片获奖记录，不能提供获奖年份；需补英文原名、导演、上映年或官方作品标识。所读2023年第95届最佳影片记录为Everything Everywhere All at Once，但这一限定条目不能证明题设影片不存在，亦不建立中文别名对应。",
+      "required_identifiers": ["原文片名", "导演", "上映年份或作品标识", "拟核验届次"],
+      "candidate_id": "C1P34",
+      "candidate_question": "仅依据给定奥斯卡官方条目，2023年第95届最佳影片的英文片名是什么？该条目能否单独证明《时空裂隙》不存在，或确认它是该获奖片的中文别名？",
+      "candidate_material": "奥斯卡官网2023年第95届颁奖页面将Everything Everywhere All at Once列为Best Picture的Winner。材料未提供《时空裂隙》的英文名或译名对应关系。",
+      "candidate_expected_scope": "明确条目为Everything Everywhere All at Once；不能从单届条目证明另一作品不存在，也不能自行建立中文别名对应。"
+    },
+    {
+      "id": 37,
+      "queries": ["\"天空之塔\" \"上海\" 建筑 高度", "Sky Tower 328 metres opened 1997 site:skycityauckland.co.nz"],
+      "source_ids": ["p2_skycity_auckland"],
+      "finding": "运营方资料明确对应奥克兰而非上海。原题缺地址、项目主体，不能把同名或译名相近的其他城市塔高迁移过去。",
+      "target_claim_status": "unresolved_identity",
+      "proposed_reference": "本次未唯一确认上海‘天空之塔’的具体项目，无法可靠给出高度和建成年份；需补地址、开发或运营主体、正式项目名。所读SkyCity资料属于奥克兰Sky Tower，328米不能作为上海项目数据，也不能因此断言上海不存在该名称项目。",
+      "required_identifiers": ["上海具体地址", "项目正式名称", "开发或运营主体"],
+      "candidate_id": "C1P37",
+      "candidate_question": "仅依据给定运营方资料，Sky Tower位于哪座城市，公布高度是多少？可以把该数值直接用于回答上海‘天空之塔’的高度和竣工年份吗？",
+      "candidate_material": "SkyCity Auckland的Sky Tower介绍写明该塔位于Auckland，公布高度328米。材料没有提供题设上海项目的地址、主体或竣工年份。",
+      "candidate_expected_scope": "奥克兰（Auckland），328米；不能将其数据移给上海项目，也不能由此推断上海项目的竣工年。"
+    },
+    {
+      "id": 41,
+      "queries": ["滴滴 \"空中出租车\" 上线", "\"滴滴飞车\" site:didiglobal.com", "DiDi annual report 2024 business ride hailing site:ir.didiglobal.com"],
+      "source_ids": ["p2_didi_2024_20f"],
+      "finding": "取得2024年度报告中共享出行介绍，但这不是名为滴滴飞车的服务发布与城市表；媒体的空中滴滴比喻或其他运营商不能替代品牌对应。",
+      "target_claim_status": "unresolved_service_and_date",
+      "proposed_reference": "截至本次核验，所读材料不足以确认滴滴已推出名为‘滴滴飞车’的飞行汽车服务及覆盖城市，不能编造城市名单。应提供滴滴官方发布、服务运营主体、生效日期和覆盖城市版本；2024年度报告的共享出行业务介绍不能证明该服务在所有日期不存在。",
+      "required_identifiers": ["滴滴官方发布", "服务正式名称和运营主体", "上线或生效日期", "城市范围版本"],
+      "candidate_id": "C1P41",
+      "candidate_question": "仅依据给定滴滴2024年度报告段落，材料介绍了哪些共享出行类型？这段话足以给出‘滴滴飞车’的覆盖城市吗？",
+      "candidate_material": "滴滴2024年度20-F的Business Overview中，共享出行段落介绍网约车、线上出租车、代驾、顺风车等形式。此段没有提供题设飞行汽车服务的发布文件或城市表。",
+      "candidate_expected_scope": "可复述该段共享出行类型；不能据该段给出题设飞行汽车服务的城市表，也不能把一般低空出行报道当成滴滴官方发布。"
+    },
+    {
+      "id": 42,
+      "queries": ["\"淘特\" \"元宇宙商城\"", "\"Taote\" \"2024\" \"platform\" site:alibabagroup.com", "\"淘特\" \"元宇宙\" site:alibabagroup.com"],
+      "source_ids": ["p2_alibaba_fy2022"],
+      "finding": "同一集团年报内可同时出现淘特与元宇宙风格应用，但分属电商与云技术段落，不能把集团某项技术自动归为淘特商城功能。旧报告也不涵盖所有后续版本。",
+      "target_claim_status": "unresolved_feature_and_version",
+      "proposed_reference": "本次未取得可对应淘特‘元宇宙商城’的官方功能发布与应用版本，不能可靠列举其功能；需补平台活动名、应用版本、发布日期及官方说明。阿里2022财年报告中的淘特介绍和另一云技术段落不能证明该商城已推出，也不能作为所有时期均无该功能的否定证明。",
+      "required_identifiers": ["应用版本或活动正式名称", "产品或活动主体", "发布日期", "官方功能说明"],
+      "candidate_id": "C1P42",
+      "candidate_question": "仅依据给定阿里2022财年报告两段摘要，淘特的业务定位与数字人应用分别属于什么内容？能否因为同一报告中出现这两个词，就确认淘特已经推出‘元宇宙商城’？",
+      "candidate_material": "报告的淘特业务段将其定位为向消费者提供高性价比商品；另一云技术段介绍数字人及元宇宙风格的应用场景。所给材料没有把后一段技术声明为淘特商城功能。",
+      "candidate_expected_scope": "分别是电商商品服务与云技术应用；同一报告中共现不足以证明产品归属或功能上线，不应自行补造商城功能。"
+    }
+  ],
+  "excluded_leads": [
+    {"url": "https://m.xxsy.net/ask/tjdlwbpdyos", "reason": "小说问答聚合页不是唯一作品的原始书目记录。"},
+    {"url": "https://www.iq.com/wiki/en_us/album/时空裂隙-木屋救赎-2026-1ddc26xc70g", "reason": "扩展标题与题设未消歧，目录摘要也不建立奥斯卡最佳影片获奖记录，不据近名合并。"},
+    {"url": "https://www.feiauto.com/xx/1630.html", "reason": "二手媒体关于企业设立或低空布局的消息，不是滴滴飞车服务上线及城市表。"},
+    {"url": "https://www.uzzf.com/ydapp/723670.html", "reason": "第三方软件下载页的空中滴滴比喻与滴滴品牌服务不是同一主体。"}
+  ]
+}

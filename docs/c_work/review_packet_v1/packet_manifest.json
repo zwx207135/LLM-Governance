@@ -1,0 +1,77 @@
+{
+  "template_records_per_annotator": 192,
+  "independent_human_reviews_completed": 0,
+  "sampling": "20% question groups per category plus predeclared disputed cases; keep all modes in a group",
+  "coverage": [
+    {
+      "run": "expanded_v3",
+      "available_records": 348,
+      "selected_records": 116,
+      "selected_question_groups": 29,
+      "coverage": 0.3333333333333333
+    },
+    {
+      "run": "controls_v3",
+      "available_records": 80,
+      "selected_records": 16,
+      "selected_question_groups": 4,
+      "coverage": 0.2
+    },
+    {
+      "run": "policy_comparison_v1",
+      "available_records": 120,
+      "selected_records": 60,
+      "selected_question_groups": 20,
+      "coverage": 0.5
+    }
+  ],
+  "labels": {
+    "core_answer": [
+      "correct",
+      "incorrect",
+      "not_answered",
+      "not_applicable",
+      "partial",
+      "unverifiable"
+    ],
+    "factual_error": [
+      "absent",
+      "not_applicable",
+      "present",
+      "unverifiable"
+    ],
+    "unsupported_claims": [
+      "no",
+      "unclear",
+      "yes"
+    ],
+    "premise_handling": [
+      "accepts",
+      "corrects",
+      "misses",
+      "not_applicable",
+      "unverifiable"
+    ],
+    "refusal": [
+      "appropriate",
+      "inappropriate",
+      "none",
+      "unclear"
+    ],
+    "response_type": [
+      "abstention_only",
+      "empty",
+      "mixed",
+      "source_only",
+      "substantive"
+    ],
+    "evidence_use": [
+      "contradicted",
+      "insufficient_evidence",
+      "no_evidence",
+      "not_applicable",
+      "supported",
+      "unresolved"
+    ]
+  }
+}

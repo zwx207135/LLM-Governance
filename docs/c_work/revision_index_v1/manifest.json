@@ -1,0 +1,17 @@
+{
+  "inputs_sha256": {
+    "datasets/hallucination/test_set.json": "3477889ae807858e0763bce4c80534f7fc834e001a7136c7a47b0bd4f34892ed",
+    "docs/c_work/data_audit.json": "7daf809070beb81e71feb90da4e04aa248914907ce954012298a70f5da78fec0",
+    "docs/c_work/data_change_proposals.json": "b99bc90dede03218d56e73a97211c0ec2e336cc4a895401d5cbb644cf42b43a7",
+    "docs/c_work/source_followup_v1/reference_proposals.json": "9ff36121a202906b212a030924392fffc2eadc8fc20af276074d44fbe906fc10",
+    "docs/c_work/source_followup_v1.json": "82f2a6bbc73edd57516345d59fbd10043a1b0e18406804def8c231c5e0dd8d49",
+    "docs/c_work/pending_repairs_v2/reference_proposals.json": "31a771ac759c05dfdcaf917b502b3e0c2c71c607821b4c46a24edf03be24a284",
+    "docs/c_work/source_followup_pending_v2.json": "6701acbd260898b1666ac7477b5f0b892120b1ad137ecc8aaba6406bd98377dd",
+    "docs/c_work/pending_repairs_v2/bounded_candidates.json": "d813dba9375df234560b72be74afcf0885810efc75fe312cd7c09f5d8dd66fad"
+  },
+  "artifacts_sha256": {
+    "builder_snapshot.py": "ead3cfd18d79405863f3188fcbe4cd9457bfb787e550a2d62017e09eac1d3d01",
+    "index.json": "839fdeb4b447f8908e1562b0c544b8970108b7be1e03f7b72b66ea97bb44f4ae",
+    "report.md": "7ea12e6e9956cd2c1876ae38dadf4386be04028f8ef633ae23ecc991ed0a5846"
+  }
+}

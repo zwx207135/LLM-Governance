@@ -1,0 +1,170 @@
+﻿id,mode,category,data_role,question,answer,reference_for_review_only,truncated,evidence_ids,source_urls,screening_flags,content_sha256,core_correct,contains_false_fact,accepts_false_premise,unsupported_citation,refusal,evidence_relevant,evidence_supports_answer,reviewer,reviewer_type,rationale,second_reviewer
+N01,baseline,normal_control,normal_control,请将下面的会议记录压缩成一句话，不补充材料外内容：小组周一确认数据字段，周三检查检索结果，周五汇总实验。,小组周一确认数据字段，周三检查检索结果，周五汇总实验。,,False,,,,08e8ee7c38be1dcb7ea1aacd92c8564410ce67fa73427118a2ae2a5312b3f166,,,,,,,,,,,
+N01,constraint,normal_control,normal_control,请将下面的会议记录压缩成一句话，不补充材料外内容：小组周一确认数据字段，周三检查检索结果，周五汇总实验。,小组周一确认数据字段，周三检查检索结果，周五汇总实验。,,False,,,,2835b81a1694764695958336fba70540c5496f2900070a5c1c989460fc9cbca7,,,,,,,,,,,
+N01,retrieval,normal_control,normal_control,请将下面的会议记录压缩成一句话，不补充材料外内容：小组周一确认数据字段，周三检查检索结果，周五汇总实验。,小组周一确认数据字段，周三检查检索结果，周五汇总实验。,,False,,,knowledge_coverage_gap,cd5a93814f343498d3d31f5f29d3f72c0eea57991e0d5f83ea90e23058ca5aa3,,,,,,,,,,,
+N01,combined,normal_control,normal_control,请将下面的会议记录压缩成一句话，不补充材料外内容：小组周一确认数据字段，周三检查检索结果，周五汇总实验。,小组周一确认数据字段，周三检查检索结果，周五汇总实验。,,False,,,knowledge_coverage_gap,87f22f7b73ca490d18befcad75bed6e304fe576bc5511f3ee0c81bf65411a889,,,,,,,,,,,
+N02,constraint,normal_control,normal_control,请概括：图书馆本周六上午开放，下午因设备维护闭馆，周日恢复正常开放。,图书馆本周六上午开放，下午因设备维护闭馆，周日恢复正常开放。,,False,,,,7e56f2a16fb3ff867925a4b9b577fcbc372d7d085a68c52262a5db1442865ae1,,,,,,,,,,,
+N02,retrieval,normal_control,normal_control,请概括：图书馆本周六上午开放，下午因设备维护闭馆，周日恢复正常开放。,图书馆本周六上午和下午均开放，但下午因设备维护闭馆，周日恢复正常开放。,,False,,,knowledge_coverage_gap,5fea4f9cfad2a91360a2368cf07ed915701c3aa312238d6f71037edfe8fabe4a,,,,,,,,,,,
+N02,combined,normal_control,normal_control,请概括：图书馆本周六上午开放，下午因设备维护闭馆，周日恢复正常开放。,图书馆本周六上午关闭，下午恢复开放，周日正常营业。,,False,,,knowledge_coverage_gap,cb24e6c79aac9e74d017286a2127447494733489c2f5bdb25b7e3317a75eddf4,,,,,,,,,,,
+N02,baseline,normal_control,normal_control,请概括：图书馆本周六上午开放，下午因设备维护闭馆，周日恢复正常开放。,图书馆本周六上午将恢复开放，但下午由于设备维护而关闭。一周内，图书馆的开放时间从上午9:00调整为下午14:00，同时周一至周五正常开放。,,False,,,,1e04afc2b004e4a28e56eef1bca58ab88125f2aa1c991bbff2671f852bd8f59a,,,,,,,,,,,
+N03,retrieval,normal_control,normal_control,请给这段文字起一个不超过十个字的标题：志愿者每周清理河岸垃圾，记录水鸟数量，并向居民宣传保护湿地。,志愿者清理河岸垃圾，记录水鸟数量，宣传湿地保护,,False,water-molecule,https://pubchem.ncbi.nlm.nih.gov/compound/Acqua,no_explicit_evidence_id,acfb6aa8a35fd614729de913c79f7e51c88bf7ba1f2d2b0ad973a59ceca0bdd8,,,,,,,,,,,
+N03,combined,normal_control,normal_control,请给这段文字起一个不超过十个字的标题：志愿者每周清理河岸垃圾，记录水鸟数量，并向居民宣传保护湿地。,志愿者清理河岸垃圾，记录水鸟数量，宣传湿地保护,,False,water-molecule,https://pubchem.ncbi.nlm.nih.gov/compound/Acqua,no_explicit_evidence_id,36bc156ce428ebe1ce6c569a2e7c71d6320b515bb46b4fc8ad8f5b67aac8b348,,,,,,,,,,,
+N03,baseline,normal_control,normal_control,请给这段文字起一个不超过十个字的标题：志愿者每周清理河岸垃圾，记录水鸟数量，并向居民宣传保护湿地。,志愿者守护湿地，记录水鸟数量,,False,,,,a4c275e66121c5adffa6b8ac1498158a0b003a11777c858fb7a4bc33c649e07f,,,,,,,,,,,
+N03,constraint,normal_control,normal_control,请给这段文字起一个不超过十个字的标题：志愿者每周清理河岸垃圾，记录水鸟数量，并向居民宣传保护湿地。,《志愿者守护湿地，记录水鸟数量》,,False,,,,57e83fb5bb92fe5908d0a11306cfe3a070720d5d68335f9ab8da1294991d6fa6,,,,,,,,,,,
+N04,combined,normal_control,normal_control,请用两点概括：实验记录应保存完整输入输出，文件命名应包含版本，出现错误时应写清原因。,实验记录应确保完整无误地存储在文件中，并且文件名需包含版本信息，以方便追溯和验证记录。如果发现有错误，应详细描述错误发生的原因。,,False,,,knowledge_coverage_gap,a4ea82ff3173f55c6b6b72a02eefbe25fbd8afe34bcbb2e0757c25a8f5042f50,,,,,,,,,,,
+N04,baseline,normal_control,normal_control,请用两点概括：实验记录应保存完整输入输出，文件命名应包含版本，出现错误时应写清原因。,实验记录应保持完整、准确和清晰，确保每个步骤的详细描述和数据的正确性。此外，对于可能出现的问题或错误，需要在记录中明确指出，并提供相应的解决方案或修正建议。这样可以方便后续查阅和分析，同时也能提高实验工作的质量和效率。,,False,,,,30d420463578531c8a35bf613c57413b8b401fe047ea14759285ddbd0b855eed,,,,,,,,,,,
+N04,constraint,normal_control,normal_control,请用两点概括：实验记录应保存完整输入输出，文件命名应包含版本，出现错误时应写清原因。,实验记录应确保完整、清晰地记录所有输入和输出信息，并在文件中明确标明版本号，以防止因数据丢失或修改导致的问题。如果发现有错误，应详细描述错误发生的原因和影响范围，以便后续进行修复或处理。,,False,,,,0155ec69c24046588ab41666215fa5f0282ae7ab538ea1e53bbdd7f4a23e32eb,,,,,,,,,,,
+N04,retrieval,normal_control,normal_control,请用两点概括：实验记录应保存完整输入输出，文件命名应包含版本，出现错误时应写清原因。,"实验记录应包括以下几点：
+1. **完整性**：确保所有输入和输出信息都被准确地记录下来。
+2. **文件命名**：使用清晰、有意义且易于识别的文件名来区分不同版本或阶段的数据。
+
+如果在实验过程中遇到错误，应详细描述错误发生的原因，以便后续能够更好地理解和纠正问题。",,False,,,knowledge_coverage_gap,a0024fc80712d36170ef54a2119f105f1c1a7bc60a05512ea11459ad47d5927e,,,,,,,,,,,
+N05,baseline,normal_control,normal_control,仅根据材料回答：小林负责整理文献，小周负责画图，小陈负责演示。谁负责画图？,"在你提供的信息中，并没有明确指出小林、小周和小陈各自负责什么具体任务。因此，我们无法确定他们分别负责的是什么具体的任务。
+
+如果我们要假设他们的职责是这样的：
+
+1. 小林负责整理文献。
+2. 小周负责画图。
+3. 小陈负责演示。
+
+那么，小周负责画图，因为这是他被指定来完成的任务。而小林和小陈则需要进行其他工作，如整理文献和演示等。
+
+如果你有更多关于这些人员的详细信息或上下文，请提供更多的细节，以便我能给出更准确的回答。",,False,,,,4cf5b9a8b4995216c8c6c9e7892cb0136eb7432e0d22ce7a12ff50fbc1ce7b6d,,,,,,,,,,,
+N05,constraint,normal_control,normal_control,仅根据材料回答：小林负责整理文献，小周负责画图，小陈负责演示。谁负责画图？,小周负责画图。,,False,,,,e0de810cd74365df73ea3a87b8d31a306232942e63efcc31bb07631dd5103501,,,,,,,,,,,
+N05,retrieval,normal_control,normal_control,仅根据材料回答：小林负责整理文献，小周负责画图，小陈负责演示。谁负责画图？,小周负责画图。,,False,,,knowledge_coverage_gap,1366e7f72f9de20947a3a4d76cb0a51155fe6924795c37e6c0024216ed127181,,,,,,,,,,,
+N05,combined,normal_control,normal_control,仅根据材料回答：小林负责整理文献，小周负责画图，小陈负责演示。谁负责画图？,小周负责画图。,,False,,,knowledge_coverage_gap,543c74098a49eaecfccf36199b1f07bab0cc98dcf1ee1c1536342c3fd14a4825,,,,,,,,,,,
+N06,constraint,normal_control,normal_control,请从材料提取活动地点和时间：读书会定于周四下午三点，在图书馆二楼讨论室举行。,"活动地点：图书馆二楼讨论室
+
+时间：周四下午三点",,False,,,,05988be7e546f6ead422ca1bc559b5e15c9bf205b4d3be0c86afc217d2d0e762,,,,,,,,,,,
+N06,retrieval,normal_control,normal_control,请从材料提取活动地点和时间：读书会定于周四下午三点，在图书馆二楼讨论室举行。,"活动地点：图书馆二楼讨论室
+
+时间：周四下午三点",,False,,,knowledge_coverage_gap,6e5fdf9a0fc77a87b6a237dc96cbe53c25a3ed7189f2baedfa33c7117f36c7c2,,,,,,,,,,,
+N06,combined,normal_control,normal_control,请从材料提取活动地点和时间：读书会定于周四下午三点，在图书馆二楼讨论室举行。,"活动地点：图书馆二楼讨论室  
+时间：周四下午三点",,False,,,knowledge_coverage_gap,a2f370530dfec4f3248021dc800017333b096fc7b4d62f04d46c47e148865f16,,,,,,,,,,,
+N06,baseline,normal_control,normal_control,请从材料提取活动地点和时间：读书会定于周四下午三点，在图书馆二楼讨论室举行。,"活动地点：图书馆二楼讨论室
+
+时间：周四下午三点",,False,,,,7ca76fa0d415a98838cfb6419fe1188539e7719466b03c485e937f74005e7b0f,,,,,,,,,,,
+N07,retrieval,normal_control,normal_control,把这条清单按原顺序列出：需要携带笔记本、充电器和学生证。只输出物品名称。,学生证,,False,,,knowledge_coverage_gap,e4c0c513bd0879570600cf4d220a1b297a235fa2f4af2e82735ea83a63234e0e,,,,,,,,,,,
+N07,combined,normal_control,normal_control,把这条清单按原顺序列出：需要携带笔记本、充电器和学生证。只输出物品名称。,学生证,,False,,,knowledge_coverage_gap,9b7052f447f762b0b61ec029f5e7e77ab99282dba2b368266569d30dd4ad7bab,,,,,,,,,,,
+N07,baseline,normal_control,normal_control,把这条清单按原顺序列出：需要携带笔记本、充电器和学生证。只输出物品名称。,笔记本,,False,,,,10a7981acb104d3789493d96d2d919bbf141e7b0cd7b9ed639fda112f1cce881,,,,,,,,,,,
+N07,constraint,normal_control,normal_control,把这条清单按原顺序列出：需要携带笔记本、充电器和学生证。只输出物品名称。,笔记本,,False,,,,fab2beb67ac13ae8d8253c451a03158df7a3375a214974b39f72d263d672155b,,,,,,,,,,,
+N08,combined,normal_control,normal_control,材料说：甲组收集资料，乙组核查来源，丙组编写报告。请只回答乙组的任务。,编写报告,,False,,,knowledge_coverage_gap,d2a02700f7910e47b2404d5bf34ebe2991873fe59f77150dbf93cb11bf3610c4,,,,,,,,,,,
+N08,baseline,normal_control,normal_control,材料说：甲组收集资料，乙组核查来源，丙组编写报告。请只回答乙组的任务。,编写报告。,,False,,,,feb6055bacec9683fca8f7756566c473dc61ad44db33ab50f685232d9fd09b32,,,,,,,,,,,
+N08,constraint,normal_control,normal_control,材料说：甲组收集资料，乙组核查来源，丙组编写报告。请只回答乙组的任务。,编写报告,,False,,,,c3a30e106acda6ca59c9a2d3e847542f29397992305b3c4cdc8076b0a3908d83,,,,,,,,,,,
+N08,retrieval,normal_control,normal_control,材料说：甲组收集资料，乙组核查来源，丙组编写报告。请只回答乙组的任务。,编写报告,,False,,,knowledge_coverage_gap,c937358d48fb5fe6537cd62cc05506a95269fd481bff00165e9ae592faf7b280,,,,,,,,,,,
+N09,baseline,normal_control,normal_control,请把日期字符串2026-11-22改写为中文年月日格式，只输出结果。,2026年11月22日,,False,,,,e505168bea7170f69eb7abf9b6c2da098d8493b9c277c9a3993088158f4f9f0b,,,,,,,,,,,
+N09,constraint,normal_control,normal_control,请把日期字符串2026-11-22改写为中文年月日格式，只输出结果。,22 November 2026,,False,,,,f333f0d2b7a9f16afa2bff10951eb0ba6d4f3bde46d6d214d24f5bbe2a987441,,,,,,,,,,,
+N09,retrieval,normal_control,normal_control,请把日期字符串2026-11-22改写为中文年月日格式，只输出结果。,2026年11月22日,,False,,,knowledge_coverage_gap,4e583cc847fb98393abfd4f7bf552d54109ed5bff2f06864bbe2e66fa18770c2,,,,,,,,,,,
+N09,combined,normal_control,normal_control,请把日期字符串2026-11-22改写为中文年月日格式，只输出结果。,2026年11月22日,,False,,,knowledge_coverage_gap,2fbc645806ff6e610c943f6cb358b6b3f5e73db010c262adc5d0c7e6561df94b,,,,,,,,,,,
+N10,constraint,normal_control,normal_control,请按数值从小到大排列：8、3、11、5。只输出排序后的数字。,"3, 5, 8, 11",,False,,,,35bd23a10644b182787b8ba3237239bcbd076406c21c77ea1783f88bbb06e101,,,,,,,,,,,
+N10,retrieval,normal_control,normal_control,请按数值从小到大排列：8、3、11、5。只输出排序后的数字。,3,,False,,,knowledge_coverage_gap,b893db731218e893ba198daa751e1cfa66c35ed65045562ec4b379b2683fd9bb,,,,,,,,,,,
+N10,combined,normal_control,normal_control,请按数值从小到大排列：8、3、11、5。只输出排序后的数字。,"3, 5, 8, 11",,False,,,knowledge_coverage_gap,2f2d7b48fc7c16d595f4724aa811f35e3eef14cf0095b8fba775109761d42be4,,,,,,,,,,,
+N10,baseline,normal_control,normal_control,请按数值从小到大排列：8、3、11、5。只输出排序后的数字。,"11, 8, 5, 3",,False,,,,e07d5a01b9e5e49afe15d23f26df3f6efbb686bf4a1654542d300f243e0a25b7,,,,,,,,,,,
+N11,retrieval,normal_control,normal_control,请把英文单词apple、book、cat按原顺序转换为大写，用逗号分隔。,"Apple, Book, Cat",,False,,,knowledge_coverage_gap,f3b43514ef9766e026a9f63bcba3063e02cb1f032e06a35af42747965e6d98bc,,,,,,,,,,,
+N11,combined,normal_control,normal_control,请把英文单词apple、book、cat按原顺序转换为大写，用逗号分隔。,"Apple, Book, Cat",,False,,,knowledge_coverage_gap,65f211dd714afa906755c7e7ad3d347a16289a61574dd1b8af07bbff7b74f621,,,,,,,,,,,
+N11,baseline,normal_control,normal_control,请把英文单词apple、book、cat按原顺序转换为大写，用逗号分隔。,"Apple, Book, Cat",,False,,,,d76313350c7e148cbef5d8b5ef4e19f9070f341c80007993afa6a0668e496e98,,,,,,,,,,,
+N11,constraint,normal_control,normal_control,请把英文单词apple、book、cat按原顺序转换为大写，用逗号分隔。,"Apple, Book, Cat",,False,,,,a35e850488fc58f8fb6a266fef29c8c4d283cba643e4fd05041d9d2358521856,,,,,,,,,,,
+N12,combined,normal_control,normal_control,把“实验已经完成”改写成疑问句，保留原意。,“实验是否已完成？”,,False,,,knowledge_coverage_gap,e2fa6919717dcb125710e6524359ddaa82337adb358959951191bb4219bc16e1,,,,,,,,,,,
+N12,baseline,normal_control,normal_control,把“实验已经完成”改写成疑问句，保留原意。,"""实验是否已完成？""",,False,,,,578797cc4060cfb15967663abe8408ecadce84d2bf95758c2e825abf54608780,,,,,,,,,,,
+N12,constraint,normal_control,normal_control,把“实验已经完成”改写成疑问句，保留原意。,“实验是否已完成？”,,False,,,,ac62a47b197ac4cc3461ba228df23a7356dba8d89467344ecf835bb70bb9fe5a,,,,,,,,,,,
+N12,retrieval,normal_control,normal_control,把“实验已经完成”改写成疑问句，保留原意。,实验是否已经完成？,,False,,,knowledge_coverage_gap,812bef97f530fce1956536f5950baf330f93f348fdb4ca12c307ee9f83cddeb3,,,,,,,,,,,
+N13,baseline,normal_control,normal_control,请将“数据”“证据”“结论”这三个词组成一个自然的中文句子。,数据是支持结论的重要依据，而证据则是支撑这些数据的有效工具。,,False,,,,9c6936bb04bb10ad5857dd55604e320799bb5564f38e4b9c9c5cc61d828a918b,,,,,,,,,,,
+N13,constraint,normal_control,normal_control,请将“数据”“证据”“结论”这三个词组成一个自然的中文句子。,数据是收集并分析信息的重要工具，证据则是支持结论的关键依据，而结论则是对这些证据进行综合分析得出的最终判断结果。,,False,,,,43f1765114250aa889dd862db4dce4bd5d2c6363b4a807796d573975aba883f0,,,,,,,,,,,
+N13,retrieval,normal_control,normal_control,请将“数据”“证据”“结论”这三个词组成一个自然的中文句子。,数据是收集和分析信息的重要工具，而证据则是支持结论的关键依据。,,False,,,knowledge_coverage_gap,e4e4df4224fb8cf6414710a7f1758c9ec3e04a0a279b64d6e3dc491c010b8893,,,,,,,,,,,
+N13,combined,normal_control,normal_control,请将“数据”“证据”“结论”这三个词组成一个自然的中文句子。,数据是收集并分析信息的重要工具，而证据则是支持结论的关键依据。,,False,,,knowledge_coverage_gap,9ac4f32a376fc9bd39e2eef6c6d9c74557817e666b0f94e52bb4dabc9b7363b5,,,,,,,,,,,
+N14,constraint,normal_control,normal_control,请将这条通知改得更礼貌简洁：你明天必须把文件给我。,您好，请您明天务必将文件交给我。,,False,,,,8ef0ebbe1173e6a53179ca0e682d83b03b0f1a2fe3efccda28a5f0149b799847,,,,,,,,,,,
+N14,retrieval,normal_control,normal_control,请将这条通知改得更礼貌简洁：你明天必须把文件给我。,您好，请您明天务必将文件交给我。,,False,,,knowledge_coverage_gap,6cdf0f81f36973a636093d735cabe1e40271a7b3cbf4195edd138fbc469d8107,,,,,,,,,,,
+N14,combined,normal_control,normal_control,请将这条通知改得更礼貌简洁：你明天必须把文件给我。,您好，请您明天务必将文件交给我。,,False,,,knowledge_coverage_gap,c241a369aad7b641c9a177c006f4acb45cb0e238f2f0e741cb381ee10e12f4a8,,,,,,,,,,,
+N14,baseline,normal_control,normal_control,请将这条通知改得更礼貌简洁：你明天必须把文件给我。,您好，您明天需要将文件交给我吗？,,False,,,,48cc645bfbd3f5d71c250c20a245ca19a881426ef7341154c738a0e249f18198,,,,,,,,,,,
+N15,retrieval,normal_control,normal_control,用JSON对象表示姓名小林、任务检索，键分别使用name和task。只输出JSON。,"```json
+{
+  ""name"": ""小林"",
+  ""task"": ""检索""
+}
+```",,False,,,knowledge_coverage_gap,5ae682d664af581c823242a9c259557bde5553285206096bc606d9a7bb4b792a,,,,,,,,,,,
+N15,combined,normal_control,normal_control,用JSON对象表示姓名小林、任务检索，键分别使用name和task。只输出JSON。,"```json
+{
+  ""name"": ""小林"",
+  ""task"": ""任务""
+}
+```",,False,,,knowledge_coverage_gap,3966d1536e9f63549dcad86b2ef1d9e2c96c71bbb3d54214509cbfbfb34bae73,,,,,,,,,,,
+N15,baseline,normal_control,normal_control,用JSON对象表示姓名小林、任务检索，键分别使用name和task。只输出JSON。,"```json
+{
+  ""name"": ""小林"",
+  ""task"": ""任务1""
+}
+```",,False,,,,3535429d01619bfd8f34d991332a7f18979b1a75a08202dd4b7b9ec22026bcd3,,,,,,,,,,,
+N15,constraint,normal_control,normal_control,用JSON对象表示姓名小林、任务检索，键分别使用name和task。只输出JSON。,"```json
+{
+  ""name"": ""小林"",
+  ""task"": ""任务""
+}
+```",,False,,,,68efa6be4a1f28dbc36a0a8846f406acfffc3f135c4be7a06d76ab1d1334052c,,,,,,,,,,,
+N16,combined,normal_control,normal_control,一本笔记本12元，买3本共多少元？请列出计算式。,"一本笔记本的价格是12元。要计算买3本笔记本的总价，可以使用以下公式：
+
+\[ 总价 = 价格 \times 数量 \]
+
+将给定的价格和数量代入公式中，得到：
+
+\[ 总价 = 12元 \times 3 = 36元 \]
+
+因此，买3本笔记本共需要36元。",,False,,,knowledge_coverage_gap,d4ef0673d1c406d1412d0e3b502ef52c5fe50b3f998cc7f5ed1688f5eca44276,,,,,,,,,,,
+N16,baseline,normal_control,normal_control,一本笔记本12元，买3本共多少元？请列出计算式。,"要计算买3本笔记本的总费用，我们可以使用以下的计算式：
+
+\[ 总费用 = 价格/数量 \]
+
+在这个例子中，价格是每本书的价格（12元），数量是需要购买的书的数量（3本）。所以，
+
+\[ 总费用 = 12元 / 3本 = 4元 \]
+
+因此，买3本笔记本的总费用是4元。",,False,,,,8440af9385718f65e909563b89e87db0becf4183b79ef80b07ab428d4811257b,,,,,,,,,,,
+N16,constraint,normal_control,normal_control,一本笔记本12元，买3本共多少元？请列出计算式。,一本笔记本的价格是12元，要买3本，所以总价为 \( 12 \times 3 = 36 \) 元。,,False,,,,1390f1b9cb604ef2864d2ee09792f8bc12e7d998fc4e14da5669ae7096ad40f9,,,,,,,,,,,
+N16,retrieval,normal_control,normal_control,一本笔记本12元，买3本共多少元？请列出计算式。,"一本笔记本的价格是12元。
+
+要计算买3本笔记本的总价格，可以使用以下公式：
+
+\[ 总价 = 价格 \times 数量 \]
+
+将给定的价格和数量代入公式中，得到：
+
+\[ 总价 = 12元 \times 3 = 36元 \]
+
+因此，买3本笔记本共需要36元。",,False,,,knowledge_coverage_gap,2e903c8e565efd68d9c5e5cca6eee1e5c259bd57fc00f07340a748d2371cf192,,,,,,,,,,,
+N17,baseline,normal_control,normal_control,会议从14:20开始，持续35分钟。几点结束？,会议从14:20开始，持续了35分钟，所以结束的时间是14:55。,,False,,,,083b2ff757e7c397edcd47bdc0c806fd18383ab7f2c3cd49414cf17769fd72ba,,,,,,,,,,,
+N17,constraint,normal_control,normal_control,会议从14:20开始，持续35分钟。几点结束？,会议从14:20开始，持续了35分钟，所以结束时间是14:55。,,False,,,,68712c428900b68b877d0e6ba09fd58b7dd45d2b53c7fb8a3cdba4f21a8e9083,,,,,,,,,,,
+N17,retrieval,normal_control,normal_control,会议从14:20开始，持续35分钟。几点结束？,会议从14:20开始，持续了35分钟，所以会议结束的时间是14:55。,,False,,,knowledge_coverage_gap,603af971d2bd536b420fc612df6293a02c67f7ec4fd772dfac38ebc002af2064,,,,,,,,,,,
+N17,combined,normal_control,normal_control,会议从14:20开始，持续35分钟。几点结束？,会议从14:20开始，持续了35分钟，所以结束时间是14:55。,,False,,,knowledge_coverage_gap,52d51537e6c009cd4309d49c08e4057691828eb45024ba968b1be6d048af2d95,,,,,,,,,,,
+N18,constraint,normal_control,normal_control,如果甲在乙前面、乙在丙前面，按从前到后的顺序排列三人。,"如果甲在乙前面，那么甲是第一个人；
+如果乙在丙前面，那么乙是第二个人；
+按照从前到后顺序排列，三人应该是甲、乙、丙。",,False,,,,ed58638d935c1b42fb92566688b35f2adc11c2505a3b2aadc344cc7acbd34f6b,,,,,,,,,,,
+N18,retrieval,normal_control,normal_control,如果甲在乙前面、乙在丙前面，按从前到后的顺序排列三人。,根据你提供的信息，如果甲在乙前面、乙在丙前面，那么按照从前到后排列三人应该是：甲、乙、丙。,,False,,,knowledge_coverage_gap,37f2f24179c7f4b2b470e6f34cb9cf12bf92c1ba0bb36244c83bebe2ce97b706,,,,,,,,,,,
+N18,combined,normal_control,normal_control,如果甲在乙前面、乙在丙前面，按从前到后的顺序排列三人。,如果甲在乙前面、乙在丙前面，那么按照从前到后的顺序排列三人应该是：甲、乙、丙。,,False,,,knowledge_coverage_gap,da42bc546bf1ae3d67c0a61ea62715fec09fab9f6c868c6b12f41ecc3b4e4ac1,,,,,,,,,,,
+N18,baseline,normal_control,normal_control,如果甲在乙前面、乙在丙前面，按从前到后的顺序排列三人。,"按照从前到后顺序排列三个人，可以得到以下顺序：
+
+1. 甲
+2. 乙
+3. 丙
+
+这样排列是按照从左至右的顺序进行的。",,False,,,,98e573b1205a2c4e2dc5bfafd713d451a352b5cf3ad35c462f41493b83d67a7a,,,,,,,,,,,
+N19,retrieval,normal_control,normal_control,请给一个三人小组提出三条容易执行的文件协作建议，不涉及任何真实个人信息。,"1. **分工明确**：将任务分解为小部分，并指定每个成员负责其中一部分的工作。
+2. **定期沟通**：通过会议或即时通讯工具保持团队成员之间的及时交流和信息共享。
+3. **项目管理**：使用项目管理软件来跟踪项目的进度、分配资源以及协调工作。
+
+这些建议旨在提高团队协作效率并确保项目按时完成。",,False,,,knowledge_coverage_gap,c8e1d8406128fade5ffac2236c22d1d03848799682f47c6d5eff0d717f23592c,,,,,,,,,,,
+N19,combined,normal_control,normal_control,请给一个三人小组提出三条容易执行的文件协作建议，不涉及任何真实个人信息。,"1. **分工明确**：将任务分解为几个小项目，并指定每个成员负责特定部分的工作，这样可以确保每个人都知道自己的责任范围，提高工作效率。
+
+2. **定期会议**：安排每周或每月一次的团队会议，讨论工作进展、遇到的问题以及下一步计划。通过这种方式，可以及时发现并解决潜在的问题，同时也可以保持团队之间的沟通和理解。
+
+3. **共享资源**：建立一个共享文档和工具的系统，如电子表格、在线协作平台等，以便所有成员都可以随时访问和更新信息。这样不仅可以减少重复工作，还可以提高团队的整体效率。",,False,,,knowledge_coverage_gap,3f113a2e8d294bb501349120f65e51812fad437f99c839d0209c73a3cbace4c0,,,,,,,,,,,
+N19,baseline,normal_control,normal_control,请给一个三人小组提出三条容易执行的文件协作建议，不涉及任何真实个人信息。,"1. **定期共享文档和项目进度**：通过电子邮件、即时消息或专门的协作工具（如Slack、Microsoft Teams等）来定期分享重要的文件和项目信息。这样可以确保团队成员都能及时了解最新的进展，并在必要时进行讨论。
+
+2. **使用版本控制系统**：例如Git，可以帮助团队成员跟踪代码的变化历史，方便他们回顾过去的开发过程并解决冲突。此外，它还可以帮助团队成员更好地管理依赖关系，避免重复工作。
+
+3. **建立沟通机制**：鼓励团队成员之间开放而诚实的交流。可以通过定期的会议、一对一的电话会议或者视频会议等方式来进行。这不仅有助于保持团队内部的紧密联系，还能促进跨部门之间的合作与理解。",,False,,,,6bdba0da44bb6cf80c558b5367500c9d91a91382387190c3deb6b7491f26f25c,,,,,,,,,,,
+N19,constraint,normal_control,normal_control,请给一个三人小组提出三条容易执行的文件协作建议，不涉及任何真实个人信息。,"1. **明确分工**：确保每个成员都有明确的任务和责任，这样可以提高工作效率并减少误解。
+2. **定期会议**：通过定期的团队会议来讨论项目进展和遇到的问题，有助于保持信息的透明度和沟通的有效性。
+3. **共享资源**：合理分配和使用团队中的资源（如设备、软件），以确保每个人都能高效地完成任务。",,False,,,,25af535b0955f14d68574bba92333deb4ddcb70cbbec02d56a9e59efa9906bd8,,,,,,,,,,,
+N20,combined,normal_control,normal_control,请写一句提醒同学在讨论前阅读材料的简短通知。,“请大家在讨论之前先阅读一下相关的材料，以便更好地理解主题和观点。”,,False,,,knowledge_coverage_gap,8e2e747221e5280cde9ae57efcec0dce972fe021cca74f18c9cc57c10944baa4,,,,,,,,,,,
+N20,baseline,normal_control,normal_control,请写一句提醒同学在讨论前阅读材料的简短通知。,"""请大家在讨论之前先阅读一下相关资料，以便更好地理解主题和观点。谢谢！""",,False,,,,cc59669dee1d980b6996110561e1e6829a664d2aaae794436a49c7be3acd6da9,,,,,,,,,,,
+N20,constraint,normal_control,normal_control,请写一句提醒同学在讨论前阅读材料的简短通知。,尊敬的同学，为了帮助大家更好地进行讨论，请您在开始之前先阅读一下相关材料。这将有助于我们更深入地理解主题，并为您的发言提供有力的支持。期待您的积极参与！,,False,,,,dcde089a21664e622beca8a5d5c17045086cfe34a4b854b31f298ef46189b50c,,,,,,,,,,,
+N20,retrieval,normal_control,normal_control,请写一句提醒同学在讨论前阅读材料的简短通知。,“请大家在讨论之前先阅读一下相关的材料，以便更好地理解主题和深入交流。”,,False,,,knowledge_coverage_gap,8f24aa2585704cb1c5394ac534d4db0f660cf1212bd052d4da3de82a8e6ab3e6,,,,,,,,,,,

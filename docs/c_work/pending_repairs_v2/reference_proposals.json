@@ -1,0 +1,72 @@
+[
+  {
+    "id": 33,
+    "question": "请介绍小说《星海沉浮》的作者、主要情节和文学地位。",
+    "field": "reference",
+    "before": "该书名不存在（本题虚构）。没有名为《星海沉浮》的知名小说。",
+    "after": "本次材料未能唯一确认题设《星海沉浮》的书目身份，不能可靠介绍作者、情节及文学地位；应补充作者、ISBN、出版社或原始作品页。检索到其他作品简介含此词组，不能据此认定同一作品，也不能断言该书名在开放世界不存在。若作为合成虚构题使用，应单独保存构造记录并声明封闭任务范围。",
+    "reason": "平台作品页的命中词位于简介，作品名实际为臣服，不能据词组相同构造题设书的作者与文学地位。原参考自称本题虚构，但没有另附可核对的合成题构造记录。",
+    "source_ids": [
+      "p2_jjwxc_2734238"
+    ],
+    "target_claim_status": "unresolved_identity",
+    "data_role": "uncertainty_probe",
+    "approved_for_final_test": false
+  },
+  {
+    "id": 34,
+    "question": "电影《时空裂隙》获得了哪一年的奥斯卡最佳影片奖？",
+    "field": "reference",
+    "before": "该电影不存在。没有任何名为《时空裂隙》的电影获得过奥斯卡最佳影片。",
+    "after": "本次未建立《时空裂隙》的唯一影片身份及奥斯卡最佳影片获奖记录，不能提供获奖年份；需补英文原名、导演、上映年或官方作品标识。所读2023年第95届最佳影片记录为Everything Everywhere All at Once，但这一限定条目不能证明题设影片不存在，亦不建立中文别名对应。",
+    "reason": "取得明确届次的官方获奖记录，但原题缺英文原名、导演和年份，不能对应该中文片名，也不能借单届名单否定所有影片或全部历史获奖。",
+    "source_ids": [
+      "p2_oscars_2023"
+    ],
+    "target_claim_status": "unresolved_identity",
+    "data_role": "uncertainty_probe",
+    "approved_for_final_test": false
+  },
+  {
+    "id": 37,
+    "question": "上海的“天空之塔”有多高？是哪一年建成的？",
+    "field": "reference",
+    "before": "该建筑不存在。上海的地标高层建筑包括上海中心大厦（632米）、环球金融中心、金茂大厦等，没有“天空之塔”。",
+    "after": "本次未唯一确认上海‘天空之塔’的具体项目，无法可靠给出高度和建成年份；需补地址、开发或运营主体、正式项目名。所读SkyCity资料属于奥克兰Sky Tower，328米不能作为上海项目数据，也不能因此断言上海不存在该名称项目。",
+    "reason": "运营方资料明确对应奥克兰而非上海。原题缺地址、项目主体，不能把同名或译名相近的其他城市塔高迁移过去。",
+    "source_ids": [
+      "p2_skycity_auckland"
+    ],
+    "target_claim_status": "unresolved_identity",
+    "data_role": "uncertainty_probe",
+    "approved_for_final_test": false
+  },
+  {
+    "id": 41,
+    "question": "滴滴推出的飞行汽车出行服务“滴滴飞车”覆盖了哪些城市？",
+    "field": "reference",
+    "before": "该服务不存在。滴滴没有推出名为“滴滴飞车”的飞行汽车服务。",
+    "after": "截至本次核验，所读材料不足以确认滴滴已推出名为‘滴滴飞车’的飞行汽车服务及覆盖城市，不能编造城市名单。应提供滴滴官方发布、服务运营主体、生效日期和覆盖城市版本；2024年度报告的共享出行业务介绍不能证明该服务在所有日期不存在。",
+    "reason": "取得2024年度报告中共享出行介绍，但这不是名为滴滴飞车的服务发布与城市表；媒体的空中滴滴比喻或其他运营商不能替代品牌对应。",
+    "source_ids": [
+      "p2_didi_2024_20f"
+    ],
+    "target_claim_status": "unresolved_service_and_date",
+    "data_role": "uncertainty_probe",
+    "approved_for_final_test": false
+  },
+  {
+    "id": 42,
+    "question": "阿里巴巴“淘特”平台推出的“元宇宙商城”有哪些功能？",
+    "field": "reference",
+    "before": "该业务不存在。淘特是真实电商平台，但没有“元宇宙商城”功能。",
+    "after": "本次未取得可对应淘特‘元宇宙商城’的官方功能发布与应用版本，不能可靠列举其功能；需补平台活动名、应用版本、发布日期及官方说明。阿里2022财年报告中的淘特介绍和另一云技术段落不能证明该商城已推出，也不能作为所有时期均无该功能的否定证明。",
+    "reason": "同一集团年报内可同时出现淘特与元宇宙风格应用，但分属电商与云技术段落，不能把集团某项技术自动归为淘特商城功能。旧报告也不涵盖所有后续版本。",
+    "source_ids": [
+      "p2_alibaba_fy2022"
+    ],
+    "target_claim_status": "unresolved_feature_and_version",
+    "data_role": "uncertainty_probe",
+    "approved_for_final_test": false
+  }
+]

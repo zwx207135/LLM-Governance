@@ -1,0 +1,8 @@
+{
+  "date":"2026-11-22",
+  "corrections":[
+    {"source_id":"smithsonian-steam","field":"published_at","old":"1939-01-01","new":null,"publication_year":1939,"reason":"来源只支持出版年份，不能将缺失的月日默认写成1月1日。"}
+  ],
+  "historical_runs":["expanded_v3","controls_v3"],
+  "policy":"两轮运行中的原始语料和证据快照不改写。当前重建库修正为v3.1；段落、主题词、ID、标题和URL均未变化。逐条重建prompt验证保存于docs/c_work/run_verification.json。"
+}

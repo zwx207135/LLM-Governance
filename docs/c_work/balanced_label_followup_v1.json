@@ -1,0 +1,17 @@
+{
+  "stage": "exploratory_label_wording_followup_declared_before_zh_inference",
+  "trigger": "原英文条件明显集中输出supported，因此只更换指令和值域中的状态标签。",
+  "changes": "supported/refuted/not_established改为支持/反驳/不足；材料、陈述、顺序、依据编号、种子和解码预算不变。",
+  "planned_outputs": 192,
+  "independent_human_reviews": 0,
+  "scoring": "中文输出按固定公开映射归一化后比较结论、依据、两者同时正确、位置交换；无效标签另列。",
+  "limits": "探索性追加，不能冒充原预注册计划；标签翻译也改变token及语言先验，不据此断言模型内部机制。",
+  "frozen_input_sha256": {
+    "datasets/controls/c_balanced_materials_v1.json": "69386535da8414f4e9de99afffdca08b1b813285820324b5078d581e18bfb346",
+    "configs/c_balanced_material_schemas_v1.json": "23cde5fb3139c20b17395d730f5188347df592f208c63c7f6d83d8a960cfe7b6",
+    "datasets/controls/c_balanced_materials_cn_v1.json": "5ccb5083ed5c34229ff631525b663cf0267564b7609cbb0fc0484793fb2ade7b",
+    "configs/c_balanced_material_schemas_cn_v1.json": "e50a5a25a45407674798114659847354c7ae681929ddbc7c184f3eadbae27bae",
+    "configs/c_balanced_materials_cn.json": "02ab34a55da3cbd04d5f130a051e0fdfbda7c285c7ce02a93adfbe83fec7b6f5",
+    "datasets/controls/c_balanced_material_specs.json": "9ce093715049f80629627f32f2628f721cf730fbfc7e1b93501479930609abf7"
+  }
+}

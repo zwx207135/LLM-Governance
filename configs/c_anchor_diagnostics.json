@@ -1,0 +1,17 @@
+{
+  "stage": "targeted_development_diagnostics_not_independent_test",
+  "corpus": "knowledge/corpus_v3.json",
+  "dataset": "docs/c_work/development_dataset.json",
+  "model_path": "models/Qwen2.5-0.5B-Instruct",
+  "seed": 20261122,
+  "generation": {"max_new_tokens": 160, "do_sample": false},
+  "retrieval": {"top_k": 2, "min_score": 1.5},
+  "existing_ids": [1, 7, 17, 18, 28, 32, 38, 76, 84, 94, 99],
+  "probes": [
+    {"id": "AP1", "question": "诺贝尔物理学奖的获奖原因是什么？", "category": "diagnostic_probe"},
+    {"id": "AP2", "question": "诺贝尔奖和相对论有什么关系？", "category": "diagnostic_probe"},
+    {"id": "AP3", "question": "贝尔在电话发展中做了什么？", "category": "diagnostic_probe"},
+    {"id": "AP4", "question": "贝尔与诺贝尔和电话有什么关系？", "category": "diagnostic_probe"},
+    {"id": "AP5", "question": "请介绍诺贝尔。", "category": "diagnostic_probe"}
+  ]
+}

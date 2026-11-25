@@ -1,0 +1,83 @@
+{
+  "stage": "C_evidence_use_development_not_formal_evaluation",
+  "dataset": "docs/c_work/development_dataset.json",
+  "model_path": "models/Qwen2.5-0.5B-Instruct",
+  "seed": 20261122,
+  "generation": {
+    "max_new_tokens": 160,
+    "do_sample": false
+  },
+  "retrieval": {
+    "top_k": 2,
+    "min_score": 1.5
+  },
+  "existing_ids": [
+    1,
+    7,
+    18,
+    27,
+    29,
+    32,
+    48,
+    64,
+    66,
+    74,
+    76,
+    84,
+    99
+  ],
+  "probes": [
+    {
+      "id": "NP1",
+      "question": "爱因斯坦为什么获得诺贝尔物理学奖？",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "NP2",
+      "question": "1921年诺贝尔物理学奖授予了谁？",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "NP3",
+      "question": "1922年诺贝尔物理学奖授予了谁？",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "NP4",
+      "question": "2023年诺贝尔文学奖授予了谁？",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "NP5",
+      "question": "2024年诺贝尔化学奖授予了谁？",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "NP6",
+      "question": "比较2022年与2023年诺贝尔物理学奖的研究领域。",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "BP1",
+      "question": "1921年度诺贝尔物理学奖实际在哪一年颁发？",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "BP2",
+      "question": "请介绍2023年诺贝尔文学奖得主“王明远”的获奖原因。",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "BP3",
+      "question": "“爱因斯坦”获得诺贝尔物理学奖是因为相对论吗？",
+      "category": "diagnostic_probe"
+    },
+    {
+      "id": "BP4",
+      "question": "2023年诺贝尔文学奖得主“福瑟”的获奖理由是什么？",
+      "category": "diagnostic_probe"
+    }
+  ],
+  "corpus": "knowledge/corpus_v4.json",
+  "controls": "datasets/controls/c_normal_development.json"
+}

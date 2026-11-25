@@ -1,0 +1,180 @@
+{
+  "schema_version": 2,
+  "stage": "developer_authored_source_bound_decoding_diagnostic_not_independent_test",
+  "contract": {
+    "config": {
+      "version": "c-structured-decoding-comparison-v1",
+      "stage": "developer_authored_source_bound_decoding_diagnostic_not_independent_test",
+      "controls": "datasets/controls/c_source_bound_development.json",
+      "schemas": "configs/c_source_bound_schemas.json",
+      "corpus": "knowledge/corpus_v3.json",
+      "model_path": "models/Qwen2.5-0.5B-Instruct",
+      "policies": [
+        "legacy",
+        "compact",
+        "guarded"
+      ],
+      "decoders": [
+        "free",
+        "json"
+      ],
+      "generation": {
+        "max_new_tokens": 192,
+        "do_sample": false
+      },
+      "retrieval": {
+        "top_k": 2,
+        "min_score": 1.5
+      },
+      "seed": 20261122,
+      "decision_rule": "同一问题及提示，比较普通与有限JSON约束解码。每题保留全部6种字段值组合，正确答案只供事后检查；格式符合与内容选择分别报告。"
+    },
+    "dry_run": true,
+    "python": "3.10.21",
+    "controls_sha256": "c190c6da384adfe19b13d26b2de384a6fbbde9bcc38b239364af407a1a478cb9",
+    "schemas_sha256": "24a15b61594b1cb9407091a6b3ac2b183833b037438a3699a1232b8bc5b2aacc",
+    "corpus_sha256": "deb3f7e7b341e58e52fd5dc2adbcd44c43e47a09904085be6bbe484201597938",
+    "runtime_sha256": {
+      "experiments/run_c_structured_comparison.py": "df21972ea779df384f67363171f2734266eb94b56f6e9fc1414dbb9870b9f62b",
+      "src/governance/finite_json.py": "ebb8840b6b95e1fb5349a481a085cb744b123dc02ec7ef35e8d9971e1b2c765d",
+      "src/governance/evidence_policy.py": "c6bfb38a6843060a6e17812a8879145900e09fe3063d4a80231af00828cb4f8d",
+      "src/governance/anti_hallucination.py": "564ea4bd8f559987fe9b487dc8a0285d43fe0da07d173d697dcc32a1c80f8cd7",
+      "src/governance/retrieval.py": "03a46e8dcd22c7ecbcb412c3459eaa8a8ad1e79add5bca3dd03c9da8c7ef98c3",
+      "src/models/llm_model.py": "01245282117e7c74a17247aa6f9e537de46a4d833c1fea81c26f96d08b0dc939",
+      "src/utils/experiment_io.py": "f47ae5d1d555919df82909ac1cde362058e1a64ca60c1239b435774d105f398f"
+    },
+    "model_sha256": {}
+  },
+  "contract_sha256": "94f35336ba28eec05cd1968382002a76314fae8122004e49d5d3360acec99726",
+  "planned_records": [
+    [
+      "B01",
+      "legacy__free"
+    ],
+    [
+      "B01",
+      "legacy__json"
+    ],
+    [
+      "B01",
+      "compact__free"
+    ],
+    [
+      "B01",
+      "compact__json"
+    ],
+    [
+      "B01",
+      "guarded__free"
+    ],
+    [
+      "B01",
+      "guarded__json"
+    ],
+    [
+      "B02",
+      "legacy__json"
+    ],
+    [
+      "B02",
+      "compact__free"
+    ],
+    [
+      "B02",
+      "compact__json"
+    ],
+    [
+      "B02",
+      "guarded__free"
+    ],
+    [
+      "B02",
+      "guarded__json"
+    ],
+    [
+      "B02",
+      "legacy__free"
+    ],
+    [
+      "B03",
+      "compact__free"
+    ],
+    [
+      "B03",
+      "compact__json"
+    ],
+    [
+      "B03",
+      "guarded__free"
+    ],
+    [
+      "B03",
+      "guarded__json"
+    ],
+    [
+      "B03",
+      "legacy__free"
+    ],
+    [
+      "B03",
+      "legacy__json"
+    ],
+    [
+      "B04",
+      "compact__json"
+    ],
+    [
+      "B04",
+      "guarded__free"
+    ],
+    [
+      "B04",
+      "guarded__json"
+    ],
+    [
+      "B04",
+      "legacy__free"
+    ],
+    [
+      "B04",
+      "legacy__json"
+    ],
+    [
+      "B04",
+      "compact__free"
+    ],
+    [
+      "B05",
+      "guarded__free"
+    ],
+    [
+      "B05",
+      "guarded__json"
+    ],
+    [
+      "B05",
+      "legacy__free"
+    ],
+    [
+      "B05",
+      "legacy__json"
+    ],
+    [
+      "B05",
+      "compact__free"
+    ],
+    [
+      "B05",
+      "compact__json"
+    ]
+  ],
+  "status": "completed",
+  "segments": [],
+  "counts": {
+    "planned": 30,
+    "ok": 0,
+    "prepared": 30,
+    "errors": 0,
+    "missing": 0
+  }
+}

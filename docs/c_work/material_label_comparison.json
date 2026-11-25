@@ -1,0 +1,81 @@
+{
+  "stage": "exploratory_label_wording_followup_not_independent_evaluation",
+  "model_generated_answers": 384,
+  "unique_claims": 24,
+  "topic_groups": 8,
+  "same_materials_claims_and_positions": true,
+  "same_model_runtime_and_generation_settings": true,
+  "independent_human_reviews": 0,
+  "formal_winner_selected": false,
+  "comparison": [
+    {
+      "mode": "compact__free",
+      "paired_questions": 48,
+      "en_verdict_correct": 17,
+      "zh_verdict_correct": 34,
+      "en_joint_correct": 9,
+      "zh_joint_correct": 4,
+      "en_unknown_as_supported": 14,
+      "zh_unknown_as_supported": 2,
+      "en_only_verdict_correct": 1,
+      "zh_only_verdict_correct": 18,
+      "both_verdict_correct": 16,
+      "neither_verdict_correct": 13,
+      "en_schema_conformant": 11,
+      "zh_schema_conformant": 5
+    },
+    {
+      "mode": "compact__json",
+      "paired_questions": 48,
+      "en_verdict_correct": 16,
+      "zh_verdict_correct": 20,
+      "en_joint_correct": 10,
+      "zh_joint_correct": 13,
+      "en_unknown_as_supported": 16,
+      "zh_unknown_as_supported": 11,
+      "en_only_verdict_correct": 1,
+      "zh_only_verdict_correct": 5,
+      "both_verdict_correct": 15,
+      "neither_verdict_correct": 27,
+      "en_schema_conformant": 48,
+      "zh_schema_conformant": 48
+    },
+    {
+      "mode": "legacy__free",
+      "paired_questions": 48,
+      "en_verdict_correct": 14,
+      "zh_verdict_correct": 25,
+      "en_joint_correct": 11,
+      "zh_joint_correct": 1,
+      "en_unknown_as_supported": 14,
+      "zh_unknown_as_supported": 5,
+      "en_only_verdict_correct": 0,
+      "zh_only_verdict_correct": 11,
+      "both_verdict_correct": 14,
+      "neither_verdict_correct": 23,
+      "en_schema_conformant": 0,
+      "zh_schema_conformant": 1
+    },
+    {
+      "mode": "legacy__json",
+      "paired_questions": 48,
+      "en_verdict_correct": 16,
+      "zh_verdict_correct": 16,
+      "en_joint_correct": 14,
+      "zh_joint_correct": 14,
+      "en_unknown_as_supported": 16,
+      "zh_unknown_as_supported": 16,
+      "en_only_verdict_correct": 0,
+      "zh_only_verdict_correct": 0,
+      "both_verdict_correct": 16,
+      "neither_verdict_correct": 32,
+      "en_schema_conformant": 48,
+      "zh_schema_conformant": 48
+    }
+  ],
+  "limits": "Follow-up added after observing English-label bias; label translation changes tokenization and language priors. Eight related topics, not 384 independent facts.",
+  "input_record_sha256": {
+    "balanced_materials_v1": "5b70ff2f29d09c3947736529810f9f4b16a42b33ffb142c1626d3de92d969998",
+    "balanced_labels_cn_v1": "8189ae3c6e0730d8455ab254c06e4fde980bfde7bb428c06505f04ba447145f3"
+  }
+}

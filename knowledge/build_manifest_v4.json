@@ -1,0 +1,15 @@
+{
+  "stage": "targeted_development_only",
+  "corpus_sha256": "65b7832dfa9680b9b4ab0f71a984d6a036f20ca4acd7ca36a93cb5e8fc0f9dc6",
+  "sources": 21,
+  "chunks": 31,
+  "added_sources": 5,
+  "added_chunks": 6,
+  "inputs": {
+    "knowledge\\corpus_v3.json": "deb3f7e7b341e58e52fd5dc2adbcd44c43e47a09904085be6bbe484201597938",
+    "knowledge\\nobel_documents_v1.json": "bbe4a21e98ecc3dce4fc7768d178062c9d854da3c8f11aeadcdf45ac243f694f"
+  },
+  "base_unchanged": true,
+  "independent_human_review": false,
+  "independent_holdout": false
+}

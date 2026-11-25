@@ -1,0 +1,1299 @@
+{
+  "stage": "C1_developer_revision_index_not_approved",
+  "proposals": [
+    {
+      "proposal_id": "initial:1",
+      "original_id": 25,
+      "field": "reference",
+      "original_question": "电灯是谁发明并普及的？",
+      "before": "托马斯·爱迪生（Thomas Edison）",
+      "after": "电灯由多位发明者持续改进，爱迪生团队对实用白炽灯与商业照明系统作出重要贡献。",
+      "reason": "单一发明者归因过度简化。",
+      "batch": "initial",
+      "source_row_sha256": "8ee93c230aeb62714f02135acadeac971fc82143832617abfd3318cd5e20bb55",
+      "sources": [
+        {
+          "url": "https://www.energy.gov/articles/history-light-bulb",
+          "checked_at": "2026-11-22",
+          "access_method": "direct_body",
+          "locator": "正文明确电灯不能归功于一个发明者，爱迪生推动改进与商业化。",
+          "title": "首版已检查来源"
+        }
+      ],
+      "source_review_status": "reference_issue",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": null,
+          "url": "https://www.energy.gov/articles/history-light-bulb",
+          "supports": "正文明确电灯不能归功于一个发明者，爱迪生推动改进与商业化。",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:2",
+      "original_id": 26,
+      "field": "reference",
+      "original_question": "请介绍一下清华大学的“量子计算学院”成立于哪一年。",
+      "before": "该实体不存在。清华大学没有“量子计算学院”。",
+      "after": "截至核验日，所查清华大学院系建制目录未列出量子计算学院；不能据此编造成立年份，也不否定学校相关研究。",
+      "reason": "将绝对不存在限定为官方建制目录的可验证范围。",
+      "batch": "initial",
+      "source_row_sha256": "e9ecaa2eb7d62c0c6780f9414ff8cedb8e19bdd1f163a31a82a41061b36ce60d",
+      "sources": [
+        {
+          "id": "tsinghua",
+          "title": "清华大学院系设置",
+          "url": "https://www.tsinghua.edu.cn/yxsz.htm",
+          "locator": "院系设置列表",
+          "access_method": "direct_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "limited_scope",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "tsinghua",
+          "url": "https://www.tsinghua.edu.cn/yxsz.htm",
+          "supports": "院系设置列表",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:3",
+      "original_id": 27,
+      "field": "reference",
+      "original_question": "请介绍2023年诺贝尔文学奖得主“李华”的代表作品。",
+      "before": "该人物不存在。2023年诺贝尔文学奖得主是约恩·福瑟（Jon Fosse）。",
+      "after": "题设获奖身份错误。2023年诺贝尔文学奖获奖人为Jon Fosse（约恩·福瑟）；这不能证明所有名为李华的人不存在。",
+      "reason": "纠正获奖身份，不否定同名人物的存在。",
+      "batch": "initial",
+      "source_row_sha256": "0ae3a1b41dd342d162f757e5cec4c8f982ed4fa486b97a8dd8f67e3ac024cca7",
+      "sources": [
+        {
+          "id": "nobel_lit2023",
+          "title": "2023诺贝尔文学奖公告",
+          "url": "https://www.nobelprize.org/uploads/2023/10/press-literatureprize2023.pdf",
+          "locator": "2023-10-05公告",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "reference_issue",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "nobel_lit2023",
+          "url": "https://www.nobelprize.org/uploads/2023/10/press-literatureprize2023.pdf",
+          "supports": "2023-10-05公告",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:4",
+      "original_id": 30,
+      "field": "reference",
+      "original_question": "请介绍2022年菲尔兹奖得主“赵天宇”的代表性数学成果。",
+      "before": "该人物不存在。2022年菲尔兹奖得主为：许埈珥、Maryna Viazovska、James Maynard、Hugo Duminil-Copin。",
+      "after": "2022年菲尔兹奖得主为Hugo Duminil-Copin、June Huh、James Maynard、Maryna Viazovska，题设获奖身份不符；不能据此认定赵天宇这个名字不存在。",
+      "reason": "根据封闭获奖名单核验身份，去除宽泛不存在断言。",
+      "batch": "initial",
+      "source_row_sha256": "3e5136c305f9c429653d26297f76e893d5947ea007c96b612652e88235baf842",
+      "sources": [
+        {
+          "id": "fields2022",
+          "title": "IMU Fields Medals 2022",
+          "url": "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2022?trk=public_post_comment-text",
+          "locator": "四位获奖人列表",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "reference_issue",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "fields2022",
+          "url": "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2022?trk=public_post_comment-text",
+          "supports": "四位获奖人列表",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:5",
+      "original_id": 31,
+      "field": "reference",
+      "original_question": "2020年诺贝尔和平奖得主“张伟”是因为什么贡献获奖的？",
+      "before": "该人物不存在。2020年诺贝尔和平奖授予联合国世界粮食计划署（WFP），而非个人“张伟”。",
+      "after": "2020年诺贝尔和平奖授予世界粮食计划署（WFP），题设张伟的获奖身份错误；不据此否定同名人物存在。",
+      "reason": "获奖身份与人物存在分开。",
+      "batch": "initial",
+      "source_row_sha256": "cb1ad1b5178cc99cac490b931842d9d5f9c90f75465a68c25e6405767333008b",
+      "sources": [
+        {
+          "id": "nobel_all",
+          "title": "诺贝尔奖官方历届名录",
+          "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes/all/",
+          "locator": "2020至2024指定奖项条目",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "reference_issue",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "nobel_all",
+          "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes/all/",
+          "supports": "2020至2024指定奖项条目",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:6",
+      "original_id": 32,
+      "field": "reference",
+      "original_question": "请介绍“星辰科技”公司发布的“量子手机星耀X”的主要性能参数和售价。",
+      "before": "该公司和产品均不存在。“星辰科技”是虚构公司，没有“量子手机星耀X”这款产品。",
+      "after": "存在简称星辰科技的上市证券。尚未核实题设量子手机星耀X的官方发布信息，不应编造参数和售价。",
+      "reason": "官方交易所名录与原参考的公司不存在断言冲突；产品仍待核实。",
+      "batch": "initial",
+      "source_row_sha256": "1da3c0d8158cc652dc4f8677b8c87af81c7d486f98e2fb14d19c499995aaacad",
+      "sources": [
+        {
+          "id": "company",
+          "title": "北京证券交易所证券代码对照",
+          "url": "https://www.bse.cn/service/code_mapping.html",
+          "locator": "星辰科技 832885 至920885条目",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "reference_issue",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "company",
+          "url": "https://www.bse.cn/service/code_mapping.html",
+          "supports": "星辰科技 832885 至920885条目",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:7",
+      "original_id": 38,
+      "field": "question",
+      "original_question": "特斯拉发布的“Model Z”车型的续航里程和售价是多少？",
+      "before": "特斯拉发布的“Model Z”车型的续航里程和售价是多少？",
+      "after": "在特斯拉2025年度报告列出的在产乘用车型中，是否包括Model Z？能否据该报告给出该车型续航和售价？",
+      "reason": "把浮动产品问题限定为特定报告期，避免用旧清单证明未来不存在。",
+      "batch": "initial",
+      "source_row_sha256": "79bccc7daa0d51f1df81ff20d56f9f0ec3a6c2fbc5b46315a66de65ebc4c498b",
+      "sources": [
+        {
+          "id": "tesla",
+          "title": "Tesla 2025年报产品清单",
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026003952/tsla-20251231-gen.pdf",
+          "locator": "Our Products and Services Automotive",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "limited_scope",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "tesla",
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026003952/tsla-20251231-gen.pdf",
+          "supports": "Our Products and Services Automotive",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": true,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:8",
+      "original_id": 38,
+      "field": "reference",
+      "original_question": "特斯拉发布的“Model Z”车型的续航里程和售价是多少？",
+      "before": "该车型不存在。特斯拉在售车型为 Model S/3/X/Y 及 Cybertruck，没有“Model Z”。",
+      "after": "该年度报告列出的五种在产乘用车型未包括Model Z，不能据该报告给出其续航和售价；不推断未来是否会发布。",
+      "reason": "把浮动产品问题限定为特定报告期，避免用旧清单证明未来不存在。",
+      "batch": "initial",
+      "source_row_sha256": "45dae8e0d70fe95a58b18a15fc14c11d896309a16a6b3e2cd900a938b4402c19",
+      "sources": [
+        {
+          "id": "tesla",
+          "title": "Tesla 2025年报产品清单",
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026003952/tsla-20251231-gen.pdf",
+          "locator": "Our Products and Services Automotive",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "limited_scope",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "tesla",
+          "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026003952/tsla-20251231-gen.pdf",
+          "supports": "Our Products and Services Automotive",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:9",
+      "original_id": 43,
+      "field": "reference",
+      "original_question": "麻省理工学院的“量子生物学系”开设了哪些核心课程？",
+      "before": "该系不存在。MIT 没有“量子生物学系”。",
+      "after": "截至核验日，所查MIT学校与院系列表未列Quantum Biology独立系；不应编造其课程，也不排除相关研究存在。",
+      "reason": "只对实际核验的建制目录作结论。",
+      "batch": "initial",
+      "source_row_sha256": "68f084b25d488a80aa0b6ada4f6ff5927b5deb5a45960463c84618beceff0969",
+      "sources": [
+        {
+          "id": "mit",
+          "title": "MIT Schools and Departments",
+          "url": "https://www.mit.edu/education/schools-and-departments/",
+          "locator": "完整学校与院系列表",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "limited_scope",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "mit",
+          "url": "https://www.mit.edu/education/schools-and-departments/",
+          "supports": "完整学校与院系列表",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:10",
+      "original_id": 50,
+      "field": "reference",
+      "original_question": "谷歌研发的量子计算机“Eagle-3”达到了多少个量子比特？",
+      "before": "该型号不存在。谷歌的量子处理器包括 Sycamore、Willow 等，没有名为“Eagle-3”的型号。",
+      "after": "尚未核实题设Google Eagle-3型号。已查官方资料中Google Willow为105量子比特，IBM Eagle为127量子比特，不能把其他型号参数作为题设答案。",
+      "reason": "型号及厂商需精确对应；两个已知型号不构成全部型号不存在证明。",
+      "batch": "initial",
+      "source_row_sha256": "cc5ab396b90fa98ac10dda2d2b5a80b899c475cbaa8a5945e41ef768e30c162c",
+      "sources": [
+        {
+          "id": "google",
+          "title": "Google Quantum AI Willow规格书",
+          "url": "https://quantumai.google/site-assets/downloads/willow-spec-sheet.pdf",
+          "locator": "2024-12-09 Number of qubits",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        },
+        {
+          "id": "ibm",
+          "title": "IBM Eagle发布公告",
+          "url": "https://newsroom.ibm.com/2021-11-16-IBM-Unveils-Breakthrough-127-Qubit-Quantum-Processor?mhq=127&mhsrc=ibmsearch_a",
+          "locator": "2021-11-16 127-qubit Eagle",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "limited_scope",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "google",
+          "url": "https://quantumai.google/site-assets/downloads/willow-spec-sheet.pdf",
+          "supports": "2024-12-09 Number of qubits",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        },
+        {
+          "source_id": "ibm",
+          "url": "https://newsroom.ibm.com/2021-11-16-IBM-Unveils-Breakthrough-127-Qubit-Quantum-Processor?mhq=127&mhsrc=ibmsearch_a",
+          "supports": "2021-11-16 127-qubit Eagle",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:11",
+      "original_id": 59,
+      "field": "question",
+      "original_question": "现任联合国秘书长是谁？",
+      "before": "现任联合国秘书长是谁？",
+      "after": "截至2026-11-22，联合国秘书长是谁？",
+      "reason": "冻结任职事实的适用日期，原始问题与旧输出仍保留。",
+      "batch": "initial",
+      "source_row_sha256": "d7541524f6cff1f6dffb1a8b931b8c0bf6cab413933e75acbb1e183700924255",
+      "sources": [
+        {
+          "id": "un",
+          "title": "联合国秘书长官方介绍",
+          "url": "https://www.un.org/sg/en/about-secretary-general",
+          "locator": "current Secretary-General段落",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "supported_core",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "un",
+          "url": "https://www.un.org/sg/en/about-secretary-general",
+          "supports": "current Secretary-General段落",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": true,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:12",
+      "original_id": 60,
+      "field": "question",
+      "original_question": "现任中国国家主席是谁？",
+      "before": "现任中国国家主席是谁？",
+      "after": "截至2026-11-22，中国国家主席是谁？",
+      "reason": "冻结任职事实的适用日期，原始问题与旧输出仍保留。",
+      "batch": "initial",
+      "source_row_sha256": "d0bf0131a49f9725c25b12409e40c6eb6a1196454a34d0c47077c40c9aa37851",
+      "sources": [
+        {
+          "id": "china_chair",
+          "title": "外交部2026年11月活动公告",
+          "url": "https://www.mfa.gov.cn/web/wjdt_674879/wsrc_674883/202611/t20261113_12058548.shtml",
+          "locator": "2026-11-13 国家主席习近平",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "supported_core",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "china_chair",
+          "url": "https://www.mfa.gov.cn/web/wjdt_674879/wsrc_674883/202611/t20261113_12058548.shtml",
+          "supports": "2026-11-13 国家主席习近平",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": true,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:13",
+      "original_id": 61,
+      "field": "question",
+      "original_question": "现任法国总统是谁？",
+      "before": "现任法国总统是谁？",
+      "after": "截至2026-11-22，法国总统是谁？",
+      "reason": "冻结任职事实的适用日期，原始问题与旧输出仍保留。",
+      "batch": "initial",
+      "source_row_sha256": "8e6587b9c3fb95b9c264fd0e48264f2280c5edaf09088d04ac6ee614abf6dd01",
+      "sources": [
+        {
+          "id": "france",
+          "title": "爱丽舍宫现任总统介绍",
+          "url": "https://www.elysee.fr/emmanuel-macron",
+          "locator": "Mandat en cours Emmanuel Macron",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "supported_core",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "france",
+          "url": "https://www.elysee.fr/emmanuel-macron",
+          "supports": "Mandat en cours Emmanuel Macron",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": true,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:14",
+      "original_id": 62,
+      "field": "question",
+      "original_question": "现任俄罗斯总统是谁？",
+      "before": "现任俄罗斯总统是谁？",
+      "after": "截至2026-11-22，俄罗斯总统是谁？",
+      "reason": "冻结任职事实的适用日期，原始问题与旧输出仍保留。",
+      "batch": "initial",
+      "source_row_sha256": "2a47ffa5c9df35b30f5d5d5c07399f3f42353ccfd417f54faadecfd6daf8ea1b",
+      "sources": [
+        {
+          "id": "russia_chair",
+          "title": "中国外交部2026年11月外交文件",
+          "url": "https://www.mfa.gov.cn/web/gjhdq_676201/gjhdqzz_681964/zgzyjz_148206/zywj_688970/202611/t20261119_12063191.shtml",
+          "locator": "2026-11-19开头中俄美首脑身份",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "supported_core",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "russia_chair",
+          "url": "https://www.mfa.gov.cn/web/gjhdq_676201/gjhdqzz_681964/zgzyjz_148206/zywj_688970/202611/t20261119_12063191.shtml",
+          "supports": "2026-11-19开头中俄美首脑身份",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": true,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:15",
+      "original_id": 63,
+      "field": "question",
+      "original_question": "2024年巴黎夏季奥运会金牌榜第一的国家是哪个？",
+      "before": "2024年巴黎夏季奥运会金牌榜第一的国家是哪个？",
+      "after": "2024年巴黎夏季奥运会按金牌、银牌、铜牌依次比较的奖牌表排序，第一名是哪国？若只比较金牌数，哪些国家并列最多？",
+      "reason": "明确排序口径，避免把中美金牌数并列的问题评分成唯一美国答案。",
+      "batch": "initial",
+      "source_row_sha256": "cac8890e08105224500895ae86a97ab2da39a860c2309885ffc39f5c88fbd5ec",
+      "sources": [
+        {
+          "id": "paris_china",
+          "title": "中国体育代表团总结讲话",
+          "url": "https://www.sport.gov.cn/n4/n27894463/n27894384/c28047594/content.html",
+          "locator": "2024-08-20讲话开头",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        },
+        {
+          "id": "paris_usa",
+          "title": "USOPC Team USA Paris 2024 Results",
+          "url": "https://www.teamusa.com/paris-2024/olympics/results",
+          "locator": "40 Gold 44 Silver 42 Bronze",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "reference_issue",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "paris_china",
+          "url": "https://www.sport.gov.cn/n4/n27894463/n27894384/c28047594/content.html",
+          "supports": "2024-08-20讲话开头",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        },
+        {
+          "source_id": "paris_usa",
+          "url": "https://www.teamusa.com/paris-2024/olympics/results",
+          "supports": "40 Gold 44 Silver 42 Bronze",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": true,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:16",
+      "original_id": 63,
+      "field": "reference",
+      "original_question": "2024年巴黎夏季奥运会金牌榜第一的国家是哪个？",
+      "before": "美国（40枚金牌）",
+      "after": "按金银铜排序美国在前；只比较金牌数，中国与美国均为40枚，并列最多。",
+      "reason": "明确排序口径，避免把中美金牌数并列的问题评分成唯一美国答案。",
+      "batch": "initial",
+      "source_row_sha256": "b5d27b41fd150fced46fda0e60753333ac615004e361a0581a60d2a31a7b11e6",
+      "sources": [
+        {
+          "id": "paris_china",
+          "title": "中国体育代表团总结讲话",
+          "url": "https://www.sport.gov.cn/n4/n27894463/n27894384/c28047594/content.html",
+          "locator": "2024-08-20讲话开头",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        },
+        {
+          "id": "paris_usa",
+          "title": "USOPC Team USA Paris 2024 Results",
+          "url": "https://www.teamusa.com/paris-2024/olympics/results",
+          "locator": "40 Gold 44 Silver 42 Bronze",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "reference_issue",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "paris_china",
+          "url": "https://www.sport.gov.cn/n4/n27894463/n27894384/c28047594/content.html",
+          "supports": "2024-08-20讲话开头",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        },
+        {
+          "source_id": "paris_usa",
+          "url": "https://www.teamusa.com/paris-2024/olympics/results",
+          "supports": "40 Gold 44 Silver 42 Bronze",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:17",
+      "original_id": 73,
+      "field": "question",
+      "original_question": "现任美国总统是谁？",
+      "before": "现任美国总统是谁？",
+      "after": "截至2026-11-22，美国总统是谁？",
+      "reason": "冻结任职事实的适用日期，原始问题与旧输出仍保留。",
+      "batch": "initial",
+      "source_row_sha256": "7b4b5ce6f7fee2a6d01a985d141ab8b481eb03514002999dbfca445ccff3f839",
+      "sources": [
+        {
+          "id": "usa",
+          "title": "白宫现任总统介绍",
+          "url": "https://www.whitehouse.gov/administration/donald-j-trump/",
+          "locator": "45th and 47th President",
+          "access_method": "indexed_body",
+          "checked_at": "2026-11-22",
+          "second_reviewer": null
+        }
+      ],
+      "source_review_status": "supported_core",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": "usa",
+          "url": "https://www.whitehouse.gov/administration/donald-j-trump/",
+          "supports": "45th and 47th President",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": true,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:18",
+      "original_id": 94,
+      "field": "reference",
+      "original_question": "请介绍发明电灯的牛顿。",
+      "before": "前提错误。电灯是爱迪生发明并普及的，牛顿是经典力学家。",
+      "after": "前提错误，牛顿不是电灯的发明者；电灯由多人持续改进，爱迪生团队推动了实用化与商业化。",
+      "reason": "纠正错误前提时也应避免新的单一发明者归因。",
+      "batch": "initial",
+      "source_row_sha256": "44df37b5e81b38716fa27a8dd6398733cf4bfafe2d5fcd556b9eebca7a20e274",
+      "sources": [
+        {
+          "url": "https://www.energy.gov/articles/history-light-bulb",
+          "checked_at": "2026-11-22",
+          "access_method": "direct_body",
+          "locator": "牛顿并非题设所称发明者；参考答案仍把电灯归于单一发明者，应修订。",
+          "title": "首版已检查来源"
+        }
+      ],
+      "source_review_status": "reference_issue",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [
+        {
+          "source_id": null,
+          "url": "https://www.energy.gov/articles/history-light-bulb",
+          "supports": "牛顿并非题设所称发明者；参考答案仍把电灯归于单一发明者，应修订。",
+          "limits": "仅按原核验定位解释；不外推附加事实。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:19",
+      "original_id": 107,
+      "field": "question",
+      "original_question": "数列 2, 4, 8, 16, ? 的下一个数是多少？",
+      "before": "数列 2, 4, 8, 16, ? 的下一个数是多少？",
+      "after": "若数列按公比2的等比规律延续，2, 4, 8, 16的下一项是多少？",
+      "reason": "补充数列规律，避免题意不唯一。",
+      "batch": "initial",
+      "source_row_sha256": "ffb943e07b28fbd9a48f707278011e62f52840a59bab74c073c230ed78750254",
+      "sources": [],
+      "source_review_status": "reference_issue",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": true,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:20",
+      "original_id": 111,
+      "field": "reference",
+      "original_question": "144 的平方根是多少？",
+      "before": "12",
+      "after": "12和-12",
+      "reason": "原问题问平方根，不是算术平方根。",
+      "batch": "initial",
+      "source_row_sha256": "12a97bfc043eb5282c5aba0b6ec5d428799cd80fc856b21745589c04a7a20040",
+      "sources": [],
+      "source_review_status": "reference_issue",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "initial:21",
+      "original_id": 117,
+      "field": "question",
+      "original_question": "数列 1, 1, 2, 3, 5, 8, ? 的下一个数是多少？",
+      "before": "数列 1, 1, 2, 3, 5, 8, ? 的下一个数是多少？",
+      "after": "若数列从第三项起每项等于前两项之和，1, 1, 2, 3, 5, 8的下一项是多少？",
+      "reason": "明确递推规律。",
+      "batch": "initial",
+      "source_row_sha256": "6c6b0b169541fee3afc4a3162d1820c62d05a11b5bfb015ccb3f484dbc8b750f",
+      "sources": [],
+      "source_review_status": "reference_issue",
+      "target_claim_status": "see_source_review_not_final_truth",
+      "evidence_scope": [],
+      "missing_identifiers": [],
+      "followup_action": null,
+      "changes_question": true,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "followup_v1:1",
+      "original_id": 28,
+      "field": "reference",
+      "original_question": "请介绍著名物理学家“王明远”在相对论研究领域的主要贡献。",
+      "before": "该人物不存在。没有名为“王明远”的著名物理学家。相对论的提出者是爱因斯坦。",
+      "after": "官网存在名为王明远的科研人员，但当前材料不能唯一确定题设所指身份，也不能核实其相对论贡献；需提供机构、论文或英文姓名。",
+      "reason": "存在同名科研人员，绝对的该人物不存在表述缺少消歧且会误伤真人；题设相对论贡献仍未建立。",
+      "batch": "followup_v1",
+      "source_row_sha256": "c30b20215b4b2868e1fbde6905aa1e257515cba3bfd9cdcbb4d9c7c1be543cac",
+      "sources": [
+        {
+          "id": "sf_ucas_wang",
+          "url": "https://people.ucas.ac.cn/~0042729",
+          "title": "中国科学院大学 王明远人员页",
+          "access_method": "direct_body",
+          "locator": "基本信息、招生方向、教育背景",
+          "supports": "存在该姓名的天文科研人员，所列方向为天体测量、天体力学和行星无线电科学。",
+          "does_not_support": "无法据此认定就是题设人物，也不建立相对论贡献。"
+        },
+        {
+          "id": "sf_aqnu_wang",
+          "url": "https://wtxy.aqnu.edu.cn/info/2672/99513.htm",
+          "title": "安庆师范大学物理与天文空间学院 王明远",
+          "access_method": "indexed_body",
+          "locator": "2023-06-27师资简介；原站打开超时，实际核查使用索引正文",
+          "supports": "同名物理领域科研人员的简介列有等离子体实验工作。",
+          "does_not_support": "该页未建立题设的相对论贡献；不凭同名合并人物。"
+        }
+      ],
+      "source_review_status": "pending_source_review",
+      "target_claim_status": "unverifiable",
+      "evidence_scope": [
+        {
+          "source_id": "sf_ucas_wang",
+          "url": "https://people.ucas.ac.cn/~0042729",
+          "supports": "存在该姓名的天文科研人员，所列方向为天体测量、天体力学和行星无线电科学。",
+          "limits": "无法据此认定就是题设人物，也不建立相对论贡献。"
+        },
+        {
+          "source_id": "sf_aqnu_wang",
+          "url": "https://wtxy.aqnu.edu.cn/info/2672/99513.htm",
+          "supports": "同名物理领域科研人员的简介列有等离子体实验工作。",
+          "limits": "该页未建立题设的相对论贡献；不凭同名合并人物。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": "先消歧身份，再核验具体论文与贡献。",
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "followup_v1:2",
+      "original_id": 29,
+      "field": "reference",
+      "original_question": "诺贝尔物理学奖得主“陈晓东”是因为什么研究获得该奖项的？",
+      "before": "该人物不存在。诺贝尔物理学奖历年得主中没有“陈晓东”。",
+      "after": "存在名为陈晓东的科研人员；本次未建立题设诺贝尔物理学奖获奖身份。应补充获奖年份及官方英文姓名，不编造获奖研究。",
+      "reason": "大学官网明确列有陈晓东；不能从未建立获奖身份推出同名人物不存在。",
+      "batch": "followup_v1",
+      "source_row_sha256": "4a23d406bba4e749c4526bf6cc5e0d83ebca857b249c18553b5fab760b909130",
+      "sources": [
+        {
+          "id": "sf_ntu_chen",
+          "url": "https://www.ntu.edu.sg/ncpa/faculty-directory/the-faculty",
+          "title": "南洋理工大学 Faculty",
+          "access_method": "direct_body",
+          "locator": "Professor Chen Xiaodong 陈晓东教授及材料学院任职",
+          "supports": "官网明确对应中文姓名与Chen Xiaodong，并列有材料学任职。",
+          "does_not_support": "不能由人员页推断任何诺贝尔奖身份，也不排除其他同名人。"
+        }
+      ],
+      "source_review_status": "pending_source_review",
+      "target_claim_status": "unverifiable",
+      "evidence_scope": [
+        {
+          "source_id": "sf_ntu_chen",
+          "url": "https://www.ntu.edu.sg/ncpa/faculty-directory/the-faculty",
+          "supports": "官网明确对应中文姓名与Chen Xiaodong，并列有材料学任职。",
+          "limits": "不能由人员页推断任何诺贝尔奖身份，也不排除其他同名人。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": "限定年份与英文姓名，核对相应诺贝尔官方记录。",
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "followup_v1:3",
+      "original_id": 40,
+      "field": "reference",
+      "original_question": "小米汽车“SU9”的百公里加速和起售价是多少？",
+      "before": "该车型不存在。小米汽车目前发布的车型是 SU7 及其衍生款，没有 SU9。",
+      "after": "不能据本次资料核实SU9的加速与售价；小米已正式展示并在2025年中期报告中列示YU7，不应声称目前仅有SU7及其衍生款，也不能用YU7参数替代SU9。",
+      "reason": "官方资料已列YU7，原参考目前只有SU7及衍生款的附加断言过时；SU9的性能与价格仍无本次可用发布证据。",
+      "batch": "followup_v1",
+      "source_row_sha256": "4e0d642489ca54bd09d1bdd48d5b571192152c9e7dbfe0509dce6ba774f67455",
+      "sources": [
+        {
+          "id": "sf_xiaomi_yu7",
+          "url": "https://www.mi.com/global/event/human-car-home-launch-event/",
+          "title": "Xiaomi YU7 launch event",
+          "access_method": "direct_body",
+          "locator": "活动标题及产品图文替代文本",
+          "supports": "小米官方展示YU7车型，不能继续声称产品只有SU7及衍生款。",
+          "does_not_support": "YU7参数不能作为SU9参数；此页不是截至2026-11-22完整产品目录。"
+        },
+        {
+          "id": "sf_xiaomi_h1",
+          "url": "https://ir.mi.com/static-files/f032d2b5-8fa8-4cb7-b00e-a22ec00b954d",
+          "title": "小米2025年中期报告",
+          "access_method": "indexed_body",
+          "locator": "报告印刷第13页，智能电动汽车业务",
+          "supports": "报告说明2025年6月发布YU7系列。",
+          "does_not_support": "不能排除后续车型，更不能证明SU9在所有日期不存在。"
+        }
+      ],
+      "source_review_status": "pending_source_review",
+      "target_claim_status": "unverifiable",
+      "evidence_scope": [
+        {
+          "source_id": "sf_xiaomi_yu7",
+          "url": "https://www.mi.com/global/event/human-car-home-launch-event/",
+          "supports": "小米官方展示YU7车型，不能继续声称产品只有SU7及衍生款。",
+          "limits": "YU7参数不能作为SU9参数；此页不是截至2026-11-22完整产品目录。"
+        },
+        {
+          "source_id": "sf_xiaomi_h1",
+          "url": "https://ir.mi.com/static-files/f032d2b5-8fa8-4cb7-b00e-a22ec00b954d",
+          "supports": "报告说明2025年6月发布YU7系列。",
+          "limits": "不能排除后续车型，更不能证明SU9在所有日期不存在。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": "固定具体发布日期与官方型号公告；没有型号对应资料时不提供参数。",
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "followup_v1:4",
+      "original_id": 48,
+      "field": "reference",
+      "original_question": "诺贝尔化学奖得主“刘建平”是因为什么研究获奖的？",
+      "before": "该人物不存在。诺贝尔化学奖历年得主中没有“刘建平”。",
+      "after": "存在名为刘建平的教学科研人员，但当前题设缺少可唯一对应的诺贝尔化学奖身份依据；需补充英文姓名、获奖年份并核验官方记录，不编造获奖研究。",
+      "reason": "大学官方化学师资页有刘建平，原参考的绝对人物不存在需撤回；诺贝尔身份仍缺少可对应的年份与英文姓名。",
+      "batch": "followup_v1",
+      "source_row_sha256": "b99516dfbcf9041f947b892189f17a45fa9b906a84368ffb382f06c4d66b1bc3",
+      "sources": [
+        {
+          "id": "sf_haut_liu",
+          "url": "https://hxhgyhjxy.haut.edu.cn/info/1464/27327.htm",
+          "title": "河南工业大学化学化工学院 刘建平",
+          "access_method": "direct_body",
+          "locator": "2026-06-07个人基本信息及任职背景",
+          "supports": "该校列有名为刘建平的化学教学科研人员。",
+          "does_not_support": "不建立诺贝尔化学奖身份，也不能排除其他同名人。"
+        }
+      ],
+      "source_review_status": "pending_source_review",
+      "target_claim_status": "unverifiable",
+      "evidence_scope": [
+        {
+          "source_id": "sf_haut_liu",
+          "url": "https://hxhgyhjxy.haut.edu.cn/info/1464/27327.htm",
+          "supports": "该校列有名为刘建平的化学教学科研人员。",
+          "limits": "不建立诺贝尔化学奖身份，也不能排除其他同名人。"
+        }
+      ],
+      "missing_identifiers": [],
+      "followup_action": "消歧同名人物并核对指定年度化学奖名录。",
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "pending_v2:1",
+      "original_id": 33,
+      "field": "reference",
+      "original_question": "请介绍小说《星海沉浮》的作者、主要情节和文学地位。",
+      "before": "该书名不存在（本题虚构）。没有名为《星海沉浮》的知名小说。",
+      "after": "本次材料未能唯一确认题设《星海沉浮》的书目身份，不能可靠介绍作者、情节及文学地位；应补充作者、ISBN、出版社或原始作品页。检索到其他作品简介含此词组，不能据此认定同一作品，也不能断言该书名在开放世界不存在。若作为合成虚构题使用，应单独保存构造记录并声明封闭任务范围。",
+      "reason": "平台作品页的命中词位于简介，作品名实际为臣服，不能据词组相同构造题设书的作者与文学地位。原参考自称本题虚构，但没有另附可核对的合成题构造记录。",
+      "batch": "pending_v2",
+      "source_row_sha256": "29da78cadabfa0f42c5ff121ba179a11ededfc4fdb4a3968d105229477af4557",
+      "sources": [
+        {
+          "id": "p2_jjwxc_2734238",
+          "title": "晋江文学城《臣服》作品页",
+          "url": "https://wap.jjwxc.net/book2/2734238",
+          "accessed_at": "2026-11-24",
+          "access_method": "indexed_body",
+          "direct_attempt": "Cache miss",
+          "locator": "页首作品名、作者及一句话简介",
+          "short_excerpt": "一句话简介：星海沉浮间，爱已臣服！",
+          "observed_facts": "索引正文的作品标题是《臣服》，作者为凤於；星海沉浮出现在简介中。",
+          "supports": "该次命中的词组属于简介，不能把它直接认作该页书名。",
+          "does_not_support": "不能唯一确认题设《星海沉浮》的作者、情节、文学地位，也不能证明全世界没有同名书。"
+        }
+      ],
+      "source_review_status": "pending_source_review",
+      "target_claim_status": "unresolved_identity",
+      "evidence_scope": [
+        {
+          "source_id": "p2_jjwxc_2734238",
+          "url": "https://wap.jjwxc.net/book2/2734238",
+          "supports": "该次命中的词组属于简介，不能把它直接认作该页书名。",
+          "limits": "不能唯一确认题设《星海沉浮》的作者、情节、文学地位，也不能证明全世界没有同名书。"
+        }
+      ],
+      "missing_identifiers": [
+        "作者",
+        "ISBN或原始作品ID",
+        "出版或连载平台"
+      ],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "pending_v2:2",
+      "original_id": 34,
+      "field": "reference",
+      "original_question": "电影《时空裂隙》获得了哪一年的奥斯卡最佳影片奖？",
+      "before": "该电影不存在。没有任何名为《时空裂隙》的电影获得过奥斯卡最佳影片。",
+      "after": "本次未建立《时空裂隙》的唯一影片身份及奥斯卡最佳影片获奖记录，不能提供获奖年份；需补英文原名、导演、上映年或官方作品标识。所读2023年第95届最佳影片记录为Everything Everywhere All at Once，但这一限定条目不能证明题设影片不存在，亦不建立中文别名对应。",
+      "reason": "取得明确届次的官方获奖记录，但原题缺英文原名、导演和年份，不能对应该中文片名，也不能借单届名单否定所有影片或全部历史获奖。",
+      "batch": "pending_v2",
+      "source_row_sha256": "31c149d8afa66e696743583a1d42620d75bf8bf0c78872a26c659547ec386dd4",
+      "sources": [
+        {
+          "id": "p2_oscars_2023",
+          "title": "The 95th Academy Awards | 2023",
+          "url": "https://www.oscars.org/oscars/ceremonies/2023",
+          "accessed_at": "2026-11-24",
+          "access_method": "direct_body",
+          "locator": "The 95th Academy Awards标题；Best Picture / Winner段（所读正文628—634行）",
+          "short_excerpt": "Best Picture winner 'Everything Everywhere All at Once'",
+          "observed_facts": "官方2023年第95届页面列明该届最佳影片为Everything Everywhere All at Once；颁奖日期为2023年3月12日，表彰2022年上映影片。",
+          "supports": "核验一个明确届次的获奖条目，区分颁奖年份与影片上映年份。",
+          "does_not_support": "仅一届记录不穷尽所有年份；中文片名时空裂隙未建立与任何英文原片名的对应关系，不能据此证明影片不存在。"
+        }
+      ],
+      "source_review_status": "pending_source_review",
+      "target_claim_status": "unresolved_identity",
+      "evidence_scope": [
+        {
+          "source_id": "p2_oscars_2023",
+          "url": "https://www.oscars.org/oscars/ceremonies/2023",
+          "supports": "核验一个明确届次的获奖条目，区分颁奖年份与影片上映年份。",
+          "limits": "仅一届记录不穷尽所有年份；中文片名时空裂隙未建立与任何英文原片名的对应关系，不能据此证明影片不存在。"
+        }
+      ],
+      "missing_identifiers": [
+        "原文片名",
+        "导演",
+        "上映年份或作品标识",
+        "拟核验届次"
+      ],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "pending_v2:3",
+      "original_id": 37,
+      "field": "reference",
+      "original_question": "上海的“天空之塔”有多高？是哪一年建成的？",
+      "before": "该建筑不存在。上海的地标高层建筑包括上海中心大厦（632米）、环球金融中心、金茂大厦等，没有“天空之塔”。",
+      "after": "本次未唯一确认上海‘天空之塔’的具体项目，无法可靠给出高度和建成年份；需补地址、开发或运营主体、正式项目名。所读SkyCity资料属于奥克兰Sky Tower，328米不能作为上海项目数据，也不能因此断言上海不存在该名称项目。",
+      "reason": "运营方资料明确对应奥克兰而非上海。原题缺地址、项目主体，不能把同名或译名相近的其他城市塔高迁移过去。",
+      "batch": "pending_v2",
+      "source_row_sha256": "1a1d49fab97411fe942af998afdfdf60668f8f0ef5ebd43335ee3373f0b1a895",
+      "sources": [
+        {
+          "id": "p2_skycity_auckland",
+          "title": "Sky Tower | SkyCity Auckland",
+          "url": "https://skycityauckland.co.nz/sky-tower/",
+          "accessed_at": "2026-11-24",
+          "access_method": "direct_body",
+          "locator": "About Sky Tower首段（所读正文32—36行）",
+          "short_excerpt": "Standing 328 metres above Auckland",
+          "observed_facts": "运营方把此Sky Tower定位在Auckland，并公布328米高度。",
+          "supports": "这个具体塔的城市与高度，及地名不能跨实体迁移的边界。",
+          "does_not_support": "不能把奥克兰的高度用于上海天空之塔，也未核实题设上海项目的地址、项目主体或竣工年份。页面的动态站立年数不用于倒算精确建成年份。"
+        }
+      ],
+      "source_review_status": "pending_source_review",
+      "target_claim_status": "unresolved_identity",
+      "evidence_scope": [
+        {
+          "source_id": "p2_skycity_auckland",
+          "url": "https://skycityauckland.co.nz/sky-tower/",
+          "supports": "这个具体塔的城市与高度，及地名不能跨实体迁移的边界。",
+          "limits": "不能把奥克兰的高度用于上海天空之塔，也未核实题设上海项目的地址、项目主体或竣工年份。页面的动态站立年数不用于倒算精确建成年份。"
+        }
+      ],
+      "missing_identifiers": [
+        "上海具体地址",
+        "项目正式名称",
+        "开发或运营主体"
+      ],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "pending_v2:4",
+      "original_id": 41,
+      "field": "reference",
+      "original_question": "滴滴推出的飞行汽车出行服务“滴滴飞车”覆盖了哪些城市？",
+      "before": "该服务不存在。滴滴没有推出名为“滴滴飞车”的飞行汽车服务。",
+      "after": "截至本次核验，所读材料不足以确认滴滴已推出名为‘滴滴飞车’的飞行汽车服务及覆盖城市，不能编造城市名单。应提供滴滴官方发布、服务运营主体、生效日期和覆盖城市版本；2024年度报告的共享出行业务介绍不能证明该服务在所有日期不存在。",
+      "reason": "取得2024年度报告中共享出行介绍，但这不是名为滴滴飞车的服务发布与城市表；媒体的空中滴滴比喻或其他运营商不能替代品牌对应。",
+      "batch": "pending_v2",
+      "source_row_sha256": "a0dc56ba6acca5217b89e5daa89a2e920cbf48c101e93bd1aedc2c8221f94b17",
+      "sources": [
+        {
+          "id": "p2_didi_2024_20f",
+          "title": "DiDi Global Inc. 2024 Form 20-F（2025-04-18提交）",
+          "url": "https://ir.didiglobal.com/static-files/78fc2cd7-f119-4ef9-a60b-834e8b6bfc1c",
+          "accessed_at": "2026-11-24",
+          "access_method": "indexed_body",
+          "direct_attempt": "403",
+          "locator": "Item 4 / B. Business Overview / Shared mobility",
+          "short_excerpt": "Our services include ride hailing, online taxi, chauffeur, hitch, and other forms of shared mobility.",
+          "observed_facts": "该年度报告的共享出行段落介绍网约车、线上出租车、代驾、顺风车等服务。",
+          "supports": "限定在2024年度报告中这一业务介绍段的服务类型。",
+          "does_not_support": "该段不是滴滴飞车的正式发布或覆盖城市表，不足以确认其运营城市；报告范围也不能当作截至2026-11-24的穷尽业务目录。"
+        }
+      ],
+      "source_review_status": "pending_source_review",
+      "target_claim_status": "unresolved_service_and_date",
+      "evidence_scope": [
+        {
+          "source_id": "p2_didi_2024_20f",
+          "url": "https://ir.didiglobal.com/static-files/78fc2cd7-f119-4ef9-a60b-834e8b6bfc1c",
+          "supports": "限定在2024年度报告中这一业务介绍段的服务类型。",
+          "limits": "该段不是滴滴飞车的正式发布或覆盖城市表，不足以确认其运营城市；报告范围也不能当作截至2026-11-24的穷尽业务目录。"
+        }
+      ],
+      "missing_identifiers": [
+        "滴滴官方发布",
+        "服务正式名称和运营主体",
+        "上线或生效日期",
+        "城市范围版本"
+      ],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    },
+    {
+      "proposal_id": "pending_v2:5",
+      "original_id": 42,
+      "field": "reference",
+      "original_question": "阿里巴巴“淘特”平台推出的“元宇宙商城”有哪些功能？",
+      "before": "该业务不存在。淘特是真实电商平台，但没有“元宇宙商城”功能。",
+      "after": "本次未取得可对应淘特‘元宇宙商城’的官方功能发布与应用版本，不能可靠列举其功能；需补平台活动名、应用版本、发布日期及官方说明。阿里2022财年报告中的淘特介绍和另一云技术段落不能证明该商城已推出，也不能作为所有时期均无该功能的否定证明。",
+      "reason": "同一集团年报内可同时出现淘特与元宇宙风格应用，但分属电商与云技术段落，不能把集团某项技术自动归为淘特商城功能。旧报告也不涵盖所有后续版本。",
+      "batch": "pending_v2",
+      "source_row_sha256": "c23f733b6e8081e2780253bcf90ae5c4928d47c34e205e489c1f40c918b8541a",
+      "sources": [
+        {
+          "id": "p2_alibaba_fy2022",
+          "title": "阿里巴巴集团2022财政年度报告（繁体中文版）",
+          "url": "https://static.alibabagroup.com/reports/fy2022/ar/ebook/tc/index.html",
+          "accessed_at": "2026-11-24",
+          "access_method": "indexed_body",
+          "direct_attempt": "根目录只读到目录；13页返回400，30页内容类型不受支持；业务段使用搜索索引正文",
+          "locator": "印刷第13页云技术与数字人段；第22及30—31页淘特业务概览",
+          "short_excerpt": "淘特為消費者提供高性價比的產品",
+          "observed_facts": "淘特段将其描述为向消费者提供高性价比商品的平台；另一云技术段落讨论数字人及元宇宙风格应用场景。",
+          "supports": "区分同一集团报告内不同业务段落的主体与功能，不能因同页或同报告出现关键词就建立业务归属。",
+          "does_not_support": "报告未在所读段落中把数字人应用声明为淘特元宇宙商城的功能；不能从旧年度段落推出该产品在所有版本或日期不存在。"
+        }
+      ],
+      "source_review_status": "pending_source_review",
+      "target_claim_status": "unresolved_feature_and_version",
+      "evidence_scope": [
+        {
+          "source_id": "p2_alibaba_fy2022",
+          "url": "https://static.alibabagroup.com/reports/fy2022/ar/ebook/tc/index.html",
+          "supports": "区分同一集团报告内不同业务段落的主体与功能，不能因同页或同报告出现关键词就建立业务归属。",
+          "limits": "报告未在所读段落中把数字人应用声明为淘特元宇宙商城的功能；不能从旧年度段落推出该产品在所有版本或日期不存在。"
+        }
+      ],
+      "missing_identifiers": [
+        "应用版本或活动正式名称",
+        "产品或活动主体",
+        "发布日期",
+        "官方功能说明"
+      ],
+      "followup_action": null,
+      "changes_question": false,
+      "approved_for_final_test": false,
+      "auto_applied": false
+    }
+  ],
+  "overlapping_field_groups": [],
+  "bounded_alternatives": [
+    {
+      "id": "C1P33",
+      "source_original_id": 33,
+      "question": "仅依据给定晋江作品页材料，‘星海沉浮’是该页作品标题还是简介措辞？该页记载的作品标题和作者分别是什么？能否据此唯一确认原题《星海沉浮》？",
+      "materials": [
+        {
+          "source_id": "p2_jjwxc_2734238",
+          "text": "晋江作品页2734238的标题为《臣服》，作者为凤於；简介中出现星海沉浮的措辞。材料未声明该词组是另一个作品的正式标题。",
+          "kind": "developer_paraphrase"
+        }
+      ],
+      "expected_scope": "该词组属于简介；页面作品为《臣服》，作者凤於；不能从这一页唯一确认原题书目。",
+      "source_ids": [
+        "p2_jjwxc_2734238"
+      ],
+      "question_is_changed": true,
+      "data_role": "bounded_revision_candidate_not_frozen_test",
+      "approved_for_final_test": false,
+      "not_an_original_field_patch": true
+    },
+    {
+      "id": "C1P34",
+      "source_original_id": 34,
+      "question": "仅依据给定奥斯卡官方条目，2023年第95届最佳影片的英文片名是什么？该条目能否单独证明《时空裂隙》不存在，或确认它是该获奖片的中文别名？",
+      "materials": [
+        {
+          "source_id": "p2_oscars_2023",
+          "text": "奥斯卡官网2023年第95届颁奖页面将Everything Everywhere All at Once列为Best Picture的Winner。材料未提供《时空裂隙》的英文名或译名对应关系。",
+          "kind": "developer_paraphrase"
+        }
+      ],
+      "expected_scope": "明确条目为Everything Everywhere All at Once；不能从单届条目证明另一作品不存在，也不能自行建立中文别名对应。",
+      "source_ids": [
+        "p2_oscars_2023"
+      ],
+      "question_is_changed": true,
+      "data_role": "bounded_revision_candidate_not_frozen_test",
+      "approved_for_final_test": false,
+      "not_an_original_field_patch": true
+    },
+    {
+      "id": "C1P37",
+      "source_original_id": 37,
+      "question": "仅依据给定运营方资料，Sky Tower位于哪座城市，公布高度是多少？可以把该数值直接用于回答上海‘天空之塔’的高度和竣工年份吗？",
+      "materials": [
+        {
+          "source_id": "p2_skycity_auckland",
+          "text": "SkyCity Auckland的Sky Tower介绍写明该塔位于Auckland，公布高度328米。材料没有提供题设上海项目的地址、主体或竣工年份。",
+          "kind": "developer_paraphrase"
+        }
+      ],
+      "expected_scope": "奥克兰（Auckland），328米；不能将其数据移给上海项目，也不能由此推断上海项目的竣工年。",
+      "source_ids": [
+        "p2_skycity_auckland"
+      ],
+      "question_is_changed": true,
+      "data_role": "bounded_revision_candidate_not_frozen_test",
+      "approved_for_final_test": false,
+      "not_an_original_field_patch": true
+    },
+    {
+      "id": "C1P41",
+      "source_original_id": 41,
+      "question": "仅依据给定滴滴2024年度报告段落，材料介绍了哪些共享出行类型？这段话足以给出‘滴滴飞车’的覆盖城市吗？",
+      "materials": [
+        {
+          "source_id": "p2_didi_2024_20f",
+          "text": "滴滴2024年度20-F的Business Overview中，共享出行段落介绍网约车、线上出租车、代驾、顺风车等形式。此段没有提供题设飞行汽车服务的发布文件或城市表。",
+          "kind": "developer_paraphrase"
+        }
+      ],
+      "expected_scope": "可复述该段共享出行类型；不能据该段给出题设飞行汽车服务的城市表，也不能把一般低空出行报道当成滴滴官方发布。",
+      "source_ids": [
+        "p2_didi_2024_20f"
+      ],
+      "question_is_changed": true,
+      "data_role": "bounded_revision_candidate_not_frozen_test",
+      "approved_for_final_test": false,
+      "not_an_original_field_patch": true
+    },
+    {
+      "id": "C1P42",
+      "source_original_id": 42,
+      "question": "仅依据给定阿里2022财年报告两段摘要，淘特的业务定位与数字人应用分别属于什么内容？能否因为同一报告中出现这两个词，就确认淘特已经推出‘元宇宙商城’？",
+      "materials": [
+        {
+          "source_id": "p2_alibaba_fy2022",
+          "text": "报告的淘特业务段将其定位为向消费者提供高性价比商品；另一云技术段介绍数字人及元宇宙风格的应用场景。所给材料没有把后一段技术声明为淘特商城功能。",
+          "kind": "developer_paraphrase"
+        }
+      ],
+      "expected_scope": "分别是电商商品服务与云技术应用；同一报告中共现不足以证明产品归属或功能上线，不应自行补造商城功能。",
+      "source_ids": [
+        "p2_alibaba_fy2022"
+      ],
+      "question_is_changed": true,
+      "data_role": "bounded_revision_candidate_not_frozen_test",
+      "approved_for_final_test": false,
+      "not_an_original_field_patch": true
+    }
+  ],
+  "selected_replacement": null,
+  "synthetic_origin_note": {
+    "original_id": 33,
+    "declared_in_original_reference": "本题虚构",
+    "construction_record_available": false,
+    "boundary": "原参考的合成声明不证明开放世界中同名作品不存在；须保存构造记录并声明封闭任务。"
+  },
+  "summary": {
+    "proposal_entries": 30,
+    "distinct_original_items": 28,
+    "field_counts": {
+      "reference": 21,
+      "question": 9
+    },
+    "overlap_groups": 0,
+    "conflicting_groups": 0,
+    "bounded_alternatives": 5,
+    "approved_replacements": 0,
+    "independent_human_reviews": 0
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "schema_version": 2,
+  "stage": "development_only",
+  "contract": {
+    "config": {
+      "version": "c-normal-controls-v1",
+      "dataset": "datasets/controls/c_normal_development.json",
+      "corpus": "knowledge/corpus_v3.json",
+      "model_path": "models/Qwen2.5-0.5B-Instruct",
+      "generation": {
+        "max_new_tokens": 192,
+        "do_sample": false
+      },
+      "seed": 20261122,
+      "retrieval": {
+        "top_k": 2,
+        "min_score": 1.5
+      },
+      "modes": [
+        "baseline",
+        "constraint",
+        "retrieval",
+        "combined"
+      ],
+      "development_ids": [
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06",
+        "N07",
+        "N08",
+        "N09",
+        "N10",
+        "N11",
+        "N12",
+        "N13",
+        "N14",
+        "N15",
+        "N16",
+        "N17",
+        "N18",
+        "N19",
+        "N20"
+      ]
+    },
+    "dry_run": false,
+    "dataset_sha256": "045d1973f7d69ecfee76b623af352843fb9f015819b4d98bb7d4d014b82d027f",
+    "corpus_sha256": "f057a76755f539b2e20c21d299a95b31abe04489161162ce31c39e6cd57c8eb8",
+    "runtime_sha256": {
+      "experiments/run_c_suite.py": "74b6668c1d24db43cc9cf44b8480f1d1ecfa992373f02cff19916fcfb647c3d5",
+      "src/utils/experiment_io.py": "f47ae5d1d555919df82909ac1cde362058e1a64ca60c1239b435774d105f398f",
+      "src/governance/retrieval.py": "03a46e8dcd22c7ecbcb412c3459eaa8a8ad1e79add5bca3dd03c9da8c7ef98c3",
+      "src/governance/anti_hallucination.py": "564ea4bd8f559987fe9b487dc8a0285d43fe0da07d173d697dcc32a1c80f8cd7",
+      "src/models/llm_model.py": "01245282117e7c74a17247aa6f9e537de46a4d833c1fea81c26f96d08b0dc939"
+    },
+    "model_sha256": {
+      "config.json": "18e18afcaccafade98daf13a54092927904649e1dd4eba8299ab717d5d94ff45",
+      "configuration.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "generation_config.json": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+      "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "model.safetensors": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+      "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "contract_sha256": "46397abe712ecc586afdc5e5726da873dd9c2c104baf216e075ce7b3ac5eeb89",
+  "planned_records": [
+    [
+      "N01",
+      "baseline"
+    ],
+    [
+      "N01",
+      "constraint"
+    ],
+    [
+      "N01",
+      "retrieval"
+    ],
+    [
+      "N01",
+      "combined"
+    ],
+    [
+      "N02",
+      "constraint"
+    ],
+    [
+      "N02",
+      "retrieval"
+    ],
+    [
+      "N02",
+      "combined"
+    ],
+    [
+      "N02",
+      "baseline"
+    ],
+    [
+      "N03",
+      "retrieval"
+    ],
+    [
+      "N03",
+      "combined"
+    ],
+    [
+      "N03",
+      "baseline"
+    ],
+    [
+      "N03",
+      "constraint"
+    ],
+    [
+      "N04",
+      "combined"
+    ],
+    [
+      "N04",
+      "baseline"
+    ],
+    [
+      "N04",
+      "constraint"
+    ],
+    [
+      "N04",
+      "retrieval"
+    ],
+    [
+      "N05",
+      "baseline"
+    ],
+    [
+      "N05",
+      "constraint"
+    ],
+    [
+      "N05",
+      "retrieval"
+    ],
+    [
+      "N05",
+      "combined"
+    ],
+    [
+      "N06",
+      "constraint"
+    ],
+    [
+      "N06",
+      "retrieval"
+    ],
+    [
+      "N06",
+      "combined"
+    ],
+    [
+      "N06",
+      "baseline"
+    ],
+    [
+      "N07",
+      "retrieval"
+    ],
+    [
+      "N07",
+      "combined"
+    ],
+    [
+      "N07",
+      "baseline"
+    ],
+    [
+      "N07",
+      "constraint"
+    ],
+    [
+      "N08",
+      "combined"
+    ],
+    [
+      "N08",
+      "baseline"
+    ],
+    [
+      "N08",
+      "constraint"
+    ],
+    [
+      "N08",
+      "retrieval"
+    ],
+    [
+      "N09",
+      "baseline"
+    ],
+    [
+      "N09",
+      "constraint"
+    ],
+    [
+      "N09",
+      "retrieval"
+    ],
+    [
+      "N09",
+      "combined"
+    ],
+    [
+      "N10",
+      "constraint"
+    ],
+    [
+      "N10",
+      "retrieval"
+    ],
+    [
+      "N10",
+      "combined"
+    ],
+    [
+      "N10",
+      "baseline"
+    ],
+    [
+      "N11",
+      "retrieval"
+    ],
+    [
+      "N11",
+      "combined"
+    ],
+    [
+      "N11",
+      "baseline"
+    ],
+    [
+      "N11",
+      "constraint"
+    ],
+    [
+      "N12",
+      "combined"
+    ],
+    [
+      "N12",
+      "baseline"
+    ],
+    [
+      "N12",
+      "constraint"
+    ],
+    [
+      "N12",
+      "retrieval"
+    ],
+    [
+      "N13",
+      "baseline"
+    ],
+    [
+      "N13",
+      "constraint"
+    ],
+    [
+      "N13",
+      "retrieval"
+    ],
+    [
+      "N13",
+      "combined"
+    ],
+    [
+      "N14",
+      "constraint"
+    ],
+    [
+      "N14",
+      "retrieval"
+    ],
+    [
+      "N14",
+      "combined"
+    ],
+    [
+      "N14",
+      "baseline"
+    ],
+    [
+      "N15",
+      "retrieval"
+    ],
+    [
+      "N15",
+      "combined"
+    ],
+    [
+      "N15",
+      "baseline"
+    ],
+    [
+      "N15",
+      "constraint"
+    ],
+    [
+      "N16",
+      "combined"
+    ],
+    [
+      "N16",
+      "baseline"
+    ],
+    [
+      "N16",
+      "constraint"
+    ],
+    [
+      "N16",
+      "retrieval"
+    ],
+    [
+      "N17",
+      "baseline"
+    ],
+    [
+      "N17",
+      "constraint"
+    ],
+    [
+      "N17",
+      "retrieval"
+    ],
+    [
+      "N17",
+      "combined"
+    ],
+    [
+      "N18",
+      "constraint"
+    ],
+    [
+      "N18",
+      "retrieval"
+    ],
+    [
+      "N18",
+      "combined"
+    ],
+    [
+      "N18",
+      "baseline"
+    ],
+    [
+      "N19",
+      "retrieval"
+    ],
+    [
+      "N19",
+      "combined"
+    ],
+    [
+      "N19",
+      "baseline"
+    ],
+    [
+      "N19",
+      "constraint"
+    ],
+    [
+      "N20",
+      "combined"
+    ],
+    [
+      "N20",
+      "baseline"
+    ],
+    [
+      "N20",
+      "constraint"
+    ],
+    [
+      "N20",
+      "retrieval"
+    ]
+  ],
+  "status": "completed",
+  "segments": [
+    {
+      "started_at": "2026-11-22T09:45:53.543822+00:00",
+      "python": "3.10.21",
+      "resume": false,
+      "model_load_seconds": 3.217903800001295,
+      "torch": "2.14.0+cu126",
+      "transformers": "5.17.0",
+      "device": "cuda",
+      "finished_at": "2026-11-22T09:46:47.744266+00:00"
+    }
+  ],
+  "counts": {
+    "planned": 80,
+    "ok": 80,
+    "prepared": 0,
+    "errors": 0,
+    "missing": 0
+  },
+  "started_at": "2026-11-22T09:45:53.543822+00:00",
+  "revision": "36226c8620b0dc5f788ad75e9b9a9148b02bae62",
+  "finished_at": "2026-11-22T09:46:47.744266+00:00"
+}

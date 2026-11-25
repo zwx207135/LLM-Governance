@@ -1,0 +1,132 @@
+{
+  "schema_version": 2,
+  "stage": "development_only",
+  "contract": {
+    "config": {
+      "version": "c-source-bound-diagnostics-v1",
+      "stage": "developer_authored_source_bound_diagnostics_not_independent_test",
+      "dataset": "docs/c_work/development_dataset.json",
+      "controls": "datasets/controls/c_source_bound_development.json",
+      "corpus": "knowledge/corpus_v3.json",
+      "model_path": "models/Qwen2.5-0.5B-Instruct",
+      "development_ids": [],
+      "review_ids": [],
+      "policies": [
+        "legacy",
+        "compact",
+        "guarded"
+      ],
+      "generation": {
+        "max_new_tokens": 192,
+        "do_sample": false
+      },
+      "retrieval": {
+        "top_k": 2,
+        "min_score": 1.5
+      },
+      "seed": 20261122,
+      "decision_rule": "五条新给定材料诊断单列，按冻结材料与字段检查，不用于给原不确定性探针补真值；不替换默认策略。",
+      "independent_human_review_completed": false
+    },
+    "dry_run": false,
+    "dataset_sha256": "63578646622e934be3dc099a3aac9d91678f3612631cd0d1ed6772f1e083c230",
+    "controls_sha256": "c190c6da384adfe19b13d26b2de384a6fbbde9bcc38b239364af407a1a478cb9",
+    "corpus_sha256": "deb3f7e7b341e58e52fd5dc2adbcd44c43e47a09904085be6bbe484201597938",
+    "runtime_sha256": {
+      "experiments/run_c_policy_comparison.py": "1b9fc8ee6767beb8cd009d076536907610f7351099b5f996eca39b7eb26cb588",
+      "src/governance/evidence_policy.py": "c6bfb38a6843060a6e17812a8879145900e09fe3063d4a80231af00828cb4f8d",
+      "src/governance/anti_hallucination.py": "564ea4bd8f559987fe9b487dc8a0285d43fe0da07d173d697dcc32a1c80f8cd7",
+      "src/governance/retrieval.py": "03a46e8dcd22c7ecbcb412c3459eaa8a8ad1e79add5bca3dd03c9da8c7ef98c3",
+      "src/utils/experiment_io.py": "f47ae5d1d555919df82909ac1cde362058e1a64ca60c1239b435774d105f398f",
+      "src/models/llm_model.py": "01245282117e7c74a17247aa6f9e537de46a4d833c1fea81c26f96d08b0dc939"
+    },
+    "python": "3.10.21",
+    "model_sha256": {
+      "config.json": "18e18afcaccafade98daf13a54092927904649e1dd4eba8299ab717d5d94ff45",
+      "configuration.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "generation_config.json": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+      "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "model.safetensors": "fdf756fa7fcbe7404d5c60e26bff1a0c8b8aa1f72ced49e7dd0210fe288fb7fe",
+      "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "contract_sha256": "5b836e1f4b3ff3f1e2c37917b09a149376dacb810a76844a1beb231c45c3c3fe",
+  "planned_records": [
+    [
+      "B01",
+      "legacy"
+    ],
+    [
+      "B01",
+      "compact"
+    ],
+    [
+      "B01",
+      "guarded"
+    ],
+    [
+      "B02",
+      "compact"
+    ],
+    [
+      "B02",
+      "guarded"
+    ],
+    [
+      "B02",
+      "legacy"
+    ],
+    [
+      "B03",
+      "guarded"
+    ],
+    [
+      "B03",
+      "legacy"
+    ],
+    [
+      "B03",
+      "compact"
+    ],
+    [
+      "B04",
+      "legacy"
+    ],
+    [
+      "B04",
+      "compact"
+    ],
+    [
+      "B04",
+      "guarded"
+    ],
+    [
+      "B05",
+      "compact"
+    ],
+    [
+      "B05",
+      "guarded"
+    ],
+    [
+      "B05",
+      "legacy"
+    ]
+  ],
+  "status": "completed",
+  "segments": [],
+  "counts": {
+    "planned": 15,
+    "ok": 15,
+    "prepared": 0,
+    "errors": 0,
+    "missing": 0
+  },
+  "started_at": "2026-11-22T14:41:38.482165+00:00",
+  "torch": "2.14.0+cu126",
+  "transformers": "5.17.0",
+  "device": "cuda",
+  "finished_at": "2026-11-22T14:42:02.838444+00:00"
+}

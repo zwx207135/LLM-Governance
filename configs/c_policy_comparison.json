@@ -1,0 +1,16 @@
+{
+  "version":"c-policy-dev-v1",
+  "stage":"development_selection_not_final_test",
+  "dataset":"docs/c_work/development_dataset.json",
+  "controls":"datasets/controls/c_normal_development.json",
+  "corpus":"knowledge/corpus_v3.json",
+  "model_path":"models/Qwen2.5-0.5B-Instruct",
+  "development_ids":[1,3,5,7,16,18,76,77,84,88,94,99,102,107,111,115,28,32,38,43],
+  "review_ids":[1,3,7,16,18,76,84,94,99,28,32,111],
+  "policies":["legacy","compact","guarded"],
+  "generation":{"max_new_tokens":192,"do_sample":false},
+  "retrieval":{"top_k":2,"min_score":1.5},
+  "seed":20261122,
+  "decision_rule":"在指定开发案例检查完整回答、证据遵循和错误拒答。guarded的模板回答标记为程序输出，不当作模型回答能力提升。不得以缩短回答或增加拒答单独选优。",
+  "independent_human_review_completed":false
+}

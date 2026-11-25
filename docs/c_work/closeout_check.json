@@ -1,0 +1,48 @@
+{
+  "stage": "C_development_closeout_not_formal_acceptance",
+  "passed": true,
+  "model_calls_this_audit": 0,
+  "inventory": {
+    "runs": 16,
+    "outputs": 1316,
+    "model_calls": 1311,
+    "program_outputs": 5
+  },
+  "tests": {
+    "tests_run": 157,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "additional_anchor_records_verified": {
+    "anchor_diagnostics_v1": 32,
+    "evidence_first_v1": 32
+  },
+  "normal_route_records_verified": 48,
+  "support_evidence_replays": 30,
+  "historical_failure_chains": 11,
+  "active_local_links_checked": 136,
+  "original_dataset_unchanged": true,
+  "independent_human_reviews": 0,
+  "remaining_original_target_ids": [
+    33,
+    34,
+    37,
+    41,
+    42
+  ],
+  "formal_accuracy": null,
+  "active_document_sha256": {
+    "README.md": "a5ae37c5bb9733007d149d8d9e25ba4443210fc4e134c5b1e9e30c3873a15735",
+    "C_PROGRESS.md": "51d7cbc25deb77122f1fd2c039626ff99ce9acf11432e47219bdde9e47497668",
+    "docs/c_work/C_HANDOFF.md": "01d7053261d53e62404288d163ba04a5f99aa9da9e51d9a93019ec42f147c5b2",
+    "docs/c_work/C_ONLY_STATUS.md": "689362a41803ad28f31c6b21720255fae81e0425f18d931258193bd1b535b7d8",
+    "docs/c_work/C_COMPONENT_HANDOFF.md": "4624c105486c7d7150675b2dc5a2275122c375dd891661379e775d7286a3f309",
+    "docs/c_work/C_EVIDENCE_USE.md": "9c958c9e996da964de765395dbf72311132df1c9838635270289322853ba6d13",
+    "docs/c_work/C_SUBJECT_FOCUS.md": "ef18c7aff9a2e3683127ba37b19012324eacec78c01dd740ca9925fa36e93204",
+    "docs/c_work/C_NOBEL_SUPPLEMENT.md": "ebaa0a18f04d6af61212c6866f407f6d5f2096568d94a5b7c654d656d32864bb",
+    "docs/c_work/C_FAILURE_EVIDENCE.md": "5c566312454bf526798bb5e96cc22ac173d226b06f4fbe7cda4dbfeff5cf7252",
+    "docs/c_work/C_CLOSEOUT.md": "43ccf09390fb71c784607059250183a55b39f34e59de41b96700c281652e7eb9"
+  }
+}

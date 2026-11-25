@@ -1,0 +1,10 @@
+# Observed development versions, not a tested portable lockfile.
+# Python 3.10.21; CUDA/torch installation needs matching hardware and package index.
+torch==2.14.0+cu126
+transformers==5.17.0
+accelerate==1.15.0
+safetensors==0.8.0
+tokenizers==0.23.2
+huggingface-hub==1.32.0
+numpy==2.2.6
+tqdm==4.70.1

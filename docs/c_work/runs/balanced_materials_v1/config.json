@@ -1,0 +1,15 @@
+{
+  "version": "c-balanced-material-comparison-v1",
+  "stage": "balanced_supplied_material_development_diagnostic_not_independent_test",
+  "controls": "datasets/controls/c_balanced_materials_v1.json",
+  "schemas": "configs/c_balanced_material_schemas_v1.json",
+  "corpus": "knowledge/corpus_v3.json",
+  "evidence_scope": "question_only",
+  "model_path": "models/Qwen2.5-0.5B-Instruct",
+  "policies": ["legacy", "compact"],
+  "decoders": ["free", "json"],
+  "generation": {"max_new_tokens": 192, "do_sample": false},
+  "retrieval": {"top_k": 2, "min_score": 1.5},
+  "seed": 20261122,
+  "decision_rule": "三类各16题，24条陈述各做材料位置交换，共48题和192条输出。依据编号另查；仅问题中材料可用。相同提示的guarded不重复运行。8个主题为相关组，不宣称48题独立或正式测试；不因格式强制合格直接宣称事实可靠性提升。"
+}

@@ -1,0 +1,85 @@
+{
+  "dataset_items": 125,
+  "categories": {
+    "factual": 25,
+    "fictional_entity": 25,
+    "time_sensitive": 25,
+    "false_premise": 25,
+    "math_logic": 25
+  },
+  "original_dataset_unchanged": true,
+  "math_derivations": 25,
+  "math_ambiguity_ids": [
+    107,
+    111,
+    117
+  ],
+  "time_items": 25,
+  "time_items_with_event_or_asof": 25,
+  "approved_final_items": 0,
+  "source_count": 21,
+  "chunk_count": 31,
+  "source_ids_without_publication_date": [
+    "noaa-ocean",
+    "nasa-moon",
+    "nasa-planets",
+    "nasa-sun",
+    "nasa-earth",
+    "nasa-relativity",
+    "nasa-waves",
+    "nasa-apollo",
+    "smithsonian-bell",
+    "smithsonian-flight",
+    "smithsonian-pyramids",
+    "smithsonian-steam",
+    "noaa-trench",
+    "pubchem-water",
+    "nist-light",
+    "nobel-physics-repeat-snapshot"
+  ],
+  "all_sources_have_identity_url_locator_access_date": true,
+  "all_chunks_resolve_source": true,
+  "rebuild": {
+    "v3_equal": true,
+    "v4_equal": true,
+    "v4_hash_matches_manifest": true
+  },
+  "knowledge_no_forbidden_input_keys": true,
+  "answer_input_rejected": true,
+  "component_cases": 6,
+  "pilot": {
+    "passed": true,
+    "rows": 25,
+    "columns": 17,
+    "original_bytes_verified": true,
+    "xlsx_csv_and_evidence_verified": true,
+    "ai_assisted_judgments": 25,
+    "independent_human_judgments": 0,
+    "adjudications": 0,
+    "formal_accuracy": null,
+    "unknown_entity_truth_not_assumed": true,
+    "model_inference_calls": 0
+  },
+  "retrieval_support_queries": 30,
+  "support_ai_judgments": 30,
+  "expanded_development_mode_counts": {
+    "baseline": 87,
+    "constraint": 87,
+    "retrieval": 87,
+    "combined": 87
+  },
+  "failure_chain_records": 11,
+  "stale_knowledge_text_mentions": [
+    {
+      "file": "docs/c_work/C_FAILURE_EVIDENCE.md",
+      "line": 61,
+      "text": "因此采用可选的锚点修复，暂不采用新增证据核对提示作为默认方法。未修改旧知识库、原125题或已有运行记录。"
+    }
+  ],
+  "presentation_files_found": [],
+  "dependency_install_files_found": [],
+  "git_head": "fa3e70d61ff7b3020d31c316e164a23985daa1c9",
+  "git_status_at_check": " M C_PROGRESS.md\n M docs/c_work/closeout_check.json\n?? docs/c_work/assignment_check_20261125_v1/\n?? docs/c_work/runs/demo_prepare_v1/\n?? docs/c_work/runs/dry_run_v1/\n?? docs/c_work/runs/smoke_v1/\n?? docs/c_work/runs/smoke_v2/\n?? docs/c_work/runs/suite_dry_v3.log\n?? docs/c_work/runs/suite_dry_v3/\n?? docs/c_work/task_assignment_extracted.txt\n?? docs/c_work/team_review_20261125_v1.json\n?? experiments/audit_c_team_review.py\n?? experiments/check_c_assignment.py\n",
+  "independent_human_reviews": 0,
+  "new_model_calls": 0
+}

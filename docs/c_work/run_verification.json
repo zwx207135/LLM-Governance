@@ -1,0 +1,23 @@
+{
+  "runs": [
+    {
+      "run": "expanded_v3",
+      "records": 348,
+      "input_snapshots_verified": true,
+      "runtime_snapshots_verified": true,
+      "current_corpus_prompt_equivalence": true,
+      "original_corpus_sha256": "f057a76755f539b2e20c21d299a95b31abe04489161162ce31c39e6cd57c8eb8",
+      "current_corpus_sha256": "deb3f7e7b341e58e52fd5dc2adbcd44c43e47a09904085be6bbe484201597938"
+    },
+    {
+      "run": "controls_v3",
+      "records": 80,
+      "input_snapshots_verified": true,
+      "runtime_snapshots_verified": true,
+      "current_corpus_prompt_equivalence": true,
+      "original_corpus_sha256": "f057a76755f539b2e20c21d299a95b31abe04489161162ce31c39e6cd57c8eb8",
+      "current_corpus_sha256": "deb3f7e7b341e58e52fd5dc2adbcd44c43e47a09904085be6bbe484201597938"
+    }
+  ],
+  "note": "v3.1修正单条出版日期元数据；428条prompt和证据正文、顺序、URL逐条相同，未重写历史结果。"
+}

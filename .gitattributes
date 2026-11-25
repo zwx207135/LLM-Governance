@@ -1,0 +1,22 @@
+# C's source/evidence hashes bind exact bytes; disable automatic line conversion.
+/C_PROGRESS.md -text whitespace=cr-at-eol
+/README.md -text whitespace=cr-at-eol
+/configs/** -text whitespace=cr-at-eol
+/datasets/controls/** -text whitespace=cr-at-eol
+/datasets/hallucination/test_set.json -text whitespace=cr-at-eol
+/docs/c_work/** -text whitespace=cr-at-eol
+/knowledge/** -text whitespace=cr-at-eol
+/src/governance/** -text whitespace=cr-at-eol
+/src/utils/** -text whitespace=cr-at-eol
+/src/models/llm_model.py -text whitespace=cr-at-eol
+/src/evaluation/reconciliation.py -text whitespace=cr-at-eol
+/src/evaluation/review_metrics.py -text whitespace=cr-at-eol
+/experiments/*c_*.py -text whitespace=cr-at-eol
+/experiments/audit_hallucination.py -text whitespace=cr-at-eol
+/tests/test_c_*.py -text whitespace=cr-at-eol
+
+# Generated SVG paths and verbatim model outputs retain their original whitespace.
+/docs/c_work/figures/*.svg -whitespace
+/docs/c_work/runs/** -whitespace
+/docs/c_work/pilot_C_ai_v1/*.csv -whitespace
+/docs/c_work/assignment_check_*/*.log -whitespace

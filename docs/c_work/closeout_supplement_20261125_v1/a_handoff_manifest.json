@@ -1,0 +1,163 @@
+{
+  "date": "2026-11-25",
+  "A_commit": "5a11de96d2e89fcd736823180ebada3f34ada402",
+  "B_commit_observed": "f579a5f8f2a6253a872260fdf2f33b492df85ec1",
+  "input_snapshots": {
+    "datasets/a/pilot_dev.json": {
+      "snapshot": "source_snapshot/A_pilot_dev.json",
+      "sha256": "ef554ba5cb7bee2de8edd15551acfe4de4bbabe10bbff7e1d82e609051533399"
+    },
+    "datasets/a/normal_tasks.json": {
+      "snapshot": "source_snapshot/A_normal_tasks.json",
+      "sha256": "b9732c53d2c50ba63ef283ea80d56fc745756f3eecd0491b042525c2c995dde8"
+    }
+  },
+  "A_interventions_snapshot_sha256": "62af6dfd1842bb29059dcc5c91e0cf926876b9c9c67ce190469691e15e41007f",
+  "corpus_sha256": "65b7832dfa9680b9b4ab0f71a984d6a036f20ca4acd7ca36a93cb5e8fc0f9dc6",
+  "profile_sha256": "8a3ca0dfb1a81992ae18701c34b64e61d1e06fb0b05c32cc7b4298dcddb8b9a7",
+  "export_sha256": "49aebe2ea43ad203038cfee0602e0405325cb7530eee6338b02ce16758bf97ad",
+  "items": 48,
+  "items_with_hits": 0,
+  "uid_lineage": {
+    "items": 12,
+    "missing_current_B_uids": 4,
+    "rows": [
+      {
+        "A_uid": "bias/age_bias/A-D01",
+        "uid_exists_in_B": false,
+        "same_question_at_uid": false,
+        "same_question_current_B_uids": [
+          "bias/age_bias/AGE-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/anchoring_bias/A-D01",
+        "uid_exists_in_B": false,
+        "same_question_at_uid": false,
+        "same_question_current_B_uids": [
+          "bias/anchoring_bias/AN-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/confirmation_bias/C-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/confirmation_bias/C-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/education_bias/E-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/education_bias/E-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/education_scenario_bias/ES-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/education_scenario_bias/ES-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/framing_bias/F-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/framing_bias/F-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/gender_bias/G-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/gender_bias/G-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/occupation_bias/A-D01",
+        "uid_exists_in_B": false,
+        "same_question_at_uid": false,
+        "same_question_current_B_uids": [
+          "bias/occupation_bias/OCC-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/public_opinion_bias/PO-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/public_opinion_bias/PO-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/region_culture_bias/A-D01",
+        "uid_exists_in_B": false,
+        "same_question_at_uid": false,
+        "same_question_current_B_uids": [
+          "bias/region_culture_bias/RC-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/vulnerable_special_bias/W-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/vulnerable_special_bias/W-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/workplace_recruitment_bias/WR-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/workplace_recruitment_bias/WR-D01"
+        ]
+      }
+    ]
+  },
+  "formal_input_frozen": false,
+  "positive_probe": {
+    "request": {
+      "question": "1921年度诺贝尔物理学奖实际在哪一年颁发？",
+      "category": "factual"
+    },
+    "prepared_evidence": {
+      "chunks": [
+        {
+          "source_id": "nobel-physics-history",
+          "text": "爱因斯坦（Albert Einstein）获得1921年度诺贝尔物理学奖，该年度奖于1922年颁发。官方物理学奖历史说明，获奖与他对光电效应的解释有关，颁奖理由也涉及他对理论物理学的贡献。奖项年度与实际颁发年份需区别。",
+          "source": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+          "version": "c-dev-2026-11-23-v4",
+          "collected_at": "2026-11-23",
+          "chunk_id": "nobel-einstein-1921",
+          "locator": "From classical to quantum physics及Microcosmos and macrocosmos中Einstein段落",
+          "score": 33.379558
+        }
+      ],
+      "snapshot": "c-dev-2026-11-23-v4@sha256:65b7832dfa9680b9b4ab0f71a984d6a036f20ca4acd7ca36a93cb5e8fc0f9dc6",
+      "retrieval_parameters": {
+        "retriever": "year_alias",
+        "top_k": 2,
+        "min_score": 1.5
+      },
+      "retrieval_status": "hit",
+      "question_sha256": "2ddd2a69f50b276d0286a700d7c8b82f34bee9a1435aebb9fa711417e7448c04",
+      "model_calls": 0,
+      "generation_done": false
+    },
+    "passed_to_A_messages": true
+  },
+  "interface_checks": {
+    "input_items_checked": 48,
+    "positive_probe_checked": 1,
+    "fixture_generate_calls": 49,
+    "model_calls": 0,
+    "fixture_text_not_experiment_output": true
+  },
+  "A_actual_model_joint_validation_completed": false
+}

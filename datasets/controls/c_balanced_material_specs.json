@@ -1,0 +1,14 @@
+{
+  "version": "c-balanced-material-specs-v1",
+  "scope": "开发者按已有来源整理的有限材料记录，不是原网页引文，不声称独立测试或完整现实资料。反驳只针对明确冲突或本题给定名单，资料缺项保持not_established。",
+  "topics": [
+    {"id": "G01", "name": "人员姓名与具体贡献", "material": "人员页整理记录：姓名为王明远；科研单位为中国科学院国家天文台；研究方向包括天体测量、天体力学、行星无线电科学。", "source_ids": ["sf_ucas_wang"], "distractor_topic": "G03", "claims": {"supported": "中国科学院国家天文台这份人员记录记载的姓名为王明远。", "refuted": "中国科学院国家天文台这份人员记录记载的姓名为李华。", "not_established": "王明远提出过一项新的相对论理论。"}},
+    {"id": "G02", "name": "任职学院与获奖身份", "material": "人员目录整理记录：姓名陈晓东，对应Chen Xiaodong；所列任职学院为南洋理工大学材料科学与工程学院。", "source_ids": ["sf_ntu_chen"], "distractor_topic": "G01", "claims": {"supported": "陈晓东这条目录记录所列的任职学院是材料科学与工程学院。", "refuted": "陈晓东这条目录记录所列的任职学院是经济学院。", "not_established": "陈晓东曾获得诺贝尔物理学奖。"}},
+    {"id": "G03", "name": "人员存在与获奖身份", "material": "人员页整理记录：姓名刘建平；任职单位河南工业大学化学化工学院；从事化学教学科研。", "source_ids": ["sf_haut_liu"], "distractor_topic": "G02", "claims": {"supported": "河南工业大学这份人员记录记载了刘建平这一姓名。", "refuted": "河南工业大学这份人员记录记载的姓名是王明远。", "not_established": "刘建平曾获得诺贝尔化学奖。"}},
+    {"id": "G04", "name": "车型报告与未知参数", "material": "小米2025年中期报告整理记录：2025年6月发布YU7系列；YU7的车型定位为SUV。", "source_ids": ["sf_xiaomi_h1"], "distractor_topic": "G08", "claims": {"supported": "这份报告记录将YU7定位为SUV。", "refuted": "这份报告记录将YU7的发布日期写为2024年6月。", "not_established": "SU9的百公里加速时间为2.5秒。"}},
+    {"id": "G05", "name": "给定名单与研究范围", "material": "本题给定的完整名单只有两个条目：浙江大学生物医学工程与仪器科学学院、浙江大学医学院。名单为教学任务选取的目录片段，不代表学校全部单位，也没有提供研究项目清单。", "source_ids": ["sf_zju_directory"], "distractor_topic": "G03", "claims": {"supported": "本题给定的名单列有浙江大学医学院。", "refuted": "本题给定的名单列有脑机接口学院这一条目。", "not_established": "浙江大学完全没有脑机接口相关研究。"}},
+    {"id": "G06", "name": "太阳类别与未提供物理量", "material": "NASA资料整理记录：太阳是太阳系中唯一的恒星，太阳不是行星。", "source_ids": ["nasa-sun"], "distractor_topic": "G04", "claims": {"supported": "太阳系中只有一颗恒星，即太阳。", "refuted": "太阳属于行星而不属于恒星。", "not_established": "太阳的有效温度为5772K。"}},
+    {"id": "G07", "name": "指定奖项记录与人物背景", "material": "诺贝尔物理学奖档案整理记录：Albert Einstein，1921年；获奖理由涉及光电效应定律。此处仅提供这条奖项记录。", "source_ids": ["nobel_physics"], "distractor_topic": "G08", "claims": {"supported": "材料中爱因斯坦这条物理学奖记录的年份是1921年。", "refuted": "材料中爱因斯坦这条物理学奖记录的年份是1937年。", "not_established": "爱因斯坦的出生年份是1879年。"}},
+    {"id": "G08", "name": "多人贡献与未提供人物信息", "material": "美国能源部资料整理记录：电灯的发展由多位发明者持续改进；爱迪生团队推动了实用化与商业化；斯旺也有贡献，不能把全部发明贡献归给单独一人。", "source_ids": ["doe-light"], "distractor_topic": "G07", "claims": {"supported": "材料将电灯发展描述为多位发明者的贡献。", "refuted": "材料将电灯发展的全部贡献归给爱迪生一个人。", "not_established": "斯旺出生于1828年。"}}
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "as_of": "2026-11-24",
+  "scope": "selected_C_development_runs_not_independent_samples",
+  "groups": [
+    {
+      "title": "基础四组与正常对照",
+      "report": "runs/expanded_v3/report.md",
+      "runs": [
+        {
+          "name": "expanded_v3",
+          "outputs": 348,
+          "model_calls": 348,
+          "program_outputs": 0,
+          "records_sha256": "e210266d22aa2a32c52fe597704d16cac91d9ebc0a92a188169569f08ad246ea",
+          "manifest_sha256": "5a0f9270575402a4c6f827f3af665d80360105f24b1e6c65d9c1c209315c81f9"
+        },
+        {
+          "name": "controls_v3",
+          "outputs": 80,
+          "model_calls": 80,
+          "program_outputs": 0,
+          "records_sha256": "28e6a914b2f06387bee8c1b22f0a415741d4698a1f1872b77ccd1fcfdba7586c",
+          "manifest_sha256": "e20c2ba3f98c2835cbbe840b735adea415362e5cfbc842fb2fd5c8b6db001547"
+        }
+      ],
+      "outputs": 428,
+      "model_calls": 428,
+      "program_outputs": 0
+    },
+    {
+      "title": "三种提示/门控策略",
+      "report": "runs/policy_comparison_v1/report.md",
+      "runs": [
+        {
+          "name": "policy_comparison_v1",
+          "outputs": 120,
+          "model_calls": 115,
+          "program_outputs": 5,
+          "records_sha256": "7f0c12d7c6da988c217d6ab77cd0b69c47688c130e25941329665624a97bb61f",
+          "manifest_sha256": "9760be963b47d63cbdf5fda474a621bebd60ce045dc1a82a9220663c1157d0ba"
+        }
+      ],
+      "outputs": 120,
+      "model_calls": 115,
+      "program_outputs": 5
+    },
+    {
+      "title": "给定材料及结构约束",
+      "report": "C_STRUCTURED_OUTPUT.md",
+      "runs": [
+        {
+          "name": "source_bound_v1",
+          "outputs": 15,
+          "model_calls": 15,
+          "program_outputs": 0,
+          "records_sha256": "bfa6acd32a6375a79ea5d36e822e48641ca6c2db1832ea03a318e786cee2842d",
+          "manifest_sha256": "d39291e9cb5c43093486b249e5d325dcc557db8c315699e1e5f1d0afc590329d"
+        },
+        {
+          "name": "structured_v1",
+          "outputs": 30,
+          "model_calls": 30,
+          "program_outputs": 0,
+          "records_sha256": "e6264f74aced01b885a2fe152f59d6113016eb57c9c3e127f3816bccf991f3af",
+          "manifest_sha256": "305df92f5e9726cbe34d7cf072070de51a6719ce44aed69e2662eae26e6a04ce"
+        }
+      ],
+      "outputs": 45,
+      "model_calls": 45,
+      "program_outputs": 0
+    },
+    {
+      "title": "材料位置与中英文措辞",
+      "report": "C_MATERIAL_DIAGNOSTICS.md",
+      "runs": [
+        {
+          "name": "balanced_materials_v1",
+          "outputs": 192,
+          "model_calls": 192,
+          "program_outputs": 0,
+          "records_sha256": "5b70ff2f29d09c3947736529810f9f4b16a42b33ffb142c1626d3de92d969998",
+          "manifest_sha256": "4d8ec6d3f69920ecc8408313951ada9e1b96791a94b225c935c89723efea39b8"
+        },
+        {
+          "name": "balanced_labels_cn_v1",
+          "outputs": 192,
+          "model_calls": 192,
+          "program_outputs": 0,
+          "records_sha256": "8189ae3c6e0730d8455ab254c06e4fde980bfde7bb428c06505f04ba447145f3",
+          "manifest_sha256": "9be9ae8efe2c82ea764940fc9b804b7e9027428541d8cce951440df7a1170972"
+        }
+      ],
+      "outputs": 384,
+      "model_calls": 384,
+      "program_outputs": 0
+    },
+    {
+      "title": "正常任务路由检查",
+      "report": "runs/normal_route_v1/report.md",
+      "runs": [
+        {
+          "name": "normal_route_v1",
+          "outputs": 48,
+          "model_calls": 48,
+          "program_outputs": 0,
+          "records_sha256": "1b6ad9b4adf222b513b3fab036a965af3a2fa1d0d395ef77414d0cb599c234e6",
+          "manifest_sha256": "57d7200e20f08142cd6b3762c35e5b032d12e09efaecfde8e6a5697ba6c89910"
+        }
+      ],
+      "outputs": 48,
+      "model_calls": 48,
+      "program_outputs": 0
+    },
+    {
+      "title": "错误证据链与锚点修复",
+      "report": "C_FAILURE_EVIDENCE.md",
+      "runs": [
+        {
+          "name": "anchor_diagnostics_v1",
+          "outputs": 32,
+          "model_calls": 32,
+          "program_outputs": 0,
+          "records_sha256": "c43e515d12e3da00ece06df0a2e2c3365f0dc60127140d84be0f80f753ad2414",
+          "manifest_sha256": "2878ea7a68af139b76a6382f65ecc3f65618ed45da0629c064299b24f6c485e9"
+        },
+        {
+          "name": "evidence_first_v1",
+          "outputs": 32,
+          "model_calls": 32,
+          "program_outputs": 0,
+          "records_sha256": "f0d2e6f0daed6d4b1fb5c544e7c43a389c5f673875b7460261280ffe69d238f8",
+          "manifest_sha256": "9d3b66e54f447f9f34d8eb505b05855b978d279e82494ef47ca353b545960110"
+        }
+      ],
+      "outputs": 64,
+      "model_calls": 64,
+      "program_outputs": 0
+    },
+    {
+      "title": "奖项补库与范围检索",
+      "report": "C_NOBEL_SUPPLEMENT.md",
+      "runs": [
+        {
+          "name": "nobel_scope_v1",
+          "outputs": 57,
+          "model_calls": 57,
+          "program_outputs": 0,
+          "records_sha256": "15c9343d33fc0653f4abae89424b1e50c57c6fb7729ffd0c336dba0495dfde91",
+          "manifest_sha256": "dc16588f929da44b5c6699f657f99e2b02367ffb295f52489e388c68c12af0bb"
+        },
+        {
+          "name": "nobel_scope_followup_v1",
+          "outputs": 19,
+          "model_calls": 19,
+          "program_outputs": 0,
+          "records_sha256": "0edf7a6e5b46b533a9f4f49c08ddc2797ee6734c8a4f5f4a3f4b09132336430d",
+          "manifest_sha256": "97e70ce987cd17d50bfd8f2979b64973252b65cb56497104837df914c097bd4d"
+        },
+        {
+          "name": "nobel_scope_followup_v2",
+          "outputs": 19,
+          "model_calls": 19,
+          "program_outputs": 0,
+          "records_sha256": "f37869447a12381b51f51e21da6f2803f8d63b3a3c4ff9a8e34650b303ce7adb",
+          "manifest_sha256": "161a89a5f5ca1634cf166a516ec3cee5b542b50e8d9effe95c7d3ae60971e929"
+        }
+      ],
+      "outputs": 95,
+      "model_calls": 95,
+      "program_outputs": 0
+    },
+    {
+      "title": "资料对照卡与年份别名",
+      "report": "C_EVIDENCE_USE.md",
+      "runs": [
+        {
+          "name": "evidence_binding_v1",
+          "outputs": 86,
+          "model_calls": 86,
+          "program_outputs": 0,
+          "records_sha256": "8c3c9902a8de0f07fc5d1ad58eefac2eb42a98ceeb72a8f6ad976cc32b7893f1",
+          "manifest_sha256": "a0d230d340b4511a5ca3ad1a56aca630832ea0cccb08e2408b1b4982d090a5fb"
+        },
+        {
+          "name": "year_alias_v1",
+          "outputs": 12,
+          "model_calls": 12,
+          "program_outputs": 0,
+          "records_sha256": "02edcb0364287ffa4e740362dbc9ebe8b401c7bf7856a9d74ee6015231d98255",
+          "manifest_sha256": "e37a2e868082afd3622ed3c683d132d8b8ad6a43c22f902c1842cfe0739014a2"
+        }
+      ],
+      "outputs": 98,
+      "model_calls": 98,
+      "program_outputs": 0
+    },
+    {
+      "title": "主体错配单轮对照",
+      "report": "C_SUBJECT_FOCUS.md",
+      "runs": [
+        {
+          "name": "subject_focus_v1",
+          "outputs": 34,
+          "model_calls": 34,
+          "program_outputs": 0,
+          "records_sha256": "c86d6d0d6c2f71b522c90c2793f842e84d2de40082dfefb37aebc9aa7dc26215",
+          "manifest_sha256": "5c9b14b30bf2818970d2af9ed353af71435f81408e49106dd2671e4e8c0bae19"
+        }
+      ],
+      "outputs": 34,
+      "model_calls": 34,
+      "program_outputs": 0
+    }
+  ],
+  "totals": {
+    "outputs": 1316,
+    "model_calls": 1311,
+    "program_outputs": 5
+  },
+  "run_directories": 16,
+  "excluded": [
+    "all_prepared_and_dry_runs",
+    "early_smoke_runs",
+    "standalone_demo",
+    "joint_integration_runs",
+    "historical_read_only_audit"
+  ],
+  "independent_human_reviews": 0,
+  "formal_accuracy": null
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "items": 36,
+  "counts": {
+    "已满足": 18,
+    "部分满足": 11,
+    "待协作": 6,
+    "未交付": 1
+  },
+  "original_clause_references_verified": true,
+  "plan_and_command_log_hashes_verified": true,
+  "local_links_verified": 43,
+  "checked_boxes": 18,
+  "open_boxes": 18,
+  "automatic_checks_passed": true,
+  "overall_assignment_complete": false
+}

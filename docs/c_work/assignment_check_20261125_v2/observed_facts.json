@@ -1,0 +1,124 @@
+{
+  "dataset_items": 125,
+  "categories": {
+    "factual": 25,
+    "fictional_entity": 25,
+    "time_sensitive": 25,
+    "false_premise": 25,
+    "math_logic": 25
+  },
+  "original_dataset_unchanged": true,
+  "math_derivations": 25,
+  "math_ambiguity_ids": [
+    107,
+    111,
+    117
+  ],
+  "time_items": 25,
+  "time_items_with_event_or_asof": 25,
+  "approved_final_items": 0,
+  "source_count": 21,
+  "chunk_count": 31,
+  "source_ids_without_publication_date": [
+    "noaa-ocean",
+    "nasa-moon",
+    "nasa-planets",
+    "nasa-sun",
+    "nasa-earth",
+    "nasa-relativity",
+    "nasa-waves",
+    "nasa-apollo",
+    "smithsonian-bell",
+    "smithsonian-flight",
+    "smithsonian-pyramids",
+    "smithsonian-steam",
+    "noaa-trench",
+    "pubchem-water",
+    "nist-light",
+    "nobel-physics-repeat-snapshot"
+  ],
+  "all_sources_have_identity_url_locator_access_date": true,
+  "all_chunks_resolve_source": true,
+  "rebuild": {
+    "v3_equal": true,
+    "v4_equal": true,
+    "v4_hash_matches_manifest": true
+  },
+  "knowledge_no_forbidden_input_keys": true,
+  "answer_input_rejected": true,
+  "component_cases": 6,
+  "pilot": {
+    "passed": true,
+    "rows": 25,
+    "columns": 17,
+    "original_bytes_verified": true,
+    "xlsx_csv_and_evidence_verified": true,
+    "ai_assisted_judgments": 25,
+    "independent_human_judgments": 0,
+    "adjudications": 0,
+    "formal_accuracy": null,
+    "unknown_entity_truth_not_assumed": true,
+    "model_inference_calls": 0
+  },
+  "retrieval_support_queries": 30,
+  "support_ai_judgments": 30,
+  "expanded_development_mode_counts": {
+    "baseline": 87,
+    "constraint": 87,
+    "retrieval": 87,
+    "combined": 87
+  },
+  "failure_chain_records": 11,
+  "stale_knowledge_text_mentions": [
+    {
+      "file": "docs/c_work/C_DEFENSE_NOTES.md",
+      "line": 3,
+      "text": "2026-11-25补充：[C的5页可编辑研究页](closeout_supplement_20261125_v1/C_research_v1.pptx)、[三类问答与复现](closeout_supplement_20261125_v1/REPRODUCTION.md)、[知识过时专项](closeout_supplement_20261125_v1/TEMPORAL_ANALYSIS.md)。研究页只讲C的开发证据，正式评分、共同冻结与真人复核状态仍保留。下文旧阶段数值按原阶段解释。"
+    },
+    {
+      "file": "docs/c_work/C_FAILURE_EVIDENCE.md",
+      "line": 3,
+      "text": "2026-11-25另建[知识过时与时间范围专项](closeout_supplement_20261125_v1/TEMPORAL_ANALYSIS.md)，4条完整回答分别讨论固定截至日的旧身份、错误事件答案、附加时间断言和奖项主体错配。保留原始数组位置、原文及哈希，不反推生成时间或训练截止，也不改下列历史案例与运行。"
+    },
+    {
+      "file": "docs/c_work/C_FAILURE_EVIDENCE.md",
+      "line": 63,
+      "text": "因此采用可选的锚点修复，暂不采用新增证据核对提示作为默认方法。未修改旧知识库、原125题或已有运行记录。"
+    },
+    {
+      "file": "docs/c_work/C_ONLY_STATUS.md",
+      "line": 5,
+      "text": "新增[分工缺口补充](closeout_supplement_20261125_v1/README.md)：21源日期旁注、4条知识过时/时间边界分析、方法与事实引文映射、使用说明、复现问答、C的5页研究页及A当前48条输入的真实无命中导出。原33/34/37/41/42来源缺口、正式冻结和独立真人复核仍保留。"
+    }
+  ],
+  "presentation_files_found": [
+    "docs/c_work/closeout_supplement_20261125_v1/C_research_v1.pptx"
+  ],
+  "dependency_install_files_found": [
+    "docs/c_work/closeout_supplement_20261125_v1/requirements-c-observed.txt"
+  ],
+  "git_head": "fa3e70d61ff7b3020d31c316e164a23985daa1c9",
+  "git_status_at_check": " M C_PROGRESS.md\n M README.md\n M docs/c_work/C_CLOSEOUT.md\n M docs/c_work/C_COMPONENT_HANDOFF.md\n M docs/c_work/C_DEFENSE_NOTES.md\n M docs/c_work/C_FAILURE_EVIDENCE.md\n M docs/c_work/C_HANDOFF.md\n M docs/c_work/C_METHODS.md\n M docs/c_work/C_ONLY_STATUS.md\n M docs/c_work/closeout_check.json\n M docs/c_work/delivery_check.json\n M experiments/check_c_delivery.py\n M experiments/organize_c_summary.py\n M experiments/package_c_handoff.py\n?? .chart-data-8Mgayn/\n?? .chart-data-UAia1z/\n?? docs/c_work/assignment_check_20261125_v1/\n?? docs/c_work/assignment_check_20261125_v2/\n?? docs/c_work/closeout_supplement_20261125_v1/\n?? docs/c_work/runs/demo_prepare_v1/\n?? docs/c_work/runs/dry_run_v1/\n?? docs/c_work/runs/smoke_v1/\n?? docs/c_work/runs/smoke_v2/\n?? docs/c_work/runs/suite_dry_v3.log\n?? docs/c_work/runs/suite_dry_v3/\n?? docs/c_work/task_assignment_extracted.txt\n?? docs/c_work/team_review_20261125_v1.json\n?? experiments/audit_c_team_review.py\n?? experiments/check_c_assignment.py\n?? experiments/check_c_supplement.py\n?? experiments/complete_c_supplement.py\n",
+  "independent_human_reviews": 0,
+  "new_model_calls": 0,
+  "closeout_supplement": {
+    "passed": true,
+    "historical_files_unchanged": 71,
+    "source_dates": 21,
+    "publication_unknown_with_reason": 16,
+    "method_references": 3,
+    "factual_reference_entries": 107,
+    "temporal_cases": 4,
+    "A_export_rows": 48,
+    "A_rows_with_hits": 0,
+    "A_positive_interface_probe": true,
+    "slides": 5,
+    "native_tables": 3,
+    "native_charts": 1,
+    "slide_sha256": "631cd72fa31c6bb90ae3f012335b1c388d895a77164e58b74b8f74e3eb70e518",
+    "local_links_checked": 15,
+    "model_calls": 0,
+    "independent_human_reviews": 0,
+    "formal_accuracy": null
+  }
+}

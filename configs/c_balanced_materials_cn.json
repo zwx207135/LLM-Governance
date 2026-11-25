@@ -1,0 +1,16 @@
+{
+  "version": "c-balanced-material-label-followup-cn-v1",
+  "stage": "exploratory_chinese_label_material_diagnostic_not_independent_test",
+  "controls": "datasets/controls/c_balanced_materials_cn_v1.json",
+  "schemas": "configs/c_balanced_material_schemas_cn_v1.json",
+  "corpus": "knowledge/corpus_v3.json",
+  "evidence_scope": "question_only",
+  "protocol": "docs/c_work/balanced_label_followup_v1.json",
+  "model_path": "models/Qwen2.5-0.5B-Instruct",
+  "policies": ["legacy", "compact"],
+  "decoders": ["free", "json"],
+  "generation": {"max_new_tokens": 192, "do_sample": false},
+  "retrieval": {"top_k": 2, "min_score": 1.5},
+  "seed": 20261122,
+  "decision_rule": "见到英文标签偏向后追加的探索性中文措辞对照。只翻译指令中的结论标签及schema值域，保留9种组合、相同材料和陈述。全部192条保留，不据此替换默认治理。"
+}

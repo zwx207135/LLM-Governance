@@ -1,0 +1,74 @@
+{
+  "version": "nobel-topic-documents-2026-11-23-v1",
+  "scope": "针对已暴露开发缺口补充官方历史及年度公告主题资料。由公开来源中文转述，不导入题目、参考答案或评分理由。与现有开发题主题重叠，不能视为独立测试知识。直连403，依据搜索服务官方索引正文核验；不声称实时完整。",
+  "documents": [
+    {
+      "id": "nobel-physics-history",
+      "title": "NobelPrize.org The Nobel Prize in Physics 1901-2000",
+      "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+      "published_at": "2000-02-09",
+      "accessed_at": "2026-11-23",
+      "access_method": "indexed_body",
+      "direct_access_status": "403",
+      "locator": "From classical to quantum physics及Microcosmos and macrocosmos中Einstein段落",
+      "original_excerpt": "Einstein received the Physics Prize for 1921 (awarded in 1922).",
+      "paragraphs": [
+        {"id": "nobel-einstein-1921", "topics": ["爱因斯坦", "Einstein", "光电效应", "1921年诺贝尔物理学奖"], "scope": {"kind": "award_record", "award_category": "physics", "award_year": 1921, "subject_aliases": ["爱因斯坦", "Einstein"]}, "text": "爱因斯坦（Albert Einstein）获得1921年度诺贝尔物理学奖，该年度奖于1922年颁发。官方物理学奖历史说明，获奖与他对光电效应的解释有关，颁奖理由也涉及他对理论物理学的贡献。奖项年度与实际颁发年份需区别。"},
+        {"id": "nobel-einstein-relativity-history", "topics": ["爱因斯坦", "Einstein", "相对论", "时空"], "scope": {"kind": "scientific_history", "subject_aliases": ["爱因斯坦", "Einstein"]}, "text": "官方物理学奖历史介绍，爱因斯坦在1905年发展狭义相对论，随后在下一个十年继续发展广义相对论，将引力与时空结构联系起来。同一历史资料另将他的1921年度物理学奖与光电效应工作联系，而非把相对论提出年份当作获奖年份。"}
+      ]
+    },
+    {
+      "id": "nobel-physics-repeat-snapshot",
+      "title": "NobelPrize.org All Nobel Prizes in Physics（1901—2025索引范围）",
+      "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/all/",
+      "published_at": null,
+      "accessed_at": "2026-11-23",
+      "access_method": "indexed_body",
+      "direct_access_status": "403",
+      "locator": "页面开头John Bardeen唯一重复物理学奖得主统计；该索引列1901至2025范围",
+      "original_excerpt": "John Bardeen is the only laureate who has been awarded the Nobel Prize in Physics twice",
+      "paragraphs": [
+        {"id": "nobel-physics-repeat-through-2025", "topics": ["诺贝尔物理学奖", "巴丁", "巴登", "Bardeen", "重复获奖"], "scope": {"kind": "award_statistics", "award_category": "physics", "through_year": 2025}, "text": "在官方诺贝尔物理学奖名录所列1901至2025年的统计范围内，约翰·巴丁（John Bardeen）是唯一两次获得物理学奖的人，分别为1956年与1972年；该范围内的其他物理学奖得主各获该奖一次。此统计只涉及物理学奖，不是所有奖项类别的重复获奖统计，也不覆盖2026年。"}
+      ]
+    },
+    {
+      "id": "nobel-physics-2022-release",
+      "title": "The Nobel Prize in Physics 2022 — Press release",
+      "url": "https://www.nobelprize.org/uploads/2022/10/press-physicsprize2022.pdf",
+      "published_at": "2022-10-04",
+      "accessed_at": "2026-11-23",
+      "access_method": "indexed_body",
+      "locator": "第1页获奖人名单及颁奖理由",
+      "original_excerpt": "Alain Aspect, John Clauser and Anton Zeilinger",
+      "paragraphs": [
+        {"id": "nobel-physics-2022", "topics": ["诺贝尔物理学奖", "阿斯佩", "克劳泽", "蔡林格", "Aspect", "Clauser", "Zeilinger", "量子纠缠"], "scope": {"kind": "award_record", "award_category": "physics", "award_year": 2022, "subject_aliases": ["阿斯佩", "克劳泽", "蔡林格", "Aspect", "Clauser", "Zeilinger"]}, "text": "2022年度诺贝尔物理学奖授予阿兰·阿斯佩（Alain Aspect）、约翰·克劳泽（John F. Clauser）和安东·蔡林格（Anton Zeilinger）。获奖工作涉及纠缠光子实验、验证贝尔不等式的违背，以及开创量子信息科学。这里的贝尔不等式属于物理学概念，不是电话发明史。"}
+      ]
+    },
+    {
+      "id": "nobel-physics-2023-release",
+      "title": "The Nobel Prize in Physics 2023 — Press release",
+      "url": "https://www.nobelprize.org/prizes/physics/2023/press-release/",
+      "published_at": "2023-10-03",
+      "accessed_at": "2026-11-23",
+      "access_method": "indexed_body",
+      "locator": "公告开头名单与Experiments with light capture the shortest of moments",
+      "original_excerpt": "Pierre Agostini, Ferenc Krausz and Anne L’Huillier",
+      "paragraphs": [
+        {"id": "nobel-physics-2023", "topics": ["诺贝尔物理学奖", "阿戈斯蒂尼", "克劳斯", "吕利耶", "Agostini", "Krausz", "Huillier", "阿秒"], "scope": {"kind": "award_record", "award_category": "physics", "award_year": 2023, "subject_aliases": ["阿戈斯蒂尼", "克劳斯", "吕利耶", "Agostini", "Krausz", "Huillier"]}, "text": "2023年度诺贝尔物理学奖授予皮埃尔·阿戈斯蒂尼（Pierre Agostini）、费伦茨·克劳斯（Ferenc Krausz）和安妮·吕利耶（Anne L’Huillier）。获奖工作是产生阿秒光脉冲的实验方法，用于研究物质中的电子动力学，能够探测电子运动或能量变化等极快过程。"}
+      ]
+    },
+    {
+      "id": "nobel-literature-2023-release",
+      "title": "The Nobel Prize in Literature 2023 — Press release",
+      "url": "https://www.nobelprize.org/uploads/2023/10/press-literatureprize2023.pdf",
+      "published_at": "2023-10-05",
+      "accessed_at": "2026-11-23",
+      "access_method": "indexed_body",
+      "locator": "第1页Jon Fosse名单及颁奖理由",
+      "original_excerpt": "The Nobel Prize in Literature for 2023 is awarded to the Norwegian author Jon Fosse",
+      "paragraphs": [
+        {"id": "nobel-literature-2023", "topics": ["诺贝尔文学奖", "约恩·福瑟", "福瑟", "Jon Fosse"], "scope": {"kind": "award_record", "award_category": "literature", "award_year": 2023, "subject_aliases": ["福瑟", "Jon Fosse"]}, "text": "瑞典文学院2023年10月5日公告将2023年度诺贝尔文学奖授予挪威作家约恩·福瑟（Jon Fosse），表彰其富有创新性的戏剧与散文，赋予难以言说的事物以声音。此公告支持该年度文学奖的获奖者和理由，不是其他年份或其他奖项类别的名单。"}
+      ]
+    }
+  ]
+}

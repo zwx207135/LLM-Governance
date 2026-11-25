@@ -1,0 +1,197 @@
+{
+  "summary": {
+    "scope": "六道预先明确内容、顺序与格式的封闭开发任务；不评价其余十四道开放任务，不代表整体正确率或幻觉率。",
+    "modes": [
+      {
+        "mode": "baseline",
+        "passed": 1,
+        "checked": 6
+      },
+      {
+        "mode": "constraint",
+        "passed": 1,
+        "checked": 6
+      },
+      {
+        "mode": "retrieval",
+        "passed": 1,
+        "checked": 6
+      },
+      {
+        "mode": "combined",
+        "passed": 2,
+        "checked": 6
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "N07",
+      "mode": "retrieval",
+      "answer": "学生证",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N07",
+      "mode": "combined",
+      "answer": "学生证",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N07",
+      "mode": "baseline",
+      "answer": "笔记本",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N07",
+      "mode": "constraint",
+      "answer": "笔记本",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N08",
+      "mode": "combined",
+      "answer": "编写报告",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N08",
+      "mode": "baseline",
+      "answer": "编写报告。",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N08",
+      "mode": "constraint",
+      "answer": "编写报告",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N08",
+      "mode": "retrieval",
+      "answer": "编写报告",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N09",
+      "mode": "baseline",
+      "answer": "2026年11月22日",
+      "passed": true,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N09",
+      "mode": "constraint",
+      "answer": "22 November 2026",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N09",
+      "mode": "retrieval",
+      "answer": "2026年11月22日",
+      "passed": true,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N09",
+      "mode": "combined",
+      "answer": "2026年11月22日",
+      "passed": true,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N10",
+      "mode": "constraint",
+      "answer": "3, 5, 8, 11",
+      "passed": true,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N10",
+      "mode": "retrieval",
+      "answer": "3",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N10",
+      "mode": "combined",
+      "answer": "3, 5, 8, 11",
+      "passed": true,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N10",
+      "mode": "baseline",
+      "answer": "11, 8, 5, 3",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N11",
+      "mode": "retrieval",
+      "answer": "Apple, Book, Cat",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N11",
+      "mode": "combined",
+      "answer": "Apple, Book, Cat",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N11",
+      "mode": "baseline",
+      "answer": "Apple, Book, Cat",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N11",
+      "mode": "constraint",
+      "answer": "Apple, Book, Cat",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N15",
+      "mode": "retrieval",
+      "answer": "```json\n{\n  \"name\": \"小林\",\n  \"task\": \"检索\"\n}\n```",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N15",
+      "mode": "combined",
+      "answer": "```json\n{\n  \"name\": \"小林\",\n  \"task\": \"任务\"\n}\n```",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N15",
+      "mode": "baseline",
+      "answer": "```json\n{\n  \"name\": \"小林\",\n  \"task\": \"任务1\"\n}\n```",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    },
+    {
+      "id": "N15",
+      "mode": "constraint",
+      "answer": "```json\n{\n  \"name\": \"小林\",\n  \"task\": \"任务\"\n}\n```",
+      "passed": false,
+      "label_type": "closed_output_constraint_conformance"
+    }
+  ]
+}

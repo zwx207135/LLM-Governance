@@ -1,0 +1,12 @@
+{
+  "candidate_records": 120,
+  "model_generated_answers": 115,
+  "program_abstentions": 5,
+  "legacy_prompt_and_answer_replay": 40,
+  "ai_developer_review_records": 84,
+  "independent_human_reviews_completed": 0,
+  "blank_records_per_annotator": 192,
+  "input_and_runtime_snapshots_verified": true,
+  "packet_raw_hashes_verified": true,
+  "original_dataset_sha256": "3477889ae807858e0763bce4c80534f7fc834e001a7136c7a47b0bd4f34892ed"
+}

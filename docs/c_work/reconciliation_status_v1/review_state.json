@@ -1,0 +1,64 @@
+{
+  "report": {
+    "protocol": "c-two-human-resolution-v1",
+    "scope": "human_only_resolved_answers",
+    "status": "no_independent_human_reviews",
+    "human_judgment_records": 0,
+    "ai_judgments_excluded": 84,
+    "unique_human_reviewed_answers": 0,
+    "consensus_answers": 0,
+    "adjudicated_answers": 0,
+    "single_review_answers": 0,
+    "unresolved_conflict_answers": 0,
+    "resolved_answers": 0,
+    "resolved_fraction_of_human_reviewed_answers": null,
+    "agreement_before_adjudication": {
+      "core_answer": {
+        "status": "unavailable",
+        "reason": "Requires two distinct human reviewers of identical records",
+        "n": 0,
+        "kappa": null
+      },
+      "factual_error": {
+        "status": "unavailable",
+        "reason": "Requires two distinct human reviewers of identical records",
+        "n": 0,
+        "kappa": null
+      },
+      "unsupported_claims": {
+        "status": "unavailable",
+        "reason": "Requires two distinct human reviewers of identical records",
+        "n": 0,
+        "kappa": null
+      },
+      "premise_handling": {
+        "status": "unavailable",
+        "reason": "Requires two distinct human reviewers of identical records",
+        "n": 0,
+        "kappa": null
+      },
+      "refusal": {
+        "status": "unavailable",
+        "reason": "Requires two distinct human reviewers of identical records",
+        "n": 0,
+        "kappa": null
+      },
+      "response_type": {
+        "status": "unavailable",
+        "reason": "Requires two distinct human reviewers of identical records",
+        "n": 0,
+        "kappa": null
+      },
+      "evidence_use": {
+        "status": "unavailable",
+        "reason": "Requires two distinct human reviewers of identical records",
+        "n": 0,
+        "kappa": null
+      }
+    },
+    "tables": [],
+    "warning": "Tables describe only resolved reviewed answers; no population-level effectiveness or full test completion claim."
+  },
+  "resolved_records": [],
+  "review_groups": []
+}
