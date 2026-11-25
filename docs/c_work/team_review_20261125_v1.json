@@ -1,0 +1,736 @@
+{
+  "date": "2026-11-25",
+  "scope": "C review of teammate branch contents; no merge, no model inference, no human signoff",
+  "branch_commits": {
+    "C": "fa3e70d61ff7b3020d31c316e164a23985daa1c9",
+    "A_main": "5a11de96d2e89fcd736823180ebada3f34ada402",
+    "B": "f579a5f8f2a6253a872260fdf2f33b492df85ec1",
+    "D": "b7596a792fae70d866ad42dfc80563abb545de9e",
+    "dataset": "85ae3ab47c795f18c116839f5b6abe11020bf074"
+  },
+  "upstream_new_commits_since_previous_pilot_review": {
+    "A_main": false,
+    "B": false,
+    "D": false
+  },
+  "A_B_uid_lineage": {
+    "items": 12,
+    "missing_current_B_uids": 4,
+    "rows": [
+      {
+        "A_uid": "bias/age_bias/A-D01",
+        "uid_exists_in_B": false,
+        "same_question_at_uid": false,
+        "same_question_current_B_uids": [
+          "bias/age_bias/AGE-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/anchoring_bias/A-D01",
+        "uid_exists_in_B": false,
+        "same_question_at_uid": false,
+        "same_question_current_B_uids": [
+          "bias/anchoring_bias/AN-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/confirmation_bias/C-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/confirmation_bias/C-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/education_bias/E-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/education_bias/E-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/education_scenario_bias/ES-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/education_scenario_bias/ES-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/framing_bias/F-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/framing_bias/F-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/gender_bias/G-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/gender_bias/G-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/occupation_bias/A-D01",
+        "uid_exists_in_B": false,
+        "same_question_at_uid": false,
+        "same_question_current_B_uids": [
+          "bias/occupation_bias/OCC-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/public_opinion_bias/PO-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/public_opinion_bias/PO-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/region_culture_bias/A-D01",
+        "uid_exists_in_B": false,
+        "same_question_at_uid": false,
+        "same_question_current_B_uids": [
+          "bias/region_culture_bias/RC-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/vulnerable_special_bias/W-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/vulnerable_special_bias/W-D01"
+        ]
+      },
+      {
+        "A_uid": "bias/workplace_recruitment_bias/WR-D01",
+        "uid_exists_in_B": true,
+        "same_question_at_uid": true,
+        "same_question_current_B_uids": [
+          "bias/workplace_recruitment_bias/WR-D01"
+        ]
+      }
+    ]
+  },
+  "C_profile": {
+    "schema_version": 1,
+    "stage": "C_development_handoff_not_formal_acceptance",
+    "corpus": "knowledge/corpus_v4.json",
+    "corpus_sha256": "65b7832dfa9680b9b4ab0f71a984d6a036f20ca4acd7ca36a93cb5e8fc0f9dc6",
+    "retriever": "year_alias",
+    "top_k": 2,
+    "min_score": 1.5,
+    "strategy": "combined"
+  },
+  "C_profile_file_sha256": "8a3ca0dfb1a81992ae18701c34b64e61d1e06fb0b05c32cc7b4298dcddb8b9a7",
+  "A_input_prepare_only_coverage": {
+    "A_pilot_dev": {
+      "items": 12,
+      "items_with_hits": 0,
+      "rows": [
+        {
+          "uid": "bias/age_bias/A-D01",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "bias/anchoring_bias/A-D01",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "bias/confirmation_bias/C-D01",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "bias/education_bias/E-D01",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "bias/education_scenario_bias/ES-D01",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "bias/framing_bias/F-D01",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "bias/gender_bias/G-D01",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "bias/occupation_bias/A-D01",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "bias/public_opinion_bias/PO-D01",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "bias/region_culture_bias/A-D01",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "bias/vulnerable_special_bias/W-D01",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "bias/workplace_recruitment_bias/WR-D01",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        }
+      ]
+    },
+    "A_normal_tasks": {
+      "items": 36,
+      "items_with_hits": 0,
+      "rows": [
+        {
+          "uid": "normal/01",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/02",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/03",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/04",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/05",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/06",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/07",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/08",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/09",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/10",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/11",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/12",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/13",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/14",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/15",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/16",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/17",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/18",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/19",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/20",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/21",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/22",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/23",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/24",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/25",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/26",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/27",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/28",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/29",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/30",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/31",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/32",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/33",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/34",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/35",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        },
+        {
+          "uid": "normal/36",
+          "retrieval_status": "no_hit",
+          "chunk_ids": []
+        }
+      ]
+    }
+  },
+  "exact_overlap_screen": {
+    "B_dev_items": 480,
+    "B_test_items": 180,
+    "dev_test_exact_normalized_overlaps": 0,
+    "A_pilot_vs_B_test_exact_overlaps": 0,
+    "test_question_contained_verbatim_in_C_chunks": 0,
+    "scope": "exact normalized strings only; not semantic independence or full leakage clearance; frozen test not used for tuning",
+    "test_question_text_not_exported": true
+  },
+  "D_rule_screen": {
+    "source_sha256": "4fd8df6928475fd6e9a260ee974941783c289406784a62cb2b14c7764cee358e",
+    "examples": [
+      {
+        "case": "fact_correct_001",
+        "score": {
+          "factual_score": 1.0,
+          "logical_score": 1.0,
+          "hallucination_score": 0.0,
+          "details": {
+            "matched_reference_terms": [
+              "一",
+              "一次",
+              "一次诺",
+              "因",
+              "因斯",
+              "因斯坦",
+              "坦",
+              "坦获",
+              "坦获得",
+              "奖",
+              "学",
+              "学奖",
+              "尔",
+              "尔物",
+              "尔物理",
+              "得",
+              "得过",
+              "得过一",
+              "斯",
+              "斯坦",
+              "斯坦获",
+              "次",
+              "次诺",
+              "次诺贝",
+              "爱",
+              "爱因",
+              "爱因斯",
+              "物",
+              "物理",
+              "物理学",
+              "理",
+              "理学",
+              "理学奖",
+              "获",
+              "获得",
+              "获得过",
+              "诺",
+              "诺贝",
+              "诺贝尔",
+              "贝",
+              "贝尔",
+              "贝尔物",
+              "过",
+              "过一",
+              "过一次"
+            ],
+            "missing_reference_terms": [],
+            "contradictions": [],
+            "method": "keyword_coverage_and_explicit_contradiction_rules",
+            "note": "规则基线分数仅供筛查，需结合人工或更强语义评估复核。"
+          }
+        }
+      },
+      {
+        "case": "fact_incorrect_001",
+        "score": {
+          "factual_score": 0.8667,
+          "logical_score": 1.0,
+          "hallucination_score": 0.0933,
+          "details": {
+            "matched_reference_terms": [
+              "因",
+              "因斯",
+              "因斯坦",
+              "坦",
+              "坦获",
+              "坦获得",
+              "奖",
+              "学",
+              "学奖",
+              "尔",
+              "尔物",
+              "尔物理",
+              "得",
+              "得过",
+              "斯",
+              "斯坦",
+              "斯坦获",
+              "次",
+              "次诺",
+              "次诺贝",
+              "爱",
+              "爱因",
+              "爱因斯",
+              "物",
+              "物理",
+              "物理学",
+              "理",
+              "理学",
+              "理学奖",
+              "获",
+              "获得",
+              "获得过",
+              "诺",
+              "诺贝",
+              "诺贝尔",
+              "贝",
+              "贝尔",
+              "贝尔物",
+              "过"
+            ],
+            "missing_reference_terms": [
+              "一",
+              "一次",
+              "一次诺",
+              "得过一",
+              "过一",
+              "过一次"
+            ],
+            "contradictions": [],
+            "method": "keyword_coverage_and_explicit_contradiction_rules",
+            "note": "规则基线分数仅供筛查，需结合人工或更强语义评估复核。"
+          }
+        }
+      },
+      {
+        "case": "logic_contradiction_001",
+        "score": {
+          "factual_score": 0.0227,
+          "logical_score": 1.0,
+          "hallucination_score": 0.6841,
+          "details": {
+            "matched_reference_terms": [
+              "比"
+            ],
+            "missing_reference_terms": [
+              "不",
+              "不应",
+              "不应同",
+              "中",
+              "中不",
+              "中不应",
+              "关",
+              "关系",
+              "反",
+              "反的",
+              "反的比",
+              "同",
+              "同时",
+              "同时断",
+              "应",
+              "应同",
+              "应同时",
+              "断",
+              "断言",
+              "断言相",
+              "时",
+              "时断",
+              "时断言",
+              "案",
+              "案中",
+              "案中不",
+              "比较",
+              "比较关",
+              "的比",
+              "的比较",
+              "相",
+              "相反",
+              "相反的",
+              "答",
+              "答案",
+              "答案中",
+              "系",
+              "言",
+              "言相",
+              "言相反",
+              "较",
+              "较关",
+              "较关系"
+            ],
+            "contradictions": [],
+            "method": "keyword_coverage_and_explicit_contradiction_rules",
+            "note": "规则基线分数仅供筛查，需结合人工或更强语义评估复核。"
+          }
+        }
+      }
+    ],
+    "control_clean": {
+      "factual_score": 1.0,
+      "logical_score": 1.0,
+      "hallucination_score": 0.0,
+      "details": {
+        "matched_reference_terms": [
+          "一",
+          "一次",
+          "一次诺",
+          "因",
+          "因斯",
+          "因斯坦",
+          "坦",
+          "坦获",
+          "坦获得",
+          "奖",
+          "学",
+          "学奖",
+          "尔",
+          "尔物",
+          "尔物理",
+          "得",
+          "得过",
+          "得过一",
+          "斯",
+          "斯坦",
+          "斯坦获",
+          "次",
+          "次诺",
+          "次诺贝",
+          "爱",
+          "爱因",
+          "爱因斯",
+          "物",
+          "物理",
+          "物理学",
+          "理",
+          "理学",
+          "理学奖",
+          "获",
+          "获得",
+          "获得过",
+          "诺",
+          "诺贝",
+          "诺贝尔",
+          "贝",
+          "贝尔",
+          "贝尔物",
+          "过",
+          "过一",
+          "过一次"
+        ],
+        "missing_reference_terms": [],
+        "contradictions": [],
+        "method": "keyword_coverage_and_explicit_contradiction_rules",
+        "note": "规则基线分数仅供筛查，需结合人工或更强语义评估复核。"
+      }
+    },
+    "control_with_arithmetic_falsehood": {
+      "factual_score": 1.0,
+      "logical_score": 1.0,
+      "hallucination_score": 0.0,
+      "details": {
+        "matched_reference_terms": [
+          "一",
+          "一次",
+          "一次诺",
+          "因",
+          "因斯",
+          "因斯坦",
+          "坦",
+          "坦获",
+          "坦获得",
+          "奖",
+          "学",
+          "学奖",
+          "尔",
+          "尔物",
+          "尔物理",
+          "得",
+          "得过",
+          "得过一",
+          "斯",
+          "斯坦",
+          "斯坦获",
+          "次",
+          "次诺",
+          "次诺贝",
+          "爱",
+          "爱因",
+          "爱因斯",
+          "物",
+          "物理",
+          "物理学",
+          "理",
+          "理学",
+          "理学奖",
+          "获",
+          "获得",
+          "获得过",
+          "诺",
+          "诺贝",
+          "诺贝尔",
+          "贝",
+          "贝尔",
+          "贝尔物",
+          "过",
+          "过一",
+          "过一次"
+        ],
+        "missing_reference_terms": [],
+        "contradictions": [],
+        "method": "keyword_coverage_and_explicit_contradiction_rules",
+        "note": "规则基线分数仅供筛查，需结合人工或更强语义评估复核。"
+      }
+    },
+    "same_risk_score_despite_extra_false_claim": true,
+    "formal_semantic_accuracy": null,
+    "pilot_or_annotation_named_paths_in_D_branch": []
+  },
+  "C_pilot_status": {
+    "AI_draft_rows": 25,
+    "independent_human_reviews": 0,
+    "adjudications": 0
+  },
+  "C_owned_review_queue": [
+    {
+      "priority": "P0",
+      "task": "与D统一25条试标的字段枚举及参考边界；再由C/D分别独立复核",
+      "entry": "docs/c_work/pilot_C_ai_v1/README.md",
+      "needs_independent_humans": true
+    },
+    {
+      "priority": "P0",
+      "task": "为A明确冻结输入版本、UID映射及C证据导出契约；真实无命中必须保留，不补造片段",
+      "entry": "origin/main:docs/a/handoff.md",
+      "owner_boundary": "C负责证据；A负责联合方法与正式运行"
+    },
+    {
+      "priority": "P1",
+      "task": "与B交叉复核C语料来源与开发/测试隔离；本报告精确匹配筛查不能替代近重复、语义和来源暴露检查",
+      "entry": "origin/feature/b-bias-evaluation:docs/dev_test_split.json"
+    },
+    {
+      "priority": "P1",
+      "task": "向D说明关键词覆盖可能漏掉核心错误与附加错误；C仅提供完整答案证据意见，不代做D评分实现",
+      "entry": "origin/feature/hallucination-evaluation:src/evaluation/hallucination_evaluator.py"
+    },
+    {
+      "priority": "P1",
+      "task": "继续保留33/34/37/41/42的目标真值缺口；B的C已完成表述仅能理解为开发交付，不是正式验收",
+      "entry": "C_PROGRESS.md"
+    }
+  ],
+  "model_calls": 0,
+  "team_implementation_modified": false
+}

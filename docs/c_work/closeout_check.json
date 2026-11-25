@@ -22,7 +22,7 @@
   "normal_route_records_verified": 48,
   "support_evidence_replays": 30,
   "historical_failure_chains": 11,
-  "active_local_links_checked": 123,
+  "active_local_links_checked": 136,
   "original_dataset_unchanged": true,
   "independent_human_reviews": 0,
   "remaining_original_target_ids": [
@@ -34,15 +34,15 @@
   ],
   "formal_accuracy": null,
   "active_document_sha256": {
-    "README.md": "264d6b9977a1e16e51db5df7b057664b539930d2f8b8c676da6c7e8bcd1e37aa",
-    "C_PROGRESS.md": "5c200c45b207a7fa286625bb515523a6773c5a99fdc0552d0d905acefda6b66f",
-    "docs/c_work/C_HANDOFF.md": "6731858772d0abac68c303bf30b995360d2ff0d0ea7a086186a0799f4384a8da",
-    "docs/c_work/C_ONLY_STATUS.md": "2571910e3bd1b896a0906c77531719bf31ce22199f175f9eca701c0fb091417f",
-    "docs/c_work/C_COMPONENT_HANDOFF.md": "d2bc3f558dda31f0391c941a9c177b34e502eeaef3fb57f2107dc13a85be34ab",
+    "README.md": "a5ae37c5bb9733007d149d8d9e25ba4443210fc4e134c5b1e9e30c3873a15735",
+    "C_PROGRESS.md": "51d7cbc25deb77122f1fd2c039626ff99ce9acf11432e47219bdde9e47497668",
+    "docs/c_work/C_HANDOFF.md": "01d7053261d53e62404288d163ba04a5f99aa9da9e51d9a93019ec42f147c5b2",
+    "docs/c_work/C_ONLY_STATUS.md": "689362a41803ad28f31c6b21720255fae81e0425f18d931258193bd1b535b7d8",
+    "docs/c_work/C_COMPONENT_HANDOFF.md": "4624c105486c7d7150675b2dc5a2275122c375dd891661379e775d7286a3f309",
     "docs/c_work/C_EVIDENCE_USE.md": "9c958c9e996da964de765395dbf72311132df1c9838635270289322853ba6d13",
     "docs/c_work/C_SUBJECT_FOCUS.md": "ef18c7aff9a2e3683127ba37b19012324eacec78c01dd740ca9925fa36e93204",
     "docs/c_work/C_NOBEL_SUPPLEMENT.md": "ebaa0a18f04d6af61212c6866f407f6d5f2096568d94a5b7c654d656d32864bb",
-    "docs/c_work/C_FAILURE_EVIDENCE.md": "7251e8265336dbf0bbd2ca5aedf767903d7af8891b3e5b0258a08f4fa9791472",
-    "docs/c_work/C_CLOSEOUT.md": "ee2d7f1dc74204ad2e7cb22698f3432a91ee92849bd2b71b6a7223ac2a5f1c7b"
+    "docs/c_work/C_FAILURE_EVIDENCE.md": "5c566312454bf526798bb5e96cc22ac173d226b06f4fbe7cda4dbfeff5cf7252",
+    "docs/c_work/C_CLOSEOUT.md": "43ccf09390fb71c784607059250183a55b39f34e59de41b96700c281652e7eb9"
   }
 }

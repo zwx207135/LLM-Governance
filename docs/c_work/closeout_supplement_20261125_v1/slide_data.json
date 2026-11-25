@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-25",
+  "dataset_items": 125,
+  "uncertainty_probes": 22,
+  "unresolved_ids": [
+    33,
+    34,
+    37,
+    41,
+    42
+  ],
+  "knowledge_sources": 21,
+  "knowledge_chunks": 31,
+  "retrieval_support_counts": {
+    "no_retrieved_evidence": 8,
+    "supports_core": 16,
+    "supports_core_with_scope": 1,
+    "supports_premise_correction_only": 2,
+    "topic_only_insufficient": 2,
+    "retrieval_miss_with_available_evidence": 1
+  },
+  "inventory": {
+    "outputs": 1316,
+    "model_calls": 1311,
+    "program_outputs": 5
+  },
+  "anchor_regression": {
+    "questions": 125,
+    "removed_false_retrievals": 15,
+    "remaining_unchanged": 110
+  },
+  "A_input_items": 48,
+  "A_items_with_hits": 0,
+  "independent_human_reviews": 0,
+  "formal_accuracy": null
+}

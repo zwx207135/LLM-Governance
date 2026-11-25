@@ -1,0 +1,235 @@
+{
+  "date": "2026-11-25",
+  "policies": [
+    {
+      "id": "P_NOAA",
+      "organization": "NOAA",
+      "url": "https://oceanservice.noaa.gov/about/faq.html",
+      "access_method": "web_extracted_body",
+      "locator": "Can I use this image及How to cite articles",
+      "recorded_scope": "记录署名、不得暗示背书及第三方内容例外；本项目仅据来源整理文字事实，不把机构全部资产统一重授权。"
+    },
+    {
+      "id": "P_NASA",
+      "organization": "NASA",
+      "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "access_method": "web_extracted_body",
+      "locator": "NASA媒体使用说明及标识/第三方内容边界",
+      "recorded_scope": "作为官方使用条件入口；本次未复制官方图片、标志或大段原文，不据此断言每一页文本均无使用限制。"
+    },
+    {
+      "id": "P_SI",
+      "organization": "Smithsonian",
+      "url": "https://www.si.edu/termsofuse",
+      "related_url": "https://www.si.edu/openaccess/faq",
+      "access_method": "indexed_official_body_direct_retry_404",
+      "locator": "Open Access与Usage Conditions适用范围",
+      "recorded_scope": "仅明确标为CC0的资产才可按对应说明处理；当前四项来源没有逐资产CC0确认，权限状态仍为未逐项核准。"
+    },
+    {
+      "id": "P_QWEN",
+      "organization": "Qwen",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct",
+      "access_method": "official_model_card",
+      "locator": "License: apache-2.0",
+      "recorded_scope": "模型权重不随C交接包分发；使用者从官方源取得并保留相应许可。"
+    }
+  ],
+  "source_items": [
+    {
+      "source_id": "noaa-ocean",
+      "url": "https://oceanservice.noaa.gov/facts/biggestocean.html",
+      "policy_id": "P_NOAA",
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "nasa-moon",
+      "url": "https://science.nasa.gov/moon/facts/",
+      "policy_id": "P_NASA",
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "nasa-planets",
+      "url": "https://science.nasa.gov/solar-system/planets/",
+      "policy_id": "P_NASA",
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "nasa-sun",
+      "url": "https://science.nasa.gov/sun/facts/",
+      "policy_id": "P_NASA",
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "doe-light",
+      "url": "https://www.energy.gov/articles/history-light-bulb",
+      "policy_id": null,
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "nasa-earth",
+      "url": "https://science.nasa.gov/earth/facts/",
+      "policy_id": "P_NASA",
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "nasa-relativity",
+      "url": "https://science.nasa.gov/universe/glossary/",
+      "policy_id": "P_NASA",
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "nasa-waves",
+      "url": "https://science.nasa.gov/ems/02_anatomy/",
+      "policy_id": "P_NASA",
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "nasa-apollo",
+      "url": "https://www.nasa.gov/mission/apollo-11/",
+      "policy_id": "P_NASA",
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "smithsonian-bell",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_704159",
+      "policy_id": "P_SI",
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "smithsonian-flight",
+      "url": "https://airandspace.si.edu/collection-objects/wright-1903-flyer/nasm_A19610048000",
+      "policy_id": "P_SI",
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "smithsonian-pyramids",
+      "url": "https://www.si.edu/spotlight/ancient-egypt/pyramid?iframe=true&page=1",
+      "policy_id": "P_SI",
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "smithsonian-steam",
+      "url": "https://repository.si.edu/bitstream/handle/10088/10218/1/USNMB_1731939_unit.pdf",
+      "policy_id": "P_SI",
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "noaa-trench",
+      "url": "https://www.fisheries.noaa.gov/pacific-islands/habitat-conservation/mariana-trench-marine-national-monument",
+      "policy_id": "P_NOAA",
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "pubchem-water",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Acqua",
+      "policy_id": null,
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "nist-light",
+      "url": "https://physics.nist.gov/cuu/Constants/Value/c.html",
+      "policy_id": null,
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "nobel-physics-history",
+      "url": "https://www.nobelprize.org/prizes/themes/the-nobel-prize-in-physics-1901-2000/",
+      "policy_id": null,
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "nobel-physics-repeat-snapshot",
+      "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes-in-physics/all/",
+      "policy_id": null,
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "nobel-physics-2022-release",
+      "url": "https://www.nobelprize.org/uploads/2022/10/press-physicsprize2022.pdf",
+      "policy_id": null,
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "nobel-physics-2023-release",
+      "url": "https://www.nobelprize.org/prizes/physics/2023/press-release/",
+      "policy_id": null,
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    },
+    {
+      "source_id": "nobel-literature-2023-release",
+      "url": "https://www.nobelprize.org/uploads/2023/10/press-literatureprize2023.pdf",
+      "policy_id": null,
+      "material_used": "事实的中文人工转述、来源标识和少量短引文；不含整页/整本或官方装饰图片",
+      "asset_level_license": "not_individually_verified",
+      "attribution": "保留机构/页面标题、URL、定位、采集日期和日期边界",
+      "redistribution_statement": "本项目不为原网页、PDF、藏品图片或第三方材料重新授权；资料公开可访问不等于逐资产CC0。"
+    }
+  ],
+  "dataset": {
+    "origin": "原仓库125题及其历史输出；本次只补说明，不主张新增数据权利",
+    "root_license_present": false,
+    "permission_state": "未发现足以统一重新授权所有题目与外部材料的声明，外部分发许可不由C代签"
+  },
+  "model": "官方卡标注apache-2.0；权重不随交接包分发，仍按实际官方许可使用。"
+}

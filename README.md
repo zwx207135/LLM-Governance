@@ -1,5 +1,7 @@
 # LLM Governance
 
+2026-11-25补齐：[C分工缺口补充材料](docs/c_work/closeout_supplement_20261125_v1/README.md)，含日期、时间故障、引文/使用说明、复现问答、5页可编辑研究页及A真实证据导出；正式冻结与独立复核仍待完成。
+
 2026-11-25新增：[25条C侧辅助试标与证据](docs/c_work/pilot_C_ai_v1/README.md)，含CSV/Excel、原表快照和校验；为AI预标注，待C/D统一口径并独立人工复核。
 
 C开发交付收尾与核验入口：[C_CLOSEOUT](docs/c_work/C_CLOSEOUT.md)。

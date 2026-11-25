@@ -50,10 +50,17 @@ def main():
     for folder in ("src", "experiments", "tests", "configs", "knowledge", "datasets"):
         files.extend(p for p in (ROOT / folder).rglob("*") if p.is_file() and p.suffix in (".py", ".json", ".md"))
     documents = ROOT / "docs/c_work"
-    files.extend(p for p in documents.rglob("*") if p.is_file() and "runs" not in p.relative_to(documents).parts and p.suffix in (".py", ".md", ".json", ".csv", ".png", ".svg", ".xlsx", ".mjs"))
+    files.extend(p for p in documents.rglob("*") if p.is_file() and "runs" not in p.relative_to(documents).parts and
+                 (p.suffix in (".py", ".md", ".json", ".csv", ".png", ".svg", ".xlsx", ".mjs", ".pptx", ".bib") or
+                  p.suffix == ".txt" and p.name.startswith("requirements-c-") or
+                  p.suffix == ".log" and any(part.startswith("assignment_check_") for part in p.relative_to(documents).parts)))
     for run in (*RUNS, "joint_smoke_v1"):
         files.extend(p for p in (documents / "runs" / run).rglob("*") if p.is_file() and p.suffix in (".py", ".json", ".jsonl", ".md", ".csv", ".png"))
-    files.extend(p for p in (ROOT / "README.md", ROOT / ".gitignore", ROOT / "C_PROGRESS.md") if p.exists())
+    files.extend(p for p in (ROOT / "README.md", ROOT / ".gitignore", ROOT / ".gitattributes", ROOT / "C_PROGRESS.md") if p.exists())
+    # The temporal case ledger binds these original baseline answers byte-for-byte.
+    baseline = ROOT / "results/hallucination/results.json"
+    if baseline.exists():
+        files.append(baseline)
     files = sorted(set(files), key=lambda p: p.relative_to(ROOT).as_posix())
     payload = {p.relative_to(ROOT).as_posix(): p.read_bytes() for p in files}
     manifest = {"stage": "C_development_handoff_not_final_acceptance", "model_weights_included": False, "runs": list(RUNS),

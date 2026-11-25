@@ -27,6 +27,7 @@ from experiments.build_c_revision_index import verify as verify_revision_index
 from experiments.check_c_component_contract import check as check_component
 from experiments.report_c_subject_focus import verify as verify_subject_focus
 from experiments.check_c_pilot_review import check as check_pilot
+from experiments.check_c_supplement import check as check_supplement
 from src.evaluation.review_metrics import fingerprint
 from src.governance.evidence_policy import EvidencePolicy
 from src.governance.retrieval import LocalRetriever
@@ -230,6 +231,7 @@ def main():
               "C_component_contract": {"passed": True, "cases": len(component_contract["cases"]), "model_calls": 0},
               "C_subject_focus": {"records": len(subject_rows), "frozen_replays_verified": True, "formal_accuracy": None},
               "C_pilot_AI_draft": check_pilot(),
+              "C_closeout_supplement": check_supplement(),
               "note": "No new inference; this checks development artifacts, not final acceptance or effectiveness."}
     (folder / "delivery_check.json").write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(result, ensure_ascii=False, indent=2))

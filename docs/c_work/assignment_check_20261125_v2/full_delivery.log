@@ -1,0 +1,177 @@
+{
+  "status": "development_artifacts_checked_human_review_pending",
+  "passed": true,
+  "tests_executed_this_check": true,
+  "tests": {
+    "tests_run": 157,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "original_runs_verified": [
+    "expanded_v3",
+    "controls_v3",
+    "policy_comparison_v1"
+  ],
+  "development_outputs": 548,
+  "development_model_answers": 543,
+  "development_program_abstentions": 5,
+  "separate_demo_outputs": 12,
+  "demo_model_answers": 11,
+  "demo_program_abstentions": 1,
+  "review_workflow": {
+    "original_judgments": 84,
+    "human_judgments": 0,
+    "resolved_answers": 0,
+    "runtime_and_input_snapshots_verified": true,
+    "seven_dimension_agreement_unavailable": true
+  },
+  "source_followup": {
+    "items_followed_up": 17,
+    "sources": 14,
+    "dispositions": {
+      "reference_issue": 4,
+      "pending_source_review": 5,
+      "context_only": 8
+    },
+    "frozen_inputs_unchanged": true,
+    "diagnostic_records": 15,
+    "model_generated_answers": 15,
+    "diagnostics_separate_from_original_entity_truth": true,
+    "prompt_and_grading_snapshots_verified": true
+  },
+  "structured_decoding": {
+    "model_generated_answers": 30,
+    "constrained_outputs": 15,
+    "schema_conformant": 15,
+    "all_six_semantic_combinations_retained": true,
+    "same_prompt_and_answer_free_replays": 15,
+    "prompt_and_runtime_snapshots_verified": true,
+    "preparation_records_not_answers": 30,
+    "formal_winner_selected": false
+  },
+  "balanced_material_diagnostics": {
+    "model_generated_answers": 384,
+    "runs": [
+      "balanced_materials_v1",
+      "balanced_labels_cn_v1"
+    ],
+    "related_topics": 8,
+    "unique_claims": 24,
+    "position_variants": 48,
+    "label_followup_is_exploratory": true,
+    "external_retrieved_passages": 0,
+    "schema_combinations_retained": 9,
+    "material_claim_and_generation_pairing_verified": true,
+    "confusion_figures_verified": true,
+    "blank_records_per_annotator": 96,
+    "independent_human_reviews_completed": 0
+  },
+  "joint_integration": {
+    "historical_records_audited": 989,
+    "flagged_records_not_errors": 181,
+    "joint_model_smoke_outputs": 6,
+    "errors": 0,
+    "semantic_support": "not_evaluated",
+    "bias_effectiveness": "not_evaluated",
+    "historical_logs_unchanged": true
+  },
+  "joint_batch": {
+    "records": 96,
+    "model_generated_answers": 82,
+    "program_abstentions": 14,
+    "prepared_records_not_answers": 96,
+    "input_runtime_and_audit_verified": true,
+    "bias_effectiveness": "not_evaluated"
+  },
+  "nobel_source_and_scope_diagnostics": {
+    "model_generated_answers": 95,
+    "runs": [
+      "nobel_scope_v1",
+      "nobel_scope_followup_v1",
+      "nobel_scope_followup_v2"
+    ],
+    "frozen_prompt_and_evidence_replay_verified": true,
+    "independent_human_reviews": 0,
+    "factual_accuracy": null
+  },
+  "C_evidence_use_diagnostics": {
+    "scope": "C_method_diagnostics_only",
+    "model_generated_answers": 98,
+    "frozen_prompt_and_evidence_replay_verified": true,
+    "formal_accuracy": null
+  },
+  "C1_pending_reference_repairs": {
+    "original_cases_still_unresolved": 5,
+    "reference_proposals": 5,
+    "bounded_alternative_candidates": 5,
+    "sources": 5,
+    "original_questions_and_knowledge_unchanged": true,
+    "model_calls": 0,
+    "independent_human_reviews": 0
+  },
+  "C1_revision_index": {
+    "proposal_entries": 30,
+    "distinct_original_items": 28,
+    "field_counts": {
+      "reference": 21,
+      "question": 9
+    },
+    "overlap_groups": 0,
+    "conflicting_groups": 0,
+    "bounded_alternatives": 5,
+    "approved_replacements": 0,
+    "independent_human_reviews": 0
+  },
+  "C_component_contract": {
+    "passed": true,
+    "cases": 6,
+    "model_calls": 0
+  },
+  "C_subject_focus": {
+    "records": 34,
+    "frozen_replays_verified": true,
+    "formal_accuracy": null
+  },
+  "C_pilot_AI_draft": {
+    "passed": true,
+    "rows": 25,
+    "columns": 17,
+    "original_bytes_verified": true,
+    "xlsx_csv_and_evidence_verified": true,
+    "ai_assisted_judgments": 25,
+    "independent_human_judgments": 0,
+    "adjudications": 0,
+    "formal_accuracy": null,
+    "unknown_entity_truth_not_assumed": true,
+    "model_inference_calls": 0
+  },
+  "C_closeout_supplement": {
+    "passed": true,
+    "historical_files_unchanged": 71,
+    "source_dates": 21,
+    "publication_unknown_with_reason": 16,
+    "method_references": 3,
+    "factual_reference_entries": 107,
+    "temporal_cases": 4,
+    "A_export_rows": 48,
+    "A_rows_with_hits": 0,
+    "A_positive_interface_probe": true,
+    "slides": 5,
+    "native_tables": 3,
+    "native_charts": 1,
+    "slide_sha256": "631cd72fa31c6bb90ae3f012335b1c388d895a77164e58b74b8f74e3eb70e518",
+    "local_links_checked": 15,
+    "model_calls": 0,
+    "independent_human_reviews": 0,
+    "formal_accuracy": null
+  },
+  "note": "No new inference; this checks development artifacts, not final acceptance or effectiveness."
+}
+
+.............................................................................................................................................................
+----------------------------------------------------------------------
+Ran 157 tests in 0.313s
+
+OK

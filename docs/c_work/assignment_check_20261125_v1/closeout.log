@@ -1,0 +1,37 @@
+{
+  "stage": "C_development_closeout_not_formal_acceptance",
+  "passed": true,
+  "model_calls_this_audit": 0,
+  "inventory": {
+    "runs": 16,
+    "outputs": 1316,
+    "model_calls": 1311,
+    "program_outputs": 5
+  },
+  "tests": {
+    "tests_run": 157,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "additional_anchor_records_verified": {
+    "anchor_diagnostics_v1": 32,
+    "evidence_first_v1": 32
+  },
+  "normal_route_records_verified": 48,
+  "support_evidence_replays": 30,
+  "historical_failure_chains": 11,
+  "active_local_links_checked": 124,
+  "original_dataset_unchanged": true,
+  "independent_human_reviews": 0,
+  "remaining_original_target_ids": [
+    33,
+    34,
+    37,
+    41,
+    42
+  ],
+  "formal_accuracy": null
+}
+

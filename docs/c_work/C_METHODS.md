@@ -1,5 +1,7 @@
 # C 幻觉治理方法与实验协议
 
+2026-11-25补充：[方法原始文献与实现差异](closeout_supplement_20261125_v1/METHOD_REFERENCES.md)、[21源日期旁注](closeout_supplement_20261125_v1/SOURCE_DATES.md)、[数据与资料使用边界](closeout_supplement_20261125_v1/USAGE.md)。这些是新台账，旧语料、模型输出及运行合同不改。
+
 当前C开发交付入口：[组件配置与接口](C_COMPONENT_HANDOFF.md)、[统一修订索引](revision_index_v1/report.md)、[主体错配单轮检验](C_SUBJECT_FOCUS.md)。这些是可复核的开发交付，不等于全部原题事实核验、独立评分或正式验收完成。
 
 本实现研究资料检索与回答约束能否减少无依据事实，同时检查遗漏、截断、拒答与耗时的代价。采用本地Qwen2.5 0.5B Instruct，先完成可检查的开发实验，不预设方法必然改善。

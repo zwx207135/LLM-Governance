@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "items": 36,
+  "counts": {
+    "已满足": 24,
+    "部分满足": 6,
+    "待协作": 6
+  },
+  "upgraded_items": [
+    "C2.2",
+    "C4.4",
+    "X5",
+    "X6",
+    "X7",
+    "X8"
+  ],
+  "original_v1_preserved": true,
+  "local_links_verified": 60,
+  "independent_human_reviews": 0,
+  "formal_accuracy": null,
+  "overall_assignment_complete": false
+}

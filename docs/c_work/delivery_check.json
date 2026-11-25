@@ -1,7 +1,7 @@
 {
   "status": "development_artifacts_checked_human_review_pending",
   "passed": true,
-  "tests_executed_this_check": true,
+  "tests_executed_this_check": false,
   "tests": {
     "tests_run": 157,
     "failures": 0,
@@ -146,6 +146,26 @@
     "formal_accuracy": null,
     "unknown_entity_truth_not_assumed": true,
     "model_inference_calls": 0
+  },
+  "C_closeout_supplement": {
+    "passed": true,
+    "historical_files_unchanged": 71,
+    "source_dates": 21,
+    "publication_unknown_with_reason": 16,
+    "method_references": 3,
+    "factual_reference_entries": 107,
+    "temporal_cases": 4,
+    "A_export_rows": 48,
+    "A_rows_with_hits": 0,
+    "A_positive_interface_probe": true,
+    "slides": 5,
+    "native_tables": 3,
+    "native_charts": 1,
+    "slide_sha256": "631cd72fa31c6bb90ae3f012335b1c388d895a77164e58b74b8f74e3eb70e518",
+    "local_links_checked": 17,
+    "model_calls": 0,
+    "independent_human_reviews": 0,
+    "formal_accuracy": null
   },
   "note": "No new inference; this checks development artifacts, not final acceptance or effectiveness."
 }

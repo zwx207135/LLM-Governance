@@ -1,0 +1,779 @@
+{
+  "date": "2026-11-25",
+  "assignment_source_sha256": "ce8b0e22b1ab8eac79527a79943069c63a6a0fb31441b36a39fe977c3cb0e2f2",
+  "plan_sha256": "bcaa21412088370402856dce7c645b88795e37f7afbca93c618c328ce4ffddbe",
+  "reviewer": "AI_assistant_fresh_assignment_based_audit_not_independent_human",
+  "scope": "Fresh AI audit against original C and shared clauses; not independent human signoff or formal acceptance",
+  "counts": {
+    "已满足": 24,
+    "部分满足": 6,
+    "待协作": 6
+  },
+  "items": [
+    {
+      "id": "C1.1",
+      "area": "C1",
+      "title": "原125题结构和版本",
+      "acceptance": "125个唯一ID、五类各25条，问题/参考/来源/注释可追溯，原文件不被覆盖",
+      "assignment_clauses": [
+        {
+          "paragraph": 88,
+          "text": "检查125条问题、参考答案、来源与注释。事实题确认来源与答案；错误前提题写清应纠正的前提；虚构实体题写清无法证实的原因；数学逻辑题补推导；时效题补截至日期及可接受答案。交付修订记录，不静默改题。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "125个唯一ID，五类各25条，原数据SHA256保持不变。",
+      "evidence": "docs/c_work/data_audit.json",
+      "next_action": "保留原数据及新版本差异记录。"
+    },
+    {
+      "id": "C1.2",
+      "area": "C1",
+      "title": "事实来源与核验完成度",
+      "acceptance": "事实核验覆盖逐题证据；来源支持范围、未确认目标和待复核项明确，不能把提案当正式批准",
+      "assignment_clauses": [
+        {
+          "paragraph": 88,
+          "text": "检查125条问题、参考答案、来源与注释。事实题确认来源与答案；错误前提题写清应纠正的前提；虚构实体题写清无法证实的原因；数学逻辑题补推导；时效题补截至日期及可接受答案。交付修订记录，不静默改题。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "部分满足",
+      "finding": "有125题初审与来源补查；33/34/37/41/42目标身份仍未核实，候选均未获正式批准。",
+      "evidence": "docs/c_work/pending_repairs_v2/report.md",
+      "next_action": "补具体身份/产品版本证据并交D独立复核，不靠背景资料补真值。"
+    },
+    {
+      "id": "C1.3",
+      "area": "C1",
+      "title": "错误前提逐题记录",
+      "acceptance": "25道错误前提题均有纠正依据，参考自身有误时单列修订",
+      "assignment_clauses": [
+        {
+          "paragraph": 88,
+          "text": "检查125条问题、参考答案、来源与注释。事实题确认来源与答案；错误前提题写清应纠正的前提；虚构实体题写清无法证实的原因；数学逻辑题补推导；时效题补截至日期及可接受答案。交付修订记录，不静默改题。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "错误前提25条均有核验说明；牛顿、爱迪生等参考问题有显式修订提案。",
+      "evidence": "docs/c_work/data_audit.json",
+      "next_action": "待正式批准时使用修订版本，不覆盖历史题目。"
+    },
+    {
+      "id": "C1.4",
+      "area": "C1",
+      "title": "未知实体证据边界",
+      "acceptance": "无法确认的目标写清原因；检索不到不推出不存在，开发副本移除未经确认的真值",
+      "assignment_clauses": [
+        {
+          "paragraph": 88,
+          "text": "检查125条问题、参考答案、来源与注释。事实题确认来源与答案；错误前提题写清应纠正的前提；虚构实体题写清无法证实的原因；数学逻辑题补推导；时效题补截至日期及可接受答案。交付修订记录，不静默改题。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "开发使用角色明确记录22条不确定性探针，未把检索不到统一判为不存在。",
+      "evidence": "docs/c_work/data_usage.json",
+      "next_action": "后续沿用未知与已证伪的区分。"
+    },
+    {
+      "id": "C1.5",
+      "area": "C1",
+      "title": "数学推导与歧义",
+      "acceptance": "25道均有推导或明确歧义；平方根、数列规律等条件缺口单列",
+      "assignment_clauses": [
+        {
+          "paragraph": 88,
+          "text": "检查125条问题、参考答案、来源与注释。事实题确认来源与答案；错误前提题写清应纠正的前提；虚构实体题写清无法证实的原因；数学逻辑题补推导；时效题补截至日期及可接受答案。交付修订记录，不静默改题。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "25条数学题均有推导/边界说明；107、111、117明确列参考或条件歧义。",
+      "evidence": "docs/c_work/data_audit.json",
+      "next_action": "正式题集批准时确认三条歧义修订。"
+    },
+    {
+      "id": "C1.6",
+      "area": "C1",
+      "title": "时效日期和可接受答案",
+      "acceptance": "事件年份或截至日期齐备；正式题面与可接受答案口径确认后冻结",
+      "assignment_clauses": [
+        {
+          "paragraph": 88,
+          "text": "检查125条问题、参考答案、来源与注释。事实题确认来源与答案；错误前提题写清应纠正的前提；虚构实体题写清无法证实的原因；数学逻辑题补推导；时效题补截至日期及可接受答案。交付修订记录，不静默改题。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "部分满足",
+      "finding": "25条均有事件年份或截至日期；日期在核验台账中，原题修订和可接受答案仍未正式冻结。",
+      "evidence": "docs/c_work/revision_index_v1/report.md",
+      "next_action": "确认第63题榜单口径、动态事实的截至日期及接受范围。"
+    },
+    {
+      "id": "C1.7",
+      "area": "C1",
+      "title": "修订可追溯",
+      "acceptance": "修订前后、理由、来源与批准状态明确，旧题及旧回答不静默改写",
+      "assignment_clauses": [
+        {
+          "paragraph": 88,
+          "text": "检查125条问题、参考答案、来源与注释。事实题确认来源与答案；错误前提题写清应纠正的前提；虚构实体题写清无法证实的原因；数学逻辑题补推导；时效题补截至日期及可接受答案。交付修订记录，不静默改题。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "修订索引30条字段提案涉及28题，限定新题另列；输入和旧运行不变检查通过。",
+      "evidence": "docs/c_work/revision_index_v1/report.md",
+      "next_action": "保持提案、批准、正式采用三个状态分离。"
+    },
+    {
+      "id": "C2.1",
+      "area": "C2",
+      "title": "来源身份与采集信息",
+      "acceptance": "每个来源有身份、标题、URL或文件、定位及采集日期",
+      "assignment_clauses": [
+        {
+          "paragraph": 90,
+          "text": "选取项目任务范围内的可信资料，保存原文标识、链接或文件、发布日期和采集日期。完成清洗、分段、索引和检索，输出片段及来源。先做小而可检查的本地知识库，复杂向量方案作为后续优化；具体实现依赖第一周资源核查。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "21个来源均有身份、标题、URL、定位和采集日期。",
+      "evidence": "knowledge/corpus_v4.json",
+      "next_action": "新来源保持相同元数据要求。"
+    },
+    {
+      "id": "C2.2",
+      "area": "C2",
+      "title": "来源发布日期",
+      "acceptance": "发布日期已记录；未知日期显式说明原因及使用限制，不以采集日期替代",
+      "assignment_clauses": [
+        {
+          "paragraph": 90,
+          "text": "选取项目任务范围内的可信资料，保存原文标识、链接或文件、发布日期和采集日期。完成清洗、分段、索引和检索，输出片段及来源。先做小而可检查的本地知识库，复杂向量方案作为后续优化；具体实现依赖第一周资源核查。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "21源日期旁注已补；16条未知精确首次发表时间均说明原因，页面更新日、数据版本与采集日分开。",
+      "evidence": "docs/c_work/closeout_supplement_20261125_v1/SOURCE_DATES.md",
+      "next_action": "未来核实到精确发表日时另建来源版本，不修改旧语料。"
+    },
+    {
+      "id": "C2.3",
+      "area": "C2",
+      "title": "分段索引和来源关联",
+      "acceptance": "片段唯一、文本非空、主题明确、来源可解析，检索输出保留片段和来源",
+      "assignment_clauses": [
+        {
+          "paragraph": 90,
+          "text": "选取项目任务范围内的可信资料，保存原文标识、链接或文件、发布日期和采集日期。完成清洗、分段、索引和检索，输出片段及来源。先做小而可检查的本地知识库，复杂向量方案作为后续优化；具体实现依赖第一周资源核查。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "31个片段非空且关联有效来源，包含主题锚点，运行日志保留完整片段。",
+      "evidence": "knowledge/corpus_v4.json",
+      "next_action": "继续检查中文转述的支持范围。"
+    },
+    {
+      "id": "C2.4",
+      "area": "C2",
+      "title": "知识库可重建",
+      "acceptance": "从来源输入重建v3/v4，与保存语义及哈希一致，不修改历史语料",
+      "assignment_clauses": [
+        {
+          "paragraph": 97,
+          "text": "交付核验后的数据及变更记录、来源清单、知识库快照与构建说明、检索模块、抗幻提示词、证据日志、消融结果及方法章节。D复核参考答案和证据可追溯性；无来源或无法支持结论的引用不得标为有效证据。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "从原输入重建v3/v4语义一致，v4字节哈希与构建清单一致。",
+      "evidence": "knowledge/build_manifest_v4.json",
+      "next_action": "未来更新知识库另存版本并保留旧输入。"
+    },
+    {
+      "id": "C2.5",
+      "area": "C2",
+      "title": "知识输入隔离",
+      "acceptance": "构建输入不包含问答/参考/评分字段；拒绝带此类字段的新增输入；不把该检查当成无泄漏证明",
+      "assignment_clauses": [
+        {
+          "paragraph": 91,
+          "text": "与B交叉检查知识库和测试答案是否泄漏。检索库可包含独立获得的公开事实资料，但不得直接导入题目与参考答案对。固定知识库快照后再进行正式测试。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "递归检查三份知识输入未发现问答/参考/评分字段；带reference的输入被构建器拒绝。",
+      "evidence": "experiments/build_c_knowledge.py",
+      "next_action": "仍需来源和语义层面的泄漏交叉复核。"
+    },
+    {
+      "id": "C2.6",
+      "area": "C2",
+      "title": "B交叉泄漏复核",
+      "acceptance": "有B/C实际交叉复核记录，覆盖来源、近重复、语义重叠及测试暴露",
+      "assignment_clauses": [
+        {
+          "paragraph": 91,
+          "text": "与B交叉检查知识库和测试答案是否泄漏。检索库可包含独立获得的公开事实资料，但不得直接导入题目与参考答案对。固定知识库快照后再进行正式测试。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "待协作",
+      "finding": "已有C侧精确匹配筛查，尚无B/C共同确认的语义、近重复和来源暴露复核记录。",
+      "evidence": "docs/c_work/team_review_20261125_v1.json",
+      "next_action": "与B交叉确认并保存双方真实意见。"
+    },
+    {
+      "id": "C2.7",
+      "area": "C2",
+      "title": "正式知识库冻结",
+      "acceptance": "正式运行前冻结知识库、题集和评分版本；开发哈希不能代替正式冻结批准",
+      "assignment_clauses": [
+        {
+          "paragraph": 91,
+          "text": "与B交叉检查知识库和测试答案是否泄漏。检索库可包含独立获得的公开事实资料，但不得直接导入题目与参考答案对。固定知识库快照后再进行正式测试。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "部分满足",
+      "finding": "开发语料有哈希及配置；build_manifest_v4明确independent_holdout=false。",
+      "evidence": "knowledge/build_manifest_v4.json",
+      "next_action": "正式冻结题集/知识库/评分协议并记录确认人和日期。"
+    },
+    {
+      "id": "C3.1",
+      "area": "C3",
+      "title": "回答约束与检索组件",
+      "acceptance": "仅约束、仅检索、组合均可调用，包含证据不足、前提和引用约束，不要求效果必然提升",
+      "assignment_clauses": [
+        {
+          "paragraph": 93,
+          "text": "实现“检索证据＋回答约束”：证据不足时说明不确定性，纠正错误前提，不编造引用；数学题按任务设计处理，不强制使用无关检索。记录每条使用的证据、检索参数和无命中状态。向A提供抗幻接口，共同调试联合方案；C主责抗幻组件，A主责联合方法。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "四种模式及约束实现存在，固定输出和源码重放检查通过；失败与退化结果保留。",
+      "evidence": "src/governance/anti_hallucination.py",
+      "next_action": "不以单题改善宣称总体有效。"
+    },
+    {
+      "id": "C3.2",
+      "area": "C3",
+      "title": "数学绕过无关检索",
+      "acceptance": "数学任务保留推导路径并绕过无关检索，有prepare-only检查",
+      "assignment_clauses": [
+        {
+          "paragraph": 93,
+          "text": "实现“检索证据＋回答约束”：证据不足时说明不确定性，纠正错误前提，不编造引用；数学题按任务设计处理，不强制使用无关检索。记录每条使用的证据、检索参数和无命中状态。向A提供抗幻接口，共同调试联合方案；C主责抗幻组件，A主责联合方法。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "六类prepare-only接口检查含数学绕过，模型工厂未被调用。",
+      "evidence": "docs/c_work/c_component_contract.json",
+      "next_action": "实际调用方保持math_logic类别映射。"
+    },
+    {
+      "id": "C3.3",
+      "area": "C3",
+      "title": "逐条检索日志",
+      "acceptance": "记录实际使用片段、来源、参数、查询诊断及无命中；模型回答与程序拒答分开",
+      "assignment_clauses": [
+        {
+          "paragraph": 93,
+          "text": "实现“检索证据＋回答约束”：证据不足时说明不确定性，纠正错误前提，不编造引用；数学题按任务设计处理，不强制使用无关检索。记录每条使用的证据、检索参数和无命中状态。向A提供抗幻接口，共同调试联合方案；C主责抗幻组件，A主责联合方法。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "运行合同及逐条日志保留证据、参数、无命中和回答来源；冻结证据可复放。",
+      "evidence": "docs/c_work/runs/expanded_v3/manifest.json",
+      "next_action": "联合调用时同样记录真实使用片段。"
+    },
+    {
+      "id": "C3.4",
+      "area": "C3",
+      "title": "A接口和真实导出",
+      "acceptance": "C接口及真实证据导出可对接A冻结输入，包含UID、来源、版本和日期",
+      "assignment_clauses": [
+        {
+          "paragraph": 93,
+          "text": "实现“检索证据＋回答约束”：证据不足时说明不确定性，纠正错误前提，不编造引用；数学题按任务设计处理，不强制使用无关检索。记录每条使用的证据、检索参数和无命中状态。向A提供抗幻接口，共同调试联合方案；C主责抗幻组件，A主责联合方法。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "部分满足",
+      "finding": "已补A当前48条输入的真实证据导出和4条UID映射；全部无命中。正式输入冻结仍待双方确认。",
+      "evidence": "docs/c_work/closeout_supplement_20261125_v1/A_HANDOFF.md",
+      "next_action": "共同冻结输入后另存正式导出版本，保留真实无命中。"
+    },
+    {
+      "id": "C3.5",
+      "area": "C3",
+      "title": "与A联合接入复核",
+      "acceptance": "检查A实际调用与证据使用；主题不足和无命中如实记录，不能只凭C自己的原型宣布接入完成",
+      "assignment_clauses": [
+        {
+          "paragraph": 93,
+          "text": "实现“检索证据＋回答约束”：证据不足时说明不确定性，纠正错误前提，不编造引用；数学题按任务设计处理，不强制使用无关检索。记录每条使用的证据、检索参数和无命中状态。向A提供抗幻接口，共同调试联合方案；C主责抗幻组件，A主责联合方法。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "部分满足",
+      "finding": "已补48条无命中与1条有命中探针的A函数接口夹具检查；模型调用0，不是A实际联合生成验证。",
+      "evidence": "docs/c_work/closeout_supplement_20261125_v1/A_HANDOFF.md",
+      "next_action": "A实际接入后复核每条证据使用及生成结果。"
+    },
+    {
+      "id": "C4.1",
+      "area": "C4",
+      "title": "四组开发消融",
+      "acceptance": "相同开发输入和生成配置下baseline/constraint/retrieval/combined有原始输出与可复放日志",
+      "assignment_clauses": [
+        {
+          "paragraph": 95,
+          "text": "配合D比较仅回答约束、仅检索增强与二者组合，区分检索失败和生成未遵循证据。抽查不少于30个检索问题，标注证据相关性与支持程度；对错误引用、过度拒答及知识过时逐项分析。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "87题四组348条开发输出存在，各组相同基础生成参数；原始记录及源码重放检查通过。",
+      "evidence": "docs/c_work/runs/expanded_v3/manifest.json",
+      "next_action": "正式测试与D独立评分另见X3。"
+    },
+    {
+      "id": "C4.2",
+      "area": "C4",
+      "title": "30条检索支持分析",
+      "acceptance": "至少30个不同问题，逐条保留证据、相关性/支持标签与理由，标清判断来源",
+      "assignment_clauses": [
+        {
+          "paragraph": 95,
+          "text": "配合D比较仅回答约束、仅检索增强与二者组合，区分检索失败和生成未遵循证据。抽查不少于30个检索问题，标注证据相关性与支持程度；对错误引用、过度拒答及知识过时逐项分析。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "30个不同检索问题有支持标签、理由及可重放证据；全部明确为AI开发诊断。",
+      "evidence": "docs/c_work/retrieval_support_30_v1.json",
+      "next_action": "复核标签语义；不能把30条AI诊断算作独立真人评分。"
+    },
+    {
+      "id": "C4.3",
+      "area": "C4",
+      "title": "检索与生成故障区分",
+      "acceptance": "案例能从原回答回到实际片段，区分无命中、支持不足和未遵循证据",
+      "assignment_clauses": [
+        {
+          "paragraph": 95,
+          "text": "配合D比较仅回答约束、仅检索增强与二者组合，区分检索失败和生成未遵循证据。抽查不少于30个检索问题，标注证据相关性与支持程度；对错误引用、过度拒答及知识过时逐项分析。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "11个历史案例链逐条绑定原日志及哈希，区分无证据、主体错配、证据忽略和任务未完成。",
+      "evidence": "docs/c_work/failure_evidence_ledger_v1.json",
+      "next_action": "正式案例结论交D复核。"
+    },
+    {
+      "id": "C4.4",
+      "area": "C4",
+      "title": "三类故障逐项分析",
+      "acceptance": "错误引用、过度拒答、知识过时分别有绑定原输出的案例分析；未观察到的类型也应明确处理",
+      "assignment_clauses": [
+        {
+          "paragraph": 95,
+          "text": "配合D比较仅回答约束、仅检索增强与二者组合，区分检索失败和生成未遵循证据。抽查不少于30个检索问题，标注证据相关性与支持程度；对错误引用、过度拒答及知识过时逐项分析。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "原错误引用/过拒分析保留；另补4条时间故障案例，绑定完整原文、日期口径、数组位置和哈希。",
+      "evidence": "docs/c_work/closeout_supplement_20261125_v1/TEMPORAL_ANALYSIS.md",
+      "next_action": "时间分析为AI开发判断，正式标签仍交独立真人复核。"
+    },
+    {
+      "id": "C4.5",
+      "area": "C4",
+      "title": "C检索图",
+      "acceptance": "提供与逐条支持标签和实际样本数一致的检索图，不冒充正式正确率",
+      "assignment_clauses": [
+        {
+          "paragraph": 107,
+          "text": "研究核心答案正确但附加事实错误、合理拒答与错误拒答的区别，比较简单答案匹配与完整回答评分在人工核验样本上的差异。与C开展双人独立复核，报告一致率、分歧和裁决记录。与A评估正常任务质量和时延，形成准确性、拒答、有用性之间的权衡结果。B输出偏见图，C输出检索图，D生成幻觉及综合对比图。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "PNG/SVG检索图与30条AI支持诊断对应，未标为正式准确率。",
+      "evidence": "docs/c_work/figures/c_retrieval_support_30.png",
+      "next_action": "独立复核后若标签变化，另存图表版本。"
+    },
+    {
+      "id": "C4.6",
+      "area": "C4",
+      "title": "C方法和研究章节",
+      "acceptance": "C数据、来源、方法、消融及限制有可追溯研究文本，负面结果保留",
+      "assignment_clauses": [
+        {
+          "paragraph": 97,
+          "text": "交付核验后的数据及变更记录、来源清单、知识库快照与构建说明、检索模块、抗幻提示词、证据日志、消融结果及方法章节。D复核参考答案和证据可追溯性；无来源或无法支持结论的引用不得标为有效证据。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "C方法、故障、消融和答辩文字存在；负面结果与局限明确。",
+      "evidence": "docs/c_work/C_METHODS.md",
+      "next_action": "正式评分完成后补结果章节，保留开发阶段限定。"
+    },
+    {
+      "id": "X1",
+      "area": "协作",
+      "title": "C与D独立试标25条",
+      "acceptance": "两名真人分别保留25条独立意见；统一规则、分歧裁决和真实一致性记录齐备",
+      "assignment_clauses": [
+        {
+          "paragraph": 105,
+          "text": "无法核实的事实标记为待核验，交C复查；不直接视为正确或幻觉。先与C双人独立试标约25条，冻结规则后再批量标注。按五类题目报告正确率、含错误事实的回答比例、合理拒答与错误拒答，均写清分母。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "待协作",
+      "finding": "25条辅助稿全部为C_AI_draft；独立真人C/D标签、规则冻结和裁决均未完成。",
+      "evidence": "docs/c_work/pilot_C_ai_v1/README.md",
+      "next_action": "C/D分别独立复核，先统一标签口径，保存分歧再裁决。"
+    },
+    {
+      "id": "X2",
+      "area": "协作",
+      "title": "D正式评分的C复核",
+      "acceptance": "按类别复核至少20%及所有争议，保留抽样分母、原标签和C意见",
+      "assignment_clauses": [
+        {
+          "paragraph": 114,
+          "text": "交付幻觉评估代码、评分可靠性与拒答分析、公共实验入口、逐条评分、复核记录、综合图表、演示系统、启动说明及录屏。C复核不少于20%的分层样本及所有争议记录；A按启动说明连续演练三次，无阻断错误。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "待协作",
+      "finding": "未见D正式完整评分包，缺可用于20%分层抽样和全部争议复核的标签分母。",
+      "evidence": "docs/c_work/C_REVIEW_WORKFLOW.md",
+      "next_action": "收到D正式评分后按类别抽样并保留C意见及争议处理。"
+    },
+    {
+      "id": "X3",
+      "area": "协作",
+      "title": "正式E2与必要消融",
+      "acceptance": "在共同冻结测试集、模型与生成配置下完成C所属正式运行，由D独立评价",
+      "assignment_clauses": [
+        {
+          "paragraph": 147,
+          "text": "E0至E3使用同一冻结测试集、基础模型和生成配置，两类任务均评估。公平比较不要求提示词完全相同，但应记录长度差异、输出截断、生成词数、耗时和拒答变化。GPU计时应同步或明确计时范围，首次加载与预热单独记录。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "待协作",
+      "finding": "现有结果均为开发运行；没有共同冻结正式测试和D独立评价的E2/E4结果。",
+      "evidence": "docs/c_work/DATA_DECISIONS.md",
+      "next_action": "与D固定入口、测试划分、生成参数和评分协议后执行C所属正式组。"
+    },
+    {
+      "id": "X4",
+      "area": "共同交付",
+      "title": "环境和独立复现",
+      "acceptance": "依赖与命令明确，发布版本固定，独立检出并复现一批样本；记录安装与硬件边界",
+      "assignment_clauses": [
+        {
+          "paragraph": 189,
+          "text": "代码与环境"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "部分满足",
+      "finding": "补实际依赖观察清单与复现问答；有历史导出重放，但未在新环境完成真实模型批量独立复现。",
+      "evidence": "docs/c_work/closeout_supplement_20261125_v1/REPRODUCTION.md",
+      "next_action": "与D核对安装/启动流程，并记录实际独立复现。"
+    },
+    {
+      "id": "X5",
+      "area": "共同交付",
+      "title": "方法来源与参考文献",
+      "acceptance": "方法来源、公开事实来源和报告参考文献能一一对应，实际核对有记录",
+      "assignment_clauses": [
+        {
+          "paragraph": 178,
+          "text": "建议每人约70%的时间用于本人研究、代码与实验，约20%用于交叉复核和集成，约10%用于材料与答辩。B整合数据说明与报告格式，C核对方法来源和参考文献，D组装演示及复现包，A核对联合方法与综合结论。范围、进度与最终签收由四人共同确认。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "补3项方法/模型原始来源及实现差异，107条事实来源映射；事实网页和方法论文作用分开。",
+      "evidence": "docs/c_work/closeout_supplement_20261125_v1/METHOD_REFERENCES.md",
+      "next_action": "整组报告最终引文格式及新增论断仍按最终稿逐项核对。"
+    },
+    {
+      "id": "X6",
+      "area": "共同交付",
+      "title": "数据来源与使用说明",
+      "acceptance": "幻觉数据及知识来源的来源、版本和授权或使用边界有明确说明",
+      "assignment_clauses": [
+        {
+          "paragraph": 194,
+          "text": "数据版本、来源、授权或使用说明、划分、配对及变更记录。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "数据与21源使用边界说明已交付；逐资产权限未知明确保留，不声称统一开放许可。",
+      "evidence": "docs/c_work/closeout_supplement_20261125_v1/USAGE.md",
+      "next_action": "外部分发前按具体材料核对条件，不把本说明当授权证书。"
+    },
+    {
+      "id": "X7",
+      "area": "答辩",
+      "title": "C正式研究幻灯片",
+      "acceptance": "有C研究页及对应图表，版本和数字与报告/原始结果一致",
+      "assignment_clauses": [
+        {
+          "paragraph": 208,
+          "text": "四人各制研究页 D组装"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "C的5页可编辑研究页已交付，含3张原生表、1张原生统计图及讲稿备注；已做导入、图表值与版式检查。",
+      "evidence": "docs/c_work/closeout_supplement_20261125_v1/C_research_v1.pptx",
+      "next_action": "交D组装；正式评分后另存研究页版本，不将开发结论写成正式验收。"
+    },
+    {
+      "id": "X8",
+      "area": "答辩",
+      "title": "C讲述及三类问答",
+      "acceptance": "讲清数据/RAG/边界/失败，并明确准备检索仍幻觉、泄漏避免、知识更新复现三类回答",
+      "assignment_clauses": [
+        {
+          "paragraph": 99,
+          "text": "负责讲解幻觉类型、数据来源、RAG流程、知识库边界、失败原因与改进方向；准备回答“检索为什么仍可能产生幻觉”“如何避免测试答案泄漏”“知识更新后结果如何复现”。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "新增三类明确问答，知识更新复现按旧快照、新版本、独立运行和哈希分别解释。",
+      "evidence": "docs/c_work/closeout_supplement_20261125_v1/REPRODUCTION.md",
+      "next_action": "按实际学校时长和现场问答演练，不虚构彩排完成。"
+    },
+    {
+      "id": "X9",
+      "area": "答辩",
+      "title": "共同彩排与C部分",
+      "acceptance": "有两次共同彩排中C讲述、问答、计时及修正记录",
+      "assignment_clauses": [
+        {
+          "paragraph": 209,
+          "text": "幻灯片、讲稿、问题清单、两次彩排记录和分工证明。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "待协作",
+      "finding": "仓库中未见两次共同彩排及C计时/问答记录；不据此推断线下从未演练。",
+      "evidence": "docs/c_work/C_DEFENSE_NOTES.md",
+      "next_action": "共同彩排后记录实际日期、问题、计时和修正。"
+    },
+    {
+      "id": "X10",
+      "area": "共同交付",
+      "title": "学校硬性要求核对",
+      "acceptance": "已取得任务书及验收模板并记录C相关硬性要求；不擅自追加LoRA或第二模型",
+      "assignment_clauses": [
+        {
+          "paragraph": 18,
+          "text": "第一周先对照项目任务书与学校验收模板确认硬性要求，再冻结范围。以下时间为建议安排，正式答辩日期确定后倒排；不得通过承诺必然提升某个分数作为验收条件。所有进度以提交记录、文件和可运行结果确认。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "待协作",
+      "finding": "当前仓库未见学校正式任务书/模板及硬性要求对照记录；原分工方案仅给建议。",
+      "evidence": "C_PROGRESS.md",
+      "next_action": "取得学校材料后确认C必做项，不把可选增强擅自设为必做。"
+    },
+    {
+      "id": "X11",
+      "area": "共同交付",
+      "title": "贡献和版本追溯",
+      "acceptance": "C开发交付在独立分支中，有实际提交、命令、输入输出与已知问题；未提交增量单列",
+      "assignment_clauses": [
+        {
+          "paragraph": 151,
+          "text": "A维护偏见治理、联合方法与权衡实验；B维护偏见数据、评估及划分；C维护检索、知识资料和抗幻模块；D维护公共模型入口、幻觉评估与展示。公共接口由D维护，治理接入由A与C各自完成，数据和评分接口由B与D确认。各人使用独立分支，提交时附运行命令、输入输出、示例和已知问题。"
+        }
+      ],
+      "initial_status": "not_checked",
+      "status": "已满足",
+      "finding": "C已有独立分支、真实提交和命令/输入输出/局限记录；本次新增审计仍为本地增量，未冒充已推送。",
+      "evidence": "docs/c_work/C_CLOSEOUT.md",
+      "next_action": "按需要在C分支提交本次审计，发布时保留版本与贡献对应。"
+    }
+  ],
+  "observed": {
+    "dataset_items": 125,
+    "categories": {
+      "factual": 25,
+      "fictional_entity": 25,
+      "time_sensitive": 25,
+      "false_premise": 25,
+      "math_logic": 25
+    },
+    "original_dataset_unchanged": true,
+    "math_derivations": 25,
+    "math_ambiguity_ids": [
+      107,
+      111,
+      117
+    ],
+    "time_items": 25,
+    "time_items_with_event_or_asof": 25,
+    "approved_final_items": 0,
+    "source_count": 21,
+    "chunk_count": 31,
+    "source_ids_without_publication_date": [
+      "noaa-ocean",
+      "nasa-moon",
+      "nasa-planets",
+      "nasa-sun",
+      "nasa-earth",
+      "nasa-relativity",
+      "nasa-waves",
+      "nasa-apollo",
+      "smithsonian-bell",
+      "smithsonian-flight",
+      "smithsonian-pyramids",
+      "smithsonian-steam",
+      "noaa-trench",
+      "pubchem-water",
+      "nist-light",
+      "nobel-physics-repeat-snapshot"
+    ],
+    "all_sources_have_identity_url_locator_access_date": true,
+    "all_chunks_resolve_source": true,
+    "rebuild": {
+      "v3_equal": true,
+      "v4_equal": true,
+      "v4_hash_matches_manifest": true
+    },
+    "knowledge_no_forbidden_input_keys": true,
+    "answer_input_rejected": true,
+    "component_cases": 6,
+    "pilot": {
+      "passed": true,
+      "rows": 25,
+      "columns": 17,
+      "original_bytes_verified": true,
+      "xlsx_csv_and_evidence_verified": true,
+      "ai_assisted_judgments": 25,
+      "independent_human_judgments": 0,
+      "adjudications": 0,
+      "formal_accuracy": null,
+      "unknown_entity_truth_not_assumed": true,
+      "model_inference_calls": 0
+    },
+    "retrieval_support_queries": 30,
+    "support_ai_judgments": 30,
+    "expanded_development_mode_counts": {
+      "baseline": 87,
+      "constraint": 87,
+      "retrieval": 87,
+      "combined": 87
+    },
+    "failure_chain_records": 11,
+    "stale_knowledge_text_mentions": [
+      {
+        "file": "docs/c_work/C_DEFENSE_NOTES.md",
+        "line": 3,
+        "text": "2026-11-25补充：[C的5页可编辑研究页](closeout_supplement_20261125_v1/C_research_v1.pptx)、[三类问答与复现](closeout_supplement_20261125_v1/REPRODUCTION.md)、[知识过时专项](closeout_supplement_20261125_v1/TEMPORAL_ANALYSIS.md)。研究页只讲C的开发证据，正式评分、共同冻结与真人复核状态仍保留。下文旧阶段数值按原阶段解释。"
+      },
+      {
+        "file": "docs/c_work/C_FAILURE_EVIDENCE.md",
+        "line": 3,
+        "text": "2026-11-25另建[知识过时与时间范围专项](closeout_supplement_20261125_v1/TEMPORAL_ANALYSIS.md)，4条完整回答分别讨论固定截至日的旧身份、错误事件答案、附加时间断言和奖项主体错配。保留原始数组位置、原文及哈希，不反推生成时间或训练截止，也不改下列历史案例与运行。"
+      },
+      {
+        "file": "docs/c_work/C_FAILURE_EVIDENCE.md",
+        "line": 63,
+        "text": "因此采用可选的锚点修复，暂不采用新增证据核对提示作为默认方法。未修改旧知识库、原125题或已有运行记录。"
+      },
+      {
+        "file": "docs/c_work/C_ONLY_STATUS.md",
+        "line": 5,
+        "text": "新增[分工缺口补充](closeout_supplement_20261125_v1/README.md)：21源日期旁注、4条知识过时/时间边界分析、方法与事实引文映射、使用说明、复现问答、C的5页研究页及A当前48条输入的真实无命中导出。原33/34/37/41/42来源缺口、正式冻结和独立真人复核仍保留。"
+      }
+    ],
+    "presentation_files_found": [
+      "docs/c_work/closeout_supplement_20261125_v1/C_research_v1.pptx"
+    ],
+    "dependency_install_files_found": [
+      "docs/c_work/closeout_supplement_20261125_v1/requirements-c-observed.txt"
+    ],
+    "git_head": "fa3e70d61ff7b3020d31c316e164a23985daa1c9",
+    "git_status_at_check": " M C_PROGRESS.md\n M README.md\n M docs/c_work/C_CLOSEOUT.md\n M docs/c_work/C_COMPONENT_HANDOFF.md\n M docs/c_work/C_DEFENSE_NOTES.md\n M docs/c_work/C_FAILURE_EVIDENCE.md\n M docs/c_work/C_HANDOFF.md\n M docs/c_work/C_METHODS.md\n M docs/c_work/C_ONLY_STATUS.md\n M docs/c_work/closeout_check.json\n M docs/c_work/delivery_check.json\n M experiments/check_c_delivery.py\n M experiments/organize_c_summary.py\n M experiments/package_c_handoff.py\n?? .chart-data-8Mgayn/\n?? .chart-data-UAia1z/\n?? docs/c_work/assignment_check_20261125_v1/\n?? docs/c_work/assignment_check_20261125_v2/\n?? docs/c_work/closeout_supplement_20261125_v1/\n?? docs/c_work/runs/demo_prepare_v1/\n?? docs/c_work/runs/dry_run_v1/\n?? docs/c_work/runs/smoke_v1/\n?? docs/c_work/runs/smoke_v2/\n?? docs/c_work/runs/suite_dry_v3.log\n?? docs/c_work/runs/suite_dry_v3/\n?? docs/c_work/task_assignment_extracted.txt\n?? docs/c_work/team_review_20261125_v1.json\n?? experiments/audit_c_team_review.py\n?? experiments/check_c_assignment.py\n?? experiments/check_c_supplement.py\n?? experiments/complete_c_supplement.py\n",
+    "independent_human_reviews": 0,
+    "new_model_calls": 0,
+    "closeout_supplement": {
+      "passed": true,
+      "historical_files_unchanged": 71,
+      "source_dates": 21,
+      "publication_unknown_with_reason": 16,
+      "method_references": 3,
+      "factual_reference_entries": 107,
+      "temporal_cases": 4,
+      "A_export_rows": 48,
+      "A_rows_with_hits": 0,
+      "A_positive_interface_probe": true,
+      "slides": 5,
+      "native_tables": 3,
+      "native_charts": 1,
+      "slide_sha256": "631cd72fa31c6bb90ae3f012335b1c388d895a77164e58b74b8f74e3eb70e518",
+      "local_links_checked": 15,
+      "model_calls": 0,
+      "independent_human_reviews": 0,
+      "formal_accuracy": null
+    }
+  },
+  "commands": [
+    {
+      "argv": [
+        "D:\\miniconda3\\envs\\llm-governance\\python.exe",
+        "-X",
+        "utf8",
+        "experiments/check_c_delivery.py",
+        "--run-tests"
+      ],
+      "exit_code": 0,
+      "log": "docs/c_work/assignment_check_20261125_v2/full_delivery.log",
+      "log_sha256": "e1deebd182e5750c90fa1bf124afb89091026ef14cc95e29c128e75f96a5589e"
+    },
+    {
+      "argv": [
+        "D:\\miniconda3\\envs\\llm-governance\\python.exe",
+        "-X",
+        "utf8",
+        "experiments/check_c_closeout.py"
+      ],
+      "exit_code": 0,
+      "log": "docs/c_work/assignment_check_20261125_v2/closeout.log",
+      "log_sha256": "4d9157cdbbae123e4eac04c3920abec7d950b80bd944b3e71a33b49bd5662462"
+    }
+  ],
+  "automatic_checks_passed": true,
+  "overall_assignment_complete": false,
+  "formal_accuracy": null,
+  "independent_human_reviews": 0
+}
