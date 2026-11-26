@@ -1,0 +1,23 @@
+[
+  {
+    "id": "fact_correct_001",
+    "category": "factual",
+    "question": "爱因斯坦获得过几次诺贝尔物理学奖？",
+    "reference": "爱因斯坦获得过一次诺贝尔物理学奖。",
+    "answer": "爱因斯坦获得过一次诺贝尔物理学奖。"
+  },
+  {
+    "id": "fact_incorrect_001",
+    "category": "factual",
+    "question": "爱因斯坦获得过几次诺贝尔物理学奖？",
+    "reference": "爱因斯坦获得过一次诺贝尔物理学奖。",
+    "answer": "爱因斯坦获得过两次诺贝尔物理学奖。"
+  },
+  {
+    "id": "logic_contradiction_001",
+    "category": "logical",
+    "question": "比较A和B的身高。",
+    "reference": "答案中不应同时断言相反的比较关系。",
+    "answer": "A比B高。因为B比A高，所以A比B低。"
+  }
+]
